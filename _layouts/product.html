@@ -22,30 +22,6 @@ layout: default
     {% endif %}
     
 
-    {% if page.toc or site.resources %}
-    <div class="col-12 col-md-4">
-      {% if site.resources %}
-        {% include resources.html %}
-      {% endif %}
-
-      {% if page.toc %}
-        <h4>Contents</h4>
-        {{ content | toc_only }} 
-      {% endif %}
-      
-      {% assign ad = page.ad | default: false  %}
-      {% if ad %}      
-        {% include ad.html %}
-      {% endif %}
-      
-    </div>
-    {% endif %}
-    
-    <!-- <header class="col-12">
-      <h1 class="page-title">{{ page.title | escape }}</h1>
-    </header> -->
-    
-    
 
   </article>
 

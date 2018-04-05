@@ -22,6 +22,7 @@
       url: /about/team
     - title: Partnerships
       url: /about/partnerships
+
 - title: Support
   url: /support
   sublinks:
@@ -29,6 +30,9 @@
       url: /faq
     - title: Documentation
       url: /documentation
+      disabled: true
     - title: separator
     - title: Contact
       url: /contact
+- title: Contact
+  url: /contact
