@@ -1,0 +1,34 @@
+- title: Spinning Reels
+  url: /products/spinning-reels
+  sublinks:
+    - title: 300 Series
+      url: /products/spinning-reels/300-series/
+    - title: 400 Series
+      url: /products/spinning-reels/300-series/
+    - title: 500 Series
+      url: /products/spinning-reels/300-series/
+    - title: 600 Series
+      url: /products/spinning-reels/300-series/
+    - title: 700 Series
+      url: /products/spinning-reels/300-series/
+    - title: 800 Series
+      url: /products/spinning-reels/300-series/
+- title: About
+  url: /about
+  sublinks:
+    - title: History
+      url: /about/history
+    - title: Team
+      url: /about/team
+    - title: Partnerships
+      url: /about/partnerships
+- title: Support
+  url: /support
+  sublinks:
+    - title: FAQ
+      url: /faq
+    - title: Documentation
+      url: /documentation
+    - title: separator
+    - title: Contact
+      url: /contact
