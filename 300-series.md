@@ -1,0 +1,256 @@
+---
+layout: page
+permalink: /series/300/
+title: 300 Series
+long_title: 300 Series
+description: TODO
+menu: main
+weight: 1
+
+# theme_style: four
+
+# toc: true
+# ad: true
+# cover: http://via.placeholder.com/3000x1000
+# cover: /assets/images/cover-tester.jpg
+cover_alt: planning greenhouses cover photo
+categories: Greenhouse Planning
+tags: 
+    - Style Guide
+    - Solar Flair
+    - Jekyll Theme
+    - Bootstrap 4
+    - Bootstrap Jekyll Theme
+---
+<div id='product-component-4f546b5b8a3'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'the-innovative-shop.myshopify.com',
+      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [575758073911],
+        node: document.getElementById('product-component-4f546b5b8a3'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "layout": "horizontal",
+    "variantId": "all",
+    "width": "100%",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "description": true,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#619e1b",
+        "font-family": "Open Sans, sans-serif",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      },
+      "variantTitle": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal",
+        "font-size": "26px"
+      },
+      "description": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "18px",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-size": "15px",
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Open Sans",
+      "Open Sans",
+      "Montserrat",
+      "Open Sans",
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#619e1b",
+        "font-family": "Open Sans, sans-serif",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Open Sans"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#619e1b",
+        "font-family": "Open Sans, sans-serif",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      },
+      "variantTitle": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Open Sans",
+      "Open Sans",
+      "Montserrat",
+      "Open Sans",
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Open Sans, sans-serif",
+        "background-color": "#619e1b",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      }
+    },
+    "googleFonts": [
+      "Open Sans"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Open Sans, sans-serif"
+      },
+      "select": {
+        "font-family": "Open Sans, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
