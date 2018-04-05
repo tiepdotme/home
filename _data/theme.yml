@@ -1,8 +1,8 @@
 # IRT Theme
 
-# pattern: 
-#   path: /assets/images/paisley
-#   ext: jpg
+
+# Buy Button Color: #619E1B
+
 pattern: 
   path: /assets/patterns/fish-blue-blue
   ext: png

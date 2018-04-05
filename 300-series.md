@@ -1,6 +1,6 @@
 ---
-layout: page
-permalink: /series/300/
+layout: product
+permalink: /products/spinning-reels/300-series/
 title: 300 Series
 long_title: 300 Series
 description: TODO
@@ -13,14 +13,15 @@ weight: 1
 # ad: true
 # cover: http://via.placeholder.com/3000x1000
 # cover: /assets/images/cover-tester.jpg
-cover_alt: planning greenhouses cover photo
-categories: Greenhouse Planning
+# cover_alt: planning greenhouses cover photo
+categories: 
+    - Fishing Reel
+    - 300 Series
 tags: 
-    - Style Guide
-    - Solar Flair
-    - Jekyll Theme
-    - Bootstrap 4
-    - Bootstrap Jekyll Theme
+    - Fishing Reel
+    - 300 Series
+    - Spinning Reel
+    - Power Grip
 ---
 <div id='product-component-4f546b5b8a3'></div>
 <script type="text/javascript">
