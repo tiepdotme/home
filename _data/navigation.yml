@@ -13,6 +13,7 @@
       url: /products/spinning-reels/300-series/
     - title: 800 Series
       url: /products/spinning-reels/300-series/
+
 - title: About
   url: /about
   sublinks:
@@ -22,17 +23,30 @@
       url: /about/team
     - title: Partnerships
       url: /about/partnerships
-
-- title: Support
-  url: /support
+- title: Blog
+  url: /blog
+- title: Information
+  url: /info
   sublinks:
-    - title: FAQ
-      url: /faq
-    - title: Documentation
-      url: /documentation
-      disabled: true
-    - title: separator
     - title: Contact
-      url: /contact
-- title: Contact
-  url: /contact
+      url: /info/contact
+    - title: Pro Staff
+      url: /info/pro-staff
+    - title: separator
+    - title: Support
+      url: /info/support
+      header: true
+    - title: FAQs
+      url: /info/faqs
+    - title: Limited Lifetime Warranty
+      url: /info/warranty
+    - title: Terms and Conditions
+      url: /info/terms-and-conditions
+    - title: Register Your Reel
+      url: /info/reel-registration
+    - title: Maintenance and Repair
+      url: /info/maitenance-and-repair
+      
+
+
+  

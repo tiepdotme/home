@@ -45,11 +45,24 @@
                         <div class="dropdown-divider"></div>
                       {% else %}
                       
-                        {% if sublink.disabled %}                      
-                          <a class="dropdown-item disabled" href="#">{{ sublink.title }}</a>
+                        {% if sublink.header %}                      
+                          <h6 class="dropdown-header">{{ sublink.title }}</h6>
                         {% else %}
-                          <a class="dropdown-item" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                        {% endif %}
+                        
+
+                          {% if sublink.disabled %}                      
+                            <a class="dropdown-item disabled" href="#">{{ sublink.title }}</a>
+                          {% else %}
+                            <a class="dropdown-item" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                          {% endif %}
+
+                        {% endif %}  
+
+                      
+
+
+
+
 
                       {% endif %}
                     {% endfor %}
