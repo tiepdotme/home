@@ -4,7 +4,7 @@
 #   path: /assets/images/paisley
 #   ext: jpg
 pattern: 
-  path: /assets/irt_assets/patterns/fish-blue-blue
+  path: /assets/patterns/fish-blue-blue
   ext: png
 
 grey:  
@@ -17,26 +17,26 @@ grey:
 
 one:  # yellow
   color: "#F2A900"
-  logo: /assets/irt_assets/logos/icon-yellow.png
-  favicon: /assets/irt_assets/favicons/colors
+  logo: /assets/logos/icon-yellow.png
+  favicon: /assets/favicons/colors
   navbar-bg: dark
   navbar-color: dark
 two:  # light blue
   color: "#298FC2"
-  logo: /assets/irt_assets/logos/icon-white.png
-  favicon: /assets/irt_assets/favicons/colors
+  logo: /assets/logos/icon-white.png
+  favicon: /assets/favicons/colors
   navbar-bg: dark
   navbar-color: dark
 three:  # blue
   color: "#004976"
-  logo: /assets/irt_assets/logos/icon-blue.png
-  favicon: /assets/irt_assets/favicons/blue
+  logo: /assets/logos/icon-blue.png
+  favicon: /assets/favicons/blue
   navbar-bg: light
   navbar-color: light
 four: 
   color: "#231F20" # black
-  logo: /assets/irt_assets/logos/icon-black.png
-  favicon: /assets/irt_assets/favicons/black
+  logo: /assets/logos/icon-black.png
+  favicon: /assets/favicons/black
   navbar-bg: light
   navbar-color: light
 
@@ -44,26 +44,26 @@ four:
 # Innovative Reel Technologies Theme | Secondary 
 # one:   # orange
 #   color: "#ED8B00"
-#   logo: /assets/irt_assets/logos/icon-white.png
-#   favicon: /assets/irt_assets/favicons/colors
+#   logo: /assets/logos/icon-white.png
+#   favicon: /assets/favicons/colors
 #   navbar-bg: dark
 #   navbar-color: dark
 # two: # red
 #   color: "#FA4616"
-#   logo: /assets/irt_assets/logos/icon-white.png
-#   favicon: /assets/irt_assets/favicons/colors
+#   logo: /assets/logos/icon-white.png
+#   favicon: /assets/favicons/colors
 #   navbar-bg: dark
 #   navbar-color: dark
 # three:  # purple
 #   color: "#D22630"
-#   logo: /assets/irt_assets/logos/icon-white.png
-#   favicon: /assets/irt_assets/favicons/colors
+#   logo: /assets/logos/icon-white.png
+#   favicon: /assets/favicons/colors
 #   navbar-bg: dark
 #   navbar-color: dark
 # four: # dark blue
 #   color: "#002554"
-#   logo: /assets/irt_assets/logos/icon-colors.png
-#   favicon: /assets/irt_assets/favicons/colors
+#   logo: /assets/logos/icon-colors.png
+#   favicon: /assets/favicons/colors
 #   navbar-bg: light
 #   navbar-color: light
 
