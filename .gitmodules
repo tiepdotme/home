@@ -1,3 +1,6 @@
 [submodule "assets"]
 	path = assets
 	url = https://github.com/InnovativeReelTechnologies/assets
+[submodule "_footer-nav"]
+	path = _footer-nav
+	url = https://github.com/InnovativeReelTechnologies/_footer-nav
