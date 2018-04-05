@@ -1,0 +1,88 @@
+# There's words that should be up here but it's on every other _config.yml file, so whatever.
+
+title: Innovative Reel Technologies
+title_1: IRT
+title_2: Reels
+slug: A history of fishing reel innovations
+description: >- # this means to ignore newlines until "baseurl:"
+  A history of fishing reel innovations
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://history.innovativereeltechnologies.com" # the base hostname & protocol for your site, e.g. http://example.com
+brand_url: https://innovativereeltechnologies.com
+
+# Analytics
+# gtm_id: GTM-MCG4RJC
+
+
+# Dev Details
+email: ndkline@theagora.us
+twitter_username: ndkline
+github: false
+github_username:  ndkline
+github_url: https://github.com/ndkline/solar-flair
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+# Resources
+# resources:
+#   - {title: Greenhouse Location Recommendations, path: /assets/pdf/Greenhouse-Reccomendations-Based-on-Location.pdf}
+#   - {title: Greenhouse Planning Worksheet, path: /assets/pdf/Greenhouse-Planning-Worksheet.pdf}
+#   - {title: Greenhouse Accessories, path: /assets/pdf/Greenhouse-Accessories.pdf}
+   
+# Home
+vertical_height: 100 # Only supports 100 right now -- TODO
+cta_gs_url: /types 
+
+# Blog
+permalink: /blog/:year/:month/:day/:title.html
+
+# Footer Settings
+footer-cta-text: Want to see more projects?
+footer-cta-link-text: More Projects
+footer-cta-link-url: https://solarinnovations.com/photo-gallery/
+footer-cta-link-target: _blank
+footer-brand_img_url: /assets/images/white-horizontal.svg
+footer-brand_img_alt: Solar Innovations
+footer-brand_url: https://solarinnovations.com
+address_1: 31 Roberts Road
+address_2: Pine Grove, Pennsylvania 17963
+phone: 1-800-618-0669
+
+## Social Accounts
+facebook: IRTreels
+tumblr: http://innovativereels.tumblr.com/
+twitter: InnovativeReels
+pinterest: false
+instagram: false
+houzz: false
+linkedin: false
+youtube: InnovativeReelTech   # channel ID
+google_plus: false
+
+# Build settings
+sass:
+  style: compressed   
+minify_html: false  
+markdown: kramdown
+destination: docs
+theme: solar-flair
+theme_style: two # Use 'grey' and not 'gray'
+asset_cdn: 1 # 0 = no  |  1 = yes, unminified  |  2 = yes, minified
+plugins:
+  - jekyll-feed
+  - jekyll-toc
+
+collections:
+  footer-nav:
+    output: false
+  timeline:
+    output: false
