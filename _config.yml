@@ -14,7 +14,7 @@ brand_url: https://innovativereeltechnologies.com
 # gtm_id: GTM-MCG4RJC
 
 
-# Dev Details
+# Developer Details
 email: ndkline@theagora.us
 twitter_username: ndkline
 github: false
@@ -67,6 +67,7 @@ houzz: false
 linkedin: false
 youtube: InnovativeReelTech   # channel ID
 google_plus: false
+github_organization: https://github.com/InnovativeReelTechnologies
 
 # Build settings
 sass:

@@ -20,7 +20,7 @@ slug: Sign up and be notified when available
 
 # theme_style: grey
 
-cta-text: Waitlist Sign Up
+cta-text: Join the Waitlist
 cta-url: https://planning.solar/
 ---
 
