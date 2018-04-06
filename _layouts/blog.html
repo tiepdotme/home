@@ -1,0 +1,55 @@
+---
+layout: default
+---
+{% assign color = page.theme_style | default: site.theme_style   %}
+
+<div class="container"  style="margin-top:66px">
+  <div class="row">
+    <div class="col-11">
+      <h1 class="display-1 text-uppercase text-d20-grey">{{ page.title }}</h1>
+    </div>
+    <a class="col-1 text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+      <i class="fa fa-rss-square fa-3x" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>
+        {{ page.description }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+   
+
+
+    <div class="col-12 ">
+      <div id="news" class="container-fluid">
+
+        
+
+        {% for post in site.posts %}
+        <a class="row" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="col-3 text-right " >
+            <span class="post-meta text-d10-{{ color }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+          <div class="col-9 text-d10-{{ color }}">
+            <h2>
+              {{ post.title }}
+            </h2>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+
+  </div>
+</div>
