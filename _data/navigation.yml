@@ -18,7 +18,9 @@
   sublinks: 
     - title: Coming Soon
       url: /info/contact
-      header: true     
+      header: true 
+    - title: Waitlist
+      url: /waitlist
 - title: About
   url: /#
   sublinks:

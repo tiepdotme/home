@@ -3,7 +3,8 @@ layout: page
 permalink: /team/
 title: The IRT Team
 long_title: The IRT Team
-# description: Our mission is to infuse the fishing reel industry with fresh new ideas, help consumers think outside the box, and produce top quality fishing products — all using American ingenuity.
+description: Some tagline could go here
+
 
 # menu: main
 # weight: 12

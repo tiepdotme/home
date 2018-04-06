@@ -2,7 +2,7 @@
 layout: blog
 title: Blog
 long_title: Blog
-# description: 
+# description: Some tagline could go
 permalink: /blog/
 menu: main
 weight: 12
