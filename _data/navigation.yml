@@ -26,22 +26,22 @@
     - title: 800 Series
       url: /products/spinning-reels/300-series/
 - title: Fly Reels
-  url: /about
+  url: /products/fly-reels
   sublinks: 
     - title: Coming Soon
-      url: /info/contact
+      url: /products/fly-reels/comming-soon
       header: true 
     - title: Waitlist
-      url: /waitlist
+      url: /products/fly-reels/waitlist
 - title: About
-  url: /#
+  url: /about
   sublinks:
     - title: Timeline
-      url: /timeline
+      url: /about/timeline
     - title: Team
-      url: /team
+      url: /about/team
     - title: Partnerships
-      url: /partnerships
+      url: /about/partnerships
 - title: Blog
   url: /blog
 - title: Information

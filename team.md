@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /team/
+permalink: /about/team/
 title: The IRT Team
 long_title: The IRT Team
 description: Some tagline could go here
@@ -21,7 +21,7 @@ description: Some tagline could go here
 ---
 
 ## President
-{: class="mb-3"}
+{: class="mb-3 text-right"}
 
 ![Glass Maintenance](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
@@ -34,7 +34,7 @@ As an avid fisherman and huntsman, Greg is always traveling to other destination
 {: class="clearfix"}
 
 ## Machining Manager
-{: class="mb-3"}
+{: class="mb-3 text-right"}
 
 ![Glass Maintenance](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
@@ -44,7 +44,7 @@ Carl Zerbe has a dedication and passion for reel technology and has been entrust
 {: class="clearfix"}
 
 ## Chief Engineer
-{: class="mb-3"}
+{: class="mb-3 text-right"}
 
 ![Glass Maintenance](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
@@ -55,7 +55,7 @@ As the Chief Engineer at IRT, Timothy is responsible for overseeing the developm
 {: class="clearfix"}
 
 ## Master Reel Fabricator
-{: class="mb-3"}
+{: class="mb-3 text-right"}
 
 ![Glass Maintenance](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
