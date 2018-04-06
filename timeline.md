@@ -1,8 +1,8 @@
 ---
 layout: timeline
-permalink: /timeline/
+permalink: /about/timeline/
 title: Timeline
-long_title: Timeline of Innovative Reel Technologies
+long_title: Timeline of IRT
 description: Our mission is to infuse the fishing reel industry with fresh new ideas, help consumers think outside the box, and produce top quality fishing products — all using American ingenuity.
 
 # menu: main
