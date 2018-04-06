@@ -7,9 +7,6 @@ author_name: JEFF C.
 author_title: Guest Blogger and Bass Fisherman
 ---
 
-<p>By: {{ page.author_name }}, {{ page.author_title }}</p>
-
-
 ![Glass Maintenance](/assets/images/blog--rivers-nature-fall-sky-sunrise-winter-mountains-autumn-landscapes-sunset.png){:alt="chinook-salmon-underwater-photo" class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% assign theme_style = page.theme_style | default: site.theme_style   %}
 {% if page.cover %}
 <div class="jumbotron jumbotron-fluid mb-5" style="position:relative;background-image:url('{{ page.cover }}');background-size:cover;background-position:center;  height: 65vh; color:white;">
   <div class="container" style="position: absolute; bottom: 0;background:rgba(0,0,0,.7); width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
@@ -21,15 +21,21 @@ layout: default
     {% if page.cover == null %}
     <div class="col-12">
       <h1 class="display-5 text-uppercase">{{ page.title | escape }}</h1>
-      <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+  
+      {% if page.description %}    
+        <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+      {% endif %}
     </div>
     {% endif %}
     
     {% if content %}
-    <div class="col-3 text-right " >
-      <span class="post-meta text-d10-{{ color }}">{{ page.date | date: "%b %-d, %Y" }}</span>
+    <div class="col-12 col-lg-3 text-right pt-3" >
+      <span class="post-meta text-d20-{{ theme_style }} h3">{{ page.date | date: "%b %-d, %Y" }}</span><br>
+      <span class="post-meta text-d10-{{ theme_style }} h5">{{ page.author_name }}</span><br>
+      <span class="post-meta text-d10-{{ theme_style }}"><small>{{ page.author_title }}</small></span>
+      <hr>
     </div>
-    <div class="col">
+    <div class="col-12 col-lg-9">
       {{ content }}
     </div>
     {% endif %}
