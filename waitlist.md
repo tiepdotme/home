@@ -10,7 +10,6 @@ slug: Sign up and be notified when available
 # weight: 12
 # toc: true
 # cover: /images/sketch.png
-# cover: /assets/images/cover-photos/grumser.JPG
 # cover_alt:  greenhouses cover sketch
 # categories: Greenhouse Planning
 # tags: 
