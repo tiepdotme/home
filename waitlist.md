@@ -1,5 +1,5 @@
 ---
-layout: teaser
+layout: waitlist
 permalink: /products/fly-reels/waitlist/
 title: Fly Reel Waitlist
 long_title: Fly Reel Waitlist
@@ -29,9 +29,8 @@ cta-url: '#mc-embedded-subscribe-form'
     <form action="https://irtreels.us18.list-manage.com/subscribe/post?u=793d03288aae50840f4b1967f&amp;id=c1e8fecfbc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
 	        <h2>Join the Fly Reel Waitlist</h2>
-            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="form-group">
-	            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+	            <label for="mce-EMAIL">Email Address</label>
 	            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
             </div>
             <div class="form-group">

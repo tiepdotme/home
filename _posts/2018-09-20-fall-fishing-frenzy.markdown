@@ -9,6 +9,13 @@ tags:
     - Bass
     - Panfish
     - Catfish
+    - Bluegills
+    - Crappies
+categories:
+    - Lake Erie
+    - Lake Ontario
+    - Pulaski, NY
+    - Oswego, NY
 ---
 
 ![Glass Maintenance](/assets/images/blog--rivers-nature-fall-sky-sunrise-winter-mountains-autumn-landscapes-sunset.png){:alt="chinook-salmon-underwater-photo" class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
