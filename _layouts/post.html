@@ -30,10 +30,15 @@ layout: default
     
     {% if content %}
     <div class="col-12 col-lg-3 text-right pt-3" >
-      <span class="post-meta text-d20-{{ theme_style }} h3">{{ page.date | date: "%b %-d, %Y" }}</span><br>
-      <span class="post-meta text-d10-{{ theme_style }} h5">{{ page.author_name }}</span><br>
-      <span class="post-meta text-d10-{{ theme_style }}"><small>{{ page.author_title }}</small></span>
-      <hr>
+      <p class="post-meta text-d20-{{ theme_style }} h3">{{ page.date | date: "%b %-d, %Y" }}</p>
+      <p class="post-meta text-d20-{{ theme_style }} h5 py-2">{{ page.author_name }}</p>
+      <p class="post-meta text-d20-{{ theme_style }}"><small>{{ page.author_title }}</small></p>
+      <hr class="mb-3 mt-1">
+      <ul class="list-unstyled text-d10-{{ theme_style }}">
+        {% for tag in page.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
     </div>
     <div class="col-12 col-lg-9">
       {{ content }}

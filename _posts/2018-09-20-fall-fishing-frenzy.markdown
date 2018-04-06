@@ -5,6 +5,10 @@ date:   2017-09-20  11:47:00 -0400
 categories: jekyll update
 author_name: JEFF C.
 author_title: Guest Blogger and Bass Fisherman
+tags: 
+    - Bass
+    - Panfish
+    - Catfish
 ---
 
 ![Glass Maintenance](/assets/images/blog--rivers-nature-fall-sky-sunrise-winter-mountains-autumn-landscapes-sunset.png){:alt="chinook-salmon-underwater-photo" class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}

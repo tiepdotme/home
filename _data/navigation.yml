@@ -36,6 +36,8 @@
 - title: About
   url: /about
   sublinks:
+    - title: Overview
+      url: /about
     - title: Timeline
       url: /about/timeline
     - title: Team
