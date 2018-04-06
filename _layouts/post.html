@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% if page.cover %}
+<div class="jumbotron jumbotron-fluid mb-5" style="position:relative;background-image:url('{{ page.cover }}');background-size:cover;background-position:center;  height: 65vh; color:white;">
+  <div class="container" style="position: absolute; bottom: 0;background:rgba(0,0,0,.7); width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
+    <div class="row">
+      <div class="offset-1 col-11">
+        <h1 class="display-3 text-uppercase">{{ page.long_title | escape }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<main class="container mt-10" aria-label="Content" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <article class="row">
+
+    {% if page.cover == null %}
+    <div class="col-12">
+      <h1 class="display-5 text-uppercase">{{ page.title | escape }}</h1>
+      <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+    </div>
+    {% endif %}
+    
+    {% if content %}
+    <div class="col-3 text-right " >
+      <span class="post-meta text-d10-{{ color }}">{{ page.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <div class="col">
+      {{ content }}
+    </div>
+    {% endif %}
+    
+
+    {% if page.toc %}
+    <div class="col-12 col-md-4">
+      <h4>Contents</h4>
+      {{ content | toc_only }} 
+      
+      {% include ad.html %}
+    </div>
+    {% endif %}
+    
+    <!-- <header class="col-12">
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    </header> -->
+    
+    
+
+  </article>
+
+</main>
