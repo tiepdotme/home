@@ -20,9 +20,11 @@ long_title: The IRT Team
 ---
 
 ## President
-### Greg Header 
+{: class="mb-3"}
 
-![Glass Maintenance](/assets/images/team/greg_header.jpg){:class="img-round float-left mr-4 my-3" width="30%"}
+![Glass Maintenance](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+
+### Greg Header 
 
 
 Greg has always had a passion for the outdoors and technology. He currently holds a BS in Business out of Alvernia College. Greg owns and operates Header, a fur and leather trading company. In 1998, he also founded Solar Innovations®, a national leader in custom luxury glass structures, skylights, and window and door systems. With a passion for outdoor hunting, Greg started to build and create custom outdoor fishing reel products to enhance his own needs as an outdoors man, and in 2007 he founded Innovative Reel Technologies, Inc.
@@ -31,23 +33,30 @@ As an avid fisherman and huntsman, Greg is always traveling to other destination
 {: class="clearfix"}
 
 ## Machining Manager
-### Carl Zerbe 
+{: class="mb-3"}
 
-![Glass Maintenance](/assets/images/team/carl_zerbe.gif){:class="img-round float-left mr-4 my-3" width="30%"}
+![Glass Maintenance](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+
+### Carl Zerbe 
 
 Carl Zerbe has a dedication and passion for reel technology and has been entrusted with making the best parts for our reel systems. He has a strong passion for building that is apparent in the way he machines our parts for our reels. He currently is our Machining Manager and came to us prior as a Fastener Machining Manager at Zemco from 2005-2007. Previous to that, he was the Screw Machine Department Foreman at Penn Reels from 1976-2005. Carl joined Solar Innovations® and Innovative Reel Technologies in 2007 as a Production Planning Supervisor, responsible for all fishing reel production and Solar manufactured parts. Carl’s 30+ years of experience ranges from precision part manufacturing for government electronic products to farm tractor parts and spinning, fly, and casting fishing reel components.
 {: class="clearfix"}
 
 ## Chief Engineer
+{: class="mb-3"}
+
+![Glass Maintenance](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+
 ### Timothy Wiest
 
-![Glass Maintenance](/assets/images/team/timothy_wiest.jpg){:class="img-round float-left mr-4 my-3" width="30%"}
 
 As the Chief Engineer at IRT, Timothy is responsible for overseeing the development of new technologies and innovations. Timothy has always worked in the field of engineering and his understanding of how components come together landed him the position of Chief Engineer. Prior to joining the team, he was a Manufacturing Engineer for Penn Reels Spinning from 1990-1998, before engineering for Spinning Reel from 1998-2005 where he designed the Liveliners, Slammers and SSG series reels along with several patents. He joined Solar Innovations® and Innovative Reel Technologies in 2007 as Chief Engineer of the fishing reels.  He currently holds a MET Engineering Degree from Penn State, 1988.
 {: class="clearfix"}
 
 ## Master Reel Fabricator
-![Glass Maintenance](/assets/images/team/tom_shadle.jpg){:class="img-round float-left mr-4 my-3" width="30%"}
+{: class="mb-3"}
+
+![Glass Maintenance](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
 ### Tom Shadle
 
