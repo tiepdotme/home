@@ -1,6 +1,18 @@
 - title: Spinning Reels
   url: /products/spinning-reels
   sublinks:
+    - title: Overview
+      url: /products/spinning-reels/
+    - title: Patented Technology
+      url: /products/spinning-reels#patent
+    - title: Superior Construction
+      url: /products/spinning-reels#construction
+    - title: Customizations
+      url: /products/spinning-reels#customizations
+    - title: separator
+    - title: Spinning Reel Series
+      url: /#
+      header: true 
     - title: 300 Series
       url: /products/spinning-reels/300-series/
     - title: 400 Series

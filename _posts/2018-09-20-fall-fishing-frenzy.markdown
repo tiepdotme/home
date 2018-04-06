@@ -28,6 +28,4 @@ I will say, if you have never tried it and said you always wanted to, please mak
 
 Until next time, get out there and enjoy this great fall weather!
 
-&nbsp;
-
-Jeff
+-- Jeff
