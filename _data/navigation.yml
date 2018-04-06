@@ -34,7 +34,7 @@
   url: /#
   sublinks:
     - title: Contact
-      url: /
+      url: /#
       header: true
     - title: Contact Us
       url: /contact-us
@@ -42,7 +42,7 @@
       url: /pro-staff
     - title: separator
     - title: Support
-      url: /
+      url: /#
       header: true
     - title: FAQs
       url: /faqs

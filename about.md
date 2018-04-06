@@ -1,8 +1,8 @@
 ---
 layout: timeline
-permalink: /about/
-title: About
-long_title: About Innovative Reel Technologies
+permalink: /timeline/
+title: Timeline
+long_title: Timeline of Innovative Reel Technologies
 description: Our mission is to infuse the fishing reel industry with fresh new ideas, help consumers think outside the box, and produce top quality fishing products — all using American ingenuity.
 
 # menu: main
