@@ -3,7 +3,8 @@ title: Ray Reinhard P.E.
 author: Ray Reinhard P.E.
 # business:
 # business_url: 
-image: http://via.placeholder.com/1000x350
+# location: 
+image: /assets/images/testimonials/catch--ray_reinhard.gif
 description: Here is the result of my first fishing trip with your reel. A nice 22lb Bull Dorado from the Bahamas.
 ---
 

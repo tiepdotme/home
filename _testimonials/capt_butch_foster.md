@@ -1,8 +1,8 @@
 ---
-title: Frank Tobias
-author: Frank Tobias
-# business: 
-# business_url: 
+title: Capt. Butch Foster
+author: Capt. Butch Foster
+business: Yeah Right Charters
+business_url: http://www.yeahrightcharters.com/
 # location: 
 image: /assets/images/testimonials/catch--frank_tobias.gif
 description: Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta.

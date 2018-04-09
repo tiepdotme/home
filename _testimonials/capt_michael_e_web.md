@@ -3,7 +3,8 @@ title: Captain Michael E Webb
 author: Captain Michael E Webb
 business: Sea Dog Charters
 business_url: http://seadogcharters.net/
-image: http://via.placeholder.com/1000x350
+# location: 
+image: /assets/images/testimonials/catch--michael_web.gif
 description: Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta.
 ---
 
