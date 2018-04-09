@@ -1,7 +1,6 @@
 ---
 title: Captain Michael E Webb
 author: Captain Michael E Webb
-author_title: "The Tug Dealer"
 business: Sea Dog Charters
 business_url: http://seadogcharters.net/
 image: http://via.placeholder.com/1000x350

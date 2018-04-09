@@ -1,7 +1,6 @@
 ---
 title: Ray Reinhard P.E.
 author: Ray Reinhard P.E.
-# author_title:
 # business:
 # business_url: 
 image: http://via.placeholder.com/1000x350

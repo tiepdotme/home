@@ -1,7 +1,6 @@
 ---
-title: R. Cook
-author: R. Cook
-author_title: "The Tug Dealer"
+title: R. Cook "The Tug Dealer"
+author: R. Cook "The Tug Dealer"
 # business:
 # business_url: 
 image: http://via.placeholder.com/1000x350
