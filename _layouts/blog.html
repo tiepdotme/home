@@ -38,7 +38,8 @@ layout: default
         {% for post in site.posts %}
         <a class="row" href="{{ post.url | prepend: site.baseurl }}">
           <div class="col-3 text-right " >
-            <span class="post-meta text-d10-{{ color }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <p class="post-meta text-d20-{{ theme_style }} py-2">{{ post.author_name }}</p>
           </div>
           <div class="col-9 text-d10-{{ color }}">
             <h2>
