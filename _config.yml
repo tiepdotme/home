@@ -87,3 +87,5 @@ collections:
     output: false
   timeline:
     output: false
+  testimonials:
+    output: false
