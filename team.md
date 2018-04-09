@@ -23,7 +23,7 @@ description: Some tagline could go here
 ## President
 {: class="mb-3 text-right"}
 
-![Glass Maintenance](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Greg Header](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
 ### Greg Header 
 
@@ -36,7 +36,7 @@ As an avid fisherman and huntsman, Greg is always traveling to other destination
 ## Machining Manager
 {: class="mb-3 text-right"}
 
-![Glass Maintenance](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Carl Zerbe](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
 ### Carl Zerbe 
 
@@ -46,10 +46,9 @@ Carl Zerbe has a dedication and passion for reel technology and has been entrust
 ## Chief Engineer
 {: class="mb-3 text-right"}
 
-![Glass Maintenance](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Timothy Wiest](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
 ### Timothy Wiest
-
 
 As the Chief Engineer at IRT, Timothy is responsible for overseeing the development of new technologies and innovations. Timothy has always worked in the field of engineering and his understanding of how components come together landed him the position of Chief Engineer. Prior to joining the team, he was a Manufacturing Engineer for Penn Reels Spinning from 1990-1998, before engineering for Spinning Reel from 1998-2005 where he designed the Liveliners, Slammers and SSG series reels along with several patents. He joined Solar Innovations® and Innovative Reel Technologies in 2007 as Chief Engineer of the fishing reels.  He currently holds a MET Engineering Degree from Penn State, 1988.
 {: class="clearfix"}
@@ -57,7 +56,7 @@ As the Chief Engineer at IRT, Timothy is responsible for overseeing the developm
 ## Master Reel Fabricator
 {: class="mb-3 text-right"}
 
-![Glass Maintenance](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Tom Shadle](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
 
 ### Tom Shadle
 

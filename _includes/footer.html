@@ -13,7 +13,7 @@
       <div class="container-fluid py-5 sr-button">
         <div class="row justify-content-center">
           <div class="col-6  my-auto">
-            <a data-toggle="modal" data-target="#exampleModal" style="cursor:pointer;" title="Click for full quote">
+            <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
               <p class="lead"><i class="fas fa-quote-left pr-2"></i> {{ quote.description }} <i class="fas fa-quote-right pl-2"></i></p>
               <p class="text-right">&mdash; {{ quote.author }}</p>
             </a>
@@ -22,21 +22,21 @@
       </div>
   
       <!-- Modal -->
-      <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade " id="testimony" tabindex="-1" role="dialog" aria-labelledby="testimonyLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title text-d20-two" id="exampleModalLabel">Testimonial</h5>
+              <h5 class="modal-title text-d10-grey" id="testimonyLabel">Testimonial</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body text-d20-two">
-              <i class="fas fa-quote-left"></i>
+            <div class="modal-body text-d10-grey">
+              <i class="fas fa-quote-left text-d20-two"></i>
               <div class="px-5">
                 {{ quote.content}}
               </div>
-              <i class="fas fa-quote-right float-right"></i>
+              <i class="fas fa-quote-right float-right text-d20-two"></i>
               <div class="container-fluid pt-3">
                 <div class="row">
                   <div class="pr-1 col-4 text-right">&mdash;</div>
