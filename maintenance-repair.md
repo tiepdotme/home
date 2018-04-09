@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /info/support/maitenance-and-repair/
-title: Maitenance/Repair
-long_title: Maitenance and Repair
+permalink: /info/support/maintenance-and-repair/
+title: Maintenance/Repair
+long_title: Maintenance and Repair
 description: Fishing reel maintenance and repair services for IRT customers
 slug: Fishing reel maintenance and repair services for IRT customers
 
@@ -29,7 +29,7 @@ These are many benefits to having service performed by our expert reel technicia
 
 
 
-![repair and maitenance](/assets/images/services--repair.gif){:class="img-fluid rounded float-right ml-4 mb-3" width="40%"}
+![repair and Maintenance](/assets/images/services--repair.gif){:class="img-fluid rounded float-right ml-4 mb-3" width="40%"}
 Innovative Reel Technologies, Ltd. suggests that customers complete regular maintenance of their reels. Frequency will be determined by overall use and standard wear and tear on the reel. 
 
 If the reel is used primarily for salt water fishing, additional maintenance may be required to maintain product appearance and function. Immediately upon return from a salt water fishing trip, IRT reels should be cleaned in warm soapy water. A light film of IRT oil, provided with each reel should be applied to all exterior surfaces and moving parts to ensure proper function.

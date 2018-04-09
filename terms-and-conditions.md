@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /info/support/maitenance-and-repair/
-title: Maitenance/Repair
-long_title: Maitenance and Repair
+permalink: /info/support/terms-and-conditions/
+title: Terms and Conditions
+long_title: Terms and Conditions
 description: Fishing reel maintenance and repair services for IRT customers
 slug: Fishing reel maintenance and repair services for IRT customers
 
@@ -24,18 +24,18 @@ slug: Fishing reel maintenance and repair services for IRT customers
 # cta-url: '#mc-embedded-subscribe-form'
 ---
 
-<!-- ## Service Package
-These are many benefits to having service performed by our expert reel technicians. IRT’s reel technicians have over 30 years of assembly and repair experience. They have the right tools to complete service work and only use the highest quality lubricants, designed specifically to withstand  the harsh saltwater fishing environment. Our staff will carefully inspect all of the reels components and notify you if anything is found to be at the service limit. Proper service helps prevent costly repairs, or even worse, the loss of a trophy catch! -->
+PLEASE READ THE FOLLOWING TERMS AND CONDITIONS OF USE (“TERMS”) CAREFULLY BEFORE USING OR PURCHASING FROM THE INNOVATIVE REEL TECHNOLOGIES, INC(“IRT”). WEBSITE.
 
+BY ENTERING OR USING THE IRT WEBSITE YOU, THE USER, AGREE AND ACKNOWLEDGE THAT ACCESS TO AND USE OF THE IRT WEBSITE IS SUBJECT TO THE FOLLOWING TERMS AND CONDITIONS OF USE, AND THE DISCLAIMERS SET FORTH HEREIN.
 
+IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF USE SET FORTH HEREIN, DISCONTINUE USE OF THE IRT WEBSITE.
 
-![repair and maitenance](/assets/images/services--repair.gif){:class="img-fluid rounded float-right ml-4 mb-3" width="40%"}
-Innovative Reel Technologies, Ltd. suggests that customers complete regular maintenance of their reels. Frequency will be determined by overall use and standard wear and tear on the reel. 
+IRT reserves the right to make revision to these terms at any time, with or without notice to the you, the user. You agree to be bound by such revisions and should, therefore, periodically visit this page to review the most recent terms and conditions of use.
 
-If the reel is used primarily for salt water fishing, additional maintenance may be required to maintain product appearance and function. Immediately upon return from a salt water fishing trip, IRT reels should be cleaned in warm soapy water. A light film of IRT oil, provided with each reel should be applied to all exterior surfaces and moving parts to ensure proper function.
+You, the user, agree and acknowledge that access and use of the IRT website is at your own risk and that none of the parties involved in creating, producing, or delivering the sites are liable for any direct, indirect, incidental, consequential, or punitive damages, or any other losses, costs, or expenses or any kind (including legal fees, experts fees, or other payments) which may arise, directly or indirectly, through your access to, use of, downloading of data, or selecting of links on the IRT website.
 
-Reels should be dried thoroughly after each use. It's also recommended that reels be stored in the supplied case.
+You, the user, are responsible for any and all local laws and compliance related to your access and use of the IRT website. IRT makes no warranties that the materials contained on the IRT website is appropriate for, or accessible from, all locations.
 
-Annual service, completed by the IRT team is also recommended. Please [contact us](/info/contact/contact-us) if you're ready for your reel to be serviced.
+Copyright
 
-Innovative Reel Technologies, Ltd. is pleased to offer customers any assistance possible to make their outdoor experience more enjoyable. The following links will help you to more effectively use your IRT reel, better understand the industry, or provide you with a few suggestions for more fun in the wild.
+IRT is the copyright owner (© 2013, Innovative Reel Technologies, Inc., All Rights Reserved) of everything on the IRT website including, without limitation, textual content, graphical content, visual/photographical content, audio or video content may not be used without IRT’s express written permission, unless specifically provided within the Terms and Conditions of use.
