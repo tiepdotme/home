@@ -45,6 +45,13 @@
                     <div class="p-0 offset-4 col-8"><a href="{{ quote.business_url }}" target="_blank">{{ quote.business }}</a></div>
                   {% endif %}
                 </div>
+                {% if quote.image %}                
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <img src="{{ quote.image }}" class="img-fluid" alt="{{ quote.title }}">
+                    </div>                  
+                  </div>
+                {% endif %}
               </div>
             </div>
             <div class="modal-footer">

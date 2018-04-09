@@ -4,9 +4,11 @@ author: Capt. Butch Foster
 business: Yeah Right Charters
 business_url: http://www.yeahrightcharters.com/
 # location: 
-image: /assets/images/testimonials/catch--frank_tobias.gif
+# image: /assets/images/testimonials/catch--frank_tobias.gif
 description: I truly do not see how [the reels] continue to take the abuse the big fish we catch with them continue to give them
 ---
+
+![Butch Foster's catch](/assets/images/testimonials/catch--frank_tobias.gif){:class="img-fluid rounded float-right ml-4 mb-2" width="40%"}
 
 I truly do not see how [the reels] continue to take the abuse the big fish we catch with them continue to give them. If they were not precision designed with the best materials possible and built to the standards they are, they would have been "toast" a long time ago.
          
@@ -14,4 +16,4 @@ My biggest problem is keeping rods and line from breaking under the loads. To qu
 
 The reels stir up some excitement on the charter boat, especially after it whips a big fish's butt!! [...] I'm just excited about your Reels and the technology that you design into them. Again, do not hesitate to contact me if I can help in any way!!  
 
-Fish On!!!!
+Fish On!!!!   
