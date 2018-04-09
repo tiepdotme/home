@@ -40,7 +40,7 @@ sitemap:
    
 # Home
 vertical_height: 100 # Only supports 100 right now -- TODO
-cta_gs_url: /types 
+# cta_gs_url: 
 
 # Blog
 permalink: /blog/:year/:month/:day/:title.html
