@@ -3,7 +3,7 @@ title: R. Cook "The Tug Dealer"
 author: R. Cook "The Tug Dealer"
 # business:
 # business_url: 
-# location: 
+location: Southern Alberta
 image: /assets/images/testimonials/ryan_cook.gif
 description: Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta.
 ---

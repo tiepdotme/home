@@ -5,7 +5,7 @@ business: Sea Dog Charters
 business_url: http://seadogcharters.net/
 # location: 
 image: /assets/images/testimonials/catch--michael_web.gif
-description: Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta.
+description: Hey Greg, You should know that your reels and our team placed 4th out of 68 teams in the Annual Bull & Cow.
 ---
 
 Hey [Greg [President of IRT]](/about/team),
