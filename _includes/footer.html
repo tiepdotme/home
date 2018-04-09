@@ -3,6 +3,61 @@
   {% assign color = page.theme_style | default: site.theme_style   %}
  
   <section class="grad-{{ color }} ">
+
+    {% assign testimonials = site.testimonials | sample:2 %}
+    {% for quote in testimonials %}
+      {% if forloop.first %}
+        {% continue %}
+      {% endif %}
+
+      <div class="container-fluid py-5">
+        <div class="row justify-content-center">
+          <div class="col-6  my-auto">
+            <a data-toggle="modal" data-target="#exampleModal" style="cursor:pointer;" title="Click for full quote">
+              <p class="lead"><i class="fas fa-quote-left"></i> {{ quote.description }} <i class="fas fa-quote-right"></i></p>
+              <p class="text-right">&mdash; {{ quote.author }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-d20-two" id="exampleModalLabel">Testimonial</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-d20-two">
+              <i class="fas fa-quote-left"></i>
+              <div class="px-5">
+                {{ quote.content}}
+              </div>
+              <i class="fas fa-quote-right float-right"></i>
+              <div class="container-fluid pt-3">
+                <div class="row">
+                  <div class="pr-1 col-4 text-right">&mdash;</div>
+                  <div class="p-0 col-8">{{ quote.author }}</div>
+                  {% if quote.business %}
+                    <div class="p-0 offset-4 col-8"><a href="{{ quote.business_url }}" target="_blank">{{ quote.business }}</a></div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    {% endfor %}
+  
+
     {% if page.url == "/" && site.cta_gs_url %}
 
 
