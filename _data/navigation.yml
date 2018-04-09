@@ -53,7 +53,7 @@
       url: /info/contact
       header: true
     - title: Contact Us
-      url: /info/contact/contact-us
+      url: /info/contact
     - title: Pro Staff
       url: /info/contact/pro-staff
     - title: separator
