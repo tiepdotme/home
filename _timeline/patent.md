@@ -2,7 +2,7 @@
 title: Patent Applied
 css-id: patent
 group: July 2006
-type: product
+type: media
 date: 2006-07-01 00:00:00 -0500
 image: http://via.placeholder.com/1000x350
 ---
