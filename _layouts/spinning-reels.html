@@ -28,7 +28,7 @@ layout: default
 
     <div id="fishing" class="col-12">
       <h3 class="text-center display-4">Enhance your fishing experience</h3>
-      {% assign fishing = site.features | where:'type', 'fishing'  %}
+      {% assign fishing = site.features | where:'type', 'fishing' | reverse %}
       {% for feature in fishing %}
       <div class="container-fluid my-5">
         <div class="row">
@@ -48,12 +48,18 @@ layout: default
 
     <div id="tech" class="col-12">
       <h3>Technology</h3>
-      {% assign tech = site.features | where:'type', 'tech'  %}
+      {% assign tech = site.features | where:'type', 'tech'| sort: 'weight'  %}
       {% for feature in tech %}
+        {% if feature.published == false %}
+          {% continue %}
+        {% endif %}
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            {{ feature.title }}
+              <h4>
+              {{ feature.title }}
+            </h4>
+            <p>{{ feature.content }}</p>
           </div>
         </div>
       </div>
