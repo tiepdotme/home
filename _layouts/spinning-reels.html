@@ -2,6 +2,18 @@
 layout: default
 ---
 
+{% if page.cover %}
+<div class="jumbotron cover jumbotron-fluid mb-5" style="background-image:url('{{ page.cover }}');">
+  <div class="container" >
+    <div class="row">
+      <div class="offset-1 col-11">
+        <h1 class="display-3 text-uppercase">{{ page.long_title | escape }}</h1>
+        <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
 
 <main class="container mt-10" aria-label="Content">
 
@@ -10,8 +22,55 @@ layout: default
     {% if page.cover == null %}
     <div class="col-12">
       <h1 class="display-5 text-uppercase">{{ page.long_title | escape }}</h1>
+      <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
     </div>
     {% endif %}
+
+    <div id="fishing" class="col-12">
+      <h3>Fishing</h3>
+      <div class="container-fluid">
+        <div class="row">
+          {% assign fishing = site.features | where:'type', 'fishing'  %}
+          {% for feature in fishing %}
+          <div class="col-12">
+            {{ feature.title }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div id="tech" class="col-12">
+      <h3>Technology</h3>
+      <div class="container-fluid">
+        <div class="row">
+          {% assign tech = site.features | where:'type', 'tech'  %}
+          {% for feature in tech %}
+          <div class="col-12">
+            {{ feature.title }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div id="irt" class="col-12">
+      <h3>IRT</h3>
+      <div class="container-fluid">
+        <div class="row">
+          {% assign irt = site.features | where:'type', 'irt' | reverse %}
+          {% for feature in irt %}
+          <div class="col-12">
+            {{ feature.title }}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+
+  
+    
 
     {% if content %}
     <div class="col-12 " id="content">

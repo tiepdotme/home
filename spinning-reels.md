@@ -1,9 +1,9 @@
 ---
-layout: spinning-reel
+layout: spinning-reels
 permalink: /products/spinning-reels/
 title: Spinning Reels
 long_title: Spinning Reels
-description: TODO
+description: Cutting edge, aluminium, spinning fishing reels
 
 # theme_style: four
 
@@ -19,7 +19,7 @@ tags:
     - Made in the USA
 ---
 
-
+<!-- 
 ## Patented Technology
 {: id="patented" }
 
@@ -33,4 +33,4 @@ Made in The USA using American made components
 ## Customizations
 {: id="customizations" }
 
-Engraving, grips, handles, drag, colors, etc
+Engraving, grips, handles, drag, colors, etc -->

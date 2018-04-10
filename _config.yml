@@ -89,3 +89,5 @@ collections:
     output: false
   testimonials:
     output: false
+  features:
+    output: false
