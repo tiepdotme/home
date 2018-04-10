@@ -2,7 +2,7 @@
 title: Made in America
 type: irt
 # image: /assets/images/feature--made-in-pinegrove.jpg
-image: /assets/images/us.png
+image: /assets/images/us.svg
 description: IRT Reels are manufactured in Pine Grove, Pennsylvania at our state of the art LEED Gold manufacturing facility. 
 published: true
 ---

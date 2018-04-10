@@ -32,7 +32,7 @@ tags:
     <a class="nav-link disabled h5 m-0" >|</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/products/spinning-reels" >Product Details</a>
+    <a class="nav-link" href="/products/spinning-reels" >Series Comparison</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="/products/spinning-reels" >Buy</a>
