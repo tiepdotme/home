@@ -27,13 +27,19 @@ layout: default
     {% endif %}
 
     <div id="fishing" class="col-12">
-      <h3>Fishing</h3>
+      <h3 class="text-center display-4">Enhance your fishing experience</h3>
       {% assign fishing = site.features | where:'type', 'fishing'  %}
       {% for feature in fishing %}
-      <div class="container-fluid">
+      <div class="container-fluid my-5">
         <div class="row">
-          <div class="col-12">
-            {{ feature.title }}
+          <div class="my-auto col-6 {% cycle 'order-1', 'order-2' %}">
+            <h4>
+              {{ feature.title }}
+            </h4>
+            <p>{{ feature.content }}</p>
+          </div>
+          <div class="my-auto col-6 {% cycle 'order-2', 'order-1' %}">
+            <img src="http://via.placeholder.com/500x250">
           </div>
         </div>
       </div>

@@ -6,3 +6,4 @@ description: IRT’s reel combined creates a lower center of gravity providing t
 published: true
 ---
 
+IRT’s reel combined creates a lower center of gravity providing the fisherman with an increased mechanical advantage. 
