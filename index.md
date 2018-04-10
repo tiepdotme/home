@@ -7,7 +7,7 @@ published: true
 title: Innovative Reel Technologies 
 timeline-label: Timeline
 long_title: Innovative Reel Technologies
-description: Complete timeline of developing innovative reels
+description: Cutting edge, aluminium, spinning fishing reels
 # theme_style: four
 
 # cta-text: Browse Reels
