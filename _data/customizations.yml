@@ -1,56 +1,51 @@
 - title: Engraving
-  image: /products/spinning-reels
-- title: Limited Selection of Titeanium parts
-  image: /products/spinning-reels
+  image: http://via.placeholder.com/1250x600
+- title: Limited Selection of Titanium parts
+  image: http://via.placeholder.com/1250x600
 - title: Reel Foot
-  image: /products/spinning-reels
   options:
     - name: Traditional
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Power with finger grooves
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Power with vents
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
 - title: Internal Gear System
-  image: /products/spinning-reels
   options:
     - name: Oil Filled 
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Lubricated
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
 - title: Spool
-  image: /products/spinning-reels
   options:
     - name: Holed
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Waved
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Slotted
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
 - title: Handle
-  image: /products/spinning-reels
+  image: http://via.placeholder.com/450x250
   options:
     - name: Standard
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Slotted
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Holed
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
 - title: Handle Knob
-  image: /products/spinning-reels
   options:
     - name: Slotted
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Holed
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: Comfort Rubber
-      image: /products/spinning-reels     
+      image: http://via.placeholder.com/450x250     
 - title: Drag Knob
-  image: /products/spinning-reels
   options:
     - name: Standard
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: 4-Wave
-      image: /products/spinning-reels
+      image: http://via.placeholder.com/450x250
     - name: 2-Hole Straight
-      image: /products/spinning-reels   
+      image: http://via.placeholder.com/450x250   
