@@ -23,9 +23,20 @@ categories: Timeline Sample
 tags: 
     - Timeline
     - Sample
-
-
-
-
 ---
- 
+<ul class="nav nav-pills justify-content-between fixed-bottom p-3 m-0" style="background:white;">
+  <li class="nav-item">
+    <a class="nav-link disabled h5 m-0" >Spinning Reel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active buy" href="/products/spinning-reels" >Buy</a>
+  </li>
+</ul>
+<style>
+    body{
+        margin-bottom:72px;
+    }
+    #content > ul > li > a.active:hover{
+        color:white;
+    }
+</style> 
