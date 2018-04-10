@@ -24,12 +24,18 @@ tags:
     - Timeline
     - Sample
 ---
-<ul class="nav nav-pills justify-content-between fixed-bottom p-3 m-0" style="background:white;">
+<ul class="nav nav-pills justify-content-end fixed-bottom p-3 m-0" style="background:white;">
   <li class="nav-item">
     <a class="nav-link disabled h5 m-0" >Spinning Reel</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active buy" href="/products/spinning-reels" >Buy</a>
+    <a class="nav-link disabled h5 m-0" >|</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/products/spinning-reels" >Product Details</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="/products/spinning-reels" >Buy</a>
   </li>
 </ul>
 <style>

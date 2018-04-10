@@ -3,12 +3,12 @@
   sublinks:
     - title: Overview
       url: /products/spinning-reels/
-    - title: Patented Technology
-      url: /products/spinning-reels#patent
-    - title: Superior Construction
-      url: /products/spinning-reels#construction
-    - title: Customizations
-      url: /products/spinning-reels#customizations
+    # - title: Patented Technology
+    #   url: /products/spinning-reels#patent
+    # - title: Superior Construction
+    #   url: /products/spinning-reels#construction
+    # - title: Customizations
+    #   url: /products/spinning-reels#customizations
     - title: separator
     - title: Spinning Reel Series
       url: /#
