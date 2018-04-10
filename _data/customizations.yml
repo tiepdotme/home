@@ -45,7 +45,7 @@
       image: /products/spinning-reels
     - name: Comfort Rubber
       image: /products/spinning-reels     
-- title: Handle Knob
+- title: Drag Knob
   image: /products/spinning-reels
   options:
     - name: Standard

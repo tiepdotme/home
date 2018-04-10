@@ -99,7 +99,17 @@ layout: default
     
     <div id="customizations" class="col-12 my-5">
       <h2>Customizations</h2>
-      <p>TODO</p>
+      <div class="container-fluid">
+        {% assign customizations = site.data.customizations %}
+        {% for customization in customizations %}
+          <div class="row">
+            <div class="col-12">
+              <h3>{{ customization.title }}</h3>
+            </div>
+            {{ customization.options.size }}
+          </div>
+        {% endfor %}
+      </div>
     </div>
   
     
