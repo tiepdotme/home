@@ -28,44 +28,44 @@ layout: default
 
     <div id="fishing" class="col-12">
       <h3>Fishing</h3>
+      {% assign fishing = site.features | where:'type', 'fishing'  %}
+      {% for feature in fishing %}
       <div class="container-fluid">
         <div class="row">
-          {% assign fishing = site.features | where:'type', 'fishing'  %}
-          {% for feature in fishing %}
           <div class="col-12">
             {{ feature.title }}
           </div>
-          {% endfor %}
         </div>
       </div>
+      {% endfor %}
     </div>
 
     <div id="tech" class="col-12">
       <h3>Technology</h3>
+      {% assign tech = site.features | where:'type', 'tech'  %}
+      {% for feature in tech %}
       <div class="container-fluid">
         <div class="row">
-          {% assign tech = site.features | where:'type', 'tech'  %}
-          {% for feature in tech %}
           <div class="col-12">
             {{ feature.title }}
           </div>
-          {% endfor %}
         </div>
       </div>
+      {% endfor %}
     </div>
 
     <div id="irt" class="col-12">
       <h3>IRT</h3>
+      {% assign irt = site.features | where:'type', 'irt' | reverse %}
+      {% for feature in irt %}
       <div class="container-fluid">
         <div class="row">
-          {% assign irt = site.features | where:'type', 'irt' | reverse %}
-          {% for feature in irt %}
           <div class="col-12">
             {{ feature.title }}
           </div>
-          {% endfor %}
         </div>
       </div>
+      {% endfor %}
     </div>
     
 
