@@ -7,9 +7,9 @@ description: Cutting edge, aluminium, spinning fishing reels
 
 # theme_style: four
 
-# cover: http://via.placeholder.com/3000x1000
+cover: http://via.placeholder.com/3000x1000
 # cover: /assets/images/cover-tester.jpg
-# cover_alt: planning greenhouses cover photo
+cover_alt: Spinning Reels Demo
 categories: 
     - Fishing Reel
 tags: 
