@@ -2,6 +2,29 @@
 layout: default
 ---
 
+<ul class="nav nav-pills justify-content-end fixed-bottom p-3 m-0" style="background:white;">
+  <li class="nav-item">
+    <a class="nav-link disabled h5 m-0" >Spinning Reel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled h5 m-0" >|</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/spinning-reels/comparison" >Series Comparison</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="/spinning-reels/comparison" >Buy</a>
+  </li>
+</ul>
+<style>
+    body{
+        margin-bottom:72px;
+    }
+    #content > ul > li > a.active:hover{
+        color:white;
+    }
+</style> 
+
 {% if page.cover %}
 <div class="jumbotron cover jumbotron-fluid mb-5" style="background-image:url('{{ page.cover }}');">
   <div class="container" >
@@ -73,7 +96,11 @@ layout: default
     </div>
 
     <div id="irt" class="col-12">
-      <h3 class="text-center display-4">The Cherry on Top</h3>
+      <h3 class="text-center display-4">The Star on Top </h3>
+      <!-- <i class="far fa-star text-d10-four" style="font-size: .6em;margin: 0px -3px 0px -9px;"></i> -->
+      <!-- <div class="text-center">
+        <span class="h1 "></span>
+      </div> -->
       {% assign irt = site.features | where:'type', 'irt' | reverse %}
       {% for feature in irt %}
       <div class="container-fluid ">
