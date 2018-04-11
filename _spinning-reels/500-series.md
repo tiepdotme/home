@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /spinning-reels/500-series/
 title: 500 Series
 description: The 500 series spinning reel is designed for heavier freshwater applications like large catfish. 
 long_description: The 500 series spinning reel is designed for heavier freshwater applications like large catfish. This reel is perfect for bringing in big stripers and bluefish when using live or artificial baits. This model can also be combined with a medium to heavy action rod to cast from jetties. Our 500 series reel is currently available only by calling to order. 

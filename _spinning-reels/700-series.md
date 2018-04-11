@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /spinning-reels/700-series/
 title: 800 Series
 description: The 800 series spinning reel is designed for heavy surf fishing and medium offshore duties.
 long_description: The 700 series spinning reel is designed to bring in larger fish. This is the reel you want when battling with a white marlin, sailfish, king mackerel, or pulling in an impressive mahi mahi. This reel is also ideal for jigging and popping blackfin tuna as well as battling 50 to 100 lb. sharks.
