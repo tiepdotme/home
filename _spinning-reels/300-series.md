@@ -1,28 +1,33 @@
 ---
-layout: product
-permalink: /products/spinning-reels/300-series/
+layout: page
 title: 300 Series
-long_title: 300 Series
-description: TODO
-menu: main
-weight: 1
-
-# theme_style: four
-
-# toc: true
-# ad: true
-# cover: http://via.placeholder.com/3000x1000
-# cover: /assets/images/cover-tester.jpg
-# cover_alt: planning greenhouses cover photo
-categories: 
-    - Fishing Reel
-    - 300 Series
-tags: 
-    - Fishing Reel
-    - 300 Series
-    - Spinning Reel
-    - Power Grip
+description: The 300 series spinning reel is versatile, balancing size and power. 
+long_description: The 300 series spinning reel is versatile, balancing size and power. This spinning reel is designed for kayak and in-shore fishing applications, and works well as either in salt water for flounder and redfish or in fresh water for small mouth bass, salmon, and muskie. The 300 series spinning reel nicely complements a rod with a 8-12 lb. test monofilament line or 15 lb. braided line.
+braided-line-capacity: 
+    - 300/15
+    - 280/20
+    - 200/30
+mono-line-capacity:
+    - 200/10
+    - 180/12
+    - 150/15
+weight: 15 oz.
+max-drag: 25 lbs.
+gear-ratio: 4.55
+bearings: 9
+line-retrieval: 24 inches
+image: http://via.placeholder.com/500x250
+fish: /assets/images/icon--redfish.png
+fish_recommendation:
+    - Redfish
+    - Flounder
+    - Small Mouth Bass
+    - Salmon
+    - Muskie
 ---
+
+test tes t
+
 <div id='product-component-4f546b5b8a3'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -255,3 +260,4 @@ tags:
 })();
 /*]]>*/
 </script>
+

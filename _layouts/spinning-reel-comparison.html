@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+
+<main class="container mt-10" aria-label="Content">
+
+  <article class="row">
+
+    {% if page.cover == null %}
+    <div class="col-12">
+      <h1 class="display-5 text-uppercase">{{ page.long_title | escape }}</h1>
+      <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+    </div>
+    {% endif %}
+
+    {% if content %}
+    <div class="col-12 " id="content">
+      {{ content }}
+    </div>
+    {% endif %}
+
+    <div id="fishing" class="col-12">
+    
+      <div class="container-fluid my-5">
+        <div class="row">
+          {% assign reels = site.spinning-reels  %}
+          {% for reel in reels %}
+            <div class=" col-4 my-5">
+              <img src="http://via.placeholder.com/500x250" class="mb-3">
+              <h2 class="h3">
+                {{ reel.title }}
+              </h2>
+              <p>{{ reel.description }}</p>
+
+              <p class="mb-1"><strong>Approximate Braided Line Capacity (yds/lbs):</strong></p>
+              <ul class="list-unstyled">
+                {% for blc in reel.braided-line-capacity %}
+                  <li>{{ blc }}</li>
+                {% endfor %}
+              </ul>
+
+              <p class="mb-1"><strong>Approximate Mono Line Capacity (yds/lbs):</strong></p>
+              <ul class="list-unstyled">
+                {% for mlc in reel.mono-line-capacity %}
+                  <li>{{ mlc }}</li>
+                {% endfor %}
+              </ul>
+
+              <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
+              <ul class="list-unstyled text-right">
+                <li><span class="float-left">Weight:</span> {{ reel.weight }}</li>
+                <li><span class="float-left">Max Drag:</span> {{ reel.max-drag }}</li>
+                {% if reel.power-drag  %}
+                  <li><span class="float-left">Power Drag Option:</span> {{ reel.power-drag }}</li>
+                {% else %}
+                  <li><span class="float-left">Power Drag Option:</span> n/a</li>
+                {% endif %}
+                <li><span class="float-left">Gear Ratio:</span> {{ reel.gear-ratio }}</li>
+                <li><span class="float-left">Bearings:</span> {{ reel.bearings }}</li>
+                <li><span class="float-left">Line Retrieval:</span> {{ reel.line-retrieval }}</li>
+              </ul>
+              
+              <button type="button" class="btn btn-primary btn-lg btn-block my-3" onclick="location.href='{{ reel.url }}'">Customize</button>
+
+              <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
+              <ul class="list-unstyled">
+                {% for fish in reel.fish_recommendation %}
+                <li>{{ fish }}</li>
+                {% endfor %}
+              </ul>
+              
+
+              <img src="{{ reel.fish }}" class="my-3">  
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </article>
+</main>
+
