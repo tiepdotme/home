@@ -1,38 +1,38 @@
 - title: Spinning Reels
-  url: /products/spinning-reels
+  url: /spinning-reels
   sublinks:
     - title: Series Comparison
-      url: /products/spinning-reels/
+      url: /spinning-reels/
     # - title: Patented Technology
-    #   url: /products/spinning-reels#patent
+    #   url: /spinning-reels#patent
     # - title: Superior Construction
-    #   url: /products/spinning-reels#construction
+    #   url: /spinning-reels#construction
     # - title: Customizations
-    #   url: /products/spinning-reels#customizations
+    #   url: /spinning-reels#customizations
     - title: separator
     - title: Spinning Reel Series
       url: /#
       header: true 
     - title: 300 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
     - title: 400 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
     - title: 500 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
     - title: 600 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
     - title: 700 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
     - title: 800 Series
-      url: /products/spinning-reels/300-series/
+      url: /spinning-reels/300-series/
 - title: Fly Reels
-  url: /products/fly-reels
+  url: /fly-reels
   sublinks: 
     - title: Coming Soon
-      url: /products/fly-reels/comming-soon
+      url: /fly-reels/comming-soon
       header: true 
     - title: Waitlist
-      url: /products/fly-reels/waitlist
+      url: /fly-reels/waitlist
 - title: About
   url: /about
   sublinks:

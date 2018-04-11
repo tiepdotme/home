@@ -1,6 +1,6 @@
 ---
 layout: waitlist
-permalink: /products/fly-reels/waitlist/
+permalink: /fly-reels/waitlist/
 title: Fly Reel Waitlist
 long_title: Fly Reel Waitlist
 description: Sign up and be notified of updates

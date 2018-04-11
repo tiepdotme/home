@@ -1,6 +1,6 @@
 ---
 layout: spinning-reel-comparison
-permalink: /products/spinning-reels/
+permalink: /spinning-reels/
 title: Spinning Reels
 long_title: Spinning Reels
 description: Cutting edge, aluminium, spinning fishing reels
