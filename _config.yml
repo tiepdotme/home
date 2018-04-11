@@ -7,8 +7,8 @@ slug: A history of fishing reel innovations
 description: >- # this means to ignore newlines until "baseurl:"
   A history of fishing reel innovations
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://history.innovativereeltechnologies.com" # the base hostname & protocol for your site, e.g. http://example.com
-brand_url: https://innovativereeltechnologies.com
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+brand_url: /
 
 # Analytics
 # gtm_id: GTM-MCG4RJC

@@ -3,7 +3,7 @@ layout: page
 permalink: /about/team/
 title: The IRT Team
 long_title: The IRT Team
-description: Some tagline could go here
+description: As we move forward as a company, I'm excited to see what we can accomplish as a team while impacting the community and our team members. &nbsp;&nbsp; — Greg Header
 
 
 # menu: main

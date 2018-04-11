@@ -33,12 +33,12 @@ three:  # blue
   favicon: /assets/favicons/blue
   navbar-bg: light
   navbar-color: light
-four: 
-  color: "#231F20" # black
-  logo: /assets/logos/icon-black.png
-  favicon: /assets/favicons/black
-  navbar-bg: light
-  navbar-color: light
+# four: 
+#   color: "#231F20" # black
+#   logo: /assets/logos/icon-black.png
+#   favicon: /assets/favicons/black
+#   navbar-bg: light
+#   navbar-color: light
 
 
 # Innovative Reel Technologies Theme | Secondary 
@@ -48,12 +48,12 @@ four:
 #   favicon: /assets/favicons/colors
 #   navbar-bg: dark
 #   navbar-color: dark
-# two: # red
-#   color: "#FA4616"
-#   logo: /assets/logos/icon-white.png
-#   favicon: /assets/favicons/colors
-#   navbar-bg: dark
-#   navbar-color: dark
+four: # red
+  color: "#FA4616"
+  logo: /assets/logos/icon-white.png
+  favicon: /assets/favicons/colors
+  navbar-bg: dark
+  navbar-color: dark
 # three:  # purple
 #   color: "#D22630"
 #   logo: /assets/logos/icon-white.png

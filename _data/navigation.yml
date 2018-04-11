@@ -1,8 +1,10 @@
 - title: Spinning Reels
   url: /spinning-reels
   sublinks:
-    - title: Series Comparison
+    - title: Overview
       url: /spinning-reels/
+    - title: Technical Comparison
+      url: /spinning-reels/comparison/
     # - title: Patented Technology
     #   url: /spinning-reels#patent
     # - title: Superior Construction

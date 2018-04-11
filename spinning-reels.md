@@ -1,9 +1,10 @@
 ---
-layout: spinning-reel-comparison
+layout: spinning-reels
 permalink: /spinning-reels/
-title: Spinning Reel Comparison
-long_title: Spinning Reels Comparison
+title: Spinning Reel 
+long_title: Spinning Reels 
 description: Find the perfect reel for you needs
+cover: http://via.placeholder.com/3000x1000
 
 # theme_style: four
 
@@ -19,5 +20,3 @@ tags:
     - Made in the USA
 ---
 
-
-Get help buying. Call our support 1-800-618-0669.

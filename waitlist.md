@@ -4,7 +4,7 @@ permalink: /fly-reels/waitlist/
 title: Fly Reel Waitlist
 long_title: Fly Reel Waitlist
 description: Sign up and be notified of updates
-slug: Sign up and be notified of updates
+slug: Sign up and be notified when updates are available
 
 # menu: main
 # weight: 12

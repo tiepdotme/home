@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: products
+layout: home
 published: true
 title: Innovative Reel Technologies 
 timeline-label: Timeline
@@ -24,25 +24,3 @@ tags:
     - Timeline
     - Sample
 ---
-<ul class="nav nav-pills justify-content-end fixed-bottom p-3 m-0" style="background:white;">
-  <li class="nav-item">
-    <a class="nav-link disabled h5 m-0" >Spinning Reel</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled h5 m-0" >|</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/products/spinning-reels" >Series Comparison</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="/products/spinning-reels" >Buy</a>
-  </li>
-</ul>
-<style>
-    body{
-        margin-bottom:72px;
-    }
-    #content > ul > li > a.active:hover{
-        color:white;
-    }
-</style> 
