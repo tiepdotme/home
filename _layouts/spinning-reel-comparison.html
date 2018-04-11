@@ -22,7 +22,7 @@ layout: default
 
     <div id="fishing" class="col-12">
     
-      <div class="container-fluid my-5">
+      <div class="container-fluid mb-5">
         <div class="row">
           {% assign reels = site.spinning-reels  %}
           {% for reel in reels %}
@@ -32,19 +32,23 @@ layout: default
                 {{ reel.title }}
               </h2>
               
-              <p>{{ reel.description }}</p>
 
-              <p class="mb-1"><strong>Approximate Braided Line Capacity (yds/lbs):</strong></p>
+              <p style="min-height:72px">{{ reel.description }}</p>
+
+
+            
+
+              <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
               <ul class="list-unstyled">
                 {% for blc in reel.braided-line-capacity %}
-                  <li>{{ blc }}</li>
+                  <li>{{ blc }} <small>yds/lbs</small></li>
                 {% endfor %}
               </ul>
 
-              <p class="mb-1"><strong>Approximate Mono Line Capacity (yds/lbs):</strong></p>
+              <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
               <ul class="list-unstyled">
                 {% for mlc in reel.mono-line-capacity %}
-                  <li>{{ mlc }}</li>
+                  <li>{{ mlc }} <small>yds/lbs</small></li>
                 {% endfor %}
               </ul>
 
@@ -65,14 +69,14 @@ layout: default
               <button type="button" class="btn btn-primary btn-lg btn-block my-3" onclick="location.href='{{ reel.url }}'">Customize</button>
 
               <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
-              <ul class="list-unstyled">
+              <ul class="list-unstyled" style="min-height:144px">
                 {% for fish in reel.fish_recommendation %}
                 <li>{{ fish }}</li>
                 {% endfor %}
               </ul>
               
+              <img src="{{ reel.fish }}">  
 
-              <img src="{{ reel.fish }}" class="my-3">  
             </div>
           {% endfor %}
         </div>

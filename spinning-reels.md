@@ -1,15 +1,15 @@
 ---
 layout: spinning-reel-comparison
 permalink: /spinning-reels/
-title: Spinning Reels
-long_title: Spinning Reels
-description: Cutting edge, aluminium, spinning fishing reels
+title: Spinning Reel Comparison
+long_title: Spinning Reels Comparison
+description: Find the perfect reel for you needs
 
 # theme_style: four
 
 # cover: http://via.placeholder.com/3000x1000
 # cover: /assets/images/cover-tester.jpg
-cover_alt: Spinning Reels Demo
+# cover_alt: Spinning Reels Demo
 categories: 
     - Fishing Reel
 tags: 
@@ -19,3 +19,5 @@ tags:
     - Made in the USA
 ---
 
+
+Get help buying. Call our support 1-800-618-0669.
