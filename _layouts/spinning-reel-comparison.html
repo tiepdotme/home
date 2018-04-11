@@ -31,6 +31,7 @@ layout: default
               <h2 class="h3">
                 {{ reel.title }}
               </h2>
+              
               <p>{{ reel.description }}</p>
 
               <p class="mb-1"><strong>Approximate Braided Line Capacity (yds/lbs):</strong></p>
@@ -48,7 +49,7 @@ layout: default
               </ul>
 
               <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
-              <ul class="list-unstyled text-right">
+              <ul class="list-unstyled text-right mx-0">
                 <li><span class="float-left">Weight:</span> {{ reel.weight }}</li>
                 <li><span class="float-left">Max Drag:</span> {{ reel.max-drag }}</li>
                 {% if reel.power-drag  %}

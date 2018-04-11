@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: product
 permalink: /spinning-reels/600-series/
 title: 600 Series
+price: 729.00
 description: The 600 series spinning reel is a versatile large spinning reel with equal size and power.
 long_description: The 600 series spinning reel is a versatile large spinning reel with equal size and power. The reel’s size is comfortable for lighter saltwater duties like pier and bay fishing with a medium strength rod, but it also provides the line capacity for heavier duties, such as fighting a striped bass from the surf with a heavy 12 ft. rod. When used for freshwater applications, this reel will handle steelhead, salmon, or muskie and complement a medium to heavy strength rod.
 braided-line-capacity: 
