@@ -6,7 +6,7 @@ layout: default
 {% assign favicon = site.data.theme[color].favicon    %}
 
 
-<div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" >
+<div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('http://via.placeholder.com/3000x1000');background-size:cover;background-position:center;  height: 100vh; color:white;">
   <div class="container bottom text-center py-5">
     <h1 class="display-5 mb-0 sr-contact">{{ site.title}}</h1>
     <p class="lead p-1 bold sr-contact" >{{ site.slug }}</p>
@@ -14,9 +14,9 @@ layout: default
     {% if site.cta_gs_url %}
     {% if site.cta_gs_target == '_blank' %}
     <!-- TODO: update to stable from alpha format -->
-    <button type="button" class="btn btn-primary sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >Get Started</button>
+    <button type="button" class="btn btn-primary sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
     {% else %}    
-    <button type="button" class="btn btn-primary sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >Get Started</button>
+    <button type="button" class="btn btn-primary sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
     {% endif %}
     {% endif %}
     
