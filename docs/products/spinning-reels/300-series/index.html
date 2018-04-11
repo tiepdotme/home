@@ -648,254 +648,69 @@
     
     <div class="col-12">
       <h1 class="display-5 text-uppercase">300 Series</h1>
+      <p class="lead" style="font-weight:400; padding:1% 0;">TODO</p>
     </div>
     
-    
-
 
     
     <div class="col-12 " id="content">
-      <div id="product-component-4f546b5b8a3"></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'the-innovative-shop.myshopify.com',
-      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [575758073911],
-        node: document.getElementById('product-component-4f546b5b8a3'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "layout": "horizontal",
-    "variantId": "all",
-    "width": "100%",
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "description": true,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "text-align": "left",
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#619e1b",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "bold",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      },
-      "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal",
-        "font-size": "26px"
-      },
-      "description": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Open Sans, sans-serif",
-        "font-size": "18px",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-size": "15px",
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Open Sans",
-      "Open Sans"
-    ]
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "button": {
-        "background-color": "#619e1b",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "bold",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    },
-    "googleFonts": [
-      "Open Sans"
-    ]
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#619e1b",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "bold",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      },
-      "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "description": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Open Sans",
-      "Open Sans"
-    ]
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Open Sans, sans-serif",
-        "background-color": "#619e1b",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "bold",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      }
-    },
-    "googleFonts": [
-      "Open Sans"
-    ]
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Open Sans, sans-serif"
-      },
-      "select": {
-        "font-family": "Open Sans, sans-serif"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Open Sans"
-    ]
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
-
+      
 
     </div>
     
-    
 
+    <div id="fishing" class="col-12">
+      <h2 class="text-center display-4">Enhance your fishing experience</h2>
+      
+      
+      <div class="container-fluid my-5">
+        <div class="row">
+          <div class="my-auto col-6 order-1">
+            <h4>
+              Leverage
+            </h4>
+            <p><p>IRT’s reel combined creates a lower center of gravity providing the fisherman with an increased mechanical advantage.</p>
+</p>
+          </div>
+          <div class="my-auto col-6 order-2">
+            <img src="http://via.placeholder.com/500x250">
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid my-5">
+        <div class="row">
+          <div class="my-auto col-6 order-2">
+            <h4>
+              Distance
+            </h4>
+            <p><p>The lengthened lever arm of our fishing reels provides improved casting performance. This allows for lighter lines and lures.</p>
+</p>
+          </div>
+          <div class="my-auto col-6 order-1">
+            <img src="http://via.placeholder.com/500x250">
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid my-5">
+        <div class="row">
+          <div class="my-auto col-6 order-1">
+            <h4>
+              Comfort
+            </h4>
+            <p><p><a href="#tech">The Spin Power Grip™</a>’s revolutionary shape removes the pressure between the fingers caused by traditional spinning reel designs, allowing them to rest comfortably above the reel handle.</p>
+</p>
+          </div>
+          <div class="my-auto col-6 order-2">
+            <img src="http://via.placeholder.com/500x250">
+          </div>
+        </div>
+      </div>
+      
+    </div>
 
   </article>
-
 </main>
 
 
@@ -919,8 +734,8 @@
         <div class="row justify-content-center">
           <div class="col-6  my-auto">
             <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
-              <p class="lead"><i class="fas fa-quote-left pr-2"></i> Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta. <i class="fas fa-quote-right pl-2"></i></p>
-              <p class="text-right">&mdash; R. Cook "The Tug Dealer"</p>
+              <p class="lead"><i class="fas fa-quote-left pr-2"></i> Just wanted to share with you a pic of my first striper from the surf. 37 inches, 20 pounds off the surf in the Cape Henlopen park <i class="fas fa-quote-right pl-2"></i></p>
+              <p class="text-right">&mdash; Frank Tobias</p>
             </a>
           </div>
         </div>
@@ -939,17 +754,19 @@
             <div class="modal-body text-d10-grey">
               <i class="fas fa-quote-left text-d20-two"></i>
               <div class="px-5">
-                <p><img src="/assets/images/testimonials/ryan_cook.gif" alt="The Tug Dealer" class="img-fluid rounded float-right ml-4 mb-2" width="40%" /></p>
+                <p><img src="/assets/images/testimonials/catch--frank_tobias.gif" alt="Frank Tobias' catch" class="img-fluid rounded float-right ml-4 mb-2" width="40%" /></p>
 
-<p>Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta. In 28 years of slinging flys, I have never even seen let alone used a reel with such an incredible drag system! ZERO LAG or DELAY in the tension release and reel side drag adjustment so you NEVER have to push pause on the fight to adjust your tension. All you salt water fly folk, keep your eyes on these guys. You may never lose another Bone Fish or Permit due to that slight delay in you drag again! Did I mention the reel is made in the USA and it’s machined NOT cast!  The name says it all: INNOVATIVE REEL TECHNOLOGIES! Oh yeah and to top it all off, the reel is Dead Sexy to boot! 
-Keep up the great work!</p>
+<p>Just wanted to share with you a pic of my first striper from the surf. 37 inches, 20 pounds off the surf in the Cape Henlopen park. I caught it on the first reel Greg gave me. I caught a shorter one on the newer reel as well as a much larger fish that snapped my line when I got it into the rolling surf.</p>
+
+<p>LOVE THAT IRT REEL!</p>
+
 
               </div>
               <i class="fas fa-quote-right float-right text-d20-two"></i>
               <div class="container-fluid pt-3">
                 <div class="row">
                   <div class="pr-1 col-4 text-right">&mdash;</div>
-                  <div class="p-0 col-8">R. Cook "The Tug Dealer"</div>
+                  <div class="p-0 col-8">Frank Tobias</div>
                   
                 </div>
                 

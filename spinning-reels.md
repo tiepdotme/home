@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: spinning-reel-comparison
 permalink: /products/spinning-reels/
 title: Spinning Reels
 long_title: Spinning Reels
