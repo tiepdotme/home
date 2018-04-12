@@ -112,7 +112,6 @@
               <ul class="list-unstyled text-center m-0" >
                 {% for post in site.posts limit:5 %}
                   <li><a href="{{ post.url }}" style="color:white">{{ post.title }}</a></li>
-                  
                 {% endfor %}
               </ul>
             </div>
@@ -128,7 +127,13 @@
                 {% elsif sublink.title == 'Spinning Reel Series' %}
                   {% continue %}              
                 {% endif %}
-                <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
+
+                {% if sublink.title == 'Coming Soon' %}
+                  <li>{{ sublink.title }}</li>     
+                {% else %}           
+                  <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
+                {% endif %}
+              
               {% endfor %}            
               </ul>
             </div>
