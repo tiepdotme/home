@@ -94,3 +94,14 @@ collections:
     output: false
   spinning-reels:
     output: true
+
+
+
+
+exclude:
+  - /assets/photoshop/
+  - /assets/illustrator/
+  - /assets/tshirts/
+  - /assets/vintage-asset/
+
+  
