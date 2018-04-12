@@ -128,7 +128,7 @@
                 {% elsif sublink.title == 'Spinning Reel Series' %}
                   {% continue %}              
                 {% endif %}
-                <li>{{ sublink.title }}</li>
+                <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
               {% endfor %}            
               </ul>
             </div>
