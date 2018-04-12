@@ -7,6 +7,6 @@ date: 2006-07-01 00:00:00 -0500
 image: http://via.placeholder.com/1000x350
 ---
 
-Fishing Reel Leg Patent Applied Powergrip™
+By 2006, IRT received its first patent for the Fishing Reel Leg Applied Powergrip™.
 
 Patent Number 29262957

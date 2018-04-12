@@ -64,27 +64,6 @@
     
     {% endfor %}
   
-
-    {% if page.url == "/" and site.cta_gs_url %}
-
-
-
-    <div class="container-fluid py-5">
-      <div class="row">
-        <div class="col-12  my-auto">
-          <h3 class="display-5 text-center sr-contact" style="font-weight:900;">{{ site.footer-cta-text }}</h3>
-        </div>
-        <div class="col-12 my-auto text-center pt-3">
-          {% if site.footer-cta-link-target == '_blank' %}
-          <!-- TODO: update to stable from alpha format -->
-          <button type="button" class="btn btn-outline-light sr-button" onclick="window.open('{{ site.footer-cta-link-url }}', '_blank');" >{{ site.footer-cta-link-text }}</button>
-          {% else %}    
-          <button type="button" class="btn btn-outline-light sr-button" onclick="location.href = '{{ site.footer-cta-link-url }}';" >{{ site.footer-cta-link-text }}</button>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-    {% endif %}
     <hr class="grad">
 
     <div class="container-fluid py-5">
