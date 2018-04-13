@@ -5,16 +5,18 @@ layout: default
 {% assign color = page.theme_style | default: site.theme_style   %}
 {% assign favicon = site.data.theme[color].favicon    %}
 
+<style>
+  .blk {
+    background: rgba(0,0,0,0.7);
+    text-shadow: #000 1px 2px;
+}
+  nav.navbar{
+    border-bottom:solid 1px #343a40;
+  }
 
+</style>
 
 <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--boating-edit.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
-
-
-<!-- <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--fishing-motivation.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;"> -->
-
-<!-- <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('assets/images/home--ross-w-dog--edit.jpg');background-size:cover;background-position:left;  height: 100vh; color:white;"> -->
-
-<!-- <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--reel-collection.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;"> -->
   
   <div class="container bottom text-center py-5">
     <h1 class="display-5 mb-0 sr-contact">{{ site.title}}</h1>
@@ -35,10 +37,10 @@ layout: default
 </div>
 
 
-<section id="content" class="mt-10">
-
-  <div class="container-fluid" >
-    <div class="row justify-content-center mt-5 ">
+<!-- <section id="content" class="mt-10"> -->
+<div id="content"  class="pt-0 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('assets/images/home--ross-w-dog--edit.jpg');background-size:cover;background-position:left;  height: 100vh; color:white;">
+  <div class="container-fluid d-flex" >
+    <div class="row justify-content-center py-4 align-self-end">
       <div class="col-12">
         <h3 class="text-center display-4">The Reel American Experience</h3>
       </div>
@@ -46,10 +48,14 @@ layout: default
         <p class="lead">
           Our all-American made reels are <a href="/spinning-reels#tech">guaranteed</a> to give you a one-of-a-kind fishing <a href="/spinning-reels#tech">machine</a> and <a href="/spinning-reels#fishing">experience</a> with every purchase 
         </p>
-
+        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#content2">Continue</button>
+        
       </div>
     </div>
   </div>
+</div>
+
+<div  id="content2" class="pt-10 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--reel-collection.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
 
   <div class="container-fluid" >
     <div class="row justify-content-center mt-5 ">
@@ -60,13 +66,16 @@ layout: default
         <p class="lead">
           <a href="/spinning-reels#tech">Spin Power Grip™</a> innovation leads to a better <a href="/spinning-reels#fishing">angling experience</a>
         </p>
-
+        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#content3">Go on...</button>
+        
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container-fluid" >
-    <div class="row justify-content-center mt-5 ">
+<div id="content3" class="pt-0 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--fishing-motivation.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
+  <div class="container-fluid  " >
+    <div class="row justify-content-center py-3 blk">
       <div class="col-12">
         <h3 class="text-center display-4">A Piscator's Dream</h3>
       </div>
@@ -74,23 +83,28 @@ layout: default
         <p class="lead">
           IRT Reels provide better <a href="/spinning-reels#fishing">leverage</a>, <a href="/spinning-reels#fishing">comfort</a>, and <a href="/spinning-reels#fishing">distance</a> over the competition
         </p>
-
+        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#products">Find Your Reel</button>
+        
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container-fluid whatare">
+  <div id="products" class="container-fluid whatare">
     <div class="container" >
       <div class="row h-100 py-5" style="margin:3% 0px;">
+        <div class="col-12">
+          <h2 class="text-center display-3 mb-3">Products</h2>
+        </div>
         <div class="col-12 col-md-6">
-          <h2 class=" text-center">Spinning Reels</h2>
+          <h3 class=" text-center">Spinning Reels</h3>
           <a href="/fly-reels/waitlist/">          
             <img src="/assets/images/home--generation-2-spin-power-grip.jpg" class="rounded">
             <h3 class="h5 text-center pt-3 text-d20-two">Browse Our Selections</h3>
           </a>
         </div>
         <div class="col-12 col-md-6">
-          <h2 class=" text-center">Fly Reels</h2>
+          <h3 class=" text-center">Fly Reels</h3>
           <a href="/fly-reels/waitlist/">
             <img src="/assets/images/home--fly-reel.jpg" class="rounded">
             <h3 class="h5 text-center pt-3 text-d20-two">Coming Soon</h3>
@@ -101,9 +115,6 @@ layout: default
   </div>
 
   
-
-</section>
-
 {{ content }}
 
 
