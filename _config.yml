@@ -6,8 +6,8 @@ title_2: Reels
 slug: Keeping you in the fight
 description: >- # this means to ignore newlines until "baseurl:"
   Keeping you in the fight longer, IRT provides quality products with patented technologies designed to help you to catch a variety of fish. Founded in 2007, IRT has created numerous products over the years and we listen to our loyal customers in order to continuously improve and make our reels the best in the industry.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "https://innovativereeltechnologies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 brand_url: /
 
 # Analytics
