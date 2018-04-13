@@ -153,7 +153,11 @@ layout: default
               {% endfor %}
             {% elsif customization.image %}
             <div class="col-12">            
-              <img src="{{ customization.image }}">            
+                {% if customization.image %}
+                  <img src="{{ customization.image }}" class="rounded">
+                {% else %}            
+                  <img src="http://via.placeholder.com/1500x950">
+                {% endif %}            
             </div>
             {% endif %}
           </div>

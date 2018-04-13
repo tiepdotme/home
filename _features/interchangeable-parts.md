@@ -1,7 +1,7 @@
 ---
 title: Interchangeable Aluminum Parts
 type: tech
-# image: /assets/images/feature--generation-2-spin-power-grip.gif
+image: /assets/images/reels/parts.jpg
 description: High quality aluminum machined fishing reel replacement parts are available to our customers long after the initial purchase date.
 published: true
 weight: 6
