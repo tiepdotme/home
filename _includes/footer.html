@@ -2,7 +2,34 @@
 
   {% assign color = page.theme_style | default: site.theme_style   %}
  
-  <section class="grad-{{ color }} ">
+ <style>
+ .grad-cust{
+  background: linear-gradient(to bottom, 
+    rgba(49,157,211,0.98), 
+    /* rgba(41, 144, 194, 0.98),  */
+    rgba(0, 74, 118, 0.98), 
+    rgba(0, 37, 84, 0.98), 
+    rgba(35, 31, 32, 1));
+    color: white;
+    border-top: solid 5px #ffcd59;
+ }
+ footer.footer{
+   background: url('/assets/images/ship-shadow.png');
+   background-repeat: no-repeat;
+   background-position: 90% 90%;
+ }
+ .brand-foot{
+   background: #231F20;
+ }
+ hr.grad-left{
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.75), rgba(255,255,255,0));
+    width: 90%;
+    margin: auto auto;
+ }
+ </style>
+  <section class="grad-cust">
 
     {% assign testimonials = site.testimonials | sample:2 %}
     {% for quote in testimonials %}
@@ -81,19 +108,19 @@
     {% assign links = site.data.navigation %}
 
     <div class="container py-5">
-      <div class="row justify-content-center">
+      <div class="row justify-content-lg-center justify-content-start">
 
         {% for link in links %}
           {% if link.title == 'Information' %}
             {% for sublink in link.sublinks %}
               {% if forloop.first %}
                 <div class="my-3 col-6 col-lg-3">
-                  <ul class="list-unstyled">
-                    <li><h5>{{ sublink.title }}</h5></li>
+                  <h5>{{ sublink.title }}</h5>
+                  <ul class="list-unstyled m-0">
               {% elsif sublink.header == true %}
                 <div class="my-3 col-6 col-lg-3">              
-                  <ul class="list-unstyled">                  
-                    <li><h5>{{ sublink.title }}</h5></li>
+                  <h5>{{ sublink.title }}</h5>
+                  <ul class="list-unstyled m-0">                  
               {% else %}
                 {% if sublink.title != 'separator' %}              
                   <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
@@ -106,21 +133,21 @@
             {% endfor %}
           {% elsif link.title == "Blog" %}
             <div class="my-3 col-6 col-lg-3">
-              <h4 class="text-center">{{ link.title }}</h4>
-              <ul class="list-unstyled text-center m-0" >
+              <h4 class="">{{ link.title }}</h4>
+              <ul class="list-unstyled  m-0" >
                 {% for post in site.posts limit:5 %}
-                  <li><a href="{{ post.url }}" style="color:white">{{ post.title }}</a></li>
+                  <li style="line-height: 1;"><a href="{{ post.url }}" style="color:white"><small>{{ post.title }}</small></a></li>
                 {% endfor %}
               </ul>
             </div>
           {% else %}
             <div class="my-3 col-6 col-lg-3">
-              <h4 class="text-center">{{ link.title }}</h4>
+              <h4 class="">{{ link.title }}</h4>
 
-              <ul class="list-unstyled text-center m-0" >
+              <ul class="list-unstyled  m-0" >
               {% for sublink in link.sublinks %}
                 {% if sublink.title == 'separator' %}
-                  <li><hr class="grad my-2"></li>
+                  <li><hr class="grad-left mx-0 my-2"></li>
                   {% continue %}
                 {% elsif sublink.title == 'Spinning Reel Series' %}
                   {% continue %}              
@@ -141,7 +168,7 @@
     </div>
   </section>
 
-  <div class="container-fluid py-5">
+  <div class="container-fluid brand-foot py-5">
     <div class="row">
       
       <div py-2 class="col-12 order-3 order-md-1 col-md-4 my-auto">
@@ -215,7 +242,7 @@
       </div>
       <div class="py-2 col-12 order-1 order-md-2 col-md-4 my-auto text-center sr-button">
         <address>
-            <p class="grey">{{ site.address_1 }}<br>{{ site.address_2 }}</p>
+            <p class="text-l10-grey">{{ site.address_1 }}<br>{{ site.address_2 }}</p>
         </address>
         <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
       </div>
