@@ -9,7 +9,6 @@ cover: /assets/images/reels/generation_2_spin_power_grip.jpg
 # theme_style: four
 
 # cover: http://via.placeholder.com/3000x1000
-# cover: /assets/images/cover-tester.jpg
 # cover_alt: Spinning Reels Demo
 categories: 
     - Fishing Reel
