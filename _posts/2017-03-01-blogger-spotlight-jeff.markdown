@@ -12,12 +12,12 @@ categories:
 #     - Lake Erie
 ---
 
-![5 lb bass on the Potomac River](/assets/images/pro-staff/jeff_c_bass.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="40%"}
+![Weigh in on Lake Erie with the BASS Northern Open](/assets/images/pro-staff/jeff_c.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
 My name is Jeff C. and I am a bass fisherman.  I was born and raised in Schuylkill County, but I only recently learned about Solar Innovations<sup>®</sup> and IRT reels from a childhood friend.  After visiting the company during the “off season”, I loved seeing new ideas in fishing! I’m looking forward to working with the company and finding ways to incorporate IRT reels into my style of fishing!
 
 As a boat owner and tournament fisherman, I have plenty of experience on the water, both locally and in the surrounding area.  I have experience fishing Oneida Lake, the Thousand Islands, the Finger Lakes, the Chesapeake Bay, Lake Erie, and the Potomac in addition to the many smaller lakes throughout Pennsylvania, New York, and Canada. I am a member of the Sweet Arrow Anglers which is a local bass fishing club.  I also fish on the pro side of BASS Northern Open tour and the FLW BFL circuit.
 
-![Weigh in on Lake Erie with the BASS Northern Open](/assets/images/pro-staff/jeff_c.jpg){: class="img-fluid rounded float-left mr-4 mt-2 mb-3" width="60%"}
+![5 lb bass on the Potomac River](/assets/images/pro-staff/jeff_c_bass.jpg){: class="img-fluid rounded float-left mr-4 mt-2 mb-3" width="40%"}
 
 When I’m not on the water for a tournament, my son and wife Weigh in on Lake Erie with the BASS Northern Open Enjoy going out on the boat with me.  My son, Justin, will be turning 8 soon.  I couldn’t be happier that at such a young age, he enjoys the sport as much as I do!
 
