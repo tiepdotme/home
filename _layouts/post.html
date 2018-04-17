@@ -45,27 +45,48 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
         <img src="{{ page.author_image }}" class="mb-3">
       {% endif %}
       <div class="d-none d-lg-block">
-        {% if page.tags[0] %}
+        {% if page.fish[0] %}
           <hr class="mb-3 mt-1">
           <p class="text-d20-{{ theme_style }} h4">Fish</p>
           <ul class="list-unstyled text-d10-{{ theme_style }}">
-            {% for tag in page.tags %}
+            {% for fish in page.fish %}
               {% if forloop.first %}
               {% endif %}
-              <li>{{ tag }}</li>
+              <li>{{ fish }}</li>
             {% endfor %}
           </ul>
         {% endif %}
-        {% if page.categories[0] %}
+        {% if page.locations[0] %}
         
           <hr class="mb-3 mt-1">
           <p class="text-d20-{{ theme_style }} h4">Locations</p>
+          <ul class="list-unstyled text-d10-{{ theme_style }}">
+            {% for location in page.locations %}
+              <li>{{ location }} </li>
+            {% endfor %}
+          </ul>
+        {% endif %}  
+        {% if page.tags[0] %}
+        
+          <hr class="mb-3 mt-1">
+          <p class="text-d20-{{ theme_style }} h4">Tags</p>
+          <ul class="list-unstyled text-d10-{{ theme_style }}">
+            {% for tag in page.tags %}
+              <li>{{ tag }} </li>
+            {% endfor %}
+          </ul>
+        {% endif %}    
+
+        {% if page.categories[0] %}
+        
+          <hr class="mb-3 mt-1">
+          <p class="text-d20-{{ theme_style }} h4">Categories</p>
           <ul class="list-unstyled text-d10-{{ theme_style }}">
             {% for category in page.categories %}
               <li>{{ category }} </li>
             {% endfor %}
           </ul>
-        {% endif %}        
+        {% endif %}      
       </div>
       <hr class="mb-3 mt-1">
     </div>
