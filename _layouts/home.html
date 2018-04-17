@@ -13,7 +13,9 @@ layout: default
   nav.navbar{
     border-bottom:solid 1px #343a40;
   }
-
+  .bt-5{
+    border-top: solid 5px #ffcd59;
+  }
 </style>
 
 <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--boating-edit.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
@@ -92,29 +94,29 @@ layout: default
   </div>
 </div>
 
-  <div id="products" class="container-fluid whatare pt-5">
-    <div class="container" >
-      <div class="row h-100 py-5" style="margin:3% 0px;">
-        <div class="col-12">
-          <h2 class="text-center display-3 mb-3">Products</h2>
-        </div>
-        <div class="col-12 col-md-6">
-          <h3 class=" text-center">Spinning Reels</h3>
-          <a href="/spinning-reels/">          
-            <img src="/assets/images/home--generation-2-spin-power-grip.jpg" class="rounded">
-            <h3 class="h5 text-center pt-3 text-d20-two">Browse Our Selections</h3>
-          </a>
-        </div>
-        <div class="col-12 col-md-6">
-          <h3 class=" text-center">Fly Reels</h3>
-          <a href="/fly-reels/waitlist/">
-            <img src="/assets/images/home--fly-reel.jpg" class="rounded">
-            <h3 class="h5 text-center pt-3 text-d20-two">Coming Soon</h3>
-          </a>
-        </div>
+<div id="products" class="bt-5 container-fluid whatare ">
+  <div class="container" >
+    <div class="row h-100 py-5" style="margin:3% 0px;">
+      <div class="col-12">
+        <h2 class="text-center display-3 mb-3">Products</h2>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class=" text-center">Spinning Reels</h3>
+        <a href="/spinning-reels/">          
+          <img src="/assets/images/home--generation-2-spin-power-grip.jpg" class="rounded">
+          <h3 class="h5 text-center pt-3 text-d20-two">Browse Our Selections</h3>
+        </a>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class=" text-center">Fly Reels</h3>
+        <a href="/fly-reels/waitlist/">
+          <img src="/assets/images/home--fly-reel.jpg" class="rounded">
+          <h3 class="h5 text-center pt-3 text-d20-two">Coming Soon</h3>
+        </a>
       </div>
     </div>
   </div>
+</div>
 
   
 {{ content }}

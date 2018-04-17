@@ -8,7 +8,7 @@ author_title: Senior Pro Staff
 author_image: /assets/images/pro-staff/russ.png
 # tags: 
 #     - Bass
-categories:
+locations:
     - Cape Cod, MA
 ---
 
