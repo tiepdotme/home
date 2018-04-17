@@ -21,11 +21,11 @@ slug: Sign up and be notified when updates are available
 # theme_style: grey
 
 cta-text: Join the Waitlist
-cta-url: '#mc-embedded-subscribe-form'
+cta-url: '#content'
 ---
 
 <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup " class="col-12 col-lg-4">
+<div id="mc_embed_signup " >
     <form action="https://irtreels.us18.list-manage.com/subscribe/post?u=793d03288aae50840f4b1967f&amp;id=c1e8fecfbc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
 	        <h2>Join the Fly Reel Waitlist</h2>
@@ -62,5 +62,5 @@ cta-url: '#mc-embedded-subscribe-form'
 
 <!--End mc_embed_signup-->
 
-![Fly Reel Teaser](/assets/images/teaser--fly-reel-2.jpg){:class="img-fluid rounded" width="100%"}
-{:class="col-12 col-lg-8 text-right"}
+<!-- ![Fly Reel Teaser](/assets/images/teaser--fly-reel-2.jpg){:class="img-fluid rounded" width="100%"} -->
+<!-- {:class="col-12 col-lg-8 text-right"} -->
