@@ -16,7 +16,7 @@
  footer.footer{
    background: url('/assets/images/ship-shadow.png');
    background-repeat: no-repeat;
-   background-position: 90% 90%;
+   background-position: 100% 90%;
  }
  .brand-foot{
    background: #231F20;
@@ -107,7 +107,7 @@
   
     {% assign links = site.data.navigation %}
 
-    <div class="container py-5">
+    <div class="container mt-5 py-3" style="background:rgba(0,0,0,0.3);border-radius:10px">
       <div class="row justify-content-lg-center justify-content-start">
 
         {% for link in links %}
@@ -115,15 +115,15 @@
             {% for sublink in link.sublinks %}
               {% if forloop.first %}
                 <div class="my-3 col-6 col-lg-3">
-                  <h5>{{ sublink.title }}</h5>
+                  <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
                   <ul class="list-unstyled m-0">
               {% elsif sublink.header == true %}
                 <div class="my-3 col-6 col-lg-3">              
-                  <h5>{{ sublink.title }}</h5>
+                  <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
                   <ul class="list-unstyled m-0">                  
               {% else %}
                 {% if sublink.title != 'separator' %}              
-                  <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
+                  <li><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></li>
                 {% endif %}              
               {% endif %}
           
@@ -133,12 +133,12 @@
             {% endfor %}
           {% elsif link.title == "Blog" %}
             <div class="my-3 col-6 col-lg-3">
-              <h4 ><a href="{{ link.url }}" style="color:white">{{ link.title }}</a></h4>
+              <h4 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h4>
               
               
               <ul class="list-unstyled  m-0" >
                 {% for post in site.posts limit:5 %}
-                  <li class="my-2" style="line-height: 1;"><a href="{{ post.url }}" style="color:white"><small>{{ post.title }}</small></a></li>
+                  <li class="my-2" style="line-height: 1;"><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
                 {% endfor %}
               </ul>
             </div>
@@ -158,7 +158,7 @@
                 {% if sublink.title == 'Coming Soon' %}
                   <li>{{ sublink.title }}</li>     
                 {% else %}           
-                  <li><a href="{{ sublink.url }}" style="color:white">{{ sublink.title }}</a></li>
+                  <li><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></li>
                 {% endif %}
                
               {% endfor %}            
