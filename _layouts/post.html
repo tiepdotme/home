@@ -41,21 +41,31 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
       <p class="post-meta text-d20-{{ theme_style }} h3">{{ page.date | date: "%b %-d, %Y" }}</p>
       <p class="post-meta text-d20-{{ theme_style }} h5 py-2">{{ page.author_name }}</p>
       <p class="post-meta text-d20-{{ theme_style }}"><small>{{ page.author_title }}</small></p>
-      <hr class="mb-3 mt-1">
+      {% if page.author_image %}
+        <img src="{{ page.author_image }}" class="mb-3">
+      {% endif %}
       <div class="d-none d-lg-block">
-        <p class="text-d20-{{ theme_style }} h4">Fish</p>
-        <ul class="list-unstyled text-d10-{{ theme_style }}">
-          {% for tag in page.tags %}
-            <li>{{ tag }}</li>
-          {% endfor %}
-        </ul>
-        <hr class="mb-3 mt-1">
-        <p class="text-d20-{{ theme_style }} h4">Locations</p>
-        <ul class="list-unstyled text-d10-{{ theme_style }}">
+        {% if page.tags[0] %}
+          <hr class="mb-3 mt-1">
+          <p class="text-d20-{{ theme_style }} h4">Fish</p>
+          <ul class="list-unstyled text-d10-{{ theme_style }}">
+            {% for tag in page.tags %}
+              {% if forloop.first %}
+              {% endif %}
+              <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if page.categories[0] %}
+        
+          <hr class="mb-3 mt-1">
+          <p class="text-d20-{{ theme_style }} h4">Locations</p>
+          <ul class="list-unstyled text-d10-{{ theme_style }}">
             {% for category in page.categories %}
               <li>{{ category }} </li>
             {% endfor %}
           </ul>
+        {% endif %}        
       </div>
       <hr class="mb-3 mt-1">
     </div>
