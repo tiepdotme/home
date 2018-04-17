@@ -5,7 +5,7 @@ date:   2017-09-20  11:47:00 -0400
 author_name: Jeff C.
 author_title: Guest Blogger and Bass Fisherman
 categories: 
-    - Expidition
+    - Fishing Expedition
     - Fall Advice
 fish: 
     - Bass

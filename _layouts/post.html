@@ -47,10 +47,10 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
       <div class="d-none d-lg-block">
         {% if page.fish[0] %}
           <hr class="mb-3 mt-1">
-          <p class="text-d20-{{ theme_style }} h4">Fish</p>
           <ul class="list-unstyled text-d10-{{ theme_style }}">
             {% for fish in page.fish %}
               {% if forloop.first %}
+                <li><p class="text-d20-{{ theme_style }} h4">Fish</p></li>
               {% endif %}
               <li>{{ fish }}</li>
             {% endfor %}
