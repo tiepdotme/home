@@ -28,7 +28,7 @@ Now before the water gets up to the sixty degree mark, the fish are in what is c
 Let’s start with the bass. The smallmouth will spawn when water gets into the high 50’s. They like to spawn in eddies on rivers, and in or near marinas, marshes, docks on lakes. Largemouth will also seek some sort of shallow cover to spawn such as docks, logs, lily pads and any other cover they can seek out. Look for white spots on the bottom, this is an area where the fish have cleared the silt, sand on the bottom to find the hard bottom. This is where the female will lay her eggs.
 
 
-![fish](/assets/images/blog--maa.jpg){:alt="chinook-salmon-underwater-photo" class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+![fish](/assets/images/blog--maa.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
 
 
 Bass during these two periods are always eager to take a crankbait or soft plastic bait. It is tough for them to pass up a plastic stick bait like a Senko. Throw it out and let it flutter down and they often cannot resist it. A tube jig is another bait that just catches fish. If you do find a bass on a bed, bring your soft plastic on the bed and often times they will eat the bait immediately. There are times though, where the fish do not want anything to do with it. Always remember your states laws about fishing during the spawn. In some states you may not cast on a visible nesting bass. If your state does allow it, please get the fish right back in the water, so it can continue its circle of life in the water.
