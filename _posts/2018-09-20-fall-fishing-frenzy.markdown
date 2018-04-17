@@ -2,8 +2,8 @@
 layout: post
 title:  "Fall Fishing Frenzy: Choosing the Right Bait"
 date:   2017-09-20  11:47:00 -0400
-categories: jekyll update
-author_name: JEFF C.
+categories: Fishing Frenzy
+author_name: Jeff C.
 author_title: Guest Blogger and Bass Fisherman
 tags: 
     - Bass
