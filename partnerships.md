@@ -5,5 +5,4 @@ long_title: Partnerships
 # description: Some tagline could go
 permalink: /about/partnerships/
 menu: main
-theme_style: two
 ---

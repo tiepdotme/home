@@ -26,40 +26,6 @@ layout: default
 <div class="container">
   <div class="row">
 
-      <div class="col-12 ">
-        <h2>Pro Staff</h2>
-        <div class="container-fluid">
-  
-          {% assign pros = site.partnerships | where:'partner-type', 'pro' | sort: 'title'  %}
-          <div class="row">
-          {% for pro in pros %}
-            {% if pro.website_url %}
-              <div class="col-12 col-lg-4 text-d10-{{ theme_style }}">
-                <h2>
-                  {% for rep in pro.representatives %}
-                    {% if forloop.first %}
-                      {{ rep }}
-                    {% else %}
-                      and {{ rep }}
-                    {% endif %}
-                  {% endfor %}
-                </h2>
-                <ul class="list-unstyled">
-                  <li><a target="_blank" href="{{ pro.website_url}}">{{ pro.title }}</a></li>
-                  <li>{{ pro.location }}</li>
-                </ul>
-  
-  
-              </div>
-              {% endif %}
-              {% endfor %}
-            </div>
-  
-          
-        </div>
-      </div>
-
-
     <div class="col-12 ">
       <h2>Charters</h2>
       <div class="container-fluid">
