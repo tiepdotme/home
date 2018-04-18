@@ -1,7 +1,7 @@
 ---
 partner-type: pro
 title: Al Gag's Fishing Lures
-url: https://www.algagsfishinglures.com/
+website_url: https://www.algagsfishinglures.com/
 location: Massachusetts
 representatives: Mimi Dimauro
 # image: /assets/images/testimonials/catch--frank_tobias.gif

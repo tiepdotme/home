@@ -1,7 +1,7 @@
 ---
 partner-type: charter
 title: Reel Action Fishing Charters
-url: https://www.actionfishingmyrtlebeach.com/
+website_url: https://www.actionfishingmyrtlebeach.com/
 location: North Myrtle Beach, SC 29582
 representatives: 
     - Captain John 

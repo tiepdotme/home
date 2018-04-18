@@ -22,15 +22,15 @@ github_username:  ndkline
 github_url: https://github.com/ndkline/solar-flair
 
 sitemap:
-    filename: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+  filename: "/sitemap.xml"
+  exclude:
+      - "/atom.xml"
+      - "/feed.xml"
+      - "/feed/index.xml"
+  include_posts:
+      - "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
 
 # Resources
 # resources:
@@ -94,6 +94,8 @@ collections:
     output: false
   spinning-reels:
     output: true
+  partnerships:
+    output: false
 
 
 

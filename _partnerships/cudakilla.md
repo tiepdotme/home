@@ -1,7 +1,7 @@
 ---
 partner-type: pro
 title: Cudakilla
-url: https://cudakilla.com/
+website_url: https://cudakilla.com/
 location: Austin, TX
 representatives: Roland Lee
 # image: /assets/images/testimonials/catch--frank_tobias.gif

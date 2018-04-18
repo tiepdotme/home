@@ -1,7 +1,7 @@
 ---
 partner-type: pro
 title: Team Woozy / Remote Anglers
-url: https://www.remoteanglers.com/
+website_url: https://www.remoteanglers.com/
 location: Rhode Island
 representatives:
     - Joe Manansala 

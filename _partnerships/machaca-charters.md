@@ -1,7 +1,7 @@
 ---
 partner-type: pro
 title: Machaca Charters
-url: https://cudakilla.com/
+website_url: https://cudakilla.com/
 location: Massachusetts
 representatives: Captain Will Hatch
 # image: /assets/images/testimonials/catch--frank_tobias.gif

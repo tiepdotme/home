@@ -1,7 +1,7 @@
 ---
 partner-type: charter
 title: A-Squared Charters
-url: http://a2charters.com/
+website_url: http://a2charters.com/
 location: Hatteras, NC
 representatives: Captain Armando Alejo
 # image: /assets/images/testimonials/catch--frank_tobias.gif

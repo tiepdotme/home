@@ -1,7 +1,7 @@
 ---
 partner-type: pro
 title: Black Hole USA / JIG N POP
-url: https://jignpop.com/
+website_url: https://jignpop.com/
 location: Englewood Cliffs, NJ
 representatives: Kil Song
 # image: /assets/images/testimonials/catch--frank_tobias.gif
