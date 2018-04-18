@@ -59,7 +59,15 @@ layout: default
           <div class="row">
             <div class="col-12 text-d10-{{ theme_style }}">
               <h2>
-                  <a target="_blank" href="{{ pro.website_url}}">{{ pro.title }}</a>
+                <a target="_blank" href="{{ pro.website_url}}">
+                  {% for rep in pro.representatives %}
+                    {% if forloop.first %}
+                      {{ rep }}
+                    {% else %}
+                      and {{ rep }}
+                    {% endif %}
+                  {% endfor %}
+                </a>
               </h2>
               <p>{{ pro.location }}</p>
             </div>
