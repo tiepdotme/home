@@ -1,8 +1,8 @@
 ---
 partner-type: pro
-title: Team Woozy / Remote Anglers
+title: Remote Anglers
 website_url: https://www.remoteanglers.com/
-location: Rhode Island
+location: Apponaug, RI
 representatives:
     - Joe Manansala 
     - Nina Ji
