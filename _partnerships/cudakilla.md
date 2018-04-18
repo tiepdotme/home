@@ -1,9 +1,9 @@
 ---
 partner-type: charter
-title: Black Hole USA / JIG N POP
-url: https://jignpop.com/
-location: Englewood Cliffs, NJ
-representative: Kil Song
+title: Cudakilla
+url: https://cudakilla.com/
+location: Austin, TX
+representative: Roland Lee
 # image: /assets/images/testimonials/catch--frank_tobias.gif
 ---
 
