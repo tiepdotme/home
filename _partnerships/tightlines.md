@@ -1,6 +1,6 @@
 ---
 partner-type: charter
-title: Cudakilla
+title: TightLines
 url: http://www.fishtightline.com/
 location: Hatteras, NC
 representatives: Captain Aaron Aaron
