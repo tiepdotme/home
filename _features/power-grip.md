@@ -18,7 +18,7 @@ Our [Spin Power Grip™](/info/patents/power-grip/) technology is a revolutionar
 
 After reviewing feedback that was gathered through extensive field testing, Innovative Reel Technologies has made design enhancements to our patented Spinning Power Grip™ (SPG) technology. 
 
-![test](http://via.placeholder.com/1500x950){:class="img-fluid rounded float-right ml-4 mb-3" width="60%"}
+![power grip](/assets/images/reels/power-grip-rocks--small.jpg){:class="img-fluid rounded float-right ml-4 mb-3" width="60%"}
 
 
 The first generation of SPG featured finger grooves on the underside of the reel foot. The second generation of the SPG has eliminated the finger grooves for a sleeker, more universal design that is compatible with hands of all shapes and sizes. These changes improve the SPG’s main goals: providing additional leverage and comfortable ergonomics. 

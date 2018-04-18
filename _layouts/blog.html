@@ -32,10 +32,10 @@ layout: default
 
     <div class="col-12 ">
       <div id="news" class="container-fluid">
-
+ 
         
 
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <div class="row">
           <div class="col-3 text-right " >
             <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
