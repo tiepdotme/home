@@ -16,9 +16,6 @@ weight: 1
 
 Our [Spin Power Grip™](/info/patents/power-grip/) technology is a revolutionary and patented design that provides critical performance advantages to fishermen. 
 
-[<i class="fas fa-lightbulb " ></i> Patent Details](/info/patents/power-grip)
-
-
 After reviewing feedback that was gathered through extensive field testing, Innovative Reel Technologies has made design enhancements to our patented Spinning Power Grip™ (SPG) technology. 
 
 The first generation of SPG featured finger grooves on the underside of the reel foot. The second generation of the SPG has eliminated the finger grooves for a sleeker, more universal design that is compatible with hands of all shapes and sizes. These changes improve the SPG’s main goals: providing additional leverage and comfortable ergonomics. 

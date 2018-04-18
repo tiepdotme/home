@@ -3,12 +3,13 @@ title: Method for Manufacturing
 type: 
   - tech
   - patents
+layout: patents
+permalink: /info/patents/manufacturing-methodology/
 # image: /assets/images/feature--generation-2-spin-power-grip.gif
 description: This invention is a method for manufacturing a spinning reel from an extrusion and in particular the frame or housing of a spinning reel. 
 patent_number:  US 7,886,588 B2
 patent_filed:  December 21, 2006
 patent_assigned:  June 26, 2008
-published: false
 ---
 
 This invention is a method for manufacturing a spinning reel from an extrusion and in particular the frame or housing of a spinning reel. 
