@@ -1,5 +1,5 @@
 ---
-partner-type: pro
+partner-type: charter
 title: Machaca Charters
 website_url: http://machacacharters.com/
 location: Massachusetts
