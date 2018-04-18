@@ -28,24 +28,71 @@ layout: default
 
 
     <div class="col-12 ">
-      <div id="news" class="container-fluid">
+      <h2>Charters</h2>
+      <div class="container-fluid">
 
-        
-
-        {% for post in site.partnerships %}
-        {% if post.website_url %}
-        <div class="row">
-          <div class="col-12 text-d10-{{ theme_style }}">
-            <h2>
-                <a target="_blank" href="{{ post.website_url}}">{{ post.title }}</a>
-            </h2>
+        {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'location'  %}
+        {% for charter in charters %}
+          {% if charter.website_url %}
+          <div class="row">
+            <div class="col-12 text-d10-{{ theme_style }}">
+              <h2>
+                  <a target="_blank" href="{{ charter.website_url}}">{{ charter.title }}</a>
+              </h2>
+              <p>{{ charter.location }}</p>
+            </div>
           </div>
-        </div>
-        {% endif %}
+          {% endif %}
         {% endfor %}
+
+       
       </div>
     </div>
 
+    <div class="col-12 ">
+      <h2>Pro Staff</h2>
+      <div class="container-fluid">
 
+        {% assign pros = site.partnerships | where:'partner-type', 'pro' | sort: 'title'  %}
+        {% for pro in pros %}
+          {% if pro.website_url %}
+          <div class="row">
+            <div class="col-12 text-d10-{{ theme_style }}">
+              <h2>
+                  <a target="_blank" href="{{ pro.website_url}}">{{ pro.title }}</a>
+              </h2>
+              <p>{{ pro.location }}</p>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+
+        
+      </div>
+    </div>
+
+    <div class="col-12 ">
+      <h2>Dealers</h2>
+      <div class="container-fluid">
+
+        {% assign dealers = site.partnerships | where:'partner-type', 'dealer' | sort: 'title'  %}
+        {% for dealer in dealers %}
+
+          <div class="row">
+            <div class="col-12 text-d10-{{ theme_style }}">
+              <h2>
+                  {{ dealer.title }}
+                  <!-- <a target="_blank" href="{{ dealer.website_url}}">{{ dealer.title }}</a> -->
+              </h2>
+              <p>{{ dealer.location }}</p>
+            </div>
+          </div>
+
+        {% endfor %}
+
+        
+      </div>
+    </div>
+    
   </div>
 </div>
