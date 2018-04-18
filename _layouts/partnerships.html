@@ -21,6 +21,8 @@ layout: default
   </div>
 </div>
 
+
+
 <div class="container">
   <div class="row">
 
@@ -105,5 +107,33 @@ layout: default
       </div>
     </div>
     
+  </div>
+
+  
+</div>
+
+<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+        border:none;
+    }
+    /* header{display: none!important} */
+</style>
+<a id="map" ></a>
+<div  class=" container-fluid" style="padding-top:68px">
+  <div class="row">
+    <div class="col-12 google-maps">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1gJ0fl4ISVD_T5-4aDZ6CMw7881M" width="640" height="480"></iframe>
+    </div>
   </div>
 </div>
