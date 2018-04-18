@@ -91,7 +91,7 @@ collections:
   testimonials:
     output: false
   features:
-    output: false
+    output: true
   spinning-reels:
     output: true
   partnerships:
