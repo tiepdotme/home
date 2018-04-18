@@ -1,0 +1,16 @@
+---
+partner-type: pro
+title: Al Gag's Fishing Lures
+url: https://www.algagsfishinglures.com/
+location: Massachusetts
+representatives: Mimi Dimauro
+# image: /assets/images/testimonials/catch--frank_tobias.gif
+---
+
+Al has been making fishing lures since 1978 and has developed some of the most innovative lures in the business. 
+
+Al’s Gab’s Grabber Needle Fish lure was showcased as one of the Top 10 Best Classic Lures by the fishing tackle catalog.
+
+Al’s newest lure the Whip-It Eel is his best invention yet, with a custom molded head with lifelike eyes and a shape that adds a natural swimming action to this jig and eel tail. 
+
+From Trout to Tuna you will catch every game fish there is in the USA or abroad.
