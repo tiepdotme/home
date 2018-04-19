@@ -47,8 +47,8 @@ layout: default
             <h2>
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <div>{{ post.excerpt }}</div>
-            <p class="text-right mb-5"><a class="text-d20-{{ theme_style }}" href="{{ post.url | prepend: site.baseurl }}">Continue Reading...</a></p>
+            <div class="clearfix">{{ post.excerpt }}</div>
+            <p class="text-right mb-5"><a class="text-d20-{{ theme_style }}" href="{{ post.url | prepend: site.baseurl }}"><small>Continue Reading...</small></a></p>
           </div>
         </div>
         {% endfor %}
