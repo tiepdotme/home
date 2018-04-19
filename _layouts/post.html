@@ -105,7 +105,7 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
         
         <hr class="mb-3 mt-1">        
         <ul class="list-unstyled  m-0" >
-          {% for post in site.posts limit:10 %}
+          {% for post in site.posts limit:5 %}
             {% if forloop.first %}        
             <li><p class="text-d20-{{ theme_style }} h4">Recent Blogs</p></li>
             {% endif %}

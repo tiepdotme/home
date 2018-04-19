@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "400 Spinning Reel Prototype Successful in Delaware Testing"
-date:   2014-07-21  16:37:00 -0400
+date:   2014-06-16  16:37:00 -0400
 # author_name: 
 # author_title: 
 categories: 
