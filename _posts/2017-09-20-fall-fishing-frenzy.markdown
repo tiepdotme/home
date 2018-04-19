@@ -6,7 +6,7 @@ author_name: Jeff C.
 author_title: Guest Blogger and Bass Fisherman
 categories: 
     - Fishing Expedition
-    - Fall Advice
+    - Fishing Tips and Tricks
 fish: 
     - Bass
     - Panfish
