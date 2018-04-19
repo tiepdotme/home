@@ -41,18 +41,23 @@ With that being said, I now have the privilege of testing the IRT 300 size spinn
 
 ![Small Chinook on 10lb mono from shore in Chicago, Illinois.](/assets/images/blog--ross-chinook.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
 
-
-
 In conclusion, the most gratifying aspect of all of this is to be a part of something. Part of what IRT means and stands for: a collective comprised of friends, family, acquaintances, master anglers and overall positive individuals to create and share the joy of fishing. AMERICAN MADE.
 
-<img class="aligncenter wp-image-2093 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/dennyKingMackerel_IRT700.jpg" alt="dennykingmackerel_irt700" width="503" height="895" />
-<p style="text-align: center;"><strong>Captain Derek Nelson and Dennis Unger with an exceptional King Mackerel aboard Fin-Again. Teach's Lair in Hatteras, North Carolina.</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2100 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/rossGreyWahoo_IRT700.jpg" alt="rossgreywahoo_irt700" width="736" height="895" />My Nephew, Grey, with his first Wahoo on IRT 700 and Black Hole Challenger combo aboard GOODTIMES in Hatteras, North Carolina.</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2095 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/aaronRedfish_IRT400.jpg" alt="aaronredfish_irt400" width="1024" height="576" />Captain Aaron with Aaron of Tightline Charters in Hatteras, North Carolina. One of our biggest supporters with yet another over slot redfish.</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2096 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/kilAndFriendCedros_IRT400.png" alt="kilandfriendcedros_irt400" width="503" height="895" />Kil Song, representative for Black Hole USA putting IRT to the test. A true master of angling.</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2102 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/rossScott_Dinner.jpg" alt="rossscott_dinner" width="671" height="895" />IRT Pro Staff Angler Scott Binkley and I with a haul of dinner,</strong>
-<strong> North Myrtle Beach, South Carolina</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2094 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/joshKathyRedfish_IRT400.jpg" alt="joshkathyredfish_irt400" width="895" height="895" />Captain Josh Small and IRT Pro Staff Angler Kathy Binkley with a big ol' redfish from North Myrtle Beach, South Carolina</strong></p>
+![Captain Derek Nelson and Dennis Unger with an exceptional King Mackerel aboard Fin-Again. Teach's Lair in Hatteras, North Carolina.](/assets/images/blog--denny-king-mackerel.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![My Nephew, Grey, with his first Wahoo on IRT 700 and Black Hole Challenger combo aboard GOODTIMES in Hatteras, North Carolina.](/assets/images/blog--ross-grey-wahoo.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![Captain Aaron with Aaron of Tightline Charters in Hatteras, North Carolina. One of our biggest supporters with yet another over slot redfish.](/assets/images/blog--aaron-redfish.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![Kil Song, representative for Black Hole USA putting IRT to the test. A true master of angling.](/assets/images/blog--kil-and-cedros.png){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![IRT Pro Staff Angler Scott Binkley and I with a haul of dinner, North Myrtle Beach, South Carolina](/assets/images/blog--ross-scott-dinner.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![Captain Josh Small and IRT Pro Staff Angler Kathy Binkley with a big ol' redfish from North Myrtle Beach, South Carolina](/assets/images/blog--josh-kathy-redfish.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+
+
+
 I look forward to what the future of IRT holds. I've found my team, this is going to be fun.
 
 ~Ross Scroble
