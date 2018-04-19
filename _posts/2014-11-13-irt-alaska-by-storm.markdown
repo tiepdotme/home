@@ -6,10 +6,12 @@ date:   2014-11-13  16:37:00 -0400
 # author_title: 
 categories: 
     - Meta
-# fish: 
-#     - Catfish
-# locations:
-#     - x
+fish: 
+    - Halibut
+locations:
+    - Kodiak, AK
+reels:
+    - 700 Spinning
 ---
 ![fishing in alaska](/assets/images/blog--alaska.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3 border" width="60%"}
 Captain Wes Coward, who guides for Larsen Bay Lodge in Kodiak, Alaska, was sent four IRT Power Grip 700 reels to test and evaluate during the summer of 2014. Captain Wes used 150lb. braid on IRT’s large arbor reels and his own [Delco Cheetah Cat jig](http://www.delcocheetahcat.com/){: target="_blank"} to target halibut off the bottom of Larsen Bay. Some of Captain Wes’ thoughts:
