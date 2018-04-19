@@ -8,8 +8,8 @@ categories:
     - Fishing Expidition
 fish: 
     - Baracuda
-locations:
-    - Pine Grove, PA
+# locations:
+#     - Pine Grove, PA
 reels:
     - 700 Spinning
 ---
