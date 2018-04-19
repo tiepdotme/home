@@ -25,4 +25,21 @@ These reels are designed and manufactured for use in both salt and fresh water a
 
 Service provided by IRT’s expert personnel can include maintenance from normal wear and tear to severe damage from a rough fishing trip. IRT can also make adjustments to the drag, gear operation, and reel balance, just to name a few.
 
-<center><iframe src="//www.youtube.com/embed/YpihehIXTVU?rel=0" height="475" width="800" allowfullscreen="" frameborder="0"></iframe></center>
+<style>
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+</style>
+<div class="video-responsive">
+    <iframe src="//www.youtube.com/embed/YpihehIXTVU?rel=0" height="475" width="800" allowfullscreen="" frameborder="0"></iframe>
+</div>
