@@ -37,9 +37,15 @@ In the summer of 2014, Scott arranged for me to test the 400 sized spinning reel
 
 With that being said, I now have the privilege of testing the IRT 300 size spinning reel. Salmon in Lake Michigan and redfish in Hatteras make this thing sing, but eventually the drag quits howling and the reel wins. I enjoy light tackle fishing with larger game, which makes this reel a perfect union in the style of fishing I've come to love.
 
-<p style="text-align: center;"><img class="aligncenter wp-image-2101 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/rossRedfish_IRT300.jpg" alt="rossredfish_irt300" width="895" height="895" /><strong>40lb red sight casted in a foot of water in Pamlico Sound, Hatteras, North Carolina</strong></p>
-<p style="text-align: center;"><strong><img class="aligncenter wp-image-2099 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/rossChinook_IRT300.jpg" alt="rosschinook_irt300" width="671" height="895" />Small Chinook on 10lb mono from shore in Chicago, Illinois.</strong></p>
-In conclusion, the most gratifying aspect of all of this is to be a part of something. Part of what IRT means and stands for: a collective comprised of friends, family, acquaintances, master anglers and overall positive individuals to create and share the joy of fishing. AMERICAN MADE.<img class="aligncenter wp-image-2093 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/dennyKingMackerel_IRT700.jpg" alt="dennykingmackerel_irt700" width="503" height="895" />
+![40lb red sight casted in a foot of water in Pamlico Sound, Hatteras, North Carolina](/assets/images/blog--ross-redfish.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+![Small Chinook on 10lb mono from shore in Chicago, Illinois.](/assets/images/blog--ross-chinook.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="60%"}
+
+
+
+In conclusion, the most gratifying aspect of all of this is to be a part of something. Part of what IRT means and stands for: a collective comprised of friends, family, acquaintances, master anglers and overall positive individuals to create and share the joy of fishing. AMERICAN MADE.
+
+<img class="aligncenter wp-image-2093 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/dennyKingMackerel_IRT700.jpg" alt="dennykingmackerel_irt700" width="503" height="895" />
 <p style="text-align: center;"><strong>Captain Derek Nelson and Dennis Unger with an exceptional King Mackerel aboard Fin-Again. Teach's Lair in Hatteras, North Carolina.</strong></p>
 <p style="text-align: center;"><strong><img class="aligncenter wp-image-2100 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/rossGreyWahoo_IRT700.jpg" alt="rossgreywahoo_irt700" width="736" height="895" />My Nephew, Grey, with his first Wahoo on IRT 700 and Black Hole Challenger combo aboard GOODTIMES in Hatteras, North Carolina.</strong></p>
 <p style="text-align: center;"><strong><img class="aligncenter wp-image-2095 size-full" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2016/09/aaronRedfish_IRT400.jpg" alt="aaronredfish_irt400" width="1024" height="576" />Captain Aaron with Aaron of Tightline Charters in Hatteras, North Carolina. One of our biggest supporters with yet another over slot redfish.</strong></p>
