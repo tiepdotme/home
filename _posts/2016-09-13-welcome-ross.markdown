@@ -2,14 +2,21 @@
 layout: post
 title:  "Welcome Ross Scroble to the IRT Team"
 date:   2016-09-13  13:01:00 -0400
-# author_name: 
-# author_title: 
+author_name: Ross Scroble
+author_title: Pro Staff
 categories: 
     - Pro Staff
-# fish: 
-#     - Catfish
-# locations:
-#     - x
+fish: 
+    - Blackfin
+    - Striped Bass
+    - Shark
+    - Chinook
+    - King Mackerel 
+    - Wahoo
+locations:
+    - Hatteras, NC
+    - Chicago, Illinois
+    - Myrtle Beach, SC
 ---
 
 I was first introduced to IRT by my friend Scott Binkley in 2009. The years prior, he had reintroduced me to the passion of saltwater fishing. One day, before heading to Belmar, New Jersey, he handed me a blue and gold reel and said, "Give this a go on these Whopper Blues." He then stated that his friend, Greg Header, had decided to venture into the reel business. I graciously accepted this reel, and the rest has become somewhat of a wild ride into the world of design, mechanics, and testing of these innovative reels.
