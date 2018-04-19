@@ -8,8 +8,8 @@ categories:
     - Meta
 # fish: 
 #     - Maui Maui
-# locations:
-#     - Pine Grove, PA
+locations:
+    - Pine Grove, PA
 # reels:
 #     - 700 Spinning
 ---

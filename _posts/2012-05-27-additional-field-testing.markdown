@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Additional Field Testing
-date:   2012-05-17  11:45:00 -0400
+date:   2012-05-27  11:45:00 -0400
 # author_name: 
 # author_title: 
 categories: 

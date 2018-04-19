@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  Welcome Carl!
-date:   2012-05-17  11:44:00 -0400
+date:   2012-03-08  11:44:00 -0400
 # author_name: 
 # author_title: 
 categories: 
     - Meta
 # fish: 
 #     - Maui Maui
-# locations:
-#     - Pine Grove, PA
+locations:
+    - Pine Grove, PA
 # reels:
 #     - 700 Spinning
 ---
