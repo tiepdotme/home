@@ -5,15 +5,13 @@ date:   2013-12-13  15:27:00 -0400
 # author_name: 
 # author_title: 
 categories: 
-    - Fishing Expedition
-    - Testing
-fish: 
-    - Blue Gill
-    
+    - Outreach
+# fish: 
+#     - Blue Gill
 locations:
-    - DE
-reels:
-    - 400 Spinning
+    - Pine Grove, PA
+# reels:
+#     - 400 Spinning
 ---
 
 
