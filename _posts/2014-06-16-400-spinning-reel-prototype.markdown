@@ -5,7 +5,8 @@ date:   2014-07-21  16:37:00 -0400
 # author_name: 
 # author_title: 
 categories: 
-    - Meta
+    - Fishing Expedition
+    - Testing
 fish: 
     - Flounder
     - Striped Bass
