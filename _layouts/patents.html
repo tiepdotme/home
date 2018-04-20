@@ -5,9 +5,16 @@ layout: default
 
 <div class="container mt-10" >
   <div class="row">
-    <div class="col-11">
-      <h1 class=" text-uppercase text-d20-grey">{{ page.title }}</h1>
+    <div class="col-12 col-lg-10 my-auto">
+      <h1 class=" text-uppercase text-d20-grey my-0">{{ page.title }}</h1>
     </div>
+    {% if page.patent_download %}
+      <div class="col-2  my-auto">
+        <a href="{{ page.patent_download }}" class="d-flex justify-content-end align-items-baseline">
+          <i class="fas fa-download  fa-2x"></i>
+        </a>
+      </div>
+    {% endif %}
   </div>
 </div>
 
