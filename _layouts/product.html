@@ -36,6 +36,63 @@ layout: default
 
 
 <main class="container mt-10" aria-label="Content">
+  <div class="row">
+
+    <div class="col-12">
+      <h1>{{ page.title }}</h1>
+      <p style="min-height:72px">{{ page.description }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h2>Technical Specifications</h2>
+    </div>
+    <div class="col-12 col-lg-4">   
+      <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
+      <ul class="list-unstyled text-right mx-0">
+        <li><span class="float-left">Weight:</span> {{ page.weight }}</li>
+        <li><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
+        {% if page.power-drag  %}
+          <li><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
+        {% else %}
+          <li><span class="float-left">Power Drag Option:</span> n/a</li>
+        {% endif %}
+        <li><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
+        <li><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
+        <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
+      </ul>
+      
+    </div>
+    <div class="col-12 col-lg-4">
+      <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
+      <ul class="list-unstyled">
+        {% for blc in page.braided-line-capacity %}
+          <li>{{ blc }} <small>yds/lbs</small></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-12 col-lg-4">    
+      <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
+      <ul class="list-unstyled">
+        {% for mlc in page.mono-line-capacity %}
+          <li>{{ mlc }} <small>yds/lbs</small></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-12 col-lg-4">   
+      <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
+      <ul class="list-unstyled" style="min-height:144px">
+        {% for fish in page.fish_recommendation %}
+        <li>{{ fish }}</li>
+        {% endfor %}
+      </ul>
+      
+      <img src="{{ page.fish }}">  
+
+
+    </div>
+  </div>
 
   <article class="row">
 
