@@ -19,9 +19,6 @@ locations:
 #     - 800 Spinning
 ---
 
-
-*From the Online Bass Fishing Guide*
-
 Bill Wilcox is sponsored by Ranger Boats, Yamaha Outboards, MCMC, BG Products, Pro Rule, Johnson Fiberglass, Brown's Automotive, Continental Batteries, Kistler Rods, Swamp Hog Lures, Strike King Lures, and Fun-n-Sun Sports Center.
 When you enter a tournament at this time of the year you'll face constantly changing conditions. But, by and large, these will be factors you can use to your advantage.
 Bass will be coming out of their summer feeding slump. They will be very actively feeding and the plus side is that they'll be making a move toward shallow water.
@@ -50,3 +47,5 @@ During that tournament I fished a Carolina rig some of the time, but the fish wo
 That's what I mean by reading the water because not everything will work on your favorite lake.
 
 Experiment during practice fishing days because the bass will act different in the fall and you don't want to wait until tournament day to be experimenting. When you approach your fall tournaments, learn to use the changing conditions and other factors to your advantage. Don't let a change in the weather psychologically change your attitude about the fishing in a negative way because very often that change can make for a winning day.
+
+*From the Online Bass Fishing Guide*
