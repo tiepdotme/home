@@ -8,6 +8,7 @@ permalink: /info/patents/power-grip/
 image: /assets/images/reels/power-grip-rocks--small.jpg
 description: Our Spin Power Grip™ technology is a revolutionary and patented design that provides critical performance advantages to fishermen. 
 
+patent_image: /assets/images/patent--spin-power-grip.png
 patent_number: US D560,267 S
 patent_filed: July 14, 2006
 patent_assigned: January 22, 2008
