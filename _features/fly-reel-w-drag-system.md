@@ -6,7 +6,7 @@ layout: patents
 permalink: /info/patents/fly-reel-drag-system/
 image: /assets/images/patent--fly-reel.png
 
-# description:  
+description:  This invention relates to fishing reels and in particular, a fly fishing reel having a drag assembly and removable spool.
 
 patent_image: /assets/images/patent--fly-reel.png
 patent_number: US 9,038,934 B2
