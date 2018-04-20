@@ -2,7 +2,7 @@
 layout: product
 permalink: /spinning-reels/800-series/
 title: 800 Series
-price: 849.00
+price: "849.00"
 description: The 800 series spinning reel is designed for heavy surf fishing and medium offshore duties.
 long_description: The 800 series spinning reel is IRT’s largest reel to date and is designed for heavy surf fishing and medium offshore duties, such as trolling for kingfish in the ocean. This is the reel that will best handle larger wahoo, tuna, amberjack, shark, and gaffer sized mahi mahi. With our optional Power Drag, this reel is capable of 55-65 lbs of drag.
 braided-line-capacity: 

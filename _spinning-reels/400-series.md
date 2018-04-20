@@ -2,7 +2,7 @@
 layout: product
 permalink: /spinning-reels/400-series/
 title: 400 Series
-price: 549.00
+price: "549.00"
 description: The 400 series spinning reel is designed for surf and inshore applications.
 long_description: The 400 series spinning reel is designed for surf and inshore applications. The reel is best outfitted with 10-15 lb. test monofilament line or 20 lb. braided line and a medium to fast action rod. This model works well for catching bull redfish, striped bass, flounder, bluefish, cobia, small mouth bass, salmon, muskie, pike, and other medium to large size salt and fresh water fish. The 400 series reel is a great all-around reel for surf, pier, and inshore fishing.
 braided-line-capacity: 
