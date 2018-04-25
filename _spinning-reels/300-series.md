@@ -5,6 +5,9 @@ title: 300 Series
 price: "519.00"
 description: The 300 series spinning reel is versatile, balancing size and power. 
 long_description: The 300 series spinning reel is versatile, balancing size and power. This spinning reel is designed for kayak and in-shore fishing applications, and works well as either in salt water for flounder and redfish or in fresh water for small mouth bass, salmon, and muskie. The 300 series spinning reel nicely complements a rod with a 8-12 lb. test monofilament line or 15 lb. braided line.
+features:
+  - Aluminum Body
+  - Customizable colors and engraving
 braided-line-capacity: 
     - 300/15
     - 280/20

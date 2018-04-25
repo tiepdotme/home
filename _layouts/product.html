@@ -36,14 +36,31 @@ layout: default
 
 
 <main class="container mt-10" aria-label="Content">
+  
   <div class="row">
 
-    <div class="col-8">
-      <h1>{{ page.title }}</h1>
-      <p style="min-height:72px">{{ page.description }}</p>
+    <div class="col-8 my-auto">
+      <h1 class="p-5" style="background:url( '{{ page.fish }}' ); background-size: cover;     background-size: 372px;     background-repeat: no-repeat; text-shadow: black 1px 1px; color: white;">{{ page.title }}</h1>
+      <p class="lead py-2 my-5">{{ page.description }}</p>
     </div>
     <div class="col-4">
-        <img src="{{ page.fish }}">        
+        <!-- <img  src="{{ page.fish }}">      -->
+         <ul class="list-unstyled m-0" style="min-height:144px">
+      <!-- <p class="" >  -->
+          {% for fish in page.fish_recommendation %}
+
+              <li class="lead text-right text-uppercase text-l20-grey">{{ fish }}</li>
+
+          {% endfor %}
+        <!-- </p> -->
+        </ul>   
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">   
+      <!-- <p class="mb-1"><strong>Fishing Recommendations:</strong></p> -->
+     
+      
     </div>
   </div>
 
@@ -83,17 +100,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <div class="col-12 col-lg-4">   
-      <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
-      <ul class="list-unstyled" style="min-height:144px">
-        {% for fish in page.fish_recommendation %}
-        <li>{{ fish }}</li>
-        {% endfor %}
-      </ul>
-      
-
-
-    </div>
+    
   </div>
 
   <article class="row">
