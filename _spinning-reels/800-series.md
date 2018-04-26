@@ -20,7 +20,7 @@ gear-ratio:  4.78
 bearings: 9
 line-retrieval: 39 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/fish--shark.gif
+fish: /assets/images/fish--shark.png
 fish_recommendation:
     - Shark
     - Sailfish
