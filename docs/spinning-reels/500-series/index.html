@@ -60,7 +60,7 @@
     <meta content="/spinning-reels/500-series/" property="og:url">
   
   
-    <meta content="2018-04-26T11:29:25-04:00" property="article:published_time">
+    <meta content="2018-04-26T12:44:09-04:00" property="article:published_time">
     <!-- <meta content="/about/" property="article:author"> -->
   
   
@@ -864,6 +864,10 @@
   body{
     margin-bottom:72px;
   }
+  html{
+    background: #231F20;
+  }
+  footer.footer{display: none;}
   #content > ul > li > a.active:hover{
     color:white;
   }
@@ -882,10 +886,10 @@
   </div> -->
 
 
-<main class="container-fluid my-5 pt-5 grad-three"  >
+<div class="container-fluid mt-5 pt-5 grad-three" >
   
   <!-- <div class="row" style="background:url( '/assets/images/fish--tarpon.png' ); background-size: 300px;  background-position:top center;      background-repeat: no-repeat; "> -->
-  <div class="row">
+  <div class="row" >
 
     <div class="col-4 my-auto pl-5">
       <h1 class="pr-5 py-5 pl-3" >500 Series</h1>
@@ -925,16 +929,29 @@
       <p class="lead my-3 pb-3 pl-3">The 500 series spinning reel is designed for heavier freshwater applications like large catfish.</p>      
     </div>
   </div>
-</main>
-<div class="container">
-  <div class="row">
-    <div class="col-12">   
-      <!-- <p class="mb-1"><strong>Fishing Recommendations:</strong></p> -->
-     
+  <div class=" d-flex  align-items-center justify-content-center" id="spinner" style="height:50vh">
       
+    <div>
+      <div class="container-fluid align-self-center text-l30-grey">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="fa-3x">
+              <i class="fas fa-circle-notch fa-spin"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="m-0"><small>loading...</small></p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
+  </div>
+</div>
+
+<div class="container" id="reel" style="display: none">
   <article class="row">
 
     
@@ -1012,7 +1029,7 @@
 
         
     
-      <footer class="footer">
+      <footer class="footer" id="footer">
 
   
  
