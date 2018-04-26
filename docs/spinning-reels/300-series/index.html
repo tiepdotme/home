@@ -60,7 +60,7 @@
     <meta content="/spinning-reels/300-series/" property="og:url">
   
   
-    <meta content="2018-04-26T10:43:54-04:00" property="article:published_time">
+    <meta content="2018-04-26T10:48:15-04:00" property="article:published_time">
     <!-- <meta content="/about/" property="article:author"> -->
   
   
@@ -1774,7 +1774,7 @@
       // id: product-component-4f546b5b8a3
      
       var checkExist = setInterval(function() {
-        if ($('iframe[name=frame-product-575758073911]').length) {
+        if ($('iframe[name^=frame-product]').length) {
             console.log("Exists!");
             clearInterval(checkExist);
         }

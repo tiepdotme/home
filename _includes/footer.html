@@ -316,7 +316,7 @@
       // id: product-component-4f546b5b8a3
      
       var checkExist = setInterval(function() {
-        if ($('iframe[name=frame-product-575758073911]').length) {
+        if ($('iframe[name^=frame-product]').length) {
             console.log("Exists!");
             clearInterval(checkExist);
         }
