@@ -310,6 +310,20 @@
         });
       </script>
     {% endif %}
+    {% if page.layout == "product" %}
+      
+    <script type="text/javascript">
+      // id: product-component-4f546b5b8a3
+     
+      var checkExist = setInterval(function() {
+        if ($('iframe[name=frame-product-575758073911]').length) {
+            console.log("Exists!");
+            clearInterval(checkExist);
+        }
+      }, 100); // check every 100ms
+
+      </script>
+  {% endif %} 
   {% else %}
     <script src="http://flair.planning.localhost/assets/jquery/dist/jquery.js" media="nope!" onload="this.media='all'"></script>
     <script src="http://flair.planning.localhost/assets/jquery.easing/jquery.easing.js" media="nope!" onload="this.media='all'"></script>
@@ -323,7 +337,21 @@
         $(document).ready(function() {
           $.timeliner({});
         });
+        
       </script>
+    {% endif %}
+    {% if page.layout == "product" %}
+      
+      <script type="text/javascript">
+        // id: product-component-4f546b5b8a3
+        console.log('test');
+        $(document).ready(function(){
+           $("#product-component-4f546b5b8a3").change(function(){
+              alert( $("#product-component-4f546b5b8a3").attr("value") );
+           });
+        });
+        
+        </script>
     {% endif %}
   {% endif %}
 {% endif %}

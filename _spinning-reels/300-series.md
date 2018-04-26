@@ -31,12 +31,9 @@ fish_recommendation:
     - Muskie
 ---
 
-<!-- <div class="fa-3x">
-  <i class="fas fa-circle-notch fa-spin"></i>
-</div> -->
 
-<div id='product-component-4f546b5b8a3'></div>
-<script type="text/javascript">
+<div id='product-component-4f546b5b8a3' ></div>
+<script type="text/javascript" onload="loaded=1">
 /*<![CDATA[*/
 
 (function () {
@@ -67,7 +64,6 @@ fish_recommendation:
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      
       ui.createComponent('product', {
         id: [575758073911],
         node: document.getElementById('product-component-4f546b5b8a3'),
