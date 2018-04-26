@@ -22,7 +22,7 @@ gear-ratio: 4.55
 bearings: 9
 line-retrieval: 24 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/icon--redfish.png
+fish: /assets/images/fish--redfish.png
 fish_recommendation:
     - Redfish
     - Flounder

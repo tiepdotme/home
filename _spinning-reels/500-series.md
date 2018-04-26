@@ -20,7 +20,7 @@ gear-ratio: 4.55
 bearings: 9
 line-retrieval: 30 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/icon--tarpon.png
+fish: /assets/images/fish--tarpon.png
 fish_recommendation:
     - Bluefish
     - Sailfish

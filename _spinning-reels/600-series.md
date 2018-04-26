@@ -20,7 +20,7 @@ gear-ratio:  4.78
 bearings: 9
 line-retrieval: 33 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/icon--swordfish.png
+fish: /assets/images/fish--swordfish.png
 fish_recommendation:
     - Sailfish
     - Swordfish

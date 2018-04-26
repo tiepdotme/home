@@ -20,7 +20,7 @@ gear-ratio:  4.78
 bearings: 9
 line-retrieval: 36 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/icon--tuna.png
+fish: /assets/images/fish--tuna.png
 fish_recommendation:
     - Tuna
     - White Marlin

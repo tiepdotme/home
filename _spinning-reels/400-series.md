@@ -19,7 +19,7 @@ gear-ratio: 4.55
 bearings: 9
 line-retrieval: 27 inches
 image: http://via.placeholder.com/500x250
-fish: /assets/images/icon--striped-bass.png
+fish: /assets/images/fish--striped-bass.png
 fish_recommendation:
     - Stripers
     - Flounder
