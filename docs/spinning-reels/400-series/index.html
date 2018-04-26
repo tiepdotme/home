@@ -60,7 +60,7 @@
     <meta content="/spinning-reels/400-series/" property="og:url">
   
   
-    <meta content="2018-04-26T12:44:09-04:00" property="article:published_time">
+    <meta content="2018-04-26T15:35:46-04:00" property="article:published_time">
     <!-- <meta content="/about/" property="article:author"> -->
   
   
@@ -886,7 +886,7 @@
   </div> -->
 
 
-<div class="container-fluid mt-5 pt-5 grad-three" >
+<div class="container-fluid mt-5 pt-5 grad-three" style="max-height:100vh">
   
   <!-- <div class="row" style="background:url( '/assets/images/fish--striped-bass.png' ); background-size: 300px;  background-position:top center;      background-repeat: no-repeat; "> -->
   <div class="row" >
@@ -899,7 +899,7 @@
     </div>
     <div class="col-4 pr-5">
         <!-- <img  src="/assets/images/fish--striped-bass.png">      -->
-         <ul class="list-unstyled m-0 pr-3" style="min-height:144px">
+         <ul class="list-unstyled m-0 pr-3">
       <!-- <p class="" >  -->
           
 
@@ -929,13 +929,12 @@
       <p class="lead my-3 pb-3 pl-3">The 400 series spinning reel is designed for surf and inshore applications.</p>      
     </div>
   </div>
-  <div class=" d-flex  align-items-center justify-content-center" id="spinner" style="height:50vh">
-      
-    <div>
+  <div  id="spinner" >
+    <div class="d-flex align-items-center justify-content-center" style="height:75vh">
       <div class="container-fluid align-self-center text-l30-grey">
         <div class="row">
           <div class="col-12 text-center">
-            <div class="fa-3x">
+            <div class="fa-5x">
               <i class="fas fa-circle-notch fa-spin"></i>
             </div>
           </div>
@@ -951,19 +950,14 @@
   </div>
 </div>
 
-<div class="container" id="reel" style="display: none">
+<div class="container" id="reel" >
   <article class="row">
 
     
-    <div class="col-12">
-      <h1 class="display-5 text-uppercase"></h1>
-    </div>
-    
-    
 
 
     
-    <div class="col-12 mb-5" id="content">
+    <div class="col-12 mb-5 py-5" id="content">
       
 
     </div>
@@ -974,7 +968,7 @@
   </article>
 
 
-  <div class="row">
+  <div class="row mb-5" id="reel-details" style="display:none">
     <div class="col-12">
       <h2>Technical Specifications</h2>
     </div>
@@ -991,30 +985,33 @@
         <li><span class="float-left">Line Retrieval:</span> 27 inches</li>
       </ul>
       
-    </div>
-    <div class="col-12 col-lg-4">
+    
       <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
       <ul class="list-unstyled">
         
-          <li>450/20 <small>yds/lbs</small></li>
-        
-          <li>340/30 <small>yds/lbs</small></li>
         
           <li>250/40 <small>yds/lbs</small></li>
         
+          <li>340/30 <small>yds/lbs</small></li>
+        
+          <li>450/20 <small>yds/lbs</small></li>
+        
       </ul>
-    </div>
-    <div class="col-12 col-lg-4">    
+        
       <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
       <ul class="list-unstyled">
         
-          <li>280/10 <small>yds/lbs</small></li>
-        
-          <li>240/12 <small>yds/lbs</small></li>
         
           <li>200/15 <small>yds/lbs</small></li>
         
+          <li>240/12 <small>yds/lbs</small></li>
+        
+          <li>280/10 <small>yds/lbs</small></li>
+        
       </ul>
+    </div>
+    <div class="col-12 col-lg-8 px-5">
+      <img class="img-fluid border" src="/assets/images/exploded-spinning-reel.png">
     </div>
     
   </div>
@@ -1541,6 +1538,9 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
 </footer>
 
 
+
+
+
   
     <script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
     <script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
@@ -1558,6 +1558,20 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
       var checkExist = setInterval(function() {
         if ($('iframe[name^=frame-product]').length) {
             console.log("Exists!");
+           
+
+            setTimeout(function(){
+              // $("#spinner").delay(2100).hide();
+              $("#footer").delay(1000).show();
+
+              $( "#spinner" ).animate({
+                height: "0vh",
+                opacity: 0,
+              }, 1000 );
+              
+              $("#reel-details").delay(2500).show();
+            }, 1000);
+
             clearInterval(checkExist);
         }
       }, 100); // check every 100ms
@@ -1569,12 +1583,9 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
 
 
 
+<!-- hack for cart to appear on all pages -->
 
-<!-- 
-even heights on /spinning/reels  
-<script>
-$("#p-2").height($("#p-3").height());
-</script> -->
+
     
 
   </body>

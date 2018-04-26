@@ -1410,6 +1410,9 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
 </footer>
 
 
+
+
+
   
     <script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
     <script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
@@ -1425,12 +1428,215 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
 
 
 
+<!-- hack for cart to appear on all pages -->
 
-<!-- 
-even heights on /spinning/reels  
-<script>
-$("#p-2").height($("#p-3").height());
-</script> -->
+<div id='product-component-e1e432057c0' class="d-none"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'the-innovative-shop.myshopify.com',
+      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [587099144247],
+        node: document.getElementById('product-component-e1e432057c0'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "options": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "description": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat",
+      "Open Sans",
+      "Montserrat",
+      "Open Sans",
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "description": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat",
+      "Open Sans",
+      "Montserrat",
+      "Open Sans",
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Open Sans, sans-serif"
+      },
+      "select": {
+        "font-family": "Open Sans, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
     
 
   </body>

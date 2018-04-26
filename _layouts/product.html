@@ -54,7 +54,7 @@ layout: default
   </div> -->
 
 
-<div class="container-fluid mt-5 pt-5 grad-three" >
+<div class="container-fluid mt-5 pt-5 grad-three" style="max-height:100vh">
   
   <!-- <div class="row" style="background:url( '{{ page.fish }}' ); background-size: 300px;  background-position:top center;      background-repeat: no-repeat; "> -->
   <div class="row" >
@@ -67,7 +67,7 @@ layout: default
     </div>
     <div class="col-4 pr-5">
         <!-- <img  src="{{ page.fish }}">      -->
-         <ul class="list-unstyled m-0 pr-3" style="min-height:144px">
+         <ul class="list-unstyled m-0 pr-3">
       <!-- <p class="" >  -->
           {% for fish in page.fish_recommendation %}
 
@@ -81,13 +81,12 @@ layout: default
       <p class="lead my-3 pb-3 pl-3">{{ page.description }}</p>      
     </div>
   </div>
-  <div class=" d-flex  align-items-center justify-content-center" id="spinner" style="height:50vh">
-      
-    <div>
+  <div  id="spinner" >
+    <div class="d-flex align-items-center justify-content-center" style="height:75vh">
       <div class="container-fluid align-self-center text-l30-grey">
         <div class="row">
           <div class="col-12 text-center">
-            <div class="fa-3x">
+            <div class="fa-5x">
               <i class="fas fa-circle-notch fa-spin"></i>
             </div>
           </div>
@@ -103,19 +102,14 @@ layout: default
   </div>
 </div>
 
-<div class="container" id="reel" style="display: none">
+<div class="container" id="reel" >
   <article class="row">
 
-    {% if page.cover == null %}
-    <div class="col-12">
-      <h1 class="display-5 text-uppercase">{{ page.long_title | escape }}</h1>
-    </div>
-    {% endif %}
     
 
 
     {% if content %}
-    <div class="col-12 mb-5" id="content">
+    <div class="col-12 mb-5 py-5" id="content">
       {{ content }}
     </div>
     {% endif %}
@@ -125,7 +119,7 @@ layout: default
   </article>
 
 
-  <div class="row">
+  <div class="row mb-5" id="reel-details" style="display:none">
     <div class="col-12">
       <h2>Technical Specifications</h2>
     </div>
@@ -144,22 +138,25 @@ layout: default
         <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
       </ul>
       
-    </div>
-    <div class="col-12 col-lg-4">
+    
       <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
       <ul class="list-unstyled">
-        {% for blc in page.braided-line-capacity %}
+        {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
+        {% for blc in braided-line-capacity %}
           <li>{{ blc }} <small>yds/lbs</small></li>
         {% endfor %}
       </ul>
-    </div>
-    <div class="col-12 col-lg-4">    
+        
       <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
       <ul class="list-unstyled">
-        {% for mlc in page.mono-line-capacity %}
+        {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
+        {% for mlc in mono-line-capacity %}
           <li>{{ mlc }} <small>yds/lbs</small></li>
         {% endfor %}
       </ul>
+    </div>
+    <div class="col-12 col-lg-8 px-5">
+      <img class="img-fluid border" src="/assets/images/exploded-spinning-reel.png">
     </div>
     
   </div>
