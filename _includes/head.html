@@ -1,0 +1,131 @@
+<head>
+  {% assign theme_style = page.theme_style | default: site.theme_style   %}
+  {% assign favicon = site.data.theme[theme_style].favicon    %}
+  {% assign color = site.data.theme[theme_style].color    %}
+  
+  
+  {% if site.gtm_id  %}
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
+  <!-- End Google Tag Manager -->
+  {%  endif %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible"    content="IE=edge">
+  <meta name="viewport"                 content="width=device-width, initial-scale=1">
+
+  <!-- Tracking Validation: Yandex, Bing, FB, Google  -->
+  <meta name="yandex-verification"      content="6ab77a64a91c54d0" />
+  <meta name="msvalidate.01"            content="AB51D345A8E49FBE4FC0756234B693D2" />
+  <meta property="fb:app_id"            content="398910240558764" />
+  <meta name="google-site-verification" content="fSi6TL-h5uyqo_2NjG-XPaS0qZMXo3PiOBumy3N6ZEM" />
+
+  <!-- Meta Tags -->
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+ 
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ favicon }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon }}/favicon-16x16.png">
+  <link rel="manifest" href="{{ favicon }}/site.webmanifest">
+  <link rel="mask-icon" href="{{ favicon }}/safari-pinned-tab.svg" color="{{ color }}">
+  <link rel="shortcut icon" href="{{ favicon }}/favicon.ico">
+  <meta name="msapplication-TileColor" content="{{ color }}">
+  <meta name="msapplication-config" content="{{ favicon }}/browserconfig.xml">
+  <meta name="theme-color" content="{{ color }}">
+
+
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="{{ favicon }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon }}/favicon-16x16.png">
+  <link rel="manifest" href="{{ favicon }}/site.webmanifest">
+  <link rel="mask-icon" href="{{ favicon }}/safari-pinned-tab.svg" color="{{ color }}">
+  <meta name="msapplication-TileColor" content="{{ color }}">
+  <meta name="theme-color" content="#ffffff"> -->
+  
+  <!-- Open Graph Tags -->
+  <meta content="{{ site.title }}" property="og:site_name">
+  {% if page.title %}
+    <meta content="{{ page.long_title }}" property="og:title">
+  {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+  {% if page.long_title %}
+    <meta content="article" property="og:type">
+  {% else %}
+    <meta content="website" property="og:type">
+  {% endif %}
+  {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">
+  {% else %}
+    <meta content="{{ site.description }}" property="og:description">
+  {% endif %}
+  {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  {% endif %}
+  {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
+  {% endif %}
+  {% if page.cover %}
+    <meta content="{{ page.cover }}" property="og:image">
+    <meta content="{{ page.cover_alt }}" property="og:image:alt">
+  {% else %}
+    <meta content="{{ site.url }}/assets/images/cover-photos/optimized-home-cover.jpg" property="og:image">
+    <meta content="Planning your greenhouse cover photo" property="og:image:alt">
+  {% endif %}
+  {% if page.categories %}
+    {% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">
+    {% endfor %}
+  {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">
+    {% endfor %}
+  {% endif %}
+
+{% if site.asset_cdn == 2  %}
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+{% elsif site.asset_cdn == 1 }
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  
+{% else %}
+  {% if jekyll.environment == "production" %}
+    <link async rel="stylesheet"  href="https://flair.planning.solar/assets/bootstrap/dist/css/bootstrap.min.css" media="none" onload="if(media!=='all')media='all'">
+    <link async rel="stylesheet"  href="https://flair.planning.solar/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" media="none" onload="if(media!=='all')media='all'">  
+
+    {% if page.layout == "timeline" %}
+      <!-- Timeline Dependentcies -->
+      <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/timeliner.min.css" media="none" onload="if(media!=='all')media='all'">        
+      <!-- <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/responsive.css" media="none" onload="if(media!=='all')media='all'">         -->
+    {% endif %}
+
+
+  {% else %}
+    <link rel="stylesheet" href="https://flair.planning.localhost/assets/bootstrap/dist/css/bootstrap.css" media="nope!" onload="this.media='all'">
+    <link rel="stylesheet" href="https://flair.planning.localhost/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.css" media="nope!" onload="this.media='all'">  
+
+    {% if page.layout == "timeline" %}
+      <!-- Timeline Dependentcies -->
+      <link async rel="stylesheet"  href="https://flair.planning.localhost/assets/timeliner/css/timeliner.css" media="none" onload="if(media!=='all')media='all'">        
+      <!-- <link async rel="stylesheet"  href="/assets/timeliner/css/responsive.css" media="none" onload="if(media!=='all')media='all'">         -->
+    {% endif %}
+  {% endif %}
+{% endif %}
+  
+  <link async rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" media="none" onload="if(media!=='all')media='all'">
+
+  <link  rel="canonical" href="{{ site.url | replace:'index.html','' | absolute_url }}">
+  <link  rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+
+  
+  
+</head>
