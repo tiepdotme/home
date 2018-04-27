@@ -21,7 +21,7 @@ max-drag: 25 lbs.
 gear-ratio: 4.55
 bearings: 9
 line-retrieval: 24 inches
-image: http://via.placeholder.com/500x250
+image: /assets/images/products/300-spg-blue-silver.jpg
 fish: /assets/images/fish--redfish.png
 fish_recommendation:
     - Redfish

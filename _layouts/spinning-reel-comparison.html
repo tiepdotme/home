@@ -27,7 +27,7 @@ layout: default
           {% assign reels = site.spinning-reels  %}
           {% for reel in reels %}
             <div class=" col-4 my-5">
-              <img src="http://via.placeholder.com/500x250" class="mb-3">
+              <img src="{{ reel.image }}" class="mb-3 border rounded">
               <h2 class="h3">
                 {{ reel.title }}
               </h2>

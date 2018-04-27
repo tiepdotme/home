@@ -19,7 +19,7 @@ power-drag: 55-65 lbs.
 gear-ratio:  4.78
 bearings: 9
 line-retrieval: 39 inches
-image: http://via.placeholder.com/500x250
+image: /assets/images/products/800-spg-gold-gold.gif
 fish: /assets/images/fish--shark.png
 fish_recommendation:
     - Shark

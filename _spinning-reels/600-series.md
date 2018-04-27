@@ -19,7 +19,7 @@ power-drag: 40-50 lbs.
 gear-ratio:  4.78
 bearings: 9
 line-retrieval: 33 inches
-image: http://via.placeholder.com/500x250
+image: /assets/images/products/600-spg-silver-blue.gif
 fish: /assets/images/fish--swordfish.png
 fish_recommendation:
     - Sailfish

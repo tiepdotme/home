@@ -19,7 +19,7 @@ power-drag: 35+ lbs.
 gear-ratio: 4.55
 bearings: 9
 line-retrieval: 30 inches
-image: http://via.placeholder.com/500x250
+image: /assets/images/products/500-spg-green-gold.jpg
 fish: /assets/images/fish--tarpon.png
 fish_recommendation:
     - Bluefish
