@@ -21,11 +21,10 @@ line-retrieval: 27 inches
 image: /assets/images/products/400-spg-red-silver.png
 fish: /assets/images/fish--striped-bass.png
 fish_recommendation:
-    - Stripers
-    - Flounder
-    - Cobia
-    - Small Mouth Bass
-    - Salmon
+    - Redfish
+    - Striped Bass
+    - Bluefish
+    - Snapper
 ---
 
 

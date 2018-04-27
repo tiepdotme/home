@@ -22,11 +22,11 @@ line-retrieval: 30 inches
 image: /assets/images/products/500-spg-silver-silver.jpg
 fish: /assets/images/fish--tarpon.png
 fish_recommendation:
-    - Bluefish
-    - Sailfish
-    - Tarpon
-    - Catfish
+    - Tarpon 
+    - Bull 
+    - Redfish 
     - Large Stripers
+    - Mahi Mahi
 
 ---
 

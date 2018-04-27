@@ -22,12 +22,11 @@ line-retrieval: 36 inches
 image: /assets/images/products/700-spg-silver-red.gif
 fish: /assets/images/fish--tuna.png
 fish_recommendation:
-    - Tuna
     - White Marlin
-    - King Mackerel
-    - Sailfish
-    - Mahi
+    - Grouper
+    - Tuna
     - Sharks
+
 ---
 
 

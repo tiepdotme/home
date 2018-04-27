@@ -22,11 +22,12 @@ line-retrieval: 33 inches
 image: /assets/images/products/600-spg-silver-blue.gif
 fish: /assets/images/fish--swordfish.png
 fish_recommendation:
-    - Sailfish
-    - Swordfish
+    - Tuna
     - King Mackerel
-    - Mahi Mahi
+    - Amberjack
+    - Wahoo
 ---
+
 
 
 

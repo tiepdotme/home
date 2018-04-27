@@ -24,11 +24,10 @@ line-retrieval: 24 inches
 image: /assets/images/products/300-spg-blue-silver.jpg
 fish: /assets/images/fish--redfish.png
 fish_recommendation:
+    - Small Mouth Bass 
+    - Flounder 
     - Redfish
-    - Flounder
-    - Small Mouth Bass
     - Salmon
-    - Muskie
 ---
 
 
