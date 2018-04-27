@@ -26,7 +26,7 @@ layout: default
         <div class="row">
           {% assign reels = site.spinning-reels  %}
           {% for reel in reels %}
-            <div class=" col-4 my-5">
+            <div class=" col-4 my-5 ">
               <img src="{{ reel.image }}" class="mb-3 border rounded">
               <h2 class="h3">
                 {{ reel.title }}
@@ -70,14 +70,14 @@ layout: default
 
               <button type="button" class="btn btn-primary btn-lg btn-block my-3" onclick="location.href='{{ reel.url }}'">Customize</button>
 
-              <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
+              <!-- <p class="mb-1"><strong>Fishing Recommendations:</strong></p>
               <ul class="list-unstyled" style="min-height:144px">
                 {% for fish in reel.fish_recommendation %}
                 <li>{{ fish }}</li>
                 {% endfor %}
-              </ul>
+              </ul> -->
               
-              <img src="{{ reel.fish }}">  
+              <!-- <img src="{{ reel.fish }}">   -->
 
             </div>
           {% endfor %}

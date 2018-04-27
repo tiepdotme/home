@@ -19,7 +19,7 @@ power-drag: 50-60 lbs.
 gear-ratio:  4.78
 bearings: 9
 line-retrieval: 36 inches
-image: /assets/images/products/700-spg-red-silver.gif
+image: /assets/images/products/700-spg-silver-red.gif
 fish: /assets/images/fish--tuna.png
 fish_recommendation:
     - Tuna
