@@ -63,7 +63,7 @@ layout: default
           </div>
           <div class="my-auto col-8 {% cycle 'order-2', 'order-1' %}">
             {% if feature.image %}
-              <img src="{{ feature.image }}" class="rounded">
+              <img src="{{ feature.image }}" class="rounded border">
             {% else %}            
               <img src="http://via.placeholder.com/900x650">
             {% endif %}
@@ -92,7 +92,7 @@ layout: default
           <div class="my-auto col-8">
             <!-- <img src="{{ feature.image }}"> -->
             {% if feature.image %}
-              <img src="{{ feature.image }}" class="rounded">
+              <img src="{{ feature.image }}" class="rounded border">
             {% else %}            
               <img src="http://via.placeholder.com/1500x950">
             {% endif %}         
@@ -123,7 +123,7 @@ layout: default
         {% if feature.image %}
         <div class="row">
           <div class="my-auto offset-2 col-8">
-            <img src="{{ feature.image }}">
+            <img src="{{ feature.image }}" class="rounded ">
             <!-- <img src="http://via.placeholder.com/1500x950">             -->
           </div>
         </div>
@@ -154,7 +154,7 @@ layout: default
             {% elsif customization.image %}
             <div class="col-12">            
                 {% if customization.image %}
-                  <img src="{{ customization.image }}" class="rounded">
+                  <img src="{{ customization.image }}" class="rounded border">
                 {% else %}            
                   <img src="http://via.placeholder.com/1500x950">
                 {% endif %}            
