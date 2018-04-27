@@ -10,12 +10,12 @@
       image: http://via.placeholder.com/450x250
     - name: Power with vents
       image: http://via.placeholder.com/450x250
-- title: Internal Gear System
-  options:
-    - name: Oil Filled 
-      image: http://via.placeholder.com/450x250
-    - name: Lubricated
-      image: http://via.placeholder.com/450x250
+# - title: Internal Gear System
+#   options:
+#     - name: Oil Filled 
+#       image: http://via.placeholder.com/450x250
+#     - name: Lubricated
+#       image: http://via.placeholder.com/450x250
 - title: Spool
   options:
     - name: Holed
