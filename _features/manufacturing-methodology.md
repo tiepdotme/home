@@ -5,7 +5,7 @@ type:
   - patents
 layout: patents
 permalink: /info/patents/manufacturing-methodology/
-# image: /assets/images/feature--generation-2-spin-power-grip.gif
+image: /assets/images/shop.jpg
 description: This invention is a method for manufacturing a spinning reel from an extrusion and in particular the frame or housing of a spinning reel. 
 
 patent_image: /assets/images/patent--manufacture.png
@@ -16,7 +16,7 @@ patent_download: /assets/pdf/US7866588.pdf
 
 ---
 
-This invention is a method for manufacturing a spinning reel from an extrusion and in particular the frame or housing of a spinning reel. 
+IRT's patented [method for manufacturing](/info/patents/manufacturing-methodology/) ensures a reel with superior construction. 
 
 ![test](http://via.placeholder.com/1500x950){:class="img-fluid rounded float-right ml-4 mb-3" width="60%"}
 
