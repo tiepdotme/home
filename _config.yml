@@ -99,6 +99,8 @@ collections:
     output: true
   partnerships:
     output: false
+  media:
+    output: false
 
 
 

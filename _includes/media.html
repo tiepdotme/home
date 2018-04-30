@@ -1,0 +1,52 @@
+
+
+
+
+{% if id="*"  %}
+<!-- image gallery -->
+
+
+
+
+{% else %}
+<!-- sinlge image -->
+
+
+
+    {% assign id = include.id %}
+    <h3>{{ id }}</h3>
+    <!-- {% assign media = site.media | where: "id", "a9dd5552" %} -->
+    {% assign media = site.media | where: "id", id | first %}
+    
+    
+    <a href="{{ media.image }}" data-toggle="lightbox"  
+        data-footer="
+
+            <div class='p-2'>
+                <p class='align-self-start text-right m-0' style='display:block;width:100%;'>{{ media.description }} </p>
+            </div>
+            <div class='p-2'>
+                <p class='lead m-0'>{{ media.angler-name }} </p>
+            </div>                
+            <div class='p-2'>
+                <a href='https://twitter.com/{{ media.angler-links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a> 
+                <a href='{{ media.angler-links.facebook }}'><i class='mx-2 fa-2x  fab fa-facebook-square'></i></a> 
+                <a href='{{ media.angler-links.twitter }}'><i class='mx-2 fa-2x  fas fa-globe'></i></a> 
+            </div>
+
+
+
+        
+        ">
+        <img src="{{ media.image }}" class="img-fluid">
+    </a>
+    
+    <!-- {% for item in media %}
+        <p>{{item.id}}</p>
+        <a href="{{ item.image }}" data-toggle="lightbox" data-max-width="600">
+            <img src="{{ item.image }}" class="img-fluid">
+        </a>
+    {% endfor %} -->
+
+{% endif %}
+

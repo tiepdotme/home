@@ -300,10 +300,18 @@
     <script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
     <script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
     <script src="https://flair.planning.solar/assets/bootstrap/dist/js/bootstrap.bundle.min.js" media="nope!" onload="this.media='all'"></script>
-    <script src="https://flair.planning.solar/assets//scrollreveal/dist/scrollreveal.min.js" media="nope!" onload="this.media='all'"></script>
+    <script src="https://flair.planning.solar/assets/scrollreveal/dist/scrollreveal.min.js" media="nope!" onload="this.media='all'"></script>
+    <script src="/assets/lightbox/dist/ekko-lightbox.min.js" media="nope!" onload="this.media='all'"></script>
     <!-- <script src="https://flair.planning.solar/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script> -->
     <script src="/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script>
   
+    <script  media="nope!" onload="this.media='all'">
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    
+    </script>
     {% if page.layout == "timeline" %}
       <!-- Timeline Dependentcies -->
       <script src="https://flair.planning.solar/assets/timeliner/js/timeliner.min.js" media="nope!" onload="this.media='all'"></script>
