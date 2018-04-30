@@ -12,7 +12,11 @@
     {% assign caption = caption |  append: "<div class='p-2 d-flex  flex-column'>"  %}
     
     {%  if media.fish %}
-        {% assign caption = caption |   append: "<span class='mt-2 badge badge-secondary'><span class='text-capitalize'>" | append: media.fish | append: "</span> <br><br>" | append: media.fish-length | append: " "  | append: media.fish-weight  | append: "</span>" %}
+        {% assign caption = caption |   append: "<span class='mt-2 badge badge-secondary'><span class='text-capitalize'>" | append: media.fish | append: "</span>" %}
+        {%  if media.fish-length and media.fish-weight  %}
+            {% assign caption = caption |   append: " <br><br>" | append: media.fish-length | append: " "  | append: media.fish-weight  %}
+        {% endif %}
+        {% assign caption = caption |   append: "</span>" %}
     {%  endif %}
 
     {% if media.reel-series %}
@@ -38,8 +42,10 @@
         {% assign caption = caption |   append: "<p class='m-0'><small>" | append: media.location  | append: "</small></p>" %}
     {% endif %}
     
-    {% assign caption = caption |  append: "<hr class='my-2'>"  %}
-        
+    
+    {% if media.angler-links.instagram or media.angler-links.twitter or media.angler-links.facebook or media.angler-links.pinterest or media.angler-links.website%}
+        {% assign caption = caption |  append: "<hr class='my-2'>"  %}
+    {% endif %}
 
     {% if media.angler-links.instagram  %}
         {% assign caption = caption |   append: "<a href='" | append: media.angler-links.instagram  | append: "'><i class='mx-2 fa-2x  fab fa-instagram'></i></a>" %}
@@ -64,7 +70,7 @@
     {% assign caption = caption |  append: "</div>"  %}        
 {% endif %}
 <a href="{{ media.image }}" data-toggle="lightbox"  data-footer="{{ caption }}" {% if include.data-gallery %} data-gallery="{{ include.data-gallery }}" {% endif %} {% if include.class %} class="{{ include.class }}" {% endif %}>
-    <img src="{{ media.image }}" class="img-fluid rounded border">
+    <img src="{{ media.thumb }}" class="img-fluid rounded border">
 </a>
 
 

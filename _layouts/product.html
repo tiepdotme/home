@@ -2,13 +2,6 @@
 layout: default
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-        {% include media-gallery.html data-gallery="s300"   %}
-    </div>
-  </div>
-</div>
 
 <!-- Product Line Nav -->
 <ul class="nav nav-pills nav-fill fixed-bottom p-3 m-0" style="background:white;">
@@ -162,15 +155,7 @@ layout: default
     
 
     <div class="col-12">
-      <h2>Action Reel</h2>
-      <div class="container-fluid mb-3">
-        <div class="row">
-          <div class="col-4">
-              {% include media.html id="/media/a9dd5552"   %}
-              
-            </div>
-        </div>
-      </div>
+      {% include media-gallery.html data-gallery="s300" reel-series="300" reel-type="spinning" %}
     </div>
   </div>
 
