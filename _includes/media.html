@@ -1,52 +1,70 @@
 
+{% assign id = include.id %}
+{% assign media = site.media | where: "id", id | first %}
 
+{% assign caption = nil %}
 
-
-{% if id="*"  %}
-<!-- image gallery -->
-
-
-
-
-{% else %}
-<!-- sinlge image -->
-
-
-
-    {% assign id = include.id %}
-    <h3>{{ id }}</h3>
-    <!-- {% assign media = site.media | where: "id", "a9dd5552" %} -->
-    {% assign media = site.media | where: "id", id | first %}
-    
-    
-    <a href="{{ media.image }}" data-toggle="lightbox"  
-        data-footer="
-
-            <div class='p-2'>
-                <p class='align-self-start text-right m-0' style='display:block;width:100%;'>{{ media.description }} </p>
-            </div>
-            <div class='p-2'>
-                <p class='lead m-0'>{{ media.angler-name }} </p>
-            </div>                
-            <div class='p-2'>
-                <a href='https://twitter.com/{{ media.angler-links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a> 
-                <a href='{{ media.angler-links.facebook }}'><i class='mx-2 fa-2x  fab fa-facebook-square'></i></a> 
-                <a href='{{ media.angler-links.twitter }}'><i class='mx-2 fa-2x  fas fa-globe'></i></a> 
-            </div>
-
-
-
-        
-        ">
-        <img src="{{ media.image }}" class="img-fluid">
-    </a>
-    
-    <!-- {% for item in media %}
-        <p>{{item.id}}</p>
-        <a href="{{ item.image }}" data-toggle="lightbox" data-max-width="600">
-            <img src="{{ item.image }}" class="img-fluid">
-        </a>
-    {% endfor %} -->
-
+{% if media.description %}
+    {% assign caption = caption |  append: "<div class='p-2 w-50'>" | append: "<p class='align-self-start text-right m-0' style='display:block;width:100%;'>" | append: media.description  | append: "</p></div>" %}
 {% endif %}
+
+{% if media.fish or media.reel-type or media.reel-series  %}
+    {% assign caption = caption |  append: "<div class='p-2 d-flex  flex-column'>"  %}
+    
+    {%  if media.fish %}
+        {% assign caption = caption |   append: "<span class='mt-2 badge badge-secondary'><span class='text-capitalize'>" | append: media.fish | append: "</span> <br><br>" | append: media.fish-length | append: " "  | append: media.fish-weight  | append: "</span>" %}
+    {%  endif %}
+
+    {% if media.reel-series %}
+        {% assign caption = caption |   append: "<span class='mt-2 badge badge-secondary text-capitalize'>" | append: media.reel-series  | append: " Series </span>" %}
+    {% endif %}
+
+    {% if media.reel-type %}
+        {% assign caption = caption |   append: "<span class='mt-2 badge badge-secondary text-capitalize'>" | append: media.reel-type  | append: "</span>" %}
+    {% endif %}
+
+    {% assign caption = caption |  append: "</div>"  %}
+    
+{% endif %}
+
+{% if media.angler-name or media.location %}
+    {% assign caption = caption |  append: "<div class='p-2'>"  %}
+        
+    {% if media.reel-type %}
+        {% assign caption = caption |   append: "<p class='lead m-0'>" | append: media.angler-name  | append: "</p>" %}
+    {% endif %}
+
+    {% if media.location %}
+        {% assign caption = caption |   append: "<p class='m-0'><small>" | append: media.location  | append: "</small></p>" %}
+    {% endif %}
+    
+    {% assign caption = caption |  append: "<hr class='my-2'>"  %}
+        
+
+    {% if media.angler-links.instagram  %}
+        {% assign caption = caption |   append: "<a href='" | append: media.angler-links.instagram  | append: "'><i class='mx-2 fa-2x  fab fa-instagram'></i></a>" %}
+    {% endif %}
+
+    {% if media.angler-links.twitter  %}
+        {% assign caption = caption |   append: "<a href='" | append: media.angler-links.twitter  | append: "'><i class='mx-2 fa-2x  fab fa-twitter-square'></i></a>" %}
+    {% endif %}
+    
+    {% if media.angler-links.facebook  %}
+        {% assign caption = caption |   append: "<a href='" | append: media.angler-links.facebook  | append: "'><i class='mx-2 fa-2x  fab fa-facebook-square'></i></a>" %}
+    {% endif %}
+
+    {% if media.angler-links.pinterest  %}
+        {% assign caption = caption |   append: "<a href='" | append: media.angler-links.pinterest  | append: "'><i class='mx-2 fa-2x  fab fa-pinterest-square'></i></a>" %}
+    {% endif %}
+
+    {% if media.angler-links.website  %}
+        {% assign caption = caption |   append: "<a href='" | append: media.angler-links.website  | append: "'><i class='mx-2 fa-2x  fas fa-globe'></i></a>" %}
+    {% endif %}
+
+    {% assign caption = caption |  append: "</div>"  %}        
+{% endif %}
+<a href="{{ media.image }}" data-toggle="lightbox"  data-footer="{{ caption }}" {% if include.data-gallery %} data-gallery="{{ include.data-gallery }}" {% endif %} {% if include.class %} class="{{ include.class }}" {% endif %}>
+    <img src="{{ media.image }}" class="img-fluid rounded border">
+</a>
+
 

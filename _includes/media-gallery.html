@@ -1,0 +1,14 @@
+<div class="container-fluid mt-10">
+    <div class="row justify-content-center">
+    {% assign media = site.media | range where (where "reel-series", "300") "reel-type" "spinning"  %}
+    {% for item in media %}
+        <div class="col-12 col-lg-3">
+            {% include media.html id=item.id data-gallery=include.data-gallery %}
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
+
+
+

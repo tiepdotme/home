@@ -20,10 +20,19 @@ description: As we move forward as a company, I'm excited to see what we can acc
 #     - Greenhouses
 ---
 
+
+
+
+
+
 ## President
 {: class="mb-3 text-right"}
 
-![Greg Header](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+<div  class="img-fluid rounded float-left mr-4 mb-3 w-25" >
+{% include media.html id="/media/c61e62b5" %}
+</div>
+
+<!-- ![Greg Header](/assets/images/team/greg_header.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="25%"} -->
 
 ### Greg Header 
 
@@ -36,7 +45,7 @@ As an avid fisherman and huntsman, Greg is always traveling to other destination
 ## Machining Manager
 {: class="mb-3 text-right"}
 
-![Carl Zerbe](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Carl Zerbe](/assets/images/team/carl_zerbe.gif){:class="img-fluid rounded float-left mr-4 mb-3" width="25%"}
 
 ### Carl Zerbe 
 
@@ -46,7 +55,7 @@ Carl Zerbe has a dedication and passion for reel technology and has been entrust
 ## Chief Engineer
 {: class="mb-3 text-right"}
 
-![Timothy Wiest](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Timothy Wiest](/assets/images/team/timothy_wiest.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="25%"}
 
 ### Timothy Wiest
 
@@ -56,7 +65,7 @@ As the Chief Engineer at IRT, Timothy is responsible for overseeing the developm
 ## Master Reel Fabricator
 {: class="mb-3 text-right"}
 
-![Tom Shadle](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="30%"}
+![Tom Shadle](/assets/images/team/tom_shadle.jpg){:class="img-fluid rounded float-left mr-4 mb-3" width="25%"}
 
 ### Tom Shadle
 
