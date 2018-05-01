@@ -431,8 +431,8 @@ var Lightbox = (function ($) {
 				$containerForElement.html('<iframe width="' + width + '" height="' + height + '" src="' + id + 'embed/" frameborder="0" allowfullscreen></iframe>');
 				this._resize(width, height);
 				this._config.onContentLoaded.call(this);
-				if (this._$modalArrows) //hide the arrows when showing video
-					this._$modalArrows.css('display', 'none');
+				// if (this._$modalArrows) //hide the arrows when showing video
+				// 	this._$modalArrows.css('display', 'none');
 				this._toggleLoading(false);
 				return this;
 			}
@@ -444,7 +444,7 @@ var Lightbox = (function ($) {
 				$containerForElement.html('<div class="embed-responsive embed-responsive-16by9"><iframe width="' + width + '" height="' + height + '" src="' + url + '" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe></div>');
 				this._resize(width, height);
 				this._config.onContentLoaded.call(this);
-				if (this._$modalArrows) this._$modalArrows.css('display', 'none'); //hide the arrows when showing video
+				// if (this._$modalArrows) this._$modalArrows.css('display', 'none'); //hide the arrows when showing video
 				this._toggleLoading(false);
 				return this;
 			}
@@ -457,7 +457,7 @@ var Lightbox = (function ($) {
 				$containerForElement.html('<div class="embed-responsive embed-responsive-16by9"><video width="' + width + '" height="' + height + '" src="' + url + '" preload="auto" autoplay controls class="embed-responsive-item"></video></div>');
 				this._resize(width, height);
 				this._config.onContentLoaded.call(this);
-				if (this._$modalArrows) this._$modalArrows.css('display', 'none'); //hide the arrows when showing video
+				// if (this._$modalArrows) this._$modalArrows.css('display', 'none'); //hide the arrows when showing video
 				this._toggleLoading(false);
 				return this;
 			}

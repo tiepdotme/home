@@ -68,7 +68,7 @@
 
     {% assign caption = caption |  append: "</div>"  %}        
 {% endif %}
-<a href="{{ media.image }}" data-toggle="lightbox"  data-footer="{{ caption }}" {% if include.data-gallery %} data-gallery="{{ include.data-gallery }}" {% endif %} {% if include.class %} class="{{ include.class }}" {% endif %}>
+<a id="{{ media.id }}" href="{{ media.image }}" data-toggle="lightbox"  data-footer="{{ caption }}" {% if include.data-gallery %} data-gallery="{{ include.data-gallery }}" {% endif %} {% if include.class %} class="{{ include.class }}" {% endif %}>
     <img src="{{ media.thumb }}" class="img-fluid rounded border">
 </a>
 
