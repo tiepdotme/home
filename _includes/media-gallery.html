@@ -2,7 +2,7 @@
 <div class="card-columns">
 {% assign media = site.media | range where (where "reel-series", include.reel-series) "reel-type" include.reel-type  %}
 {% for item in media %}
-    <div class="card " width="15%">
+    <div class="card " style="margin-top:4px" width="15%">
         {% include media.html id=item.id data-gallery=include.data-gallery %}
     </div>
 {% endfor %}
