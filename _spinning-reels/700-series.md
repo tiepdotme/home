@@ -2,6 +2,8 @@
 layout: product
 permalink: /spinning-reels/700-series/
 title: 700 Series
+series: 700
+type: spinning
 price: "769.00"
 description: The 700 series spinning reel is designed to bring in larger fish.
 long_description: x
