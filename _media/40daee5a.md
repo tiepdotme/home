@@ -13,10 +13,10 @@ image: /assets/images/guests/yellowtail.jpg
 #     pinterest: a-url-goes-here
 
 reel-type: spinning
-reel-series: 300
+reel-series: 400
 
 location: Someplace, United States
-fish: Some Big Fish
+fish: Yellowtail
 # fish-length: 49 in.
 # fish-weight: 78 lbs.
 ---
