@@ -18,7 +18,6 @@ description: Our mission is to infuse the fishing industry with fresh ideas, hel
 #     - Greenhouse
 #     - Greenhouses
 ---
-{% include media-gallery.html data-gallery="s300" reel-series="300" reel-type="spinning" %}
 
 ## Customer First 
 IRT’s dedicated production and development teams work with our customers to provide the highest quality customer and product service in the industry today. Service provided by our expert personnel can include maintenance from normal wear and tear to severe damage from a rough fishing trip. We can also make adjustments to the drag, gear operation, and reel balance, just to name a few. We recommend the reel be sent to our home office in Pine Grove, Pennsylvania for an annual service depending on the amount of yearly use.
