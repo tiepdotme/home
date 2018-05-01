@@ -1,10 +1,10 @@
 ---
-title: x
+title: Jovan Mendoza using 300 series
 # date: 01-01-2222
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
-thumb: /assets/images/photo-gallery/
-image: /assets/images/photo-gallery/
-# angler-name: Johnny B. Goode
+thumb: /assets/images/photo-gallery/jovan-irt300.jpg
+image: /assets/images/photo-gallery/jovan-irt300.jpg
+angler-name: Jovan Mendoza
 # angler-links: 
 #     website: a-url-goes-here
 #     twitter: a-url-goes-here
