@@ -3,7 +3,7 @@
 {% assign media = site.media | where: "reel-series", include.reel-series %}
 {% for item in media %}
     {% if item.reel-type == include.reel-type %}
-    <div class="card " style="margin-top:4px" width="15%">
+    <div class="card sr-button" style="margin-top:4px" width="15%">
         {% include media.html id=item.id data-gallery=include.data-gallery %}
     </div>
     {% endif %}
