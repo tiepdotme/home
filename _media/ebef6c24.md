@@ -1,9 +1,9 @@
 ---
-title: dino fight with 400 series
-# date: 01-01-2222
+title: x
+date: 29-05-2015 # day-month-year
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
-thumb: /assets/images/photo-gallery/dino-fight-with-IRT-400-series-700.jpg
-image: /assets/images/photo-gallery/dino-fight-with-IRT-400-series-700.jpg
+thumb: /assets/images/photo-gallery/dino-fight-with-IRT-400-series.jpg
+image: /assets/images/photo-gallery/dino-fight-with-IRT-400-series-thumb.jpg
 # angler-name: Johnny B. Goode
 # angler-links: 
 #     website: a-url-goes-here
