@@ -29,8 +29,6 @@ fish_recommendation:
     - Snapper
 ---
 
-
-
 <div id='product-component-b065a87e0a2'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
