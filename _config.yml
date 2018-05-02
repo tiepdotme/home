@@ -32,6 +32,7 @@ sitemap:
   change_frequency_name: "change_frequency"
   priority_name: "priority"
 
+
 # Resources
 # resources:
 #   - {title: Greenhouse Location Recommendations, path: /assets/pdf/Greenhouse-Reccomendations-Based-on-Location.pdf}
@@ -73,6 +74,7 @@ google_plus: false
 github_organization: https://github.com/InnovativeReelTechnologies
 
 # Build settings
+
 sass:
   style: compressed   
 minify_html: false  
