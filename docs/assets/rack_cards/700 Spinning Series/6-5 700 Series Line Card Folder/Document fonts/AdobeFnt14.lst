@@ -1,0 +1,127 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-CondensedBold
+FamilyName:Futura Std
+StyleName:Bold Condensed
+FullName:Futura Std Bold Condensed
+MenuName:Futura Std Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\FuturaStd-CondensedBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:26756
+FileModTime:1239213698
+WeightClass:700
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-CondensedExtraBd
+FamilyName:Futura Std
+StyleName:Extra Bold Condensed
+FullName:Futura Std Extra Bold Condensed
+MenuName:Futura Std Condensed ExtBd
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\FuturaStd-CondensedExtraBd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:27920
+FileModTime:1239213699
+WeightClass:750
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-CondensedLight
+FamilyName:Futura Std
+StyleName:Light Condensed
+FullName:Futura Std Light Condensed
+MenuName:Futura Std Condensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\FuturaStd-CondensedLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:26464
+FileModTime:1239213699
+WeightClass:300
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPSMT
+FamilyName:Times New Roman
+StyleName:Regular
+FullName:Times New Roman
+MenuName:Times New Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\times.ttf
+DataFormat:sfntData
+FileLength:834240
+FileModTime:1288908040
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:UniversLTStd-XBlackObl
+FamilyName:Univers LT Std
+StyleName:85 Extra Black Oblique
+FullName:Univers LT Std 85 Extra Black Oblique
+MenuName:Univers LT Std 85 XBlk
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\UniversLTStd-XBlackObl_1.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31956
+FileModTime:1239194174
+WeightClass:950
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:VeljovicStd-Bold
+FamilyName:ITC Veljovic Std
+StyleName:Bold
+FullName:ITC Veljovic Std Bold
+MenuName:ITC Veljovic Std Book
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:L:\IRT\Promotional Rack Cards\700 Spinning Series\6-5 700 Series Line Card Folder\Document fonts\VeljovicStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31384
+FileModTime:1013622624
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
