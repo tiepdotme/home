@@ -1,14 +1,13 @@
 ---
-partner-type: dealer
-layout: page
 title: Pelican's Roost Reels
+layout: page
+partner-type: dealer
 # logo: http://via.placeholder.com/100x100
 address: >-
     West Testing St.
     Someplace, NC 1XXXX
 # website_url: x
 # representatives: x
-# about: x
 ---
 
 Dicat scripta omnesque sit ad, ut quo placerat intellegam. Ei diam lorem pro, eius docendi scriptorem ea mea. 

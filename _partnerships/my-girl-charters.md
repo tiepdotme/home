@@ -1,10 +1,12 @@
 ---
-partner-type: charter
 title: My Girl Charters
+layout: page
+partner-type: charter
+# logo: http://via.placeholder.com/400x100
 website_url: https://mygirlcharters.com/
-location: Edgewater, MD 21037
+address: >- 
+    Edgewater, MD 21037
 representatives: Captain Steve Murray
-# image: /assets/images/testimonials/catch--frank_tobias.gif
 ---
 
 Located just 15 minutes away from Annapolis and only an hour from Baltimore, Washington DC and Northern Virginia, My Girl Charters has become a preferred destination for tourists and locals in search of an unforgettable day outdoors. Take a look at the different the services we offer.

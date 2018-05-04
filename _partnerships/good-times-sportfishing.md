@@ -1,12 +1,14 @@
 ---
-partner-type: charter
 title: Good Times Sportfishing
+layout: page
+partner-type: charter
+# logo: http://via.placeholder.com/400x100
 website_url: http://www.goodtimessportfishing.com/w/
-location: Hatteras, NC 27943
+address: >-
+    Hatteras, NC 27943
 representatives: 
     - Captain Andy Piland 
     - Captain Tim Hagerich
-# image: /assets/images/testimonials/catch--frank_tobias.gif
 ---
 
 The Good Times is a 47 ft. custom-made Carolina boat owned and operated by Captain Andy Piland. Built on Roanoke Island by Sheldon Midgett and powered by a 700 HP Lugger, she can cruise at over 20 knots and is equipped with up-to-date electronics and all required USCG safety equipment.

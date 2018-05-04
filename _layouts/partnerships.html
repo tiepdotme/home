@@ -81,7 +81,9 @@ layout: default
           {% for charter in charters %}
             <div class="col-12 col-lg-6">
               <div class="media">
-                <a href="{{ charter.url }}"><img class="mr-3" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
+                {% if rod.logo %}              
+                  <a href="{{ charter.url }}"><img class="mr-3" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
+                {% endif %}
                 <div class="media-body">
                   <a href="{{ charter.url }}"><h5 class="mt-0 mb-1">{{ charter.title }}</h5></a>
                   <p class="mb-1"><small>{{ charter.address }}</small></p>

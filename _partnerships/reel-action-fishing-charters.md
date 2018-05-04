@@ -1,13 +1,15 @@
 ---
-partner-type: charter
 title: Reel Action Fishing Charters
+layout: page
+partner-type: charter
+# logo: http://via.placeholder.com/400x100
 website_url: https://www.actionfishingmyrtlebeach.com/
-location: North Myrtle Beach, SC 29582
+address: >- 
+    North Myrtle Beach, SC 29582
 representatives: 
     - Captain John 
     - Captain Josh Small 
     - Captain Johnny
-# image: /assets/images/testimonials/catch--frank_tobias.gif
 ---
 They’ve been doing myrtle beach fishing charters for years, all in the local Grand Strand area. With vast knowledge of inshore fishing as well as deep sea fishing in the Myrtle Beach area, they’re ready for any request. 
 
