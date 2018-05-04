@@ -2,6 +2,7 @@
 title: Joe Manansala 
 layout: profile-pro
 image: http://via.placeholder.com/150x150
+cover: http://via.placeholder.com/2000x750
 location: Apponaug, RI
 affiliates: 
     - Team Woozy

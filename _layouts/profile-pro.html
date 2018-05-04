@@ -11,13 +11,7 @@ layout: default
     </div>
     
   </div>
-  <div class="row my-4" >
-      {% if page.description %}
-        <div class="col-12  my-auto ">
-          {{ page.description }}
-        </div>
-      {% endif %}
-    </div>
+  
 </div>
 <div class="container my-5">
   <div class="row">
@@ -26,53 +20,7 @@ layout: default
     </div>
     <div class="col-12 col-lg-6">
       <div class="container-fluid">
-        <div class="row" style="border-bottom: dotted 1px #002943">
-          {% if page.patent_number %}
-            <div class="col-8 my-auto py-3">
-              Patent Number
-            </div>
-            <div class="col-4  my-auto py-3 text-right">
-              {{ page.patent_number }}
-            </div>
-          {% endif %}
-        </div>
-
-
-        <div class="row" style="border-bottom: dotted 1px #002943">
-          {% if page.patent_filed %}
-            <div class="col-6 my-auto py-3">
-              Patent Date Filed
-            </div>
-            <div class="col-6  my-auto py-3 text-right">
-              {{ page.patent_filed }}
-            </div>
-          {% endif %}
-        </div>
-
-        <div class="row" style="border-bottom: dotted 1px #002943">
-          {% if page.patent_assigned %}
-            <div class="col-6 my-auto py-3">
-              Patent Date Assigned
-            </div>
-            <div class="col-6  my-auto py-3 text-right">
-              {{ page.patent_assigned }}
-            </div>
-          {% endif %}
-        </div>
-
-
-        <div class="row" style="border-bottom: dotted 1px #002943">
-            {% if page.patent_download %}
-              <div class="col-8 my-auto py-3">
-                Download Patent Details
-              </div>
-              <div class="col-4  my-auto py-3">
-                <a href="{{ page.patent_download }}" class="d-flex justify-content-end align-items-baseline">
-                  <i class="fas fa-download  fa-2x"></i>
-                </a>
-              </div>
-            {% endif %}
-          </div>
+        
       </div>
     </div>    
   </div>
@@ -87,42 +35,3 @@ layout: default
   </div>
 </div>
 
-
-
-<!-- <div class="container">
-  <div class="row">
-
-    <div class="col-12 ">
-      <h2>Pro Staff</h2>
-      <div class="container-fluid">
-
-        {% assign pros = site.partnerships | where:'partner-type', 'pro' | sort: 'title'  %}
-        <div class="row">
-        {% for pro in pros %}
-          {% if pro.website_url %}
-            <div class="col-12 col-lg-4 text-d10-{{ theme_style }}">
-              <h2>
-                {% for rep in pro.representatives %}
-                  {% if forloop.first %}
-                    {{ rep }}
-                  {% else %}
-                    and {{ rep }}
-                  {% endif %}
-                {% endfor %}
-              </h2>
-              <ul class="list-unstyled">
-                <li><a target="_blank" href="{{ pro.website_url}}">{{ pro.title }}</a></li>
-                <li>{{ pro.location }}</li>
-              </ul>
-
-
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-
-        
-      </div>
-    </div> 
-  </div>
-</div> -->
