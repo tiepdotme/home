@@ -1,6 +1,6 @@
 ---
 title: JIG N POP
-layout: page
+layout: profile-partner
 partner-type: rods
 # logo: http://via.placeholder.com/100x100
 address: >-

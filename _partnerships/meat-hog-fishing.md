@@ -1,6 +1,6 @@
 ---
 title: Meat Hog Fishing
-layout: page
+layout: profile-partner
 partner-type: pro
 website_url: http://www.meathogfishing.com/
 # logo: http://via.placeholder.com/400x100

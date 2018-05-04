@@ -47,26 +47,52 @@ layout: default
       </div>
     </div>
     <div class="col-12 col-lg-6">
-      <h2>Fishing Rods</h2>
-      <div class="container-fluid">
+      <h2>Fishing Equipment</h2>
+      <div>
+        <h3 class="h5">Fishing Rods</h3>
+        <div class="container-fluid">
 
-        {% assign rods = site.partnerships | where:'partner-type', 'rods' | sort: 'location'  %}
-        {% for rod in rods %}
+          {% assign rods = site.partnerships | where:'partner-type', 'rods' | sort: 'location'  %}
+          {% for rod in rods %}
 
-          <div class="media">
-            <div class="media-body">
-              {% if rod.logo %}
-                <a href="{{ rod.url }}"><img class="mr-3" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
-              {% endif %}
-              <a href="{{ rod.url }}"><h5 class="mt-0 mb-1">{{ rod.title }}</h5></a>
-              <p class="mb-1"><small>{{ rod.address }}</small></p>
-              {{ rod.excerpt }}
+            <div class="media">
+              <div class="media-body">
+                {% if rod.logo %}
+                  <a href="{{ rod.url }}"><img class="mr-3" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
+                {% endif %}
+                <a href="{{ rod.url }}"><h5 class="mt-0 mb-1">{{ rod.title }}</h5></a>
+                <p class="mb-1"><small>{{ rod.address }}</small></p>
+                {{ rod.excerpt }}
+              </div>
             </div>
-          </div>
 
-        {% endfor %}
+          {% endfor %}
 
-        
+           
+        </div>
+      </div>
+      <div>
+        <h3 class="h5">Fishing Lures</h3>
+        <div class="container-fluid">
+  
+          {% assign lures = site.partnerships | where:'partner-type', 'lures' | sort: 'location'  %}
+          {% for lure in lures %}
+  
+            <div class="media">
+              <div class="media-body">
+                {% if lure.logo %}
+                  <a href="{{ lure.url }}"><img class="mr-3" src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
+                {% endif %}
+                <a href="{{ lure.url }}"><h5 class="mt-0 mb-1">{{ lure.title }}</h5></a>
+                <p class="mb-1"><small>{{ lure.address }}</small></p>
+                {{ lure.excerpt }}
+              </div>
+            </div>
+  
+          {% endfor %}
+  
+          
+        </div>
       </div>
     </div>
 

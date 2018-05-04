@@ -1,6 +1,6 @@
 ---
 title: Remote Anglers
-layout: page
+layout: profile-partner
 partner-type: pro
 # logo: http://via.placeholder.com/400x100
 website_url: https://www.remoteanglers.com/

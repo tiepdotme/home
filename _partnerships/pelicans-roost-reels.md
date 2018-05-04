@@ -1,6 +1,6 @@
 ---
 title: Pelican's Roost Reels
-layout: page
+layout: profile-partner
 partner-type: dealer
 # logo: http://via.placeholder.com/100x100
 address: >-

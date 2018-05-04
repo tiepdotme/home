@@ -1,6 +1,6 @@
 ---
 title: Machaca Charters
-layout: page
+layout: profile-partner
 partner-type: 
     - charter
     - pro

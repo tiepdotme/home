@@ -1,6 +1,6 @@
 ---
 title: Black Hole USA 
-layout: page
+layout: profile-partner
 partner-type: rods
 # logo: http://via.placeholder.com/400x100
 address: >-

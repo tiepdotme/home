@@ -1,6 +1,6 @@
 ---
 title: A-Squared Charters
-layout: page
+layout: profile-partner
 partner-type: charter
 # logo: http://via.placeholder.com/400x100
 website_url: http://a2charters.com/
