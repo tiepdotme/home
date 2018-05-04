@@ -9,7 +9,7 @@ address: >-
 representatives: Captain Steve Murray
 ---
 
-Located just 15 minutes away from Annapolis and only an hour from Baltimore, Washington DC and Northern Virginia, My Girl Charters has become a preferred destination for tourists and locals in search of an unforgettable day outdoors. Take a look at the different the services we offer.
+My Girl Charters has become a preferred destination for tourists and locals in search of an unforgettable day outdoors. 
 
 Fishing charters are thrilling adventures for anglers of all experience levels and ages. My Girl offers Chesapeake Bay fishing charters where our customers have the opportunity to catch a variety of fish, including striper, rockfish spot, perch and more.
 

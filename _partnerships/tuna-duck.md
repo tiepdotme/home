@@ -9,7 +9,9 @@ address: >-
 representatives: Captain Dan Rooks
 ---
 
-The Tuna Duck is a 50' custom built Cape Hatteras charter fishing boat, designed specifically for fishing the offshore waters off Cape Hatteras, North Carolina. The Tuna Duck was built in 1985 by Captain Buddy Cannady of Manteo, North Carolina. She was launched in April '85 and purchased in October of that year by Capt. Jerry Shepherd, the sole owner until 2007 when Capt. Dan Rooks joined Jerry as co-owner. Capt. Rooks has been her captain since that time.
+The Tuna Duck is a 50' custom built Cape Hatteras charter fishing boat, designed specifically for fishing the offshore waters off Cape Hatteras, North Carolina. 
+
+The Tuna Duck was built in 1985 by Captain Buddy Cannady of Manteo, North Carolina. She was launched in April '85 and purchased in October of that year by Capt. Jerry Shepherd, the sole owner until 2007 when Capt. Dan Rooks joined Jerry as co-owner. Capt. Rooks has been her captain since that time.
 
 In the continuing quest to offer a quality charter service, we are upgrading. Sound down acoustic insulation and climate control,will offer added comfort for our passengers . Pictured, Josh starting modifications for A/C installation. The cockpit is roomy enough for 6 anglers to fish quite comfortably. It is configured with 2 fiberglass sailfish chairs and a Scopinich Bluefin Unlimited fighting chair. 
 

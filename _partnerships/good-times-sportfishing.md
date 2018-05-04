@@ -15,9 +15,7 @@ The Good Times is a 47 ft. custom-made Carolina boat owned and operated by Capta
 
 She has a large cockpit equipped with a custom fighting chair and two companion chairs. The air conditioned salon is spacious with ample seating and storage for the anglers.
 
-She is outfitted with PENN International and Shimano reels and custom rods. 20, 50, 80, and 130 lb. tackle is available on board. (Well maintained personal tackle and angler participation are welcome.)
-
-One of only 3 charters out of Hatteras Marina with a greenstick. Fishing with a greenstick is similar to kite fishing but also better. Greenstick fishing allows the lures to be on the water without evidence of the fishing lines. Another benefit of the greenstick is you are not required to troll against the wind and if it is a calm day you can still fish with the greenstick.
+One of only 3 charters out of Hatteras Marina with a greenstick. Fishing with a greenstick is similar to kite fishing but also better. [Greenstick fishing](https://en.wikipedia.org/wiki/Green-sticking){: target="_blank"} allows the lures to be on the water without evidence of the fishing lines. Another benefit of the greenstick is you are not required to troll against the wind and if it is a calm day you can still fish with the greenstick.
 
 Adequate iced fish storage is provided to ensure that your catch arrives at the dock in peak condition. Tackle, bait, and ice are supplied for you. You are responsible for bringing your own food, drinks, sunscreen, sunglasses, hat, jacket, and rain suit.
 

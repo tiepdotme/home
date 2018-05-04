@@ -1,6 +1,6 @@
 ---
 title: Russ Dimauro
-layout: page
+layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Massachusetts
 affiliates: Al Gag's Fishing Lures

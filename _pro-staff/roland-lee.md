@@ -1,6 +1,6 @@
 ---
 title: Roland Lee
-layout: page
+layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Austin, TX
 affiliates: Cudakilla

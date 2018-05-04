@@ -1,6 +1,6 @@
 ---
 title: Kil Song
-layout: page
+layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Englewood Cliffs, NJ
 affiliates: 

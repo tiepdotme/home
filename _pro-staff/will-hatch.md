@@ -1,6 +1,6 @@
 ---
 title: Captain Will Hatch
-layout: page
+layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Falmouth Harbor, Massachusetts
 affiliates: Machaca Charters

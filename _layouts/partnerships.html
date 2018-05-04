@@ -77,7 +77,7 @@ layout: default
       <div class="container-fluid">
 
         <div class="row">
-          {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'address'  %}
+          {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'title'  %}
           {% for charter in charters %}
             <div class="col-12 col-lg-6">
               <div class="media">
