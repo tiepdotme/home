@@ -1,8 +1,13 @@
 ---
-partner-type: pro
-title: Meat Hog Fishing
-website_url: http://www.meathogfishing.com/
+title: Captain Aaron Kelly
+layout: page
+image: http://via.placeholder.com/150x150
 location: North Carolina
-representatives: Captain Aaron Kelly
-# image: /assets/images/testimonials/catch--frank_tobias.gif
+affiliates: Meat Hog Fishing
+links:
+    instagram: /#instagram
+    twitter: /#twitter
+    facebook: /#facebook
+    pinterest: /#pinterest
+    website: http://www.meathogfishing.com/
 ---

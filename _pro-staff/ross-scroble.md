@@ -1,9 +1,15 @@
 ---
-partner-type: pro
-title: Innovative Reel Technology
-website_url: https://innovativereeltechnologies.com/
+title: Ross Scroble
+staff-type: elite
+layout: page
+image: http://via.placeholder.com/150x150
 location: Illinois
-representatives: Ross Scroble
-# image: /assets/images/testimonials/catch--frank_tobias.gif
+affiliates: IRT Reels
+links:
+    instagram: /#instagram
+    twitter: /#twitter
+    facebook: /#facebook
+    pinterest: /#pinterest
+    website: https://jignpop.com/
 ---
 

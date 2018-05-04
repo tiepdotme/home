@@ -1,10 +1,15 @@
 ---
-partner-type: pro
-title: Al Gag's Fishing Lures
-website_url: https://www.algagsfishinglures.com/
+title: Russ Dimauro
+layout: page
+image: http://via.placeholder.com/150x150
 location: Massachusetts
-representatives: Mimi Dimauro
-# image: /assets/images/testimonials/catch--frank_tobias.gif
+affiliates: Al Gag's Fishing Lures
+links:
+    instagram: /#instagram
+    twitter: /#twitter
+    facebook: /#facebook
+    pinterest: /#pinterest
+    website: https://www.algagsfishinglures.com/
 ---
 
 Al has been making fishing lures since 1978 and has developed some of the most innovative lures in the business. 

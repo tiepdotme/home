@@ -1,10 +1,17 @@
 ---
-partner-type: pro
-title: Black Hole USA / JIG N POP
-website_url: https://jignpop.com/
+title: Kil Song
+layout: page
+image: http://via.placeholder.com/150x150
 location: Englewood Cliffs, NJ
-representatives: Kil Song
-# image: /assets/images/testimonials/catch--frank_tobias.gif
+affiliates: 
+    - Black Hole USA 
+    - JIG N POP
+links:
+    instagram: /#instagram
+    twitter: /#twitter
+    facebook: /#facebook
+    pinterest: /#pinterest
+    website: https://jignpop.com/
 ---
 We distribute proven and high quality N.S Black Hole Fishing Rods/Blanks in USA and worldwide.
 

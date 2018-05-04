@@ -26,49 +26,72 @@ layout: default
 <div class="container">
   <div class="row">
 
-    <div class="col-12 ">
-      <h2>Charters</h2>
-      <div class="container-fluid">
-
-        {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'location'  %}
-        {% for charter in charters %}
-          {% if charter.website_url %}
-          <div class="row">
-            <div class="col-12 text-d10-{{ theme_style }}">
-              <h2>
-                  <a target="_blank" href="{{ charter.website_url}}">{{ charter.title }}</a>
-              </h2>
-              <p>{{ charter.location }}</p>
-            </div>
-          </div>
-          {% endif %}
-        {% endfor %}
-
-       
-      </div>
-    </div>
-
-   
-
-    <div class="col-12 ">
-      <h2>Dealers</h2>
+    <div class="col-12 col-lg-6">
+      <h2>IRT Reel Dealers</h2>
       <div class="container-fluid">
 
         {% assign dealers = site.partnerships | where:'partner-type', 'dealer' | sort: 'title'  %}
         {% for dealer in dealers %}
+          <div class="media">
+            {% if rod.logo %}          
+              <a href="{{ dealer.url }}"><img class="mr-3" src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
+            {% endif %}
+            <div class="media-body">
+              <a href="{{ dealer.url }}"><h5 class="mt-0 mb-1">{{ dealer.title }}</h5></a>
+              <p class="mb-1"><small>{{ dealer.address }}</small></p>
+              {{ dealer.excerpt }}
+            </div>
+          </div>
+        {% endfor %}
 
-          <div class="row">
-            <div class="col-12 text-d10-{{ theme_style }}">
-              <h2>
-                  {{ dealer.title }}
-                  <!-- <a target="_blank" href="{{ dealer.website_url}}">{{ dealer.title }}</a> -->
-              </h2>
-              <p>{{ dealer.location }}</p>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <h2>Fishing Rods</h2>
+      <div class="container-fluid">
+
+        {% assign rods = site.partnerships | where:'partner-type', 'rods' | sort: 'location'  %}
+        {% for rod in rods %}
+
+          <div class="media">
+            <div class="media-body">
+              {% if rod.logo %}
+                <a href="{{ rod.url }}"><img class="mr-3" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
+              {% endif %}
+              <a href="{{ rod.url }}"><h5 class="mt-0 mb-1">{{ rod.title }}</h5></a>
+              <p class="mb-1"><small>{{ rod.address }}</small></p>
+              {{ rod.excerpt }}
             </div>
           </div>
 
         {% endfor %}
 
+        
+      </div>
+    </div>
+
+    
+
+    <div class="col-12">
+      <h2>Charters</h2>
+      <div class="container-fluid">
+
+        <div class="row">
+          {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'location'  %}
+          {% for charter in charters %}
+            <div class="col-12 col-lg-6">
+              <div class="media">
+                <a href="{{ charter.url }}"><img class="mr-3" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
+                <div class="media-body">
+                  <a href="{{ charter.url }}"><h5 class="mt-0 mb-1">{{ charter.title }}</h5></a>
+                  <p class="mb-1"><small>{{ charter.address }}</small></p>
+                  {{ charter.excerpt }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+            
+        </div>
         
       </div>
     </div>
