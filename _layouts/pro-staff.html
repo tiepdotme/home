@@ -52,27 +52,7 @@ layout: default
               {% endif %}
               
               <p class="text-center mb-0">{{ pro.location }}</p>
-
-
-              <ul class="list-unstyled mt-2">
-                <li><strong>Affiliated with:</strong></li>
-                {% for affiliate in pro.affiliates %}
-                  {% if affiliate == "IRT Reels xxx" %}
-                    {% continue %}
-                  {% endif %}
-                  {% assign aff = site.partnerships | where:"title", affiliate | first %}
-                  <li class="ml-2"><a href="{{ aff.url }}">{{ aff.title }}</a></li>
-                {% endfor %}
-              </ul>
               
-              <div class="text-center mb-3">
-                <a href='{{ pro.links.instagram }}'><i class='mx-2 fa-2x  fab fa-instagram'></i></a>
-                <a href='{{ pro.links.twitter }}'><i class='mx-2 fa-2x  fab fa-twitter-square'></i></a>
-                <a href='{{ pro.links.facebook }}'><i class='mx-2 fa-2x  fab fa-facebook-square'></i></a>
-                <a href='{{ pro.links.pinterest }}'><i class='mx-2 fa-2x  fab fa-pinterest-square'></i></a>
-                <a href='{{ pro.links.website }}'><i class='mx-2 fa-2x  fas fa-globe'></i></a>
-              </div>
-
             </div>
 
             {% endfor %}

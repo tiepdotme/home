@@ -1,5 +1,5 @@
 ---
-title: Captain Aaron Kelly
+title: Captain Aaron Aaron
 layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Hatteras, NC
