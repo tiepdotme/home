@@ -8,20 +8,22 @@ layout: default
 <div class="jumbotron cover jumbotron-fluid mb-5" style="background-image:url('{{ page.cover }}');">
   <div class="container" >
     <div class="row">
-      <div class="col-2">
-        <img src="{{ page.image }}" class="img-fluid rounded float-left my-3 border" alt="{{ page.title }}">
-      </div>
+      {% if page.logo %}
+        <div class="col-2">
+          <img src="{{ page.logo }}" class="img-fluid rounded float-left my-3 border" alt="{{ page.title }}">
+        </div>
+      {% endif %}
       <div class="col-6 my-auto">
         <h1 class="display-5 mt-4 text-uppercase">{{ page.title }}</h1>
         <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.location  }}</p>
       </div>
       <div class="col-4 d-flex align-items-center">
         <div class="text-right w-100">
-          <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
+          <!-- <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
           <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
           <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
-          <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
-          <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+          <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a> -->
+          <a href='{{ page.links.website_url }}' alt="{{ page.title }}"><i class='mx-2 fa-2x fas fa-globe'></i></a>
         </div>
       </div>
     </div>
@@ -30,17 +32,19 @@ layout: default
 {% else %}
 <div class="container mt-10 mb-3" >
   <div class="row">
-    <div class="col-2  my-auto">
-      <img src="{{ page.image }}" class="img-fluid rounded float-right border" alt="{{ page.title }}">
-    </div>
+    {% if page.logo %}
+      <div class="col-2  my-auto">
+        <img src="{{ page.logo }}" class="img-fluid rounded float-right border" alt="{{ page.title }}">
+      </div>
+    {% endif %}
     <div class="col-12 col-lg-10 my-auto">
       <h1 class=" text-uppercase text-d20-grey my-0">{{ page.title }}</h1>
       <div class="text-left mt-3 w-100">
-        <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
+        <!-- <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
         <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
         <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
-        <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
-        <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+        <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a> -->
+        <a href='{{ page.links.website_url }}' alt="{{ page.title }}"><i class='mx-2 fa-2x fas fa-globe'></i></a>
       </div>
     </div>
   </div>
@@ -61,15 +65,24 @@ layout: default
 
     </div>
     <div class="col-12 col-lg-3">
-      {% if page.affiliates %}
-        <h3 class="h5">Affiliated with:</h3>
+      {% if page.representatives %}
+
+        {% if page.representatives.size > 1 %}
+          {% assign rep-context = "Representatives" %}
+        {% else %}
+          {% assign rep-context = "Representatives" %}
+        {% endif %}   
+        <h3 class="h5">{{ rep-context }}</h3>
+        
         <ul class="list-unstyled mt-2">
-          {% for affiliate in page.affiliates %}
-            {% if affiliate == "IRT Reels xxx" %}
-              {% continue %}
-            {% endif %}
-            {% assign aff = site.partnerships | where:"title", affiliate | first %}
-            <li class="ml-2"><a href="{{ aff.url }}">{{ aff.title }}</a></li>
+          {% for affiliate in page.representatives %}
+            
+            {% assign pro-staff = site.pro-staff | where:"title", affiliate | first %}
+            {% if pro-staff %}
+              <li class="ml-2"><a href="{{ pro-staff.url }}">{{ pro-staff.title }}</a></li>
+            {% else %}
+              <li class="ml-2">{{ affiliate }}</li>
+            {% endif %}            
           {% endfor %}
         </ul>
       {% endif %}
