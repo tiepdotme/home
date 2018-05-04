@@ -101,6 +101,9 @@ collections:
     output: true
   partnerships:
     output: true
+  pro-staff:
+    output: true
+    permalink: /:collection/:name
   media:
     output: false
 
