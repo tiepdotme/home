@@ -1,9 +1,11 @@
 ---
-partner-type: charter
 title: Yeah Right Charters
+layout: page
+partner-type: charter
+# logo: http://via.placeholder.com/400x100
 website_url: http://www.yeahrightcharters.com/
-location: Southport, NC 28461
+address: >- 
+    Southport, NC 28461
 representatives: Captain Butch Foster
-# image: /assets/images/testimonials/catch--frank_tobias.gif
 ---
 
