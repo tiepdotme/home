@@ -45,9 +45,26 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
 
       <p class="post-meta text-d20-{{ theme_style }} h5 pt-3"><a href="{{ pro.url }}">{{ pro.title }}</a></p>
       <p class="post-meta text-d20-{{ theme_style }}"><small>{{ pro.irt-affiliation }}</small></p>
-      {% if page.author_image %}
-        <img src="{{ page.author_image }}" class="mb-3">
+      {% if pro.image %}
+        <img src="{{ pro.image }}" class="mb-4">
       {% endif %}
+      <div class="text-right mb-3 w-100">
+        {% if pro.links.instagram %}
+          <a href='{{ pro.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
+        {% endif %}
+        {% if pro.links.twitter %}
+          <a href='{{ pro.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
+        {% endif %}
+        {% if pro.links.facebook %}
+          <a href='{{ pro.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
+        {% endif %}
+        {% if pro.links.pinterest %}
+          <a href='{{ pro.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
+        {% endif %}
+        {% if pro.links.website %}
+          <a href='{{ pro.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+        {% endif %}
+      </div>
       <div class="d-none d-lg-block">
 
         {% if page.locations[0] %}

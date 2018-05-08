@@ -1,5 +1,5 @@
 
-<div class="card-columns">
+<div class="card-columns ">
 {% if include.reel-series %}
     {% assign media = site.media | where: "reel-series", include.reel-series %}
     {% for item in media | limit: include.limit %}
@@ -15,7 +15,7 @@
     {% assign media = site.media | where: "angler-name", include.angler %}
     {% for item in media | limit: include.limit %}
         
-        <div class="card sr-button" style="margin-top:4px" width="15%">
+        <div class="card" style="margin-top:4px" width="15%">
             {% include media.html id=item.id data-gallery=include.data-gallery %}
         </div>
     {% endfor %}
@@ -24,7 +24,7 @@
     {% assign media = site.media %}
     {% for item in media | limit: include.limit %}
         
-        <div class="card sr-button" style="margin-top:4px" width="15%">
+        <div class="card" style="margin-top:4px" width="15%">
             {% include media.html id=item.id data-gallery=include.data-gallery %}
         </div>
     {% endfor %}

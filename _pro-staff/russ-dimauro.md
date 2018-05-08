@@ -10,7 +10,7 @@ links:
     instagram: /#instagram
     twitter: /#twitter
     facebook: /#facebook
-    pinterest: /#pinterest
+    # pinterest: /#pinterest
     website: https://www.algagsfishinglures.com/
 ---
 

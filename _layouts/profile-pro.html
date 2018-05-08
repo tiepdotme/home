@@ -9,7 +9,7 @@ layout: default
   <div class="container" >
     <div class="row">
       <div class="col-2">
-        <img src="{{ page.image }}" class="img-fluid rounded float-left my-3 border" alt="{{ page.title }}">
+        <img src="{{ page.image }}" class="img-fluid rounded float-left my-3 " alt="{{ page.title }}">
       </div>
       <div class="col-6 my-auto">
         <h1 class="display-5 mt-4 text-uppercase">{{ page.title }}</h1>
@@ -17,11 +17,22 @@ layout: default
       </div>
       <div class="col-4 d-flex align-items-center">
         <div class="text-right w-100">
+        
+          {% if page.links.instagram %}
           <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
-          <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
-          <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
-          <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
-          <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+          {% endif %}
+          {% if page.links.twitter %}
+            <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
+          {% endif %}
+          {% if page.links.facebook %}
+            <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
+          {% endif %}
+          {% if page.links.pinterest %}
+            <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
+          {% endif %}
+          {% if page.links.website %}
+            <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -36,11 +47,21 @@ layout: default
     <div class="col-12 col-lg-10 my-auto">
       <h1 class=" text-uppercase text-d20-grey my-0">{{ page.title }}</h1>
       <div class="text-left mt-3 w-100">
-        <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
-        <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
-        <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
-        <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
-        <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+          {% if page.links.instagram %}
+          <a href='{{ page.links.instagram }}'><i class='mx-2 fa-2x fab fa-instagram'></i></a>
+          {% endif %}
+          {% if page.links.twitter %}
+            <a href='{{ page.links.twitter }}'><i class='mx-2 fa-2x fab fa-twitter-square'></i></a>
+          {% endif %}
+          {% if page.links.facebook %}
+            <a href='{{ page.links.facebook }}'><i class='mx-2 fa-2x fab fa-facebook-square'></i></a>
+          {% endif %}
+          {% if page.links.pinterest %}
+            <a href='{{ page.links.pinterest }}'><i class='mx-2 fa-2x fab fa-pinterest-square'></i></a>
+          {% endif %}
+          {% if page.links.website %}
+            <a href='{{ page.links.website }}'><i class='mx-2 fa-2x fas fa-globe'></i></a>
+          {% endif %}
       </div>
     </div>
   </div>
@@ -56,7 +77,7 @@ layout: default
     </div>
 
     <div class="col-12 col-lg-9">
-
+      <h2>About {{ page.title }}</h2>
       {{ page.content }}
 
     </div>
@@ -87,11 +108,15 @@ layout: default
         </ul>
       {% endif %}
     </div>
+    
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
     <div class="col-12 mt-5">
-
-      {% include media-gallery.html data-gallery="angler-gallery" angler=page.title limit="25" %}
-
-
+        {% include media-gallery.html data-gallery="angler-gallery" angler=page.title limit="25" %}
     </div>
   </div>
 </div>
