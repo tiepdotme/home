@@ -2,8 +2,7 @@
 layout: post
 title:  "Fishing During Spawning Season"
 date:   2017-06-15  14:07:00 -0400
-author_name: Jeff C.
-author_title: Guest Blogger and Bass Fisherman
+author: Jeff Cutler
 categories: 
     - Fishing Expedition
 fish: 

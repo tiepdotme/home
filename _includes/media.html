@@ -33,7 +33,7 @@
 {% if media.angler-name or media.location %}
     {% assign caption = caption |  append: "<div class='p-2'>"  %}
         
-    {% if media.reel-type %}
+    {% if media.angler-name  %}
         {% assign caption = caption |   append: "<p class='lead m-0'>" | append: media.angler-name  | append: "</p>" %}
     {% endif %}
 

@@ -2,8 +2,7 @@
 layout: post
 title:  "Blogger Spotlight: Jeff C."
 date:   2017-03-01  13:54:00 -0400
-author_name: Jeff C.
-author_title: Guest Blogger and Bass Fisherman
+author: Jeff Cutler
 categories: 
     - Blogger Spotlight
 # fish: 
