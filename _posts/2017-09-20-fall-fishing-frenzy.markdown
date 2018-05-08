@@ -2,8 +2,7 @@
 layout: post
 title:  "Fall Fishing Frenzy: Choosing the Right Bait"
 date:   2017-09-20  11:47:00 -0400
-author_name: Jeff C.
-author_title: Guest Blogger and Bass Fisherman
+author: Jeff Cutler
 categories: 
     - Fishing Expedition
     - Fishing Tips and Tricks

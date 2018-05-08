@@ -4,6 +4,7 @@ layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Austin, TX
 affiliates: Cudakilla
+irt-affiliation: Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter

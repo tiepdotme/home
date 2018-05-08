@@ -2,8 +2,7 @@
 layout: post
 title:  "IRT Q&A: Is cranking the bail to blame for knots in the line?"
 date:   2017-07-05  09:40:00 -0400
-author_name: Scott H.
-author_title: Pro Staff
+author: Scott H.
 # tags: 
 #     - Bass
 categories:
@@ -34,6 +33,4 @@ A certain amount of twist is almost unavoidable.  Sooner or later, you really n
 I know some people will disagree with the above.  But here is a test: whenever someone is having frequent problems with knots in the line, keep everything the same but change out the spool for one that is freshly and properly spooled with new line.  The wind knot problems will go away - at least for a while.  Doing several of the things listed above can cause line twist to develop pretty quickly.  But wind knots rarely occur with fresh, untwisted line, even in the wind.  The biggest caveat to that is that an over-filled reel, on top of a poorly-matched rod (eyes), can start causing wind knots right away.  That is because loose loops of line can spring off the reel, bunch up against the eyes, and turn into knots in the line almost instantly.  When cranking the bail closed is causing knots, the first place I would look is the amount of line on the spool.<strong>
 </strong>
 
-Scott
-
-<span style="font-size: 11px;">SCOTT H., IRT Pro Staff</span>
+-- Scott

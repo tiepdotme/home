@@ -77,10 +77,13 @@ layout: default
     </div>
 
     <div class="col-12 col-lg-9">
-      <h2>About</h2>
-      {{ page.content }}
-
+      {% assign content = page.content | strip_newlines %}
+      {% if content != "" %}
+        <h2>About</h2>
+        {{ content }}
+      {% endif %}
     </div>
+
     <div class="col-12 col-lg-3">
       {% if page.affiliates %}
         <h3 class="h5">Affiliated with:</h3>

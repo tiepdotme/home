@@ -4,6 +4,7 @@ layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Falmouth Harbor, Massachusetts
 affiliates: Machaca Charters
+irt-affiliation: Pro Staff
 links:
     # instagram: /#instagram
     # twitter: /#twitter

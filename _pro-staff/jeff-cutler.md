@@ -1,14 +1,14 @@
 ---
-title: Captain Aaron Kelly
+title: Jeff Cutler
 layout: profile-pro
 image: http://via.placeholder.com/150x150
-location: North Carolina
-affiliates: Meat Hog Fishing
+location: nil
+# affiliates: nil
 irt-affiliation: Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter
     facebook: /#facebook
     pinterest: /#pinterest
-    website: http://www.meathogfishing.com/
+    # website: nil
 ---

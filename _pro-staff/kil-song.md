@@ -6,6 +6,7 @@ location: Englewood Cliffs, NJ
 affiliates: 
     - Black Hole USA 
     - JIG N POP
+irt-affiliation: Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter

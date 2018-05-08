@@ -4,6 +4,7 @@ layout: profile-pro
 image: http://via.placeholder.com/150x150
 location: Hatteras, NC
 affiliates: TightLines
+irt-affiliation: Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter

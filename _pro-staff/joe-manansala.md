@@ -7,6 +7,7 @@ location: Apponaug, RI
 affiliates: 
     - Team Woozy
     - Remote Anglers
+irt-affiliation: Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter
