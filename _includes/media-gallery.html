@@ -13,6 +13,7 @@
 {% elsif include.angler %}
 
     {% assign media = site.media | where: "angler-name", include.angler %}
+    
     {% for item in media | limit: include.limit %}
         
         <div class="card" style="margin-top:4px" width="15%">
