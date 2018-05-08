@@ -14,7 +14,7 @@ fish:
     - Wahoo
 locations:
     - Hatteras, NC
-    - Chicago, Illinois
+    - Chicago, IL
     - Myrtle Beach, SC
 ---
 

@@ -15,7 +15,7 @@ angler-name: Ross Scroble
 # reel-type: spinning
 # reel-series: 800 
 
-location: Chicago, Illinois
+location: Chicago, IL
 # fish: Some Big Fish
 # fish-length: 49 in.
 # fish-weight: 78 lbs.
