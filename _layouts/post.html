@@ -39,8 +39,12 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
     {% if content %}
     <div class="col-12 col-lg-3 text-right" >
       <p class="post-meta text-d20-{{ theme_style }} h3">{{ page.date | date: "%b %-d, %Y" }}</p>
-      <p class="post-meta text-d20-{{ theme_style }} h5 py-2">{{ page.author_name }}</p>
-      <p class="post-meta text-d20-{{ theme_style }}"><small>{{ page.author_title }}</small></p>
+
+      {% assign pro = site.pro-staff | where: "title", page.author  | first  %}
+      
+
+      <p class="post-meta text-d20-{{ theme_style }} h5 pt-3"><a href="{{ pro.url }}">{{ pro.title }}</a></p>
+      <p class="post-meta text-d20-{{ theme_style }}"><small>{{ pro.irt-affiliation }}</small></p>
       {% if page.author_image %}
         <img src="{{ page.author_image }}" class="mb-3">
       {% endif %}
@@ -87,7 +91,6 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
           </ul>
         {% endif %}  
         {% if page.tags[0] %}
-        
           <hr class="mb-3 mt-1">
           <ul class="list-unstyled text-d10-{{ theme_style }}">
             {% for tag in page.tags %}
@@ -100,8 +103,6 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
             {% endfor %}
           </ul>
         {% endif %}    
-
-        
         
         <hr class="mb-3 mt-1">        
         <ul class="list-unstyled  m-0" >

@@ -21,18 +21,9 @@ I've been using the IRT500 to catch fish everyday for the last week. I've been c
 
 > "This reel packs a punch!"
 
-<img class="size-full wp-image-3803 aligncenter" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2017/07/RDimauro2.jpg" alt="RDimauro2" width="408" height="544" />
-
-<img class="aligncenter size-full wp-image-3806" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2017/07/RDimauro3.jpg" alt="RDimauro3" width="544" height="408" />
-
-<img class="aligncenter size-full wp-image-3807" src="https://www.innovativereeltechnologies.com/wp-content/uploads/2017/07/RDimauro4.jpg" alt="RDimauro4" width="408" height="544" />
-
 The IRT500 feels a bit on the small side for canal fishing. With a current of 5 knots, pulling big fish can be a chore, but so far so good. I feel the IRT600 should be a focus for the Cape Cod Canal market. Most popular size for canal 6 and up.
 
-&nbsp;
+{% include media.html id="/media/ae383d50" data-gallery="irt-500-catches" class="float-left w-25 pr-3" %}
+{% include media.html id="/media/330d4c70" data-gallery="irt-500-catches" class="float-left w-25 pr-3" %}
+{% include media.html id="/media/a997effc" data-gallery="irt-500-catches" class="float-left w-25 pr-3" %}
 
-Russ
-
-
-
-<span style="font-size: 11px;">RUSSEL DIMAURO, Senior Pro Staff, Al Gag Lures</span>

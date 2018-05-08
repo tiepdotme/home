@@ -10,6 +10,16 @@
             {% include media.html id=item.id data-gallery=include.data-gallery %}
         </div>
     {% endfor %}
+{% elsif include.angler %}
+
+    {% assign media = site.media | where: "angler-name", include.reel-series %}
+    {% for item in media | limit: include.limit %}
+        
+        <div class="card sr-button" style="margin-top:4px" width="15%">
+            {% include media.html id=item.id data-gallery=include.data-gallery %}
+        </div>
+    {% endfor %}
+
 {% else %}
     {% assign media = site.media %}
     {% for item in media | limit: include.limit %}
