@@ -1,10 +1,10 @@
 ---
-title: Ross Scroble
+title: Scott Binkley
 staff-type: elite
 layout: profile-pro
 image: http://via.placeholder.com/150x150
 cover: http://via.placeholder.com/2000x750
-location: Illinois
+location: Pennsylvania
 affiliates: IRT Reels
 irt-affiliation: Lead Pro Staff
 links:
