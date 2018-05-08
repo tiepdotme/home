@@ -7,8 +7,9 @@ author_title: Senior Pro Staff
 author_image: /assets/images/pro-staff/russ.png
 categories: 
     - Reel Review
-# tags: 
-#     - Bass
+    - 500 Series
+fish: 
+    - Bass
 locations:
     - Cape Cod, MA
 ---

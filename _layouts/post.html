@@ -49,6 +49,22 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
         <img src="{{ page.author_image }}" class="mb-3">
       {% endif %}
       <div class="d-none d-lg-block">
+
+        {% if page.locations[0] %}
+        
+          <hr class="mb-3 mt-1">
+          <ul class="list-unstyled text-d10-{{ theme_style }}">
+            {% for location in page.locations %}
+              {% if forloop.length > 1 and forloop.first %}
+              <li><p class="text-d20-{{ theme_style }} h4">Locations</p></li>
+              {% elsif forloop.first %}
+              <li><p class="text-d20-{{ theme_style }} h4">Location</p></li>
+              {% endif %}
+              <li>{{ location }} </li>
+            {% endfor %}
+          </ul>
+        {% endif %}  
+
         {% if page.categories[0] %}
         
           <hr class="mb-3 mt-1">
@@ -76,20 +92,7 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
             {% endfor %}
           </ul>
         {% endif %}
-        {% if page.locations[0] %}
         
-          <hr class="mb-3 mt-1">
-          <ul class="list-unstyled text-d10-{{ theme_style }}">
-            {% for location in page.locations %}
-              {% if forloop.length > 1 and forloop.first %}
-              <li><p class="text-d20-{{ theme_style }} h4">Locations</p></li>
-              {% elsif forloop.first %}
-              <li><p class="text-d20-{{ theme_style }} h4">Location</p></li>
-              {% endif %}
-              <li>{{ location }} </li>
-            {% endfor %}
-          </ul>
-        {% endif %}  
         {% if page.tags[0] %}
           <hr class="mb-3 mt-1">
           <ul class="list-unstyled text-d10-{{ theme_style }}">

@@ -12,7 +12,7 @@
     {% endfor %}
 {% elsif include.angler %}
 
-    {% assign media = site.media | where: "angler-name", include.reel-series %}
+    {% assign media = site.media | where: "angler-name", include.angler %}
     {% for item in media | limit: include.limit %}
         
         <div class="card sr-button" style="margin-top:4px" width="15%">

@@ -101,10 +101,10 @@ collections:
     output: true
   partnerships:
     output: true
-    permalink: /:collection/:name/
+    permalink: /about/:collection/:name/
   pro-staff:
     output: true
-    permalink: /:collection/:name/
+    permalink: /about/:collection/:name/
   media:
     output: false
 
