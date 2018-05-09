@@ -39,7 +39,11 @@ layout: default
         <div class="row">
           <div class="col-3 text-right " >
             <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <p class="post-meta text-d20-{{ theme_style }} py-2">{{ post.author_name }}</p>
+            {% if post.author %}
+              <p class="post-meta text-d20-{{ theme_style }} py-2">{{ post.author }}</p>
+            {% else %}
+              <p>NOPE</p>
+            {% endif %}
           </div>
           <div class="col-9 text-d10-{{ theme_style }}">
             <h2>
