@@ -2,7 +2,7 @@
 title: A-Squared Charters
 layout: profile-partner
 partner-type: charter
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: http://a2charters.com/
 representatives: Captain Armando Alejo
 address: >-

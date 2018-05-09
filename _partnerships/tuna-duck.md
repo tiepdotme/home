@@ -2,7 +2,7 @@
 title: Tuna Duck
 layout: profile-partner
 partner-type: charter
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: http://tunaduck.com/
 address: >- 
     Hatteras, NC 27943

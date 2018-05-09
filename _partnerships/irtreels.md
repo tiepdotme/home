@@ -5,7 +5,7 @@ partner-type: pro
 website_url: https://irtreels.com/
 location: Illinois
 representatives: Ross Scroble
-# image: /assets/images/testimonials/catch--frank_tobias.gif
+logo: http://via.placeholder.com/400x400
 ---
 
 Here's some sample content

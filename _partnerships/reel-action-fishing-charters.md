@@ -2,7 +2,7 @@
 title: Reel Action Fishing Charters
 layout: profile-partner
 partner-type: charter
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: https://www.actionfishingmyrtlebeach.com/
 address: >- 
     North Myrtle Beach, SC 29582

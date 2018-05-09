@@ -2,7 +2,7 @@
 title: Al Gag's Fishing Lures
 layout: profile-partner
 partner-type: lures
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: https://www.algagsfishinglures.com/
 address: >- 
     Massachusetts

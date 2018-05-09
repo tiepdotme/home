@@ -2,7 +2,7 @@
 title: My Girl Charters
 layout: profile-partner
 partner-type: charter
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: https://mygirlcharters.com/
 address: >- 
     Edgewater, MD 21037

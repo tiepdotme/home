@@ -2,7 +2,7 @@
 title: Cudakilla
 layout: profile-partner
 partner-type: pro
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 website_url: https://cudakilla.com/
 address: >- 
     Austin, TX

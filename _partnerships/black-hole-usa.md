@@ -2,11 +2,11 @@
 title: Black Hole USA 
 layout: profile-partner
 partner-type: rods
-# logo: http://via.placeholder.com/400x100
+logo: http://via.placeholder.com/400x400
 address: >-
     Englewood Cliffs, NJ
 website_url: http://www.blackholeusa.com/
-# representatives: Kil Song
+representatives: Kil Song
 
 ---
 We distribute proven and high quality N.S Black Hole Fishing Rods/Blanks in USA and worldwide.

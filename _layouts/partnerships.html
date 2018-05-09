@@ -32,16 +32,17 @@ layout: default
 
         {% assign dealers = site.partnerships | where:'partner-type', 'dealer' | sort: 'title'  %}
         {% for dealer in dealers %}
-          <div class="media">
-            {% if rod.logo %}          
-              <a href="{{ dealer.url }}"><img class="mr-3" src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
+          <div class="media my-3">
+            {% if dealer.logo %}
+              <a href="{{ dealer.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
             {% endif %}
             <div class="media-body">
               <a href="{{ dealer.url }}"><h5 class="mt-0 mb-1">{{ dealer.title }}</h5></a>
-              <p class="mb-1"><small>{{ dealer.address }}</small></p>
-              {{ dealer.excerpt }}
+              <p class="mb-0 pb-0"><small>{{ dealer.address }}</small></p>
+              <p class="mb-0 pb-0">{{ dealer.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             </div>
           </div>
+
         {% endfor %}
 
       </div>
@@ -55,14 +56,14 @@ layout: default
           {% assign rods = site.partnerships | where:'partner-type', 'rods' | sort: 'location'  %}
           {% for rod in rods %}
 
-            <div class="media">
+            <div class="media my-3">
+              {% if rod.logo %}
+                <a href="{{ rod.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
+              {% endif %}
               <div class="media-body">
-                {% if rod.logo %}
-                  <a href="{{ rod.url }}"><img class="mr-3" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
-                {% endif %}
                 <a href="{{ rod.url }}"><h5 class="mt-0 mb-1">{{ rod.title }}</h5></a>
-                <p class="mb-1"><small>{{ rod.address }}</small></p>
-                {{ rod.excerpt }}
+                <p class="mb-0 pb-0"><small>{{ rod.address }}</small></p>
+                <p class="mb-0 pb-0">{{ rod.excerpt | remove: '<p>' | remove: '</p>' }}</p>
               </div>
             </div>
 
@@ -72,20 +73,20 @@ layout: default
         </div>
       </div>
       <div>
-        <h3 class="h5">Fishing Lures</h3>
+        <h3 class="h5 mt-4">Fishing Lures</h3>
         <div class="container-fluid">
   
           {% assign lures = site.partnerships | where:'partner-type', 'lures' | sort: 'location'  %}
           {% for lure in lures %}
   
-            <div class="media">
+            <div class="media my-3">
+              {% if lure.logo %}
+                <a href="{{ lure.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
+              {% endif %}
               <div class="media-body">
-                {% if lure.logo %}
-                  <a href="{{ lure.url }}"><img class="mr-3" src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
-                {% endif %}
                 <a href="{{ lure.url }}"><h5 class="mt-0 mb-1">{{ lure.title }}</h5></a>
-                <p class="mb-1"><small>{{ lure.address }}</small></p>
-                {{ lure.excerpt }}
+                <p class="mb-0 pb-0"><small>{{ lure.address }}</small></p>
+                <p class="mb-0 pb-0">{{ lure.excerpt | remove: '<p>' | remove: '</p>' }}</p>
               </div>
             </div>
   
@@ -106,16 +107,17 @@ layout: default
           {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'title'  %}
           {% for charter in charters %}
             <div class="col-12 col-lg-6">
-              <div class="media">
-                {% if rod.logo %}              
-                  <a href="{{ charter.url }}"><img class="mr-3" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
+              <div class="media my-3">
+                {% if charter.logo %}
+                  <a href="{{ charter.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
                 {% endif %}
                 <div class="media-body">
                   <a href="{{ charter.url }}"><h5 class="mt-0 mb-1">{{ charter.title }}</h5></a>
-                  <p class="mb-1"><small>{{ charter.address }}</small></p>
-                  {{ charter.excerpt }}
+                  <p class="mb-0 pb-0"><small>{{ charter.address }}</small></p>
+                  <p class="mb-0 pb-0">{{ charter.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                 </div>
               </div>
+      
             </div>
           {% endfor %}
             

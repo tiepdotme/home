@@ -2,7 +2,7 @@
 title: Pelican's Roost Reels
 layout: profile-partner
 partner-type: dealer
-# logo: http://via.placeholder.com/100x100
+logo: http://via.placeholder.com/400x400
 address: >-
     West Testing St.
     Someplace, NC 1XXXX
