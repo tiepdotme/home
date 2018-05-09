@@ -18,15 +18,15 @@ locations:
     - Myrtle Beach, SC
 ---
 
-{% include media.html id="/media/a86c81b3" data-gallery="ross-blog-catches" class="float-right w-25 ml-4 mt-2 mb-3 pt-2" %}
-
+{% include media.html id="/media/3f39c9ec" data-gallery="ross-blog-catches" class="float-right ml-4 mt-2 mb-3 w-25" %}
 I was first introduced to IRT by my friend Scott Binkley in 2009. The years prior, he had reintroduced me to the passion of saltwater fishing. One day, before heading to Belmar, New Jersey, he handed me a blue and gold reel and said, "Give this a go on these Whopper Blues." He then stated that his friend, Greg Header, had decided to venture into the reel business. I graciously accepted this reel, and the rest has become somewhat of a wild ride into the world of design, mechanics, and testing of these innovative reels.
+
 
 
 Needless to say, I instantly became a believer in the performance and future of these reels. Countless trips were made to the Belmar Marina, where we became known as the guys with 'those fancy reels.’ 
 
-{% include media.html id="/media/a8acdd14" data-gallery="ross-blog-catches" class="float-right ml-4 mt-2 mb-3 w-25" %}
-{% include media.html id="/media/3f39c9ec" data-gallery="ross-blog-catches" class="w-25 float-left mr-4 mt-2 mb-3" %}
+{% include media.html id="/media/a8acdd14" data-gallery="ross-blog-catches" class="w-25 float-left mr-4 mt-2 mb-3" %}
+{% include media.html id="/media/a86c81b3" data-gallery="ross-blog-catches" class="float-right w-25 ml-4 mt-2 mb-3 pt-2" %}
 
 Over the following years, I have used this same reel to catch hundreds of these large bluefish, as well as large striped bass throughout the Northeast. My reel is a prototype reel, and the ONLY service I have needed in 6+ years is to have a minor shim upgrade and a gear replacement due to overworking the reel on a 200 lb shark while jigging blackfin tuna off Hatteras, NC in Dec 2015. This 700 sized reel has made pretty work of many large game fish, as I've become more obsessed and devoted to fishing.
 {: class="clearfix" }
