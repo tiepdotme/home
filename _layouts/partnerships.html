@@ -34,11 +34,11 @@ layout: default
         {% for dealer in dealers %}
           <div class="media my-3">
             {% if dealer.logo %}
-              <a href="{{ dealer.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
+              <a href="{{ dealer.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
             {% endif %}
             <div class="media-body">
               <a href="{{ dealer.url }}"><h5 class="mt-0 mb-1">{{ dealer.title }}</h5></a>
-              <p class="mb-0 pb-0"><small>{{ dealer.address }}</small></p>
+              <p class="mb-0 pb-1"><small>{{ dealer.address }}</small></p>
               <p class="mb-0 pb-0">{{ dealer.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             </div>
           </div>
@@ -58,11 +58,11 @@ layout: default
 
             <div class="media my-3">
               {% if rod.logo %}
-                <a href="{{ rod.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
+                <a href="{{ rod.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
               {% endif %}
               <div class="media-body">
                 <a href="{{ rod.url }}"><h5 class="mt-0 mb-1">{{ rod.title }}</h5></a>
-                <p class="mb-0 pb-0"><small>{{ rod.address }}</small></p>
+                <p class="mb-0 pb-1"><small>{{ rod.address }}</small></p>
                 <p class="mb-0 pb-0">{{ rod.excerpt | remove: '<p>' | remove: '</p>' }}</p>
               </div>
             </div>
@@ -81,11 +81,11 @@ layout: default
   
             <div class="media my-3">
               {% if lure.logo %}
-                <a href="{{ lure.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
+                <a href="{{ lure.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
               {% endif %}
               <div class="media-body">
                 <a href="{{ lure.url }}"><h5 class="mt-0 mb-1">{{ lure.title }}</h5></a>
-                <p class="mb-0 pb-0"><small>{{ lure.address }}</small></p>
+                <p class="mb-0 pb-1"><small>{{ lure.address }}</small></p>
                 <p class="mb-0 pb-0">{{ lure.excerpt | remove: '<p>' | remove: '</p>' }}</p>
               </div>
             </div>
@@ -109,11 +109,11 @@ layout: default
             <div class="col-12 col-lg-6">
               <div class="media my-3">
                 {% if charter.logo %}
-                  <a href="{{ charter.url }}" class="w-25 pr-3 my-auto" ><img class="mr-3 " src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
+                  <a href="{{ charter.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
                 {% endif %}
                 <div class="media-body">
                   <a href="{{ charter.url }}"><h5 class="mt-0 mb-1">{{ charter.title }}</h5></a>
-                  <p class="mb-0 pb-0"><small>{{ charter.address }}</small></p>
+                  <p class="mb-0 pb-1"><small>{{ charter.address }}</small></p>
                   <p class="mb-0 pb-0">{{ charter.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                 </div>
               </div>
