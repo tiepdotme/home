@@ -1,6 +1,6 @@
 ---
 title: Big Ol’ Biter in North Myrtle Beach, South Carolina on IRT 400
-date: 01-01-1900
+date: 1900-01-01
 description: Big Ol’ Biter in North Myrtle Beach, South Carolina on IRT 400
 thumb: /assets/images/blog--ross-shark.jpg
 image: /assets/images/blog--ross-shark.jpg

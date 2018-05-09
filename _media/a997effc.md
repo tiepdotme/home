@@ -1,6 +1,6 @@
 ---
 title: Russ Dimauro 400 Series
-date: 01-01-1900 # day-month-year
+date: 1900-01-01
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
 thumb: /assets/images/photo-gallery/blog--RDimauro4.jpg
 image: /assets/images/photo-gallery/blog--RDimauro4.jpg

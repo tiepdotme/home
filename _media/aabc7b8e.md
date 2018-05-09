@@ -1,6 +1,6 @@
 ---
 title: Nephew, Grey, with his first Wahoo on IRT 700 and Black Hole Challenger combo aboard Goodtimes in Hatteras, North Carolina
-date: 01-01-1900
+date: 1900-01-01
 description: Nephew, Grey, with his first Wahoo on IRT 700 and Black Hole Challenger combo aboard Goodtimes in Hatteras, North Carolina
 thumb: /assets/images/blog--ross-grey-wahoo.jpg
 image: /assets/images/blog--ross-grey-wahoo.jpg

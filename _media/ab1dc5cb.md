@@ -1,6 +1,6 @@
 ---
 title: One of many sharks landed on north facing beach off Cape Hatteras, North Carolina
-date: 01-01-1900
+date: 1900-01-01
 description: One of many sharks landed on north facing beach off Cape Hatteras, North Carolina
 thumb: /assets/images/blog--ross-shark2.jpg
 image: /assets/images/blog--ross-shark2.jpg

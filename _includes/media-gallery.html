@@ -1,8 +1,9 @@
 
 <div class="card-columns ">
 {% if include.reel-series %}
-    {% assign media = site.media | where: "reel-series", include.reel-series %}
-    {% for item in media | limit: include.limit %}
+    {% assign media = site.media | where: "reel-series", include.reel-series  %}
+    {% assign media = (media  | sort: "date" | reverse ) %}
+    {% for item in media  | limit: include.limit%}
         {% if item.reel-type != include.reel-type %}
         {% continue %}
         {% endif %}
@@ -13,8 +14,9 @@
 {% elsif include.angler %}
 
     {% assign media = site.media | where: "angler-name", include.angler %}
+    {% assign media = (media  | sort: "date" | reverse) %}
     
-    {% for item in media | limit: include.limit %}
+    {% for item in media  | limit: include.limit %}
         
         <div class="card" style="margin-top:4px" width="15%">
             {% include media.html id=item.id data-gallery=include.data-gallery %}
@@ -22,8 +24,11 @@
     {% endfor %}
 
 {% else %}
-    {% assign media = site.media %}
-    {% for item in media | limit: include.limit %}
+    {% assign media = (site.media  | sort: "date" | reverse )  %}
+
+
+
+    {% for item in media   %}
         
         <div class="card" style="margin-top:4px" width="15%">
             {% include media.html id=item.id data-gallery=include.data-gallery %}
