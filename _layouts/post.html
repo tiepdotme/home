@@ -46,7 +46,7 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
       <p class="post-meta text-d20-{{ theme_style }} h5 pt-3"><a href="{{ pro.url }}">{{ pro.title }}</a></p>
       <p class="post-meta text-d20-{{ theme_style }}"><small>{{ pro.irt-affiliation }}</small></p>
       {% if pro.image %}
-        <img src="{{ pro.image }}" class="mb-4 rounded-circle w-50 ">
+        <a href="{{ pro.url }}"><img src="{{ pro.image }}" class="mb-4 rounded-circle w-50 "></a>
       {% endif %}
       <div class="text-right mb-3 w-100">
         {% if pro.links.instagram %}
