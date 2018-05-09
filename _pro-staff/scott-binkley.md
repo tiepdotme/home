@@ -6,7 +6,7 @@ image: http://via.placeholder.com/550x550
 cover: http://via.placeholder.com/2000x750
 location: Pennsylvania
 affiliates: IRT Reels
-irt-affiliation: Lead Pro Staff
+irt-affiliation: Elite Pro Staff
 links:
     instagram: /#instagram
     twitter: /#twitter

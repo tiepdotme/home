@@ -6,7 +6,7 @@ image: /assets/images/photo-gallery/700-series-ross-thumb.jpg
 cover: /assets/images/home--ross-w-dog--edit.jpg
 location: Illinois
 affiliates: IRT Reels
-irt-affiliation: Lead Pro Staff
+irt-affiliation: Elite Pro Staff
 links:
     instagram: /404
     twitter: /404
