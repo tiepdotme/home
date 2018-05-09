@@ -2,7 +2,7 @@
 title: Ross Scroble
 staff-type: elite
 layout: profile-pro
-image: http://via.placeholder.com/150x150
+image: /assets/images/photo-gallery/700-series-ross-thumb.jpg
 cover: http://via.placeholder.com/2000x750
 location: Illinois
 affiliates: IRT Reels

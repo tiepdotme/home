@@ -3,7 +3,9 @@ title: Black Hole USA
 layout: profile-partner
 partner-type: rods
 logo: http://via.placeholder.com/400x400
+cover: http://via.placeholder.com/2000x750
 address: >-
+    2145 West Something Blvd.
     Englewood Cliffs, NJ
 website_url: http://www.blackholeusa.com/
 representatives: Kil Song
