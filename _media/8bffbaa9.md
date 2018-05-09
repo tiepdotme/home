@@ -1,6 +1,6 @@
 ---
 title: a2 charters 300 spinning
-# date: 01-01-2222
+date: 01-01-1900
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
 thumb: /assets/images/photo-gallery/a2-charters-irt300-2.jpg
 image: /assets/images/photo-gallery/a2-charters-irt300-2.jpg

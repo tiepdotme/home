@@ -1,6 +1,6 @@
 ---
 title: Striped Bass aboard Golden Eagle, Belmar, New Jersey
-# date: 01-01-2222 # day-month-year
+date: 01-01-1900
 description: Striped Bass aboard Golden Eagle, Belmar, New Jersey
 thumb: /assets/images/blog--ross-striped-bass.jpg
 image: /assets/images/blog--ross-striped-bass.jpg

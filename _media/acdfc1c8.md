@@ -1,6 +1,6 @@
 ---
 title: Small Chinook on 10lb mono from shore in Chicago, Illinois
-# date: 01-01-2222 # day-month-year
+date: 01-01-1900
 description: Small Chinook on 10lb mono from shore in Chicago, Illinois
 thumb: /assets/images/blog--ross-chinook.jpg
 image: /assets/images/blog--ross-chinook.jpg

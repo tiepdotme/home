@@ -1,6 +1,6 @@
 ---
 title: Bass on IRT 400 Series
-# date: 18-07-16 # day-month-year
+date: 18-07-16 # day-month-year
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
 thumb: /assets/images/photo-gallery/400-bass.jpeg
 image: /assets/images/photo-gallery/400-bass.jpeg

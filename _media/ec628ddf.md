@@ -1,6 +1,6 @@
 ---
 title: andrew with 600 series
-# date: 01-01-2222
+date: 01-01-1900
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
 thumb: /assets/images/photo-gallery/anderw-irt600.jpg
 image: /assets/images/photo-gallery/anderw-irt600.jpg

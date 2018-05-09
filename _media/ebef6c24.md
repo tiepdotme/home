@@ -1,5 +1,5 @@
 ---
-title: x
+title: IRT400 Series spinning reel catch
 date: 29-05-2015 # day-month-year
 # description: Ea vis perpetua complectitur, te nec molestiae adversarium. Corpora nominati mediocritatem te sea, no purto periculis mei. Ut nec quod intellegat, ut tation quaeque vim. His vocent appetere ut, duo in choro instructior.
 thumb: /assets/images/photo-gallery/dino-fight-with-IRT-400-series.jpg
