@@ -28,7 +28,7 @@
 
 
 
-    {% for item in media   %}
+    {% for item in media | limit: include.limit  %}
         
         <div class="card" style="margin-top:4px" width="15%">
             {% include media.html id=item.id data-gallery=include.data-gallery %}
