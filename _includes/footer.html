@@ -144,8 +144,17 @@
                   {% endif %}              
                 {% endif %}
                       
-                {% if sublink.title == 'Contact' %}
-                  <p>Yo YO MAAA</p>
+                {% if sublink.title == 'Pro Staff' %}
+                  <li class="pt-3">
+                    <strong style="color:#f5f5f5">Address</strong><br>
+                    <address style="color:#c6c6c6; font-size: 70%">
+                        <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
+                    </address>
+                  </li>
+                  <li>
+                    <strong style="color:#c6c6c6">Call</strong></br>
+                    <a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a>
+                  </li>
                 {% endif %}
                 
                 {% if sublink.title == 'separator' %}
