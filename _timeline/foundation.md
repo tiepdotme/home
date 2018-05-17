@@ -1,10 +1,13 @@
 ---
-title: Company Launch
+title: Foundation
 css-id: foundation
-group: 2007
+group: April 1998
 type: milestone
-date: 2007-04-15 00:00:00 -0500
+date: 1998-04-15 00:00:00 -0500
 image: http://via.placeholder.com/1000x350
 ---
 
-By 2007, Greg Header launched IRT officially. While other companies moved or outsourced their builders, IRT proudly kept engineering, development, and manufacturing right here in the US throughout the entire process. While it took almost five years oFor over ten years, IRT has worked on  of development and patents to make some of the best fishing reels in the industry, and our team team took the time to continuously tests and retests the products to make them sure they are perfect.
+Dolor sit amet, pro unum argumentum eu, sed omittam detraxit in. Vix velit contentiones ne. Corpora consectetuer qui no, dolor postea essent nec cu. Ad vel enim verear.
+
+Primis vocibus pri ex, no omnis affert duo. Et pro invenire sententiae constituam, cetero consequat sea in, pri aliquando maiestatis ex. Ei pri ferri essent tacimates, vix adhuc periculis euripidis ut. Inani novum altera an sea. Ex quo gubergren accommodare, delenit minimum sed et. Et vivendum perpetua cum, habeo officiis temporibus quo id, ad per facer virtute. Mea ex saperet gloriatur.  
+

@@ -1,0 +1,159 @@
+---
+layout: default
+---
+<style>
+.b-5{
+    border-bottom: solid 5px #ffcd59;
+    border-top: solid 5px #ffcd59;
+}
+</style>
+{% if page.cover %}
+<div class="jumbotron cover jumbotron-fluid mb-5" style="background-image:url('{{ page.cover }}');">
+  <div class="container" >
+    <div class="row">
+      <div class="offset-1 col-11">
+        <h1 class="display-3 text-uppercase">{{ page.long_title | escape }}</h1>
+        <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.our-story %}
+    <div class="container-fluid b-5" style="background:#231F20; margin-top:74px">
+        <div class="row">
+            <div class="col-12 col-xl-8 offset-xl-2 px-0">
+                {% include our-story.html %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+<main class="container mt-10" aria-label="Content">
+
+  <article class="row">
+
+    {% if page.cover == null %}
+    <div class="col-12">
+      <h1 class="display-5 text-uppercase">{{ page.long_title | escape }}</h1>
+      <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
+    </div>
+    {% endif %}
+    
+
+
+    {% if content %}
+    <div class="col" id="content">
+      
+      {{ content | inject_anchors }}
+    </div>
+    {% endif %}
+    
+
+    {% if page.toc or site.resources %}
+    <div class="col-12 col-md-4">
+      {% if site.resources %}
+        {% include resources.html %}
+      {% endif %}
+
+      {% if page.toc %}
+        <h4>Contents</h4>
+        {{ content | toc_only }} 
+      {% endif %}
+      
+      {% assign ad = page.ad | default: false  %}
+      {% if ad %}      
+        {% include ad.html %}
+      {% endif %}
+      
+    </div>
+    {% endif %}
+
+    {% if page.timeline %}
+    
+    <div class="col-12 pt-3" id="content">
+      <h2>{{ page.timeline-label}}</h2>
+      <div id="timeline" class="timeline-container container-fluid pl-0">
+
+
+        <div class="row pt-3 border-top">
+          <div class="col-12">
+            <button  type="button"  class="timeline-toggle btn btn-dark float-right">+ expand all</button>
+          </div>
+        </div>
+
+        <br class="clear">
+
+        
+        {% assign timeline = site.timeline  | group_by: 'group' %}
+        {% for group in timeline %}
+         
+        
+          <div class="timeline-wrapper row">
+            <h2 class="timeline-time col-12"><span>{{ group.name }}</span></h2>
+          
+          
+            {% for event in group.items %}
+              <!-- {{ event }} -->
+              <dl class="timeline-series col-12">
+                <span class="tick tick-before"></span>
+                <dt id="{{ event.css-id }}" class="timeline-event"><a>
+                  
+                  {% case event.type %}
+                    {% when "milestone" %}
+                      <i class="fas fa-birthday-cake  fa-fw"></i>
+                    {% when "event" %}
+                      <i class="fas fa-flag-checkered  fa-fw"></i>
+                      <!-- <i class="fas fa-clipboard-list"></i> -->
+                    {% when "product" %}
+                      <i class="far fa-lightbulb  fa-fw"></i>
+                      <!-- <i class="fas fa-puzzle-piece"></i> -->
+                    {% when "media" %}
+                      <i class="far fa-newspaper  fa-fw"></i>
+                  {% endcase %}
+                  <span class="ml-1">
+                    {{ event.title }}
+                  </span>
+                </a></dt>
+                <span class="tick tick-after"></span>
+                <dd class="timeline-event-content" id="{{ event.css-id }}EX">
+                  
+                    
+    
+                  {{ event.content }}
+    
+                  {% if event.image %}
+                    <img src="{{ event.image }}" alt="TODO: alt" class="img-fluid">
+                  {% endif %}
+                  <br class="clear">
+                </dd>
+              </dl>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      
+   
+   
+  
+        <button  type="button"  class="timeline-toggle  btn btn-dark  float-right">+ expand all</button>
+  
+        <br class="clear">
+
+
+        
+
+
+
+      </div>
+    </div>
+
+    {% endif %}
+    
+    
+    
+
+  </article>
+
+</main>
+
