@@ -26,9 +26,13 @@ timeline: false
 
 When Penn Reels—a local Pennsylvania reel company—moved their production from Hegins, PA to overseas, several of the employees came to work for Solar Innovations®. Greg Header, an avid outdoorsman and the company president, began talking with some of the workers and brainstormed the idea of making an American made fishing reel. Between the experience of the workers and Greg’s passion for fishing, the idea of IRT was born.
 
+![Classic IRT Logo](/assets/logos/LOGO-PNG-File.png){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="40%"}
+
 Between 2005 and 2007, IRT really began to come to life. The goal for IRT was to create unique and efficient fishing reels that could be customized with dedicated fishermen in mind. We realized that each rod, reel, and piece of tackle had the potential to hold memories of monumental catches and great days spent with family and friends. During the creation process, IRT latched onto this idea, truly wanting to bring customers a durable reel for sport and hobby fisherman alike that could bring forth a lifetime of memories.
 
 By 2006, IRT received its first patent for the Fishing Reel Leg Applied Powergrip™ and by 2007, Greg Header launched IRT officially. While other companies moved or outsourced their builders, IRT proudly kept engineering, development, and manufacturing right here in the US throughout the entire process. While it took almost five years oFor over ten years, IRT has worked on  of development and patents to make some of the best fishing reels in the industry, and our team team took the time to continuously tests and retests the products to make them sure they are perfect.
+
+
 
 Our all-American made reels are guaranteed to give you a one-of-a-kind fishing machine and experience with every purchase. Created from our patented precision manufacturing, our aluminum spinning reels are the best on the market today.
 
