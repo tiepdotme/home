@@ -8,7 +8,7 @@
     rgba(49,157,211,0.98), 
     /* rgba(41, 144, 194, 0.98),  */
     rgba(0, 74, 118, 0.97), 
-    rgba(0, 37, 84, 0.98), 
+    /* rgba(0, 37, 84, 0.98),  */
     rgba(35, 31, 32, 1));
     color: white;
     border-top: solid 5px #ffcd59;
@@ -140,7 +140,7 @@
                     <ul class="list-unstyled m-0">                  
                 {% else %}
                   {% if sublink.title != 'separator' %}              
-                    <li><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></li>
+                    <li><small><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></small></li>
                   {% endif %}              
                 {% endif %}
                       
@@ -152,7 +152,7 @@
                     </address>
                   </li>
                   <li>
-                    <strong style="color:#c6c6c6">Call</strong></br>
+                    <strong style="color:#f5f5f5">Call</strong></br>
                     <a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a>
                   </li>
                 {% endif %}
@@ -162,13 +162,13 @@
                 {% endif %}
               {% endfor %}
             {% elsif link.title == "Blog" %}
-              <div class="my-3 col-6 col-lg-2">
+              <div class="my-3 col-6 col-lg-3">
                 <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
                 
                 
                 <ul class="list-unstyled  m-0" >
                   {% for post in site.posts limit:8 %}
-                    <li class="my-2" style="line-height: 1;"><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
+                    <li   ><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
                   {% endfor %}
                 </ul>
               </div>

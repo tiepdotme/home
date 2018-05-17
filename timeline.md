@@ -4,7 +4,7 @@ permalink: /about/timeline/
 title: Timeline
 long_title: Timeline of IRT
 description: Our mission is to infuse the fishing industry with fresh ideas, help consumers think outside the box, and produce top quality fishing products — using all American ingenuity.
-
+published: false
 # menu: main
 # weight: 12
 # toc: true

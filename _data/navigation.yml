@@ -38,10 +38,8 @@
 - title: About
   url: /about
   sublinks:
-    - title: Overview
+    - title: Our Story
       url: /about
-    - title: Timeline
-      url: /about/timeline
     - title: Team
       url: /about/team
     - title: Pro Staff
