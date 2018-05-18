@@ -70,5 +70,5 @@ description: Fill out the form and submit to be considered for a Pro-Staff posit
     </div>
     <input type="hidden" name="_subject" value="New IRT Pro-Staff Submission!" />
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" class="btn btn-primary mb-2" value="Send">
+    <input type="submit" class="btn btn-primary mb-2 float-right" value="Send">
 </form>

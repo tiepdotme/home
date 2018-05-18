@@ -26,5 +26,5 @@ description: Reach out and we will respond as quickly as possible
     </div>
     <input type="hidden" name="_subject" value="New IRT Contact Submission!" />
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" class="btn btn-primary mb-2" value="Send">
+    <input type="submit" class="btn btn-primary mb-2 float-right" value="Send">
 </form>
