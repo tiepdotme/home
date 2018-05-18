@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: contact
 permalink: /info/contact/
 title: Contact Us
 long_title: Contact Us
@@ -19,7 +19,7 @@ description: Reach out and we will respond as quickly as possible
 
 <form 
     action="https://formspree.io/nkline@solarinnovations.com"
-    method="POST" class="mb-5">
+    method="POST" class="mb-5 ">
     <div class="form-group">
         <label for="email">Full Name</label>
         <input type="email" name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
