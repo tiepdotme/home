@@ -30,7 +30,7 @@ description: Register your reel to claim your Limited Lifetime Warranty
     <div class="form-group row">
         <label for="email" class="col-sm-4 col-form-label text-right">Email</label>
         <div class="col-sm-8">
-            <input type="email" required class="form-control" id="email" name="Email" placeholder="Your@Email.com">
+            <input type="email" required class="form-control" id="email" name="Email" placeholder="Your@Email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         </div>
     </div>
     <div class="form-group row">
