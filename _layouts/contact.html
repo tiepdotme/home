@@ -17,7 +17,7 @@ layout: default
 
 <main class="container mt-10" aria-label="Content">
 
-  <article class="row">
+  <article class="row mb-5">
 
     {% if page.cover == null %}
     <div class="col-12">
@@ -26,15 +26,36 @@ layout: default
     </div>
     {% endif %}
     
+    <div class="col-12 col-lg-6 text-right order-lg-2">
+        {% if page.url != '/info/contact/pro-staff/' %}
+        <div class="mb-4">
+            <p>Have what it takes to become a Pro-Staffer? <a href="/info/contact/pro-staff">Let us know!</a></p>
+        </div>
+        {% endif %}
+        
+        <div class="mb-4">
+            <h2 class="h4">Phone</h2>
+            <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+        </div>
 
+        <div class="mb-4">
+            <h2 class="h4">Address</h2>
+            <address>
+                <a href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
+            </address>
+        </div>
+
+        
+    </div>
 
     {% if content %}
-    <div class="col-12 col-lg-6" id="content">
+    <div class="col-12 col-lg-6 order-lg-1" id="content">
       
       {{ content | inject_anchors }}
     </div>
     {% endif %}
     
+ 
 
     {% if page.toc or site.resources %}
     <div class="col-12 col-md-4">
