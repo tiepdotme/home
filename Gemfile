@@ -14,6 +14,7 @@ gem "jekyll", "~> 3.7.3"
 gem 'solar-flair', '~> 0.3.0'
 gem 'jekyll-toc'
 gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

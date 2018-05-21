@@ -58,6 +58,8 @@
       url: /info/contact
     - title: Pro Staff
       url: /info/contact/pro-staff
+    - title: Media
+      url: /info/contact/media
     - title: separator
     - title: Support
       url: /info/support

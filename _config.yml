@@ -85,6 +85,7 @@ plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-paginate
+  - jekyll-sitemap
 
 collections:
   footer-nav:
