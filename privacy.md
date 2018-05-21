@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /info/support//privacy/
+permalink: /info/support/privacy/
 title: Privacy Policy
 long_title: Your privacy is important to us
 description: Your privacy is important to us
