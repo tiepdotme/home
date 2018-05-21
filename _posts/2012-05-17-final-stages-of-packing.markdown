@@ -6,6 +6,7 @@ date:   2012-05-17  11:46:00 -0400
 # author_title: 
 categories: 
     - Meta
+    - Press Release
 # fish: 
 #     - Maui Maui
 locations:
