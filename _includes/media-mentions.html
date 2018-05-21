@@ -7,8 +7,8 @@
 <div class="mt-2">
 {% for post in posts %}
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-    <div class="clearfix">
+    <p class="my-3" style="font-size:120%"><strong>{{ post.date | date: "%b %-d, %Y" }}</strong></p>
+    <div class="clearfix lead pb-3">
         {{ post.excerpt }}
     </div>
     
