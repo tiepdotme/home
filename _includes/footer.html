@@ -134,16 +134,16 @@
 
                   {% case sublink.title %}
                     {% when 'Contact'  %}
-                      {% assign order = 'order-12 text-right' %}
+                      {% assign order = 'order-12 text-right col-lg-2' %}
                     {% when 'Support' %}
-                      {% assign order = 'order-11' %}
+                      {% assign order = 'order-11 col-lg-2' %}
                     {% when 'Patents' %}
-                      {% assign order = 'order-10' %}
+                      {% assign order = 'order-10 col-lg-2' %}
                     {% else %}
-                      {% assign order = 'order-6' %}  
+                      {% assign order = 'order-6 col-lg-2' %}  
                   {% endcase %}
 
-                  <div class="my-3 col-6 col-lg-2 {{ order }}">
+                  <div class="my-3 col-6 {{ order }}">
                     <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
                     <ul class="list-unstyled m-0">
                                
@@ -158,16 +158,17 @@
                     <strong style="color:#f5f5f5">Email</strong><br>                    
                     <a style="color:#c6c6c6;" target="_blank" href="mailto:reels@irtreels.com">reels@irtreels.com</a>
                   </li>
-                  <li class="pb-3">                  
-                    <strong style="color:#f5f5f5">Address</strong><br>
-                    <address style="color:#c6c6c6; font-size: 80%" class="mb-0">
-                        <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
-                    </address>
-                  </li>
-                  <li>
+                  <li class="pb-3">
                     <strong style="color:#f5f5f5">Call</strong></br>
                     <a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a>
                   </li>
+                  <li >                  
+                    <strong style="color:#f5f5f5">Address</strong><br>
+                    <address style="color:#c6c6c6; font-size: 72%" class="mb-0">
+                        <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
+                    </address>
+                  </li>
+                  
                 {% endif %}
                 
                 {% if sublink.title == 'separator' %}
