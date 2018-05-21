@@ -13,4 +13,4 @@ categories:
 Our [IRT400 power grip reel](/spinning-reels/400-series/) made the cover of the January issue of [On The Water](https://www.onthewater.com/) Magazine! It comes out next week, so mark your calendars to pick up a copy.
 
 
-Congadulations [Joey Manansala](/about/pro-staff/joe-manansala/) on your achievement!
+Congratulations [Joey Manansala](/about/pro-staff/joe-manansala/) on your achievement!
