@@ -63,15 +63,13 @@ phone: 1-800-618-0669
 
 ## Social Accounts
 facebook: IRTreels
-tumblr: http://innovativereels.tumblr.com/
-twitter: InnovativeReels
-pinterest: false
-instagram: false
-houzz: false
-linkedin: false
+# tumblr: http://innovativereels.tumblr.com/
+# twitter: InnovativeReels
+instagram: https://www.instagram.com/innovativereels/
 youtube: InnovativeReelTech   # channel ID
-google_plus: false
 github_organization: https://github.com/InnovativeReelTechnologies
+medium: https://medium.com/the-innovation-clearinghouse
+quora: the-innovation-clearinghouse.quora.com
 
 # Build settings
 

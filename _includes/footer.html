@@ -123,21 +123,30 @@
 
   </section>
 
-  <div class="container-fluid brand-foot py-5">
+  <div class="container-fluid brand-foot pt-5">
 
       <div class="row justify-content-lg-center justify-content-start">
 
           {% for link in links %}
             {% if link.title == 'Information' %}
               {% for sublink in link.sublinks %}
-                {% if forloop.first %}
-                  <div class="my-3 col-6 col-lg-2">
+                {% if forloop.first or sublink.header == true %}
+
+                  {% case sublink.title %}
+                    {% when 'Contact'  %}
+                      {% assign order = 'order-12 text-right' %}
+                    {% when 'Support' %}
+                      {% assign order = 'order-11' %}
+                    {% when 'Patents' %}
+                      {% assign order = 'order-10' %}
+                    {% else %}
+                      {% assign order = 'order-6' %}  
+                  {% endcase %}
+
+                  <div class="my-3 col-6 col-lg-2 {{ order }}">
                     <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
                     <ul class="list-unstyled m-0">
-                {% elsif sublink.header == true %}
-                  <div class="my-3 col-6 col-lg-2">              
-                    <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
-                    <ul class="list-unstyled m-0">                  
+                               
                 {% else %}
                   {% if sublink.title != 'separator' %}              
                     <li><small><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></small></li>
@@ -162,7 +171,7 @@
                 {% endif %}
               {% endfor %}
             {% elsif link.title == "Blog" %}
-              <div class="my-3 col-6 col-lg-3">
+              <div class="my-3 col-6 col-lg-3 order-1">
                 <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
                 
                 
@@ -181,109 +190,134 @@
 
     <div class="row">
       
-      <div py-2 class="col-12 order-3 order-md-1 col-md-4 my-auto">
-          <div class="container-fluid text-center list-unstyled">
-            <div class="row">   
-              {% if site.twitter %} 
-              <div class="col-3 py-2">
-                <a target="_blank" alt="Twitter"   href="https://twitter.com/{{ site.twitter }}">
-                  <i class="fab fa-twitter-square fa-3x icon-grey sr-pop-a" aria-hidden="true"></i>
-                </a>
+      <div py-2 class="col-12 order-3 my-auto">
+        <div class="container-fluid text-center list-unstyled">
+          <div class="row my-5">   
+            {% assign counter = 8 %}
+
+            {% if site.instagram %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Instagram"   href="https://www.instagram.com/{{ site.instagram }}/">
+                <i class="fab fa-instagram fa-4x sr-pop-a" aria-hidden="true "></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.facebook %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Facebook"  href="https://www.facebook.com/{{ site.facebook }}/">
+                <i class="fab fa-facebook-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.twitter %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Twitter"   href="https://twitter.com/{{ site.twitter }}">
+                <i class="fab fa-twitter fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.tumblr %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Tumblr"   href="{{ site.tumblr }}/">
+                <i class="fab fa-tumblr fa-4x sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.pinterest %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Pinterest"   href="https://www.pinterest.com/{{ site.pinterest }}/">
+                <i class="fab fa-pinterest fa-4x sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.houzz %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Houzz"  href="https://www.houzz.com/pro/{{ site.houzz }}">
+                <i class="fab fa-houzz fa-4x sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.linkedin %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank"  alt="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
+                <i class="fab fa-linkedin fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.youtube %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank"  alt="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
+                <i class="fab fa-youtube fa-4x sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.google_plus %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Google Plus" href="https://plus.google.com/+{{ site.google_plus }}/">
+                <i class="fab fa-google-plus-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.github_organization %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github" href="{{ site.github_organization }}/">
+                <i class="fab fa-github fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.medium %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github" href="{{ site.medium }}/">
+                <i class="fab fa-medium-m fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
+            {% if site.quora %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github" href="{{ site.quora }}/">
+                <i class="fab fa-quora fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %} 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <div class="container ">
+            <div class="row my-4">
+              <div class="col text-center">
+                <a href="https://innovativereeltechnologies.com/" ><strong>Innovative Reel Technologies<sup>®</sup></strong></a>
               </div>
-              {% endif %}
-              {% if site.tumblr %} 
-              <div class="col-3 py-2">
-                <a class="grey"   target="_blank" alt="Tumblr"   href="{{ site.tumblr }}/">
-                  <i class="fab fa-tumblr fa-3x sr-pop-b" aria-hidden="true"></i>
-                </a>
+        
+              <div class="col text-center">
+                <a href="https://solarinnovations.com" style="color: #428e42"><strong>Solar Innovations<sup>®</sup></strong></a>
               </div>
-              {% endif %}
-              {% if site.pinterest %} 
-              <div class="col-3 py-2">
-                <a class="grey"   target="_blank" alt="Pinterest"   href="https://www.pinterest.com/{{ site.pinterest }}/">
-                  <i class="fab fa-pinterest fa-3x sr-pop-b" aria-hidden="true"></i>
-                </a>
+        
+              <div class="col text-center">
+                <a href="https://universalclamps.com" style="color:#f15830"><strong>Universal<sup>®</sup> Clamps</strong></a>
               </div>
-              {% endif %}
-              {% if site.facebook %} 
-              <div class="col-3 py-2">
-                <a target="_blank" alt="Facebook"  href="https://www.facebook.com/{{ site.facebook }}/">
-                  <i class="fab fa-facebook-square fa-3x icon-grey sr-pop-c" aria-hidden="true"></i>
-                </a>
+        
+              <div class="col text-center">
+                <a href="https://planning.solar" class="grey"><strong>Planning Solar</strong></a>
               </div>
-              {% endif %}
-              {% if site.instagram %} 
-              <div class="col-3 py-2">
-                <a class="grey"   target="_blank" alt="Instagram"   href="https://www.instagram.com/{{ site.instagram }}/">
-                  <i class="fab fa-instagram fa-3x sr-pop-d" aria-hidden="true "></i>
-                </a>
+            </div>
+            <div class="row py-3 justify-content-between ">
+              <div class="col">
+                <p style="color:#c6c6c6"><small>&copy; {{ site.time | date: '%Y' }} Innovative Reel Technologies, Ltd. | All rights reserved </small></p>
               </div>
-              {% endif %}
-              {% if site.houzz %} 
-              <div class="col-3 py-2">
-                <a class="grey"   target="_blank" alt="Houzz"  href="https://www.houzz.com/pro/{{ site.houzz }}">
-                  <i class="fab fa-houzz fa-3x sr-pop-a" aria-hidden="true"></i>
-                </a>
+              <div class="col text-right">
+                <a href="/info/support/privacy/" style="color:#c6c6c6"><small>Privacy Policy</small></a> 
+                <span style="color:#c6c6c6">|</span> 
+                <a href="/info/support/terms-and-conditions/" style="color:#c6c6c6"><small>Terms &amp; Conditions</small></a>
               </div>
-              {% endif %}
-              {% if site.linkedin %} 
-              <div class="col-3 py-2">
-                <a target="_blank"  alt="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
-                  <i class="fab fa-linkedin fa-3x icon-grey sr-pop-b" aria-hidden="true"></i>
-                </a>
-              </div>
-              {% endif %}
-              {% if site.youtube %} 
-              <div class="col-3 py-2">
-                <a class="grey"   target="_blank"  alt="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
-                  <i class="fab fa-youtube fa-3x sr-pop-c" aria-hidden="true"></i>
-                </a>
-              </div>
-              {% endif %}
-              {% if site.google_plus %} 
-              <div class="col-3 py-2">
-                <a target="_blank" alt="Google Plus" href="https://plus.google.com/+{{ site.google_plus }}/">
-                  <i class="fab fa-google-plus-square fa-3x icon-grey sr-pop-d" aria-hidden="true"></i>
-                </a>
-              </div>
-              {% endif %}
             </div>
           </div>
       </div>
-      <div class="py-2 col-12 order-1 order-md-2 col-md-4 my-auto text-center sr-button">
-        <address>
-            <p class="text-l10-grey">{{ site.address_1 }}<br>{{ site.address_2 }}</p>
-        </address>
-        <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-      </div>
-      <div class="py-2 col-12 order-2 order-md-3 col-md-4 my-auto">
-        <ul class="list-unstyled sr-icons">
-
-          {% assign nav-section = site.footer-nav  | sort: 'weight' %}
-          {% for section in nav-section %}
-            {% if forloop.first == false and section.weight > 0 %}
-              <li><hr class="{{ color }}-right"></li>
-            {% endif %}
-
-            {% for link in section.nav %}
-              <li> 
-              {% if forloop.first == false %}
-              <a class="grey" href="{{ link.url }}">  
-                {{ link.title }}
-              </a>
-              {% else %}
-              <a href="{{ link.url }}"><strong >
-                {{ link.title }} 
-              </strong></a>
-              {% endif %}
-            </li>
-            {% endfor %}
-          {% endfor %}
-        </ul>
-      </div>
-      
     </div>
   </div>
+  
 </footer>
 
 
