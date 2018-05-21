@@ -26,12 +26,16 @@ layout: default
     </div>
     {% endif %}
     
-    <div class="col-12 col-lg-6 text-right order-lg-2">
-      {% if page.url != '/info/contact/pro-staff/' %}
-        <div class="mb-4">
-            <p>Have what it takes to become a Pro-Staffer? <a href="/info/contact/pro-staff">Let us know!</a></p>
-        </div>
+    <div class="col-12 col-lg-3 text-right order-lg-2">
+      {% if page.toc %}
+      <div class="text-left">
+        <h4 class="h4 text-right">Contents</h4>
+        {{ content | toc_only }} 
+      </div>
+      <hr class="mb-3 mt-2"/>
       {% endif %}
+
+     
         <div class="mb-4">
             <h2 class="h4">Email</h2>
             <a href="mailto:reels@irtreels.com">reels@irtreels.com</a>
@@ -48,12 +52,17 @@ layout: default
                 <a href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
             </address>
         </div>
-
+        
+        {% if page.url != '/info/contact/pro-staff/' %}
+          <div class="mb-4">
+              <p>Have what it takes to become a Pro-Staffer? <a href="/info/contact/pro-staff">Let us know!</a></p>
+          </div>
+        {% endif %}
         
     </div>
 
     {% if content %}
-    <div class="col-12 col-lg-6 order-lg-1" id="content">
+    <div class="col-12 col-lg-9 order-lg-1" id="content">
       
       {{ content | inject_anchors }}
     </div>
@@ -61,29 +70,6 @@ layout: default
     
  
 
-    {% if page.toc or site.resources %}
-    <div class="col-12 col-md-4">
-      {% if site.resources %}
-        {% include resources.html %}
-      {% endif %}
-
-      {% if page.toc %}
-        <h4>Contents</h4>
-        {{ content | toc_only }} 
-      {% endif %}
-      
-      {% assign ad = page.ad | default: false  %}
-      {% if ad %}      
-        {% include ad.html %}
-      {% endif %}
-      
-    </div>
-    {% endif %}
-    
-    <!-- <header class="col-12">
-      <h1 class="page-title">{{ page.title | escape }}</h1>
-    </header> -->
-    
     
 
   </article>
