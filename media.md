@@ -5,8 +5,9 @@ title: Media
 long_title: Media
 description: Resources for Media Outlets and Pro Staff
 slug: Resources for Media Outlets and Pro Staff
-toc: true
+
 ---
+
 ## Logos
 
 Logo usage and downloads
@@ -14,13 +15,13 @@ Logo usage and downloads
 ## Downloads
 
 ### Rack Cards
-- all
-- 300
-- 400
-- 500
-- 600
-- 700
-- 800
+- [All](/assets/downloads/rack--all.pdf)
+- [300 Series](/assets/downloads/rack--300.pdf)
+- [400 Series](/assets/downloads/rack--400.pdf)
+- [500 Series](/assets/downloads/rack--500.pdf)
+- [600 Series](/assets/downloads/rack--600.pdf)
+- [700 Series](/assets/downloads/rack--700.pdf)
+- [800 Series](/assets/downloads/rack--800.pdf)
 
-## In The News
-![On The Water's Angler's Almanc](/assets/images/media-mention--angler's-almanac.jpg)
+## Press Releases and Media Mentions
+{% include media-mentions.html  %}
