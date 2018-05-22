@@ -20,10 +20,20 @@ layout: default
   <article class="row mb-5">
 
     {% if page.cover == null %}
-    <div class="col-12">
+    {% if page.url == '/info/support/report-a-bug/' %}
+      <div class="col-2">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-bug fa-stack-1x"></i>
+          <i class="fas fa-ban fa-stack-2x" style="color:#d83105"></i>
+        </span>
+      </div>
+    {% endif %}
+    <div class="col-10">
+      
       <h1 class="display-5 text-uppercase">{{ page.long_title | escape }}</h1>
       <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
     </div>
+      
     {% endif %}
     
     <div class="col-12 col-lg-3 text-right order-lg-2">
