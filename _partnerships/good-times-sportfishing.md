@@ -3,7 +3,7 @@ title: Good Times Sportfishing
 layout: profile-partner
 partner-type: charter
 logo: http://via.placeholder.com/400x400
-website_url: http://www.goodtimessportfishing.com/w/
+website_url: http://www.goodtimessportfishing.com
 address: >-
     Hatteras, NC 27943
 representatives: 
