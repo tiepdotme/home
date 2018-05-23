@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IRT 500 Review: Russ Dimauro"
+title:  "IRT500 Review: Russ Dimauro"
 date:   2017-07-26  12:10:00 -0400
 author: Russ Dimauro
 author_title: Senior Pro Staff
