@@ -19,6 +19,6 @@ One of only 3 charters out of Hatteras Marina with a greenstick. Fishing with a 
 
 Adequate iced fish storage is provided to ensure that your catch arrives at the dock in peak condition. Tackle, bait, and ice are supplied for you. You are responsible for bringing your own food, drinks, sunscreen, sunglasses, hat, jacket, and rain suit.
 
-The Good Times has fished these waters since her inception, and is a proven fish raiser. Andy and his crew pride themselves on honesty and going the extra mile to make your trip a memorable one. The results will speak for themselves!
+The Good Times has fished these waters since her inception, and is a proven fish raiser. Andy and his crew pride themselves on honesty and going the extra mile to make your trip a memorable one. The results will speak for themselves! 
 
 Let us be your Hatteras Fishing Charter.           
