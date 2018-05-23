@@ -27,7 +27,7 @@ description: Reach out and we will respond as quickly as possible
     </div>
     <input type="hidden" name="_subject" value="New IRT Contact Submission!" />
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_next" value="{{ site.url }}info/contact/thank-you/" />
+    <input type="hidden" name="_next" value="{{ site.url }}/info/contact/thank-you/" />
     <input type="submit" class="btn btn-primary mb-2 float-right" value="Send">
 </form>
 <script>
