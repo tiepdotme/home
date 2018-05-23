@@ -5,6 +5,7 @@ date:   2016-09-13  13:01:00 -0400
 author: Ross Scroble
 categories: 
     - Pro Staff
+    - Blogger Spotlight
 fish: 
     - Blackfin
     - Striped Bass

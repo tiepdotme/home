@@ -16,7 +16,7 @@ Feel free to download our press kit. The download contains:
 - Logos
 - The story of IRT Reels
 - Founders' bios and photos
-- Our product sheets
+- Product sheets
 - Product photos
 
 <div class="row mt-4">

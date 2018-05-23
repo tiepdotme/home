@@ -9,7 +9,7 @@ categories:
 ---
 
 
-Our [IRT400 power grip reel](/spinning-reels/400-series/) made the cover of the January issue of [On The Water](https://www.onthewater.com/) Magazine! It comes out next week, so mark your calendars to pick up a copy.
+Our [IRT400 power grip reel](/spinning-reels/400-series/) made the cover of the January issue of [On The Water](https://www.onthewater.com/) Magazine! It comes out next week, so mark your calendars and pick up a copy.
 
 {% include media.html id="/media/d9d815b6" data-gallery="irt-500-catches" class="float-right w-50 pl-3" %}
 
