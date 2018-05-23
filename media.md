@@ -12,7 +12,25 @@ slug: Resources for Media Outlets and Pro Staff
 ## Press Kit
 {: class="mb-3 mt-5" }
 
-![logo](/assets/logos/logotype-narrow--colored.png){: class="w-50"}
+Feel free to download our press kit. The download contains:
+- Logos
+- The story of IRT Reels
+- Founders' bios and photos
+- Our product sheets
+- Product photos
+
+<div class="row mt-4">
+    <div class="col-6 text-center my-auto">
+        <a href="/assets/downloads/IRT-Reels-press-kit.zip">
+            <i class="fas fa-download fa-6x"></i><br>
+            <strong class="h1">Download</strong>
+        </a>
+    </div>
+    <div class="col-6 text-center my-auto">
+        <img src="/assets/logos/logotype-narrow--colored.png" alt="logo">
+    </div>
+</div>
+
 
 
 

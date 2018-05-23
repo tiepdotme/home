@@ -7,22 +7,7 @@ long_title: Our Story
 description: Like any decent story, the history of Innovative Reel Technologies started with a dream and a deep passion for success.
 our-story: true
 timeline: false
-# menu: main
-# weight: 12
-# toc: true
-# cover: /images/sketch.png
-# cover: /assets/images/cover-photos/grumser.JPG
-# cover_alt:  greenhouses cover sketch
-# categories: Greenhouse Planning
-# tags: 
-#     - Greenhouse Planning
-#     - Planning
-#     - Greenhouse
-#     - Greenhouses
 ---
-<!-- <div style="margin:0 auto;" id="customform_data" data-id="G1MITPIWwR36MDpcmX0Ovw"></div>  -->
-
-
 
 When Penn Reels—a local Pennsylvania reel company—moved their production from Hegins, PA to overseas, several of the employees came to work for Solar Innovations®. Greg Header, an avid outdoorsman and the company president, began talking with some of the workers and brainstormed the idea of making an American made fishing reel. Between the experience of the workers and Greg’s passion for fishing, the idea of IRT was born.
 
@@ -48,6 +33,7 @@ IRT’s dedicated production and development teams work with our customers to pr
 
 ## Campus / Facility
 
+![IRT Facility](/assets/images/facility.jpg){: class="img-fluid border rounded float-right ml-4 mt-2 mb-3 w-50" "}
 IRT makes active strides to ensure not only the team and products reflect environmental sustainability, but the facility itself as well. The building is wrapped in a transom window pattern and includes a vast roof skylight that illuminates the first and second floor in order to utilize as much natural light as possible. 
 
 Low VOC paint is used on the office walls, and high performing insulation is incorporated to maintain the building’s temperature. The floor is comprised of carpet and linoleum tiles that can be individually replaced and the ceiling is designed with exposed beams, allowing any lighting or wiring issues to be fixed with minimal maintenance. IRT recycles as many items as possible, including food compost and manufacturing materials, along with standard recyclable items like plastic, paper, and cardboard. The recycled compost is used to fertilize the lawn and onsite greenhouses, which are fed by cisterns that collect rainwater. 

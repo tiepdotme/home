@@ -8,7 +8,7 @@ categories:
     - Media Mention
 ---
 
-Innovative Reel Technologies<sup>®</sup> was featured today on [WNEP Channel 16 News](http://wnep.com/){: target="_blank"}. The feature includes a video of how IRT Reels are made as well as a feature on our sister company, Solar Innovations<sup>®</sup>
+Innovative Reel Technologies<sup>®</sup> was featured today on [WNEP Channel 16 News](http://wnep.com/){: target="_blank"}. The feature includes a video of how IRT Reels are made as well as a feature on our sister company, Solar Innovations<sup>®</sup>.
 
 [![WNEP Logo](/assets/images/Wnep_2008.png){: class="w-25 float-right  ml-4 mt-2 mb-3" }](http://wnep.com/){: target="_blank" }
 
