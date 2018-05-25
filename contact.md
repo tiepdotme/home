@@ -10,9 +10,11 @@ description: Reach out and we will respond as quickly as possible
     action="https://formspree.io/nkline@solarinnovations.com"
     method="POST"
     class="needs-validation" novalidate>
-    <div class="form-group">
-        <label for="email">Full Name</label>
-        <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
+    <div class="form-group row">
+        <label class="col-4 col-form-label text-right"  for="email">Full Name</label>
+        <div class="col-sm-8">
+          <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
+      </div>
     </div>
     <div class="form-group">
         <label for="email">Email address</label>
