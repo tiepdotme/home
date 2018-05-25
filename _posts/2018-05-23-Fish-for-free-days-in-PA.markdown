@@ -3,6 +3,7 @@ layout: post
 title:  "Fish for Free Days in PA"
 date:   2018-05-23  08:40:00 -0400
 author: Nicholas Kline
+categories: Meta
 ---
 
 ![PA Fish and Boat Commission](/assets/images/blog--pa-fish-and-boat.png){: class=" w-25 float-right ml-3 p-1"}
