@@ -125,7 +125,7 @@
 
   <div class="container-fluid brand-foot pt-5">
 
-      <div class="row justify-content-lg-center justify-content-start">
+      <div class="row justify-content-sm-center justify-content-start">
 
           {% for link in links %}
             {% if link.title == 'Information' %}
@@ -134,13 +134,13 @@
 
                   {% case sublink.title %}
                     {% when 'Contact'  %}
-                      {% assign order = 'order-12 text-right col-lg-2' %}
+                      {% assign order = 'order-12 text-right col-sm-2' %}
                     {% when 'Support' %}
-                      {% assign order = 'order-11 col-lg-2' %}
+                      {% assign order = 'order-sm-11 order-2 col-sm-2' %}
                     {% when 'Patents' %}
-                      {% assign order = 'order-10 col-lg-2' %}
+                      {% assign order = 'order-sm-10 order-1 col-sm-2' %}
                     {% else %}
-                      {% assign order = 'order-6 col-lg-2' %}  
+                      {% assign order = 'order-6 col-sm-2' %}  
                   {% endcase %}
 
                   <div class="my-3 col-6 {{ order }}">
@@ -176,7 +176,7 @@
                 {% endif %}
               {% endfor %}
             {% elsif link.title == "Blog" %}
-              <div class="my-3 col-6 col-lg-3 order-1">
+              <div class="my-3 col-6 col-sm-3 order-11 order-sm-1">
                 <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
                 
                 
@@ -292,19 +292,19 @@
       <div class="col-12">
           <div class="container ">
             <div class="row my-4">
-              <div class="col text-center">
+              <div class="col-12 col-md-4 py-3 text-center">
                 <a href="https://innovativereeltechnologies.com/" ><strong>Innovative Reel Technologies<sup>®</sup></strong></a>
               </div>
         
-              <div class="col text-center">
+              <div class="col-12 col-md-4 py-3 text-center">
                 <a href="https://solarinnovations.com" style="color: #428e42"><strong>Solar Innovations<sup>®</sup></strong></a>
               </div>
         
-              <div class="col text-center">
+              <div class="col-12 col-md-4 py-3 text-center">
                 <a href="https://universalclamps.com" style="color:#f15830"><strong>Universal<sup>®</sup> Clamps</strong></a>
               </div>
         
-              <div class="col text-center">
+              <div class="col-12 col-md-4 py-3 text-center">
                 <a href="https://planning.solar" class="grey"><strong>Planning Solar</strong></a>
               </div>
             </div>

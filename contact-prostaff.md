@@ -6,8 +6,6 @@ title: Pro Staff Submission
 long_title: Pro Staff Submission
 description: Fill out the form and submit to be considered for a Pro-Staff position
 ---
-
-
 <form 
     action="https://formspree.io/nkline@solarinnovations.com"
     method="POST"
