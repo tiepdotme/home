@@ -12,19 +12,25 @@ description: So we can bait it up, cast it out, and catch more fish
     action="https://formspree.io/nkline@solarinnovations.com"
     method="POST"
     class="needs-validation" novalidate>
-    <div class="form-group">
-        <label for="email">Full Name</label>
-        <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
+    <div class="form-group row">
+        <label class="col-4 col-form-label text-right" for="email">Full Name</label>
+        <div class="col-sm-8">
+          <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
+        </div>
     </div>
-    <div class="form-group">
-        <label for="email">Email address</label>
-        <input required type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your@Email.com">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <div class="form-group row">
+        <label class="col-4 col-form-label text-right" for="email">Email address</label>
+        <div class="col-sm-8">
+          <input required type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your@Email.com">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="message">Details</label>
-        <small id="messageHelp" class="form-text text-muted">What is the unexpected behavior or issue you are having with our website?</small>
-        <textarea required class="form-control" name="Message" id="message" rows="3"></textarea>
+    <div class="form-group row">
+        <label class="col-4 col-form-label text-right" for="message">Details</label>
+        <div class="col-sm-8">
+          <small id="messageHelp" class="form-text text-muted">What is the unexpected behavior or issue you are having with our website?</small>
+          <textarea required class="form-control" name="Message" id="message" rows="3"></textarea>
+        </div>
     </div>
     <input type="hidden" id="referal" name="referal-page" />
     <input type="hidden" name="_subject" value="New IRT Contact Submission!" />

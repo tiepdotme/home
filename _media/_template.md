@@ -5,12 +5,6 @@ date: 1900-01-01
 thumb: /assets/images/photo-gallery/
 image: /assets/images/photo-gallery/
 # angler-name: Johnny B. Goode
-# angler-links: 
-#     website: a-url-goes-here
-#     twitter: a-url-goes-here
-#     facebook: a-url-goes-here
-#     instagram: a-url-goes-here
-#     pinterest: a-url-goes-here
 
 # reel-type: spinning
 # reel-series: 800 
