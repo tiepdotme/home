@@ -10,3 +10,4 @@ categories: Meta
 On Sunday, May 27 and Wednesday, July 4, 2018 (Independence Day) Pennsylvania will be holding "Fish-for-Free Days" where no fishing license is required. This includes Lake Erie and Trout/Salmon permits. All other regulations are still in effect.
 
 For more information, please visit the [Pennsylvania Fish & Boat Commission](http://www.fishandboat.com/Fish/FishingRegulations/Pages/FishForFreeDay.aspx).
+ 
