@@ -11,19 +11,23 @@ description: Reach out and we will respond as quickly as possible
     method="POST"
     class="needs-validation" novalidate>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right"  for="email">Full Name</label>
-        <div class="col-sm-8">
-          <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
+      <label class="col-4 col-form-label text-right"  for="email">Full Name</label>
+      <div class="col-sm-8">
+        <input required name="full-name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Johnny B. Goode">
       </div>
     </div>
-    <div class="form-group">
-        <label for="email">Email address</label>
+    <div class="form-group row">
+      <label class="col-4 col-form-label text-right" for="email">Email address</label>
+      <div class="col-sm-8">
         <input required type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your@Email.com">
         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
     </div>
-    <div class="form-group">
-        <label for="message">Message</label>
+    <div class="form-group row">
+      <label class="col-4 col-form-label text-right" for="message">Message</label>
+      <div class="col-sm-8">
         <textarea required class="form-control" name="Message" id="message" rows="3"></textarea>
+      </div>
     </div>
     <input type="hidden" name="_subject" value="New IRT Contact Submission!" />
     <input type="text" name="_gotcha" style="display:none" />

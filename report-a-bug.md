@@ -19,7 +19,7 @@ description: So we can bait it up, cast it out, and catch more fish
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right" for="email">Email address</label>
+        <label class="col-4 col-form-label text-right" for="email">Email Address</label>
         <div class="col-sm-8">
           <input required type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your@Email.com">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
