@@ -95,7 +95,7 @@ description: Fill out the form and submit to be considered for a Pro-Staff posit
     <input type="hidden" name="_next" value="{{ site.url }}/info/contact/thank-you/" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" class="btn btn-primary mb-2 float-right" value="Send">
-</form>
+</form> 
 <script>
 (function() {
   'use strict';
