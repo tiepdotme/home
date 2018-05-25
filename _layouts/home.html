@@ -122,19 +122,19 @@ layout: default
   </div>
 </div>
 
-<div class="container-fluid mb-3 b-5" style="background:#231F20">
+<div class="container-fluid mb-3 b-5 d-none d-md-block" style="background:#231F20">
   <div class="row">
     <div class="col-12 col-xl-8 offset-xl-2 px-0">
       
       {% include our-story.html %}
       
-      {% comment %}
-      {{ content }}
-      {% endcomment %}
+      
     </div>
   </div>
 </div>
-
+{% comment %}
+{{ content }}
+{% endcomment %}
 <div class="container-fluid" >
   <div class="row">
     <div class="col-12">
