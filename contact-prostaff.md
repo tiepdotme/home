@@ -83,14 +83,14 @@ description: Fill out the form and submit to be considered for a Pro-Staff posit
         <label class="col-4 col-form-label text-right" for="fishing-months">What months do you fish the most?</label>
         <div class="col-sm-8">
             <textarea required class="form-control" name="What months do you fish the most?" id="fishing-months" rows="3"></textarea>
-        </div>
+        </div> 
     </div>
     <div class="form-group row">
         <label class="col-4 col-form-label text-right" for="fishing-rods">What type and size fishing rods do you most often use?</label>
         <div class="col-sm-8">
             <textarea required type="fishing-rods" name="Fishing rods used" class="form-control" id="fishing-rods" ></textarea>
         </div>
-    </div>
+    </div> 
     <input type="hidden" name="_subject" value="New IRT Pro-Staff Submission!" />
     <input type="hidden" name="_next" value="{{ site.url }}/info/contact/thank-you/" />
     <input type="text" name="_gotcha" style="display:none" />
