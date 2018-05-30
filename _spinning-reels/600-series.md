@@ -22,7 +22,7 @@ mono-line-capacity:
     - 140/30
 weight: 25 oz.
 max-drag: 40 lbs.
-power-drag: 40-50 lbs.
+dual-drag: 40-50 lbs.
 gear-ratio:  4.78
 bearings: 9
 line-retrieval: 33 inches

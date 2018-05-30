@@ -6,7 +6,11 @@ series: 700
 type: spinning
 price: "769.00"
 description: The 700 series spinning reel is designed to bring in larger fish.
-long_description: x
+long_description: |
+  The 700 series spinning reel is designed to bring in larger fish. This is the reel you want when battling a white marlin, sailfish, king mackerel, or gaffer dolphin. 
+  
+  This reel is also ideal for blackfin tuna and larger sharks.
+
 braided-line-capacity: 
     - 505/50
     - 440/60
@@ -17,7 +21,7 @@ mono-line-capacity:
     - 110/50
 weight: 27 oz.
 max-drag: 40 lbs.
-power-drag: 50-60 lbs.
+dual-drag: 50-60 lbs.
 gear-ratio:  4.78
 bearings: 9
 line-retrieval: 36 inches

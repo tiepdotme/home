@@ -121,10 +121,10 @@ layout: default
         <ul class="list-group list-group-flush text-right mx-0">
           <li class="list-group-item" style="border-top:none; background-color:transparent;"><span class="float-left">Weight:</span> {{ page.weight }}</li>
           <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
-          {% if page.power-drag  %}
-            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
+          {% if page.dual-drag  %}
+            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Dual Drag Option:</span> {{ page.dual-drag }}</li>
           {% else %}
-            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Power Drag Option:</span> n/a</li>
+            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Dual Drag Option:</span> n/a</li>
           {% endif %}
           <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
           <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
@@ -133,7 +133,7 @@ layout: default
           
       
         <p class="mb-1 mt-3"><strong>Approximate Braided Line Capacity:</strong></p>
-        <ul class="list-group list-group-flush  text-right">
+        <ul class="list-group list-group-flush text-right mx-0">
           {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
           {% for blc in braided-line-capacity %}
             {% if forloop.first %}
@@ -148,7 +148,7 @@ layout: default
         </ul>
           
         <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
-        <ul class="list-group list-group-flush  text-right">
+        <ul class="list-group list-group-flush text-right mx-0">
           {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
           {% for mlc in mono-line-capacity %}
             {% if forloop.first %}
