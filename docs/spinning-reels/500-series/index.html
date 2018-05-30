@@ -60,7 +60,7 @@
     <meta content="https://irtreels.com/spinning-reels/500-series/" property="og:url">
   
   
-    <meta content="2018-05-30T09:22:11-04:00" property="article:published_time">
+    <meta content="2018-05-30T09:31:14-04:00" property="article:published_time">
     <!-- <meta content="https://irtreels.com/about/" property="article:author"> -->
   
   
@@ -974,9 +974,9 @@
 
 
     
-    <h2 class="my-5">Standard Configurations</h2>
+    <h2 class="my-5 text-center">Standard Configurations</h2>
     <div class="col-md-8 offset-md-2 col-12" id="content">
-      <div id="product-component-a1de779e7ec"></div>
+      <div id="collection-component-769bbfaf37f"></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -1002,129 +1002,50 @@
 
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'the-innovative-shop.myshopify.com',
-      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
+      domain: 'irt-reels.myshopify.com',
+      apiKey: '370c0d56b9837807aef6962ddba4493f',
       appId: '6',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [629286240311],
-        node: document.getElementById('product-component-a1de779e7ec'),
+      ui.createComponent('collection', {
+        id: 59747860548,
+        node: document.getElementById('collection-component-769bbfaf37f'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
-    "layout": "horizontal",
+    "buttonDestination": "modal",
     "variantId": "all",
-    "width": "100%",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
+      "imgWithCarousel": false,
       "variantTitle": false,
-      "description": true,
+      "options": false,
+      "description": false,
       "buttonWithQuantity": false,
       "quantity": false
+    },
+    "text": {
+      "button": "Customize"
     },
     "styles": {
       "product": {
         "text-align": "left",
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(50% - 40px)",
+          "margin-left": "40px",
           "margin-bottom": "50px"
         }
       },
       "button": {
         "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
+        "padding-left": "30px",
+        "padding-right": "30px",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      },
-      "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-size": "26px"
-      },
-      "description": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Open Sans, sans-serif",
-        "font-size": "18px",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-size": "15px",
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Montserrat",
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Open Sans",
-      "Open Sans"
-    ]
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "button": {
-        "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#578e18"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    },
-    "googleFonts": [
-      "Montserrat"
-    ]
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
-        ":hover": {
-          "background-color": "#578e18"
-        },
-        "font-weight": "normal",
+        "border-radius": "5px",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
@@ -1150,7 +1071,92 @@
       }
     },
     "googleFonts": [
+      "Open Sans",
+      "Open Sans",
       "Montserrat",
+      "Open Sans",
+      "Open Sans",
+      "Open Sans"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#619e1b",
+        "font-family": "Open Sans, sans-serif",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "border-radius": "5px",
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Open Sans"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#619e1b",
+        "font-family": "Open Sans, sans-serif",
+        "padding-left": "30px",
+        "padding-right": "30px",
+        ":hover": {
+          "background-color": "#578e18"
+        },
+        "border-radius": "5px",
+        "font-weight": "bold",
+        ":focus": {
+          "background-color": "#578e18"
+        }
+      },
+      "variantTitle": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "description": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Open Sans",
       "Open Sans",
       "Montserrat",
       "Open Sans",
@@ -1161,19 +1167,19 @@
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
         "background-color": "#619e1b",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
       }
     },
     "googleFonts": [
-      "Montserrat"
+      "Open Sans"
     ]
   },
   "option": {
@@ -1194,7 +1200,7 @@
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-20px"
+          "margin-left": "-40px"
         }
       }
     }
@@ -1613,8 +1619,8 @@
         <div class="row justify-content-center">
           <div class="col-md-6 col-10 my-auto">
             <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
-              <p class="lead"><i class="fas fa-quote-left pr-2"></i> Hey Greg, You should know that your reels and our team placed 4th out of 68 teams in the Annual Bull & Cow. <i class="fas fa-quote-right pl-2"></i></p>
-              <p class="text-right">&mdash; Captain Michael E Webb</p>
+              <p class="lead"><i class="fas fa-quote-left pr-2"></i> Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta. <i class="fas fa-quote-right pl-2"></i></p>
+              <p class="text-right">&mdash; R. Cook "The Tug Dealer"</p>
             </a>
           </div>
         </div>
@@ -1633,20 +1639,17 @@
             <div class="modal-body text-d10-grey">
               <i class="fas fa-quote-left text-d20-two"></i>
               <div class="px-5">
-                <p>Hey <a href="/about/team">Greg [President of IRT]</a>,</p>
+                <p><img src="/assets/images/testimonials/ryan_cook.gif" alt="The Tug Dealer" class="img-fluid rounded float-right ml-4 mb-2" width="40%" /></p>
 
-<p><img src="/assets/images/testimonials/catch--michael_web.gif" alt="Frank Tobias' catch" class="img-fluid rounded float-right ml-4 mb-2" width="60%" />
-You should know that your reels and our team placed 4th out of 68 teams in the Annual Bull &amp; Cow. The fishing community has its ear turned to IRT. We will be fishing the the Mother’s Day Dolphin Tourney, giving your gear further exposure. We will be one of two hundred boats. Keep you posted and forward pics.</p>
-
+<p>Absolutely loving testing your new fly reels! Chasing toothy fresh water monsters (Northern Pike) in Southern Alberta. In 28 years of slinging flys, I have never even seen let alone used a reel with such an incredible drag system! ZERO LAG or DELAY in the tension release and reel side drag adjustment so you NEVER have to push pause on the fight to adjust your tension. All you salt water fly folk, keep your eyes on these guys. You may never lose another Bone Fish or Permit due to that slight delay in you drag again! Did I mention the reel is made in the USA and it’s machined NOT cast!  The name says it all: INNOVATIVE REEL TECHNOLOGIES! Oh yeah and to top it all off, the reel is Dead Sexy to boot! 
+Keep up the great work!</p>
 
               </div>
               <i class="fas fa-quote-right float-right text-d20-two"></i>
               <div class="container-fluid pt-3">
                 <div class="row">
                   <div class="pr-1 col-4 text-right">&mdash;</div>
-                  <div class="p-0 col-8">Captain Michael E Webb</div>
-                  
-                    <div class="p-0 offset-4 col-8"><a href="http://seadogcharters.net/" target="_blank">Sea Dog Charters</a></div>
+                  <div class="p-0 col-8">R. Cook "The Tug Dealer"</div>
                   
                 </div>
                 
@@ -2080,11 +2083,11 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
       $("#reel-details").hide();
      
       var checkExist = setInterval(function() {
-        if ($('iframe[name^=frame-product]').length) {           
+        if ($('iframe[name^=frame-productSet]').length) {           
 
             setTimeout(function(){
               // $("#spinner").delay(2100).hide();
-              $("#footer").delay(2000).show();
+              $("#footer").delay(2600).show();
 
               $( "#spinner" ).animate({
                 height: "0vh",
@@ -2094,7 +2097,7 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
               $("#reel-details").delay(2500).show();
               $("body").delay(2500).css("overflow", "scroll");
               $("html").delay(2500).css("overflow", "scroll");
-            }, 2000);
+            }, 2600);
 
 
             clearInterval(checkExist);
