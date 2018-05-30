@@ -1,12 +1,16 @@
 ---
 layout: product
 permalink: /spinning-reels/500-series/
-title: 500 Series
+title: IRT500
 series: 500
 type: spinning
 price: "669.00"
-description: The 500 series spinning reel is designed for heavier freshwater applications like large catfish. 
-long_description: The 500 series spinning reel is designed for heavier freshwater applications like large catfish. This reel is perfect for bringing in big stripers and bluefish when using live or artificial baits. This model can also be combined with a medium to heavy action rod to cast from jetties. Our 500 series reel is currently available only by calling to order. 
+description: The IRT500 spinning reel is designed for heavier freshwater applications like large catfish. 
+long_description: |
+  The IRT500 spinning reel is designed for heavier freshwater applications like large catfish. 
+  
+  This reel is perfect for bringing in big stripers and bluefish when using live or artificial baits. This model can also be combined with a medium to heavy action rod to cast from jetties. 
+  
 braided-line-capacity: 
     - 420/30
     - 370/40

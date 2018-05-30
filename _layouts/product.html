@@ -101,9 +101,12 @@ layout: default
   <div class="container" >
     <div class="row mb-5" id="reel-details" >
       <div class="col-12">
-        <h2 class="my-5 text-center w-100">Details</h2>
+        
         <div class="container-fluid">
           <div class="row">
+            <div class="col-12">
+              <h2 class="mt-5 text-left w-100">Details</h2>
+            </div>
             <div class="col-12 col-md-3">
               <p>{{ page.long_description | markdownify }} </p>
             </div>
@@ -111,7 +114,7 @@ layout: default
         </div>
       </div>
       <div class="col-12">
-        <h2 class="my-5 text-center w-100">Technical Specifications</h2>
+        <h2 class="my-5 text-left w-100">Technical Specifications</h2>
       </div>
       <div class="col-12 col-lg-4">   
         <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
@@ -127,7 +130,7 @@ layout: default
           <li><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
           <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
         </ul>
-        
+          
       
         <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
         <ul class="list-unstyled text-right">
