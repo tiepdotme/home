@@ -110,7 +110,7 @@ layout: default
             <div class="col-12 col-md-3">
               <p>{{ page.long_description | markdownify }} </p>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
       <div class="col-12">
@@ -118,37 +118,51 @@ layout: default
       </div>
       <div class="col-12 col-lg-4">   
         <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
-        <ul class="list-unstyled text-right mx-0">
-          <li><span class="float-left">Weight:</span> {{ page.weight }}</li>
-          <li><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
+        <ul class="list-group list-group-flush text-right mx-0">
+          <li class="list-group-item" style="border-top:none; background-color:transparent;"><span class="float-left">Weight:</span> {{ page.weight }}</li>
+          <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
           {% if page.power-drag  %}
-            <li><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
+            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
           {% else %}
-            <li><span class="float-left">Power Drag Option:</span> n/a</li>
+            <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Power Drag Option:</span> n/a</li>
           {% endif %}
-          <li><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
-          <li><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
-          <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
+          <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
+          <li class="list-group-item" style="background-color:transparent;"><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
+          <li class="list-group-item" style="border-bottom:none; background-color:transparent;"><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
         </ul>
           
       
-        <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
-        <ul class="list-unstyled text-right">
+        <p class="mb-1 mt-3"><strong>Approximate Braided Line Capacity:</strong></p>
+        <ul class="list-group list-group-flush  text-right">
           {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
           {% for blc in braided-line-capacity %}
-            <li>{{ blc }} <small>yds/lbs</small></li>
+            {% if forloop.first %}
+              {% assign style = "style='border-top:none; background-color:transparent;'" %}
+            {% elsif forloop.last %}
+              {% assign style = "style='border-bottom:none; background-color:transparent;'" %}
+            {% else %}
+              {% assign style = "style='background-color:transparent;'" %}
+            {% endif %}
+            <li class="list-group-item" {{ style }}>{{ blc }} <small>yds/lbs</small></li>
           {% endfor %}
         </ul>
           
         <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
-        <ul class="list-unstyled text-right">
+        <ul class="list-group list-group-flush  text-right">
           {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
           {% for mlc in mono-line-capacity %}
-            <li>{{ mlc }} <small>yds/lbs</small></li>
+            {% if forloop.first %}
+              {% assign style = "style='border-top:none; background-color:transparent;'" %}
+            {% elsif forloop.last %}
+              {% assign style = "style='border-bottom:none; background-color:transparent;'" %}
+            {% else %}
+              {% assign style = "style='background-color:transparent;'" %}
+            {% endif %}
+            <li class="list-group-item" {{ style }} >{{ mlc }} <small>yds/lbs</small></li>
           {% endfor %}
         </ul>
       </div>
-      <div class="col-12 col-lg-8 px-5">
+      <div class="col-12 col-lg-8 px-5 my-auto">
         <img class="img-fluid border" src="/assets/images/exploded-spinning-reel.png">
       </div>
 
