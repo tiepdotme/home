@@ -29,8 +29,7 @@ fish_recommendation:
     - Tuna 
     - Wahoo
 ---
-
-<div id='product-component-91d597647a3'></div>
+<div id='collection-component-a05143006c8'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -56,45 +55,52 @@ fish_recommendation:
 
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'the-innovative-shop.myshopify.com',
-      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
+      domain: 'irt-reels.myshopify.com',
+      apiKey: '370c0d56b9837807aef6962ddba4493f',
       appId: '6',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [629328674871],
-        node: document.getElementById('product-component-91d597647a3'),
+      ui.createComponent('collection', {
+        id: 59747729476,
+        node: document.getElementById('collection-component-a05143006c8'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
-    "layout": "horizontal",
+    "buttonDestination": "modal",
     "variantId": "all",
-    "width": "100%",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
+      "imgWithCarousel": false,
       "variantTitle": false,
-      "description": true,
+      "options": false,
+      "description": false,
       "buttonWithQuantity": false,
       "quantity": false
     },
+    "text": {
+      "button": "Customize"
+    },
     "styles": {
       "product": {
-        "text-align": "left",
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
         }
       },
       "button": {
         "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        "padding-left": "30px",
+        "padding-right": "30px",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
+        "border-radius": "5px",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
@@ -104,8 +110,7 @@ fish_recommendation:
         "font-weight": "normal"
       },
       "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-size": "26px"
+        "font-family": "Montserrat, sans-serif"
       },
       "description": {
         "font-family": "Open Sans, sans-serif",
@@ -113,17 +118,20 @@ fish_recommendation:
       },
       "price": {
         "font-family": "Open Sans, sans-serif",
-        "font-size": "18px",
         "font-weight": "normal"
       },
-      "compareAt": {
+      "quantityInput": {
         "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
       }
     },
     "googleFonts": [
-      "Montserrat",
+      "Open Sans",
       "Open Sans",
       "Montserrat",
       "Open Sans",
@@ -138,11 +146,15 @@ fish_recommendation:
     "styles": {
       "button": {
         "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
+        "border-radius": "5px",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
@@ -152,7 +164,7 @@ fish_recommendation:
       }
     },
     "googleFonts": [
-      "Montserrat"
+      "Open Sans"
     ]
   },
   "modalProduct": {
@@ -174,11 +186,17 @@ fish_recommendation:
       },
       "button": {
         "background-color": "#619e1b",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        "padding-left": "30px",
+        "padding-right": "30px",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
+        "border-radius": "5px",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
@@ -198,13 +216,18 @@ fish_recommendation:
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
       },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
       "compareAt": {
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
       }
     },
     "googleFonts": [
-      "Montserrat",
+      "Open Sans",
       "Open Sans",
       "Montserrat",
       "Open Sans",
@@ -215,19 +238,22 @@ fish_recommendation:
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Open Sans, sans-serif",
         "background-color": "#619e1b",
         ":hover": {
           "background-color": "#578e18"
         },
-        "font-weight": "normal",
+        "font-weight": "bold",
         ":focus": {
           "background-color": "#578e18"
         }
+      },
+      "count": {
+        "font-size": "15px"
       }
     },
     "googleFonts": [
-      "Montserrat"
+      "Open Sans"
     ]
   },
   "option": {
@@ -260,5 +286,3 @@ fish_recommendation:
 })();
 /*]]>*/
 </script>
-
-
