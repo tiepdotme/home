@@ -100,7 +100,16 @@ layout: default
 <div  id="reel" >
   <div class="container" >
     <div class="row mb-5" id="reel-details" >
-      
+      <div class="col-12">
+        <h2 class="my-5 text-center w-100">Details</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <p>{{ page.long_description | markdownify }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col-12">
         <h2 class="my-5 text-center w-100">Technical Specifications</h2>
       </div>
@@ -121,7 +130,7 @@ layout: default
         
       
         <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled text-right">
           {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
           {% for blc in braided-line-capacity %}
             <li>{{ blc }} <small>yds/lbs</small></li>
@@ -129,7 +138,7 @@ layout: default
         </ul>
           
         <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled text-right">
           {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
           {% for mlc in mono-line-capacity %}
             <li>{{ mlc }} <small>yds/lbs</small></li>
