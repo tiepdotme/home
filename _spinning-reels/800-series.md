@@ -29,7 +29,7 @@ fish_recommendation:
     - Tuna 
     - Wahoo
 ---
-<div id='collection-component-a05143006c8'></div>
+<div id='collection-component-cc4dbb9aae3'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -63,7 +63,7 @@ fish_recommendation:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747729476,
-        node: document.getElementById('collection-component-a05143006c8'),
+        node: document.getElementById('collection-component-cc4dbb9aae3'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {

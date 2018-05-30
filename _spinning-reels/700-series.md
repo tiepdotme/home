@@ -30,8 +30,7 @@ fish_recommendation:
     - Sharks
 
 ---
-
-<div id='collection-component-53d3883ad43'></div>
+<div id='collection-component-04fba6e212b'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -65,7 +64,7 @@ fish_recommendation:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747795012,
-        node: document.getElementById('collection-component-53d3883ad43'),
+        node: document.getElementById('collection-component-04fba6e212b'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
