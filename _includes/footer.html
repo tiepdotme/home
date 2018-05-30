@@ -378,17 +378,15 @@
     {% if page.layout == "product" %}
       
     <script type="text/javascript">
-      // id: product-component-4f546b5b8a3
+
       $("#reel-details").hide();
      
       var checkExist = setInterval(function() {
-        if ($('iframe[name^=frame-product]').length) {
-            console.log("Exists!");
-           
+        if ($('iframe[name^=frame-product]').length) {           
 
             setTimeout(function(){
               // $("#spinner").delay(2100).hide();
-              $("#footer").delay(1000).show();
+              $("#footer").delay(2000).show();
 
               $( "#spinner" ).animate({
                 height: "0vh",
@@ -398,7 +396,7 @@
               $("#reel-details").delay(2500).show();
               $("body").delay(2500).css("overflow", "scroll");
               $("html").delay(2500).css("overflow", "scroll");
-            }, 1000);
+            }, 2000);
 
 
             clearInterval(checkExist);

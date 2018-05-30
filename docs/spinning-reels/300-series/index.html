@@ -60,7 +60,7 @@
     <meta content="https://irtreels.com/spinning-reels/300-series/" property="og:url">
   
   
-    <meta content="2018-05-30T09:12:12-04:00" property="article:published_time">
+    <meta content="2018-05-30T09:20:26-04:00" property="article:published_time">
     <!-- <meta content="https://irtreels.com/about/" property="article:author"> -->
   
   
@@ -970,8 +970,8 @@
 
 
     
-    <div class="col-12" id="content">
-      <h2 class="my-5">Standard Configurations</h2>
+    <h2 class="my-5">Standard Configurations</h2>
+    <div class="col-8 offset-2" id="content">
       <div id="collection-component-ceb5cdbf21c"></div>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -2119,17 +2119,15 @@
     
       
     <script type="text/javascript">
-      // id: product-component-4f546b5b8a3
+
       $("#reel-details").hide();
      
       var checkExist = setInterval(function() {
-        if ($('iframe[name^=frame-product]').length) {
-            console.log("Exists!");
-           
+        if ($('iframe[name^=frame-product]').length) {           
 
             setTimeout(function(){
               // $("#spinner").delay(2100).hide();
-              $("#footer").delay(1000).show();
+              $("#footer").delay(2000).show();
 
               $( "#spinner" ).animate({
                 height: "0vh",
@@ -2139,7 +2137,7 @@
               $("#reel-details").delay(2500).show();
               $("body").delay(2500).css("overflow", "scroll");
               $("html").delay(2500).css("overflow", "scroll");
-            }, 1000);
+            }, 2000);
 
 
             clearInterval(checkExist);
