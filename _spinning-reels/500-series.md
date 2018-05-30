@@ -31,9 +31,7 @@ fish_recommendation:
     - Mahi Mahi
 
 ---
-
-
-<div id='collection-component-769bbfaf37f'></div>
+<div id='collection-component-a44779c39df'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -67,7 +65,7 @@ fish_recommendation:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747860548,
-        node: document.getElementById('collection-component-769bbfaf37f'),
+        node: document.getElementById('collection-component-a44779c39df'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -86,16 +84,18 @@ fish_recommendation:
     },
     "styles": {
       "product": {
-        "text-align": "left",
         "@media (min-width: 601px)": {
-          "max-width": "calc(50% - 40px)",
-          "margin-left": "40px",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
         }
       },
       "button": {
         "background-color": "#619e1b",
         "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         "padding-left": "30px",
         "padding-right": "30px",
         ":hover": {
@@ -122,6 +122,11 @@ fish_recommendation:
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
       },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
       "compareAt": {
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
@@ -144,6 +149,9 @@ fish_recommendation:
       "button": {
         "background-color": "#619e1b",
         "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         ":hover": {
           "background-color": "#578e18"
         },
@@ -181,6 +189,9 @@ fish_recommendation:
       "button": {
         "background-color": "#619e1b",
         "font-family": "Open Sans, sans-serif",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         "padding-left": "30px",
         "padding-right": "30px",
         ":hover": {
@@ -206,6 +217,11 @@ fish_recommendation:
       "price": {
         "font-family": "Open Sans, sans-serif",
         "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
       },
       "compareAt": {
         "font-family": "Open Sans, sans-serif",
@@ -233,6 +249,9 @@ fish_recommendation:
         ":focus": {
           "background-color": "#578e18"
         }
+      },
+      "count": {
+        "font-size": "15px"
       }
     },
     "googleFonts": [
@@ -257,7 +276,7 @@ fish_recommendation:
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-40px"
+          "margin-left": "-20px"
         }
       }
     }

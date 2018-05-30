@@ -57,7 +57,7 @@ layout: default
         <div class="my-2">
             <h5 class="mb-0">Address</h5>
           <p>
-            {{ page.address }}
+            {{ page.address | markdownify }}
           </p> 
         </div>
       {% endif %}

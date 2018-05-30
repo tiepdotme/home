@@ -4,8 +4,8 @@ layout: profile-partner
 partner-type: charter
 logo: /assets/images/partnerships/logo--good-times.png
 website_url: http://GoodTimesSportfishing.com
-address: >-
-    58058 NC-12,
+address: |
+    58058 NC-12,  
     Hatteras, NC 27943
 representatives: 
     - Captain Andy Piland 

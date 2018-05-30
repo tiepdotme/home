@@ -97,68 +97,71 @@ layout: default
   </div>
 </div>
 
-<div class="container" id="reel" >
+<div  id="reel" >
+  <div class="container" >
+    <div class="row mb-5" id="reel-details" >
+      
+      <div class="col-12">
+        <h2 class="my-5 text-center w-100">Technical Specifications</h2>
+      </div>
+      <div class="col-12 col-lg-4">   
+        <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
+        <ul class="list-unstyled text-right mx-0">
+          <li><span class="float-left">Weight:</span> {{ page.weight }}</li>
+          <li><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
+          {% if page.power-drag  %}
+            <li><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
+          {% else %}
+            <li><span class="float-left">Power Drag Option:</span> n/a</li>
+          {% endif %}
+          <li><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
+          <li><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
+          <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
+        </ul>
+        
+      
+        <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
+        <ul class="list-unstyled">
+          {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
+          {% for blc in braided-line-capacity %}
+            <li>{{ blc }} <small>yds/lbs</small></li>
+          {% endfor %}
+        </ul>
+          
+        <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
+        <ul class="list-unstyled">
+          {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
+          {% for mlc in mono-line-capacity %}
+            <li>{{ mlc }} <small>yds/lbs</small></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-12 col-lg-8 px-5">
+        <img class="img-fluid border" src="/assets/images/exploded-spinning-reel.png">
+      </div>
 
-  <div class="row mb-5" id="reel-details" >
-    
-    <div class="col-12">
-      <h2>Technical Specifications</h2>
-    </div>
-    <div class="col-12 col-lg-4">   
-      <p class="mb-1"><strong>Sizes &amp; Capabilities:</strong></p>
-      <ul class="list-unstyled text-right mx-0">
-        <li><span class="float-left">Weight:</span> {{ page.weight }}</li>
-        <li><span class="float-left">Max Drag:</span> {{ page.max-drag }}</li>
-        {% if page.power-drag  %}
-          <li><span class="float-left">Power Drag Option:</span> {{ page.power-drag }}</li>
-        {% else %}
-          <li><span class="float-left">Power Drag Option:</span> n/a</li>
-        {% endif %}
-        <li><span class="float-left">Gear Ratio:</span> {{ page.gear-ratio }}</li>
-        <li><span class="float-left">Bearings:</span> {{ page.bearings }}</li>
-        <li><span class="float-left">Line Retrieval:</span> {{ page.line-retrieval }}</li>
-      </ul>
       
     
-      <p class="mb-1"><strong>Approximate Braided Line Capacity:</strong></p>
-      <ul class="list-unstyled">
-        {% assign braided-line-capacity = page.braided-line-capacity | reverse %}
-        {% for blc in braided-line-capacity %}
-          <li>{{ blc }} <small>yds/lbs</small></li>
-        {% endfor %}
-      </ul>
-        
-      <p class="mb-1"><strong>Approximate Mono Line Capacity:</strong></p>
-      <ul class="list-unstyled">
-        {% assign mono-line-capacity = page.mono-line-capacity | reverse %}
-        {% for mlc in mono-line-capacity %}
-          <li>{{ mlc }} <small>yds/lbs</small></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="col-12 col-lg-8 px-5">
-      <img class="img-fluid border" src="/assets/images/exploded-spinning-reel.png">
-    </div>
 
     
-   
-
-   
-  </div>
-  <div class="row">
-
-    {% if content %}
-    <h2 class="my-5 text-center w-100">Standard Configurations</h2>
-    <div class="col-md-8 offset-md-2 col-12" id="content">
-      {{ content }}
     </div>
-    {% endif %}
-    
   </div>
-  
-  <div class="row">
-    <div class="col-12 mt-5">
-      {% include media-gallery.html data-gallery="product-gallery" reel-series=page.series reel-type=page.type limit="25" %}
+  <div class="container-fluid">
+    <div class="row">
+
+      {% if content %}
+      <h2 class="my-5 text-center w-100">Standard Configurations</h2>
+      <div class="  col-12" id="content">
+        {{ content }}
+      </div>
+      {% endif %}
+      
+    </div>
+    
+    <div class="row">
+      <div class="col-12 mt-5">
+        {% include media-gallery.html data-gallery="product-gallery" reel-series=page.series reel-type=page.type limit="25" %}
+      </div>
     </div>
   </div>
 </div>
