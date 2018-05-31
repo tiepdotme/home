@@ -33,7 +33,16 @@ fish_recommendation:
     - Redfish 
     - Large Stripers
     - Mahi Mahi
-
+photos:
+  - /media/0-500-spg-l
+  - /media/0-500-spg-b
+  - /media/0-500-spg-f
+  - /media/0-500-spg-r
+  - /media/0-500-trad-l
+  - /media/0-500-trad-b
+  - /media/0-500-trad-f
+  - /media/0-500-trad-r
+  - /media/0-500-trad-power-l45
 ---
 <div id='collection-component-a44779c39df'></div>
 <script type="text/javascript">
