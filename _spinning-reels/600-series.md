@@ -33,6 +33,11 @@ fish_recommendation:
     - King Mackerel
     - Amberjack
     - Wahoo
+photos:
+  - /media/0-600-spg-l
+  - /media/0-600-spg-b
+  - /media/0-600-spg-f
+  - /media/0-600-spg-r
 ---
 <div id='collection-component-f9ae48b4fa7'></div>
 <script type="text/javascript">

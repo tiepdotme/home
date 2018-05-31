@@ -32,7 +32,11 @@ fish_recommendation:
     - Grouper
     - Tuna
     - Sharks
-
+photos:
+  - /media/0-700-spg-l
+  - /media/0-700-spg-b
+  - /media/0-700-spg-f
+  - /media/0-700-spg-r
 ---
 <div id='collection-component-04fba6e212b'></div>
 <script type="text/javascript">
