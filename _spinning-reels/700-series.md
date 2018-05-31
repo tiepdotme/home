@@ -12,13 +12,13 @@ long_description: |
   This reel is also ideal for blackfin tuna and larger sharks.
 
 braided-line-capacity: 
-    - 505/50
-    - 440/60
-    - 350/80
+  - 505/50
+  - 440/60
+  - 350/80
 mono-line-capacity:
-    - 200/25
-    - 150/40
-    - 110/50
+  - 200/25
+  - 150/40
+  - 110/50
 weight: 27 oz.
 max-drag: 40 lbs.
 dual-drag: 50-60 lbs.
@@ -28,10 +28,10 @@ line-retrieval: 36 inches
 image: /assets/images/products/700-spg-silver-red.gif
 fish: /assets/images/fish--tuna.png
 fish_recommendation:
-    - White Marlin
-    - Grouper
-    - Tuna
-    - Sharks
+  - White Marlin
+  - Grouper
+  - Tuna
+  - Sharks
 photos:
   - /media/0-700-spg-l
   - /media/0-700-spg-b
