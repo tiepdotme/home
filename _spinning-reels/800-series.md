@@ -34,6 +34,11 @@ fish_recommendation:
     - Big Tarpon
     - Tuna 
     - Wahoo
+photos:
+  - /media/0-800-spg-l
+  - /media/0-800-spg-b
+  - /media/0-800-spg-f
+  - /media/0-800-spg-r
 ---
 <div id='collection-component-cc4dbb9aae3'></div>
 <script type="text/javascript">
