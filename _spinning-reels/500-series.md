@@ -25,7 +25,7 @@ dual-drag: 35+ lbs.
 gear-ratio: 4.55
 bearings: 9
 line-retrieval: 30 inches
-image: /assets/images/products/500-spg-silver-silver.jpg
+image: /assets/images/products/500-spg-blue-silver.jpg
 fish: /assets/images/fish--tarpon.png
 fish_recommendation:
     - Tarpon 

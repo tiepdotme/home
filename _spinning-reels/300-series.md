@@ -19,7 +19,7 @@ braided-line-capacity:
     - 300/15
     - 280/20
     - 200/30
-mono-line-capacity:
+mono-line-capacity: 
     - 200/10
     - 180/12
     - 150/15
@@ -28,13 +28,18 @@ max-drag: 25 lbs.
 gear-ratio: 4.55
 bearings: 9
 line-retrieval: 24 inches
-image: /assets/images/products/300-spg-blue-silver.jpg
+image: /assets/images/products/300-spg-black-black.jpg
 fish: /assets/images/fish--redfish.png
 fish_recommendation:
     - Small Mouth Bass 
     - Flounder 
     - Redfish
     - Salmon
+photos:
+  - 300-spg-black-black-b.jpg
+  - 300-spg-black-black-f.jpg
+  - 300-spg-black-black-l.jpg
+  - 300-spg-black-black-r.jpg
 ---
 <div id='collection-component-3ee2d154cbe'></div>
 <script type="text/javascript">
