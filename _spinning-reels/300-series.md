@@ -36,10 +36,14 @@ fish_recommendation:
     - Redfish
     - Salmon
 photos:
-  - 300-spg-black-black-b.jpg
-  - 300-spg-black-black-f.jpg
-  - 300-spg-black-black-l.jpg
-  - 300-spg-black-black-r.jpg
+  - /media/0-300-spg-l
+  - /media/0-300-spg-b
+  - /media/0-300-spg-f
+  - /media/0-300-spg-r
+  - /media/0-300-trad-l
+  - /media/0-300-trad-b
+  - /media/0-300-trad-f
+  - /media/0-300-trad-r
 ---
 <div id='collection-component-3ee2d154cbe'></div>
 <script type="text/javascript">

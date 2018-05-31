@@ -32,6 +32,15 @@ fish_recommendation:
     - Striped Bass
     - Bluefish
     - Snapper
+photos:
+  - /media/0-400-spg-l
+  - /media/0-400-spg-b
+  - /media/0-400-spg-f
+  - /media/0-400-spg-r
+  - /media/0-400-trad-l
+  - /media/0-400-trad-b
+  - /media/0-400-trad-f
+  - /media/0-400-trad-r
 ---
 <div id='collection-component-ffe4034e67a'></div>
 <script type="text/javascript">
