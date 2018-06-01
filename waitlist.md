@@ -47,5 +47,5 @@ cta-url: '#content'
 
 <!--End mc_embed_signup-->
 
-<!-- ![Fly Reel Teaser](/assets/images/teaser--fly-reel-2.jpg){:class="img-fluid rounded" width="100%"} -->
+<!-- ![Fly Reel Teaser](/assets/images/teaser--flyreel-2.jpg){:class="img-fluid rounded" width="100%"} -->
 <!-- {:class="col-12 col-lg-8 text-right"} -->
