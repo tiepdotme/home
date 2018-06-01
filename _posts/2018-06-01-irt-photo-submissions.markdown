@@ -16,7 +16,7 @@ locations:
 ---
 ![imgur](/assets/images/blog--imgur.png){:alt="chinook-salmon-underwater-photo" class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="40%"}
 Anglers all over the the world are falling in love with IRT Reels. From the marshes of Florida to the ocean depths surrounding New Zealand our reels have been thoroughly tested and the anglers want to show off their impressive catches. 
-
+ 
 Innovative Reel Technologies wants to help show off these catches too. The following process details how you and us will accomplish this goal.
 
 #### Step One
