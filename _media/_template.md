@@ -1,7 +1,7 @@
 ---
 title: xxx
 date: 2018-06-01
-# description: xxx
+description: xxx
 thumb: /assets/images/photo-gallery/
 image: /assets/images/photo-gallery/
 # angler-name: Johnny B. Goode
