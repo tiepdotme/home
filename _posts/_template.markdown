@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  <title>
-date:   2018-XX-YY  08:40:00 -0400 # XX = Month | YY = Day
+date:   2018-MM-DD  08:40:00 -0400 # XX = Month | YY = Day
 author: <author>
 categories: 
+    - Meta
     - Reel Review
     - Blogger Spotlight
     - Fishing Expedition
