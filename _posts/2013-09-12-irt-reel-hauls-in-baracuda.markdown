@@ -6,12 +6,11 @@ date:   2013-09-12  08:28:00 -0400
 # author_title: 
 categories: 
     - Fishing Expidition
+    - IRT700
 fish: 
     - Baracuda
 # locations:
 #     - Pine Grove, PA
-reels:
-    - 700 Spinning
 ---
 
 ![Captain Mike's Baracuda](/assets/images/blog--cpt-mike-baracuda.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3 border" width="40%"  }

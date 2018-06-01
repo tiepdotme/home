@@ -7,6 +7,7 @@ date:   2014-11-13  16:37:00 -0400
 categories: 
     - Testing
     - Fishing Expedition
+    - IRT700
 fish: 
     - Halibut
 locations:

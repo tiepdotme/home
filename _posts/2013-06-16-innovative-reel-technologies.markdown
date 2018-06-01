@@ -10,8 +10,6 @@ fish:
     - Baracuda
 locations:
     - Pine Grove, PA
-reels:
-    - 700 Spinning
 ---
 
 ![IRT Reel Case](/assets/images/blog--case2.png){: class="img-fluid rounded float-right ml-4 mt-2 mb-3 " width="40%"  }

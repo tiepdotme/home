@@ -5,12 +5,12 @@ date:   2018-06-01  08:40:00 -0400 # XX = Month | YY = Day
 author: Nicholas Kline
 categories: 
     - Meta
-    - 300 Series
-    - 400 Series
-    - 500 Series
-    - 600 Series
-    - 700 Series
-    - 800 Series
+    - IRT300
+    - IRT400
+    - IRT500
+    - IRT600
+    - IRT700
+    - IRT800
 locations:
     - Pine Grove, PA
 ---

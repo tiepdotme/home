@@ -6,12 +6,11 @@ date:   2014-07-21  16:37:00 -0400
 # author_title: 
 categories: 
     - Testing
+    - IRT400
 fish: 
     - Kahawai
 locations:
     - New Zealand
-reels:
-    - 700 Spinning
 ---
 ![fishing in new zealand](/assets/images/blog--new-zealand.jpg){: class="img-fluid rounded float-right ml-4 mt-2 mb-3 border" width="60%"}
 Alan Bulmer is currently beta testing an IRT Reels' 400 model spinning reel in New Zealand. Over the weekend he forwarded along these pictures and commented: 
