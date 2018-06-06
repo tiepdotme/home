@@ -29,13 +29,12 @@ image: /assets/images/products/500-spg-blue-silver.jpg
 fish: /assets/images/fish--tarpon.png
 fish_recommendation:
     - Tarpon 
-    - Bull 
-    - Redfish 
+    - Large Drum
     - Large Stripers
     - Mahi Mahi
 photos:
   - /media/0-500-spg-l
-  - /media/0-500-spg-b
+  - /media/0-500-spg-b 
   - /media/0-500-spg-f
   - /media/0-500-spg-r
   - /media/0-500-trad-l
@@ -45,7 +44,7 @@ photos:
   - /media/0-500-trad-power-l45
 ---
 <div id='collection-component-a44779c39df'></div>
-<script type="text/javascript">
+<script type="text/javascript"> 
 /*<![CDATA[*/
 
 (function () {

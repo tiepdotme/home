@@ -74,7 +74,7 @@ layout: default
     </div>
 
     <div id="tech" class="col-12">
-      <h2 class="text-center " style="font-size: 95%">Revolutionary Technology</h2>
+      <h2 class="text-center " >Revolutionary Technology</h2>
       {% assign tech = site.features | where:'type', 'tech'| sort: 'weight'  %}
       {% for feature in tech %}
         {% if feature.published == false %}
