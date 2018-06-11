@@ -14,7 +14,7 @@ links:
 ---
 
  
-* Fly and spin fisherman. Fish both styles regularly, all around New Zealand. Flats fishing specialist.
+* Fly and spin fisherman. Fish both styles regularly, all around New Zealand. Flats fishing specialist. 
 Average 75 fishing days per year.
 * Started fishing as a 5 year old. Learned to fly fish aged 7 and have now been fly fishing for over 50 years.
 Angler, fly tier and rod builder.
