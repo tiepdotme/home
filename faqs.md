@@ -35,5 +35,5 @@ Rinse your reel completely with clean, fresh water. Wipe the reel down with the 
 #### Where are the reels manufactured?
 We produce and assemble every component in the United State of America, the majority of the reel is manufactured right here in Pine Grove USA. 
 
-#### How long is the turn around time for service?
+#### How long is the turnaround time for service?
 Conservatively two weeks but generally turned around in one week’s time.
