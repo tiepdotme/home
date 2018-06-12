@@ -4,7 +4,7 @@ layout: contact
 permalink: /info/support/reel-registration/
 title: Reel Registration
 long_title: Reel Registration
-description: Register your reel to claim your Limited Lifetime Warranty
+description: Register Your Reel to Claim Your Limited Lifetime Warranty
 ---
 
 
