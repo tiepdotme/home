@@ -3,7 +3,7 @@ layout: spinning-reels
 permalink: /spinning-reels/
 title: Spinning Reel 
 long_title: Spinning Reels 
-description: Find the perfect reel for you needs
+description: Find the Perfect Reel for Your Needs
 cover: /assets/images/reels/generation_2_spin_power_grip.jpg
 
 # theme_style: four
