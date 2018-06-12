@@ -3,8 +3,8 @@ layout: page
 permalink: /info/support/warranty/
 title: Limited Lifetime Warranty
 long_title: Limited Lifetime Warranty
-description: Fishing reel maintenance and repair services for IRT customers
-slug: Fishing reel maintenance and repair services for IRT customers
+description: Fishing Reel Maintenance and Repair Services for IRT Customers
+slug: Fishing Reel Maintenance and Repair Services for IRT Customers
 
 # menu: main
 # weight: 12
