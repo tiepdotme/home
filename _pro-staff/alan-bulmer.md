@@ -2,8 +2,8 @@
 title: Alan Bulmer
 layout: profile-pro
 # image: /assets/images/photo-gallery/700-series-ross-thumb.jpg
-image: http://via.placeholder.com/150x150
-# cover: /assets/images/home--ross-w-dog--edit.jpg
+image: /assets/images/pro-staff/alan-bulmer--spin-casting-fog--thumb.jpg
+cover: /assets/images/pro-staff/alan-bulmer--7lb-ngongotaha-brown.jpg
 location: Auckland, New Zealand
 # affiliates: Active Angling NZ
 irt-affiliation: Pro Staff
@@ -22,7 +22,7 @@ Angler, fly tier and rod builder.
 * The driving force behind Active Angling NZ website and Facebook page. The aim of AANZ is to turn angling from an “dark art” into a science and encourage people to fish with flies and lures from the shore. Try to provide easy access to scientific information that will allow anglers to become more aware of what they need to do and thus help improve their skill set.
 * Certified Food Scientist who runs an R&D team in a food ingredient supplier and manufacturer.
 
-<br><br>
+<br> 
 <style>
 .video-responsive{
     overflow:hidden;
