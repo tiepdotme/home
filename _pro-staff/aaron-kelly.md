@@ -1,14 +1,11 @@
 ---
 title: Captain Aaron Kelly
 layout: profile-pro
-image: http://via.placeholder.com/150x150
+# image: http://via.placeholder.com/150x150
 location: North Carolina
 affiliates: Meat Hog Fishing
 irt-affiliation: Pro Staff
 links:
-    instagram: /#instagram
-    twitter: /#twitter
-    facebook: /#facebook
-    pinterest: /#pinterest
+    facebook: https://www.facebook.com/Meat-Hog-Fishing-1483368208545630/
     website: http://www.meathogfishing.com/
 ---

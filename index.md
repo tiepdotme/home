@@ -27,7 +27,7 @@ tags:
 
 Like any decent story, the history of Innovative Reel Technologies started with an American dream and a deep passion for success.
 
-When Penn Reels—a local Pennsylvania reel company—closed their Hegins, PA plant and began outsourcing more parts and production overseas, several of the employees came to work for Solar Innovations®. Greg Header, an avid outdoorsman and the company president, began talking with some of the workers and brainstormed the idea of making an American made fishing reel. Between the experience of the workers and Greg’s passion for fishing, the idea of IRT was born.
+When Penn Reels—a local Pennsylvania reel company—closed their Hegins, PA plant and began outsourcing more parts and production overseas, several of the employees came to work for Solar Innovations<sup>®</sup>. Greg Header, an avid outdoorsman and the company president, began talking with some of the workers and brainstormed the idea of making an American made fishing reel. Between the experience of the workers and Greg’s passion for fishing, the idea of IRT was born.
 
 The goal for IRT was to create unique and efficient fishing reels that could be customized with dedicated fishermen in mind. We realized that each rod, reel, and piece of tackle had the potential to hold memories of monumental catches and great days spent with family and friends. During the creation process, IRT latched onto this idea, truly wanting to bring customers a durable reel for sport and hobby fisherman alike that could bring forth a lifetime of memories.
 

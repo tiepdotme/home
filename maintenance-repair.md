@@ -3,8 +3,8 @@ layout: page
 permalink: /info/support/maintenance-and-repair/
 title: Maintenance/Repair
 long_title: Maintenance and Repair
-description: Fishing reel maintenance and repair services for IRT customers
-slug: Fishing reel maintenance and repair services for IRT customers
+description: Fishing Reel Maintenance and Repair Services for IRT Customers
+slug: Fishing Reel Maintenance and Repair Services for IRT Customers
 
 # menu: main
 # weight: 12
@@ -32,10 +32,10 @@ These are many benefits to having service performed by our expert reel technicia
 ![repair and Maintenance](/assets/images/services--repair.gif){:class="img-fluid rounded float-right ml-4 mb-3" width="40%"}
 Innovative Reel Technologies, Ltd. suggests that customers complete regular maintenance of their reels. Frequency will be determined by overall use and standard wear and tear on the reel. 
 
-If the reel is used primarily for salt water fishing, additional maintenance may be required to maintain product appearance and function. Immediately upon return from a salt water fishing trip, IRT reels should be cleaned in warm soapy water. A light film of IRT oil, provided with each reel should be applied to all exterior surfaces and moving parts to ensure proper function.
+If the reel is used primarily for salt water fishing, additional maintenance may be required to maintain product appearance and function. Immediately upon returning from a salt water fishing trip, IRT reels should be cleaned in warm, soapy water. A light film of IRT oil (provided with each reel) should be applied to all exterior surfaces and moving parts to ensure proper function.
 
 Reels should be dried thoroughly after each use. It's also recommended that reels be stored in the supplied case.
 
-Annual service, completed by the IRT team is also recommended. Please [contact us](/info/contact/contact-us) if you're ready for your reel to be serviced.
+Annual service completed by the IRT team is also recommended. Please [contact us](/info/contact/contact-us) if you're ready for your reel to be serviced.
 
 Innovative Reel Technologies, Ltd. is pleased to offer customers any assistance possible to make their outdoor experience more enjoyable. The following links will help you to more effectively use your IRT reel, better understand the industry, or provide you with a few suggestions for more fun in the wild.

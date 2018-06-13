@@ -1,13 +1,13 @@
 ---
 title: Cudakilla
 layout: profile-partner
-partner-type: pro
-logo: http://via.placeholder.com/400x400
+partner-type: charter
+logo: /assets/images/partnerships/logo--cudakilla.png
 website_url: https://cudakilla.com/
 address: >- 
     Austin, TX
 representatives: Roland Lee
-
+publish: false
 ---
 
 Fishing has and will always be my first passion. Ever since I was six when I saw my first little fish in a pond, all I could think about was how to catch them. 

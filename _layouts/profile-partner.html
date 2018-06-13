@@ -10,7 +10,7 @@ layout: default
     <div class="row">
       {% if page.logo %}
         <div class="col-2">
-          <img src="{{ page.logo }}" class="img-fluid rounded float-left my-3 border" alt="{{ page.title }}">
+          <img src="{{ page.logo }}" class="img-fluid rounded float-left my-3" alt="{{ page.title }}">
         </div>
       {% endif %}
       <div class="col-6 my-auto">
@@ -24,7 +24,7 @@ layout: default
   <div class="row">
     {% if page.logo %}
       <div class="col-2  my-auto">
-        <img src="{{ page.logo }}" class="img-fluid rounded float-right border" alt="{{ page.title }}">
+        <img src="{{ page.logo }}" class="img-fluid rounded float-right" alt="{{ page.title }}">
       </div>
     {% endif %}
     <div class="col-12 col-lg-10 my-auto">
@@ -50,7 +50,7 @@ layout: default
       {% if page.website_url %}
         <div class="my-2">
           <h5 class="mb-0">Website</h5>
-          <a href='{{ page.website_url }}' alt="{{ page.title }}" target="_blank"><i class='mx-2 fas fa-globe'></i> {{ page.website_url | remove: 'http://' | remove: 'https://' | remove: "/" }}</a>
+          <a href='{{ page.website_url }}' alt="{{ page.title }}" target="_blank"><i class='mx-2 fas fa-globe'></i> {{ page.website_url | remove: 'http://' | remove: 'https://' | remove: "/" | remove: "www." | remove: "facebook.com" }}</a>
         </div>
       {% endif %}
       {% if page.address %}

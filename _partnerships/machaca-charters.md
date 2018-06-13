@@ -4,7 +4,7 @@ layout: profile-partner
 partner-type: 
     - charter
     - pro
-logo: http://via.placeholder.com/400x400
+# logo: http://via.placeholder.com/400x400
 website_url: http://machacacharters.com/
 address: >- 
     Falmouth Harbor, Massachusetts
