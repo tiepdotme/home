@@ -3,7 +3,7 @@ layout: spinning-reel-comparison
 permalink: /spinning-reels/comparison/
 title: Spinning Reel Technical Comparison
 long_title: Spinning Reel Technical Comparison
-description: Find the perfect reel for you needs
+description: Find the Perfect Reel for Your Needs
 
 # theme_style: four
 
