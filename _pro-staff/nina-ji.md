@@ -1,11 +1,12 @@
 ---
 title: Nina Ji
 layout: profile-pro
-# image: http://via.placeholder.com/150x150
-location: Apponaug, RI
+image: /assets/images/pro-staff/nina-ji--catch.jpg
+cover: /assets/images/pro-staff/nina-ji--cover.jpg
+location: Coventry, RI
 affiliates: 
     - Team Woozy
-    - Remote Anglers
+    # - Remote Anglers
 irt-affiliation: Pro Staff
 links:
     instagram: https://www.instagram.com/woozy_fishing/

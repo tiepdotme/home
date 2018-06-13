@@ -1,12 +1,12 @@
 ---
 title: Joe Manansala 
 layout: profile-pro
-# image: http://via.placeholder.com/150x150
-# cover: http://via.placeholder.com/2000x750
-location: Apponaug, RI
+image: /assets/images/pro-staff/joe-manansala--profile.jpg
+cover: /assets/images/pro-staff/joe-manansala--cover.jpg
+location: Coventry, RI
 affiliates: 
     - Team Woozy
-    - Remote Anglers
+    # - Remote Anglers
 irt-affiliation: Pro Staff
 links:
     instagram: https://www.instagram.com/woozy_fishing/
