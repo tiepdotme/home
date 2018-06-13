@@ -51,7 +51,7 @@ We are not responsible if information made available on this site is not accurat
 This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
 
 
-#### SECTION 4 - Modifications To The Service And Prices
+#### SECTION 4 - Modifications to the Service and Prices
 
 Prices for our products are subject to change without notice.
 
