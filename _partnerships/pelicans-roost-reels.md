@@ -2,7 +2,7 @@
 title: Pelican's Roost Reels
 layout: profile-partner
 partner-type: dealer
-# logo: http://via.placeholder.com/400x400
+logo: /assets/images/partnerships/logo--pelican-roost.png
 address: >-
     57331 NC-12
     Hatteras, North Carolina
