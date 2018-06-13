@@ -3,7 +3,7 @@ title: Team Woozy
 layout: profile-partner
 partner-type: pro
 logo: http://via.placeholder.com/400x400
-website_url: https://www.remoteanglers.com/
+website_url: https://Zazzle.com/woozy_fishing
 address: >-
     Apponaug, RI
 representatives:

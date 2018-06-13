@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign theme_style = page.theme_style | default: site.theme_style   %}
 
-<div class="container"  style="margin-top:66px">
+<div class="container"  style="margin-top:80px">
   <div class="row">
     <div class="col-11">
       <h1 class="display-1 text-uppercase text-d20-grey">{{ page.title }}</h1>
@@ -30,7 +30,7 @@ layout: default
 
         {% assign pros = site.pro-staff  | sort: 'title'  %}
         <div class="row">
-          <div class="col-12 order-9"></div>
+          <div class="col-12 order-9 py-3"></div>
           {% for pro in pros %}
             
             {% if pro.staff-type == "elite" %}
