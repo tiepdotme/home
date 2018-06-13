@@ -4,7 +4,7 @@ layout: contact
 permalink: /info/support/report-a-bug/
 title: Report a Bug
 long_title: Report a Bug
-description: So we can bait it up, cast it out, and catch more fish
+description: So we can bait it up, cast it out, and catch more fish!
 ---
 
 
