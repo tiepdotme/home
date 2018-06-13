@@ -4,7 +4,7 @@ layout: contact
 permalink: /info/contact/
 title: Contact Us
 long_title: Contact Us
-description: Reach out and we will respond as quickly as possible
+description: Reach out and we will respond as quickly as possible.
 ---
 <form 
     action="https://formspree.io/nkline@solarinnovations.com"
