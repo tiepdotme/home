@@ -2,15 +2,11 @@
 title: Russ Dimauro
 layout: profile-pro
 image: /assets/images/pro-staff/russ.png
-cover: http://via.placeholder.com/2000x750
+# cover: http://via.placeholder.com/2000x750
 location: Massachusetts
 affiliates: Al Gag's Fishing Lures
 irt-affiliation: Pro Staff
 links:
-    instagram: /#instagram
-    twitter: /#twitter
-    facebook: /#facebook
-    # pinterest: /#pinterest
     website: https://www.algagsfishinglures.com/
 ---
 

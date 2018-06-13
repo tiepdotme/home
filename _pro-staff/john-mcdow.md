@@ -1,7 +1,7 @@
 ---
 title: John McDow
 layout: profile-pro
-image: http://via.placeholder.com/150x150
+# image: http://via.placeholder.com/150x150
 location: Westbay, Grand Cayman
 # affiliates: 
 irt-affiliation: Pro Staff

@@ -1,15 +1,12 @@
 ---
 title: Captain Aaron Aaron
 layout: profile-pro
-image: http://via.placeholder.com/150x150
+# image: http://via.placeholder.com/150x150
 location: Hatteras, NC
 affiliates: TightLines
 irt-affiliation: Pro Staff
 links:
-    instagram: /#instagram
-    twitter: /#twitter
-    facebook: /#facebook
-    pinterest: /#pinterest
+    facebook: https://www.facebook.com/Tightlinedrum/
     website: http://www.fishtightline.com/
 ---
 Aaron specializes in light tackle and live baiting. Fly guys are definitely welcome. Tightline is user friendly with pop up cleats for no snags. The boat has plenty of room to fish all day so you can tell tales for a lifetime and maybe even catch dinner. 
