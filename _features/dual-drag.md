@@ -1,0 +1,15 @@
+---
+title: Dual Drag
+type: 
+  - tech
+# image: /assets/images/internals.jpg
+description: This invention is a method for manufacturing a spinning reel from an extrusion and in particular the frame or housing of a spinning reel. 
+
+
+---
+
+The key to IRT’s Dual Drag success is in the front and rear drag, which both work simultaneously and are controlled by the same front drag knob. With this function, these reels have more flexibility and allow for a broader range of drag. 
+
+The drag in the spool also has its own seal. The dual drag has been field tested by our Pro Staff and approved for the 500 through 800 series spinning reels. For a limited time, IRT is offering a $100 buy-up to the dual drag system that also includes an additional power handle option with your purchase.
+
+While some anglers are skeptical of utilizing a dual drag system, anyone who has used IRT’s system will never go back. The function is similar to a conventional reel without the risk of any backlashing. In addition, preliminary field testing on the prototype 400 dual drag reels are also having strong results. Please continue to watch our social media outlets for our 400 dual drag release later this year. For those anglers still hesitant to change, IRT also offers the single drag option that will work on the same reel as the dual drag.

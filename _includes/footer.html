@@ -31,13 +31,14 @@
  </style>
   <section class="grad-cust">
 
+    
     {% assign testimonials = site.testimonials | sample:2 %}
     {% for quote in testimonials %}
       {% if forloop.first %}
         {% continue %}
       {% endif %}
 
-      <div class="container-fluid py-5 sr-button">
+      <!-- <div class="container-fluid py-5 sr-button">
         <div class="row justify-content-center">
           <div class="col-md-6 col-10 my-auto">
             <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
@@ -46,10 +47,10 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!-- Modal -->
-      <div class="modal fade " id="testimony" tabindex="-1" role="dialog" aria-labelledby="testimonyLabel" aria-hidden="true">
+      <!-- <div class="modal fade " id="testimony" tabindex="-1" role="dialog" aria-labelledby="testimonyLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -86,11 +87,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     {% endfor %}
 
-    <hr class="grad">
+    <!-- <hr class="grad"> -->
   
     <div class="container-fluid py-5">
       <div class="row justify-content-center">
@@ -133,85 +134,84 @@
 
             {% if site.instagram %} 
             <div class="col py-2 text-center">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Instagram"   href="{{ site.instagram }}">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Instagram" title="Instagram"  href="{{ site.instagram }}">
                 <i class="fab fa-instagram fa-4x sr-pop-a" aria-hidden="true "></i>
-                <span>Instagram</span>
               </a>
             </div>
             {% endif %}
             {% if site.facebook %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Facebook"  href="https://www.facebook.com/{{ site.facebook }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Facebook" title="Facebook"  href="https://www.facebook.com/{{ site.facebook }}/">
                 <i class="fab fa-facebook-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.twitter %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Twitter"   href="https://twitter.com/{{ site.twitter }}">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Twitter" title="Twitter"  href="https://twitter.com/{{ site.twitter }}">
                 <i class="fab fa-twitter fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.tumblr %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Tumblr"   href="{{ site.tumblr }}/">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Tumblr" title="Tumblr" href="{{ site.tumblr }}/">
                 <i class="fab fa-tumblr fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.pinterest %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Pinterest"   href="https://www.pinterest.com/{{ site.pinterest }}/">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Pinterest" title="Pinterest"  href="https://www.pinterest.com/{{ site.pinterest }}/">
                 <i class="fab fa-pinterest fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.houzz %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Houzz"  href="https://www.houzz.com/pro/{{ site.houzz }}">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Houzz" title="Houzz" href="https://www.houzz.com/pro/{{ site.houzz }}">
                 <i class="fab fa-houzz fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.linkedin %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank"  alt="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank"  alt="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
                 <i class="fab fa-linkedin fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.youtube %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank"  alt="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
+              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Youtube" title="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
                 <i class="fab fa-youtube fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.google_plus %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Google Plus" href="https://plus.google.com/+{{ site.google_plus }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Google Plus" title="Google Plus" href="https://plus.google.com/+{{ site.google_plus }}/">
                 <i class="fab fa-google-plus-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.github_organization %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github" href="{{ site.github_organization }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github"  title="Github" href="{{ site.github_organization }}/">
                 <i class="fab fa-github fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %} 
             {% if site.medium %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Medium" href="{{ site.medium }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Medium" title="Medium" href="{{ site.medium }}/">
                 <i class="fab fa-medium-m fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
             {% endif %}
             {% if site.quora %} 
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Quora" href="{{ site.quora }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Quora" title="Quora" href="{{ site.quora }}/">
                 <i class="fab fa-quora fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
