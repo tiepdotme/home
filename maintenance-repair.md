@@ -38,4 +38,3 @@ Reels should be dried thoroughly after each use. It's also recommended that reel
 
 Annual service completed by the IRT team is also recommended. Please [contact us](/info/contact/contact-us) if you're ready for your reel to be serviced.
 
-Innovative Reel Technologies, Ltd. is pleased to offer customers any assistance possible to make their outdoor experience more enjoyable. The following links will help you to more effectively use your IRT reel, better understand the industry, or provide you with a few suggestions for more fun in the wild.
