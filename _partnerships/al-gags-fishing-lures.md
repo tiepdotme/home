@@ -1,7 +1,8 @@
 ---
 title: Al Gag's Fishing Lures
 layout: profile-partner
-partner-type: lures
+partner-type: equipment
+equipment-type: lures
 logo: /assets/images/partnerships/logo--al-gag.png
 website_url: https://www.algagsfishinglures.com/
 address: >- 

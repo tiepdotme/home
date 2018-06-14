@@ -4,11 +4,12 @@ layout: profile-partner
 partner-type: dealer
 logo: http://via.placeholder.com/400x400
 address: >-
-    West Testing St.
+    West Testing St.  
+    
     Someplace, NC 1XXXX
 # website_url: x
 representatives: Ryan Peterson
-published: false
+# published: false
 ---
 
 Dicat scripta omnesque sit ad, ut quo placerat intellegam. Ei diam lorem pro, eius docendi scriptorem ea mea. 

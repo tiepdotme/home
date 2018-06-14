@@ -7,7 +7,7 @@ partner-type:
 # logo: http://via.placeholder.com/400x400
 website_url: http://machacacharters.com/
 address: >- 
-    Falmouth Harbor, Massachusetts
+    Falmouth Harbor, MA
 representatives: Captain Will Hatch
 ---
 

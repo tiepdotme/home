@@ -25,86 +25,48 @@ layout: default
 
 <div class="container">
   <div class="row">
-
-    <div class="col-12 col-lg-6">
+    <div class="col-12 border-bottom py-2">
       <h2>IRT Reel Dealers</h2>
       <div class="container-fluid">
-
-        {% assign dealers = site.partnerships | where:'partner-type', 'dealer' | sort: 'title'  %}
+        <div class="row">
+        {% assign dealers = site.partnerships | where:'partner-type', 'dealer' | sort: 'location'  %}
         {% for dealer in dealers %}
-          <div class="media my-3">
-            {% if dealer.logo %}
-              <a href="{{ dealer.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ dealer.logo }}" alt="{{ dealer.title }}"></a>
-            {% endif %}
-            <div class="media-body">
-              <a href="{{ dealer.url }}"><h5 class="my-0">{{ dealer.title }}</h5></a>
-              <p class="mb-0 pb-2"><small>{{ dealer.address }}</small></p>
-              <p class="mb-0 pb-0">{{ dealer.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            </div>
-          </div>
-
+          {% include partner.html name=dealer.title url=dealer.url type=dealer.type logo=dealer.logo address=dealer.address %}
         {% endfor %}
-
+        </div>  
       </div>
     </div>
-    <div class="col-12 col-lg-6">
+  </div>
+
+  <div class="row mt-3">
+  
+    <div class="col-12 border-bottom py-2">
       <h2>Fishing Equipment</h2>
-      <div>
-        <h3 class="h5">Fishing Rods</h3>
-        <div class="container-fluid">
 
-          {% assign rods = site.partnerships | where:'partner-type', 'rods' | sort: 'location'  %}
-          {% for rod in rods %}
 
-            <div class="media my-3">
-              {% if rod.logo %}
-                <a href="{{ rod.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ rod.logo }}" alt="{{ rod.title }}"></a>
-              {% endif %}
-              <div class="media-body">
-                <a href="{{ rod.url }}"><h5 class="my-0">{{ rod.title }}</h5></a>
-                <p class="mb-0 pb-2"><small>{{ rod.address }}</small></p>
-                <p class="mb-0 pb-0">{{ rod.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-              </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+        {% assign equipment = site.partnerships | where:'partner-type', 'equipment' | sort: 'location'  %}
+        {% for equ in equipment %}
+          {% include partner.html name=equ.title url=equ.url type=equ.type logo=equ.logo address=equ.address equipment-type=equ.equipment-type %} 
+        {% endfor %}
+       </div>  
 
-          {% endfor %}
-
-           
-        </div>
-      </div>
-      <div>
-        <h3 class="h5 mt-4">Fishing Lures</h3>
-        <div class="container-fluid">
-  
-          {% assign lures = site.partnerships | where:'partner-type', 'lures' | sort: 'location'  %}
-          {% for lure in lures %}
-  
-            <div class="media my-3">
-              {% if lure.logo %}
-                <a href="{{ lure.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ lure.logo }}" alt="{{ lure.title }}"></a>
-              {% endif %}
-              <div class="media-body">
-                <a href="{{ lure.url }}"><h5 class="my-0">{{ lure.title }}</h5></a>
-                <p class="mb-0 pb-2"><small>{{ lure.address }}</small></p>
-                <p class="mb-0 pb-0">{{ lure.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-              </div>
-            </div>
-  
-          {% endfor %}
-  
           
-        </div>
       </div>
+
+     
     </div>
 
     
 
-    <div class="col-12">
+    <div class="col-12 ">
       <h2>Charters</h2>
       <div class="container-fluid">
 
         <div class="row">
-          {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'title'  %}
+          <div class="col-12 my-5 order-9"></div>
+          {% assign charters = site.partnerships | where:'partner-type', 'charter' | sort: 'location'  %}
           {% for charter in charters %}
             {% assign rank = 12  %}     
                 
@@ -120,19 +82,11 @@ layout: default
             {% if charter.website_url %}
               {% assign rank = rank | minus: 1  %}     
             {% endif %}
-            <div class="col-12 col-lg-6 order-{{ rank }}">
-              <div class="media my-3">
-                {% if charter.logo %}
-                  <a href="{{ charter.url }}" class="w-25 pr-3 " ><img class="mr-3 rounded" src="{{ charter.logo }}" alt="{{ charter.title }}"></a>
-                {% endif %}
-                <div class="media-body">
-                  <a href="{{ charter.url }}"><h5 class="my-0">{{ charter.title }}</h5></a>
-                  <p class="mb-0 pb-2"><small>{{ charter.address }}</small></p>
-                  <p class="mb-0 pb-0">{{ charter.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-                </div>
-              </div>
-      
-            </div>
+            
+             {% include partner.html name=charter.title url=charter.url type=charter.type logo=charter.logo address=charter.address rank=rank %} 
+            
+
+            
           {% endfor %}
             
         </div>

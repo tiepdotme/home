@@ -1,0 +1,22 @@
+{% assign name = include.name | default: nil %}
+{% assign url = include.url | default: nil %}
+{% assign type = include.type | default: nil %}
+{% assign logo = include.logo | default: nil %}
+{% assign address = include.address | default: nil %}
+{% assign equipment-type = include.equipment-type | default: nil %}
+{% assign rank = include.rank | default: 1 %}
+
+
+<div class="col-6 col-md-3 text-center order-{{ rank }}">
+    {% if logo %}
+    <a href="{{ url }}">
+        <img class="rounded p-3" src="{{ logo }}" height="175px" alt="Logo for {{ name }}">
+    </a>
+    {% endif %}
+    <a href="{{ url }}"  >
+        <h5 class="my-0 text-center">
+            {{ name }}
+        </h5>
+    </a>
+    <p class="mb-0 pb-2"><small>{{ address }}</small></p>
+</div>
