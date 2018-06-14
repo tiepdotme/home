@@ -37,14 +37,14 @@ layout: default
     <h1 class="display-5 mb-0 sr-contact">Innovative Reel Technologies</h1>
     <p class="lead  p-1 bold sr-contact" >{{ site.slug }}</p>
     <!-- <hr class="my-4"> -->
-    <button type="button" class="btn btn-outline-light toblue btn-lg sr-button" onclick="location.href = '/spinning-reels/comparison/';" >Buy Now</button>
+    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="location.href = '/spinning-reels/comparison/';" >Buy Now</button>
     {% if site.cta_gs_url %}
     {% if site.cta_gs_target == '_blank' %}
     <!-- TODO: update to stable from alpha format -->
     
-    <button type="button" class="btn btn-outline-light toblue btn-lg sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
+    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
     {% else %}    
-    <button type="button" class="btn btn-outline-light toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
+    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
     {% endif %}
     {% endif %}
     
