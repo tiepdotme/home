@@ -60,7 +60,7 @@
     <meta content="https://irtreels.com/about/pro-staff/scott-h/" property="og:url">
   
   
-    <meta content="2018-06-14T11:07:26-04:00" property="article:published_time">
+    <meta content="2018-06-14T11:37:47-04:00" property="article:published_time">
     <!-- <meta content="https://irtreels.com/about/" property="article:author"> -->
   
   
@@ -1390,7 +1390,7 @@
 
 <!-- hack for cart to appear on all pages -->
 
-<div id='product-component-e1e432057c0' class="d-none"></div>
+<div id='product-component-8103420b785' class="d-none"></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -1416,19 +1416,18 @@
 
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'the-innovative-shop.myshopify.com',
-      apiKey: 'acb4a170c9887f82bda30e1714a08aca',
+      domain: 'irt-reels.myshopify.com',
+      apiKey: '370c0d56b9837807aef6962ddba4493f',
       appId: '6',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [587099144247],
-        node: document.getElementById('product-component-e1e432057c0'),
+        id: [1304503943236],
+        node: document.getElementById('product-component-8103420b785'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
-    "buttonDestination": "modal",
     "variantId": "all",
     "width": "240px",
     "contents": {
@@ -1436,73 +1435,40 @@
       "imgWithCarousel": false,
       "title": false,
       "variantTitle": false,
-      "options": false,
       "price": false,
       "description": false,
       "buttonWithQuantity": false,
       "quantity": false
     },
-    "text": {
-      "button": "VIEW PRODUCT"
-    },
     "styles": {
       "product": {
+        "text-align": "left",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
           "margin-bottom": "50px"
         }
       },
-      "button": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
       "title": {
-        "font-family": "Montserrat, sans-serif"
-      },
-      "description": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
+        "font-size": "26px"
       },
       "price": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
+        "font-size": "18px"
       },
       "compareAt": {
-        "font-size": "12px",
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
+        "font-size": "15px"
       }
-    },
-    "googleFonts": [
-      "Montserrat",
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Open Sans",
-      "Open Sans"
-    ]
+    }
   },
   "cart": {
     "contents": {
       "button": true
     },
     "styles": {
-      "button": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
       "footer": {
         "background-color": "#ffffff"
       }
-    },
-    "googleFonts": [
-      "Montserrat"
-    ]
+    }
   },
   "modalProduct": {
     "contents": {
@@ -1520,64 +1486,8 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
-      },
-      "button": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Montserrat, sans-serif"
-      },
-      "description": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
       }
-    },
-    "googleFonts": [
-      "Montserrat",
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Open Sans",
-      "Open Sans"
-    ]
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Montserrat"
-    ]
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Open Sans, sans-serif"
-      },
-      "select": {
-        "font-family": "Open Sans, sans-serif"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Open Sans"
-    ]
+    }
   },
   "productSet": {
     "styles": {
