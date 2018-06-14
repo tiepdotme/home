@@ -2,12 +2,12 @@
 title: xxx
 date: 2018-06-01
 description: xxx
-thumb: /assets/images/photo-gallery/
-image: /assets/images/photo-gallery/
-# angler-name: Johnny B. Goode
+thumb: /assets/images/pro-staff/
+image: /assets/images/pro-staff/
+# angler-name: 
 
 # reel-type: spinning
-# reel-series: 800 
+# reel-series: 400 
 
 # location: Someplace, United States
 # fish: Some Big Fish

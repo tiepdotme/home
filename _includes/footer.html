@@ -123,79 +123,10 @@
 
   </section>
 
-  <div class="container-fluid brand-foot pt-5">
-
-      <div class="row justify-content-sm-center justify-content-start">
-
-          {% for link in links %}
-            {% if link.title == 'Information' %}
-              {% for sublink in link.sublinks %}
-                {% if forloop.first or sublink.header == true %}
-
-                  {% case sublink.title %}
-                    {% when 'Contact'  %}
-                      {% assign order = 'order-12 text-right col-sm-2' %}
-                    {% when 'Support' %}
-                      {% assign order = 'order-sm-11 order-2 col-sm-2' %}
-                    {% when 'Patents' %}
-                      {% assign order = 'order-sm-10 order-1 col-sm-2' %}
-                    {% else %}
-                      {% assign order = 'order-6 col-sm-2' %}  
-                  {% endcase %}
-
-                  <div class="my-3 col-6 {{ order }}">
-                    <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
-                    <ul class="list-unstyled m-0">
-                               
-                {% else %}
-                  {% if sublink.title != 'separator' %}              
-                    <li><small><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></small></li>
-                  {% endif %}              
-                {% endif %}
-                      
-                {% if sublink.title == 'Media' %}
-                  <li class="py-3">
-                    <strong style="color:#f5f5f5">Email</strong><br>                    
-                    <small><a style="color:#c6c6c6;" target="_blank" href="mailto:reels@irtreels.com">reels@irtreels.com</a></small>
-                  </li> 
-                  <li class="pb-3">
-                    <strong style="color:#f5f5f5">Call</strong></br>
-                    <small><a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a></small> 
-                  </li>
-                  <li >                  
-                    <strong style="color:#f5f5f5">Address</strong><br>
-                    <address style="color:#c6c6c6; font-size: 72%" class="mb-0">
-                      <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
-                    </address>
-                  </li>
-                  
-                {% endif %}
-                
-                {% if sublink.title == 'separator' %}
-                  </div>
-                {% endif %}
-              {% endfor %}
-            {% elsif link.title == "Blog" %}
-              <div class="my-3 col-6 col-sm-3 order-11 order-sm-1">
-                <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
-                
-                
-                <ul class="list-unstyled  m-0" >
-                  {% for post in site.posts limit:8 %}
-                    <li   ><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
-                  {% endfor %}
-                </ul>
-              </div>
-            
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-
-
-    <div class="row">
+  <div class="container-fluid brand-foot ">
+    <div class="row justify-content-center">
       
-      <div py-2 class="col-12 order-3 my-auto">
+      <div class="col-7 order-3 my-auto">
         <div class="container-fluid text-center list-unstyled">
           <div class="row my-5">   
             {% assign counter = 8 %}
@@ -288,6 +219,75 @@
         </div>
       </div>
     </div>
+      <div class="row justify-content-sm-center justify-content-start">
+
+          {% for link in links %}
+            {% if link.title == 'Information' %}
+              {% for sublink in link.sublinks %}
+                {% if forloop.first or sublink.header == true %}
+
+                  {% case sublink.title %}
+                    {% when 'Contact'  %}
+                      {% assign order = 'order-12 text-right col-sm-2' %}
+                    {% when 'Support' %}
+                      {% assign order = 'order-sm-11 order-2 col-sm-2' %}
+                    {% when 'Patents' %}
+                      {% assign order = 'order-sm-10 order-1 col-sm-2' %}
+                    {% else %}
+                      {% assign order = 'order-6 col-sm-2' %}  
+                  {% endcase %}
+
+                  <div class="my-3 col-6 {{ order }}">
+                    <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
+                    <ul class="list-unstyled m-0">
+                               
+                {% else %}
+                  {% if sublink.title != 'separator' %}              
+                    <li><small><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></small></li>
+                  {% endif %}              
+                {% endif %}
+                      
+                {% if sublink.title == 'Media' %}
+                  <li class="py-3">
+                    <strong style="color:#f5f5f5">Email</strong><br>                    
+                    <small><a style="color:#c6c6c6;" target="_blank" href="mailto:reels@irtreels.com">reels@irtreels.com</a></small>
+                  </li> 
+                  <li class="pb-3">
+                    <strong style="color:#f5f5f5">Call</strong></br>
+                    <small><a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a></small> 
+                  </li>
+                  <li >                  
+                    <strong style="color:#f5f5f5">Address</strong><br>
+                    <address style="color:#c6c6c6; font-size: 72%" class="mb-0">
+                      <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
+                    </address>
+                  </li>
+                  
+                {% endif %}
+                
+                {% if sublink.title == 'separator' %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            {% elsif link.title == "Blog" %}
+              <div class="my-3 col-6 col-sm-3 order-11 order-sm-1">
+                <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
+                
+                
+                <ul class="list-unstyled  m-0" >
+                  {% for post in site.posts limit:8 %}
+                    <li   ><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+
+   
     <div class="row">
       <div class="col-12">
           <div class="container ">
