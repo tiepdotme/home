@@ -3,8 +3,8 @@ layout: page
 permalink: /info/support/faqs/
 title: FAQs on IRT
 long_title: Frequently Asked Questions
-description: Common questions from our customers
-slug: Common questions from our customers
+description: Common questions from our customers.
+slug: Common questions from our customers.
 
 # menu: main
 # weight: 12
