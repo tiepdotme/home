@@ -5,10 +5,8 @@ partner-type: equipment
 equipment-type: rods
 logo: /assets/images/partnerships/logo--black-hole-usa--edit.png
 # cover: http://via.placeholder.com/2000x750
-address: >-
-    560 Sylvan Ave. STE#1260  
-    
-    Englewood Cliffs, NJ 07632
+address: >- 
+    Englewood Cliffs, NJ
 website_url: http://www.blackholeusa.com/
 representatives: Kil Song
 # publish: false

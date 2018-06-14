@@ -5,7 +5,7 @@ partner-type: charter
 # logo: http://via.placeholder.com/400x400
 website_url: http://tunaduck.com/
 address: >- 
-    Hatteras, NC 27943
+    Hatteras, NC 
 representatives: Captain Dan Rooks
 ---
 

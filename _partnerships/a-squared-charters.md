@@ -8,8 +8,6 @@ website_url: http://a2charters.com/
 representatives: Captain Armando Alejo
 address: >-
     Hatteras, NC
-
-
 ---
 If you are looking for a world class fishing trip, you’ve come to right place. 
 

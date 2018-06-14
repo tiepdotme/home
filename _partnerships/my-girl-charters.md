@@ -5,7 +5,7 @@ partner-type: charter
 logo: /assets/images/partnerships/logo--my-girl-charters.png
 website_url: https://mygirlcharters.com/
 address: >- 
-    Edgewater, MD 21037
+    Edgewater, MD
 representatives: Captain Steve Murray
 ---
 

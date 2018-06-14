@@ -5,8 +5,7 @@ partner-type: equipment
 equipment-type: rods
 logo: /assets/images/partnerships/logo--jignpop.png
 address: |
-    560 Sylvan Ave. STE#1260  
-    Englewood Cliffs, NJ 07632
+    Englewood Cliffs, NJ 
 website_url: https://jignpop.com/
 representatives: Kil Song
 

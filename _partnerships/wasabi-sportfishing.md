@@ -5,7 +5,7 @@ partner-type: charter
 logo: /assets/images/partnerships/logo--wasabi-sportfishing.png
 website_url: http://www.wasabisportfishing.com
 address: >- 
-    Hatteras, NC 27943
+    Hatteras, NC 
 representatives: Captain Kenny Koci
 ---
 

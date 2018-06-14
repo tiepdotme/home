@@ -5,7 +5,7 @@ partner-type: charter
 logo: /assets/images/partnerships/logo--reel-action-fishing-charters--edit.png
 website_url: https://www.actionfishingmyrtlebeach.com/
 address: >- 
-    North Myrtle Beach, SC 29582
+    North Myrtle Beach, SC 
 representatives: 
     - Captain John 
     - Captain Josh Small 
