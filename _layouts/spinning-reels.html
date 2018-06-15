@@ -50,133 +50,113 @@ layout: default
     </div>
     {% endif %}
 
-    <div id="fishing" class="col-12">
+    <div id="fishing"  class="col-12 ">
       <h2 class="text-center ">Enhance your fishing experience</h2>
-      {% assign fishing = site.features | where:'type', 'fishing' | reverse %}
-      {% for feature in fishing %}
+    </div>
+    
+    <div class="col-12">
       <div class="container-fluid my-5">
         <div class="row">
-          <div class="my-auto col-12 col-md-4 {% cycle 'order-md-1', 'order-md-2' %}">
-            <h4>
-              {{ feature.title }}
-            </h4>
-            <p>{{ feature.content }}</p>
-          </div>
-          <div class="my-auto col-12 col-md-8 {% cycle 'order-md-2', 'order-md-1' %}">
-            {% if feature.image %}
+          {% assign fishing = site.features | where:'type', 'fishing' | reverse %}
+          {% for feature in fishing %}
+          {% if feature.image %}
+          <div class="col-12 col-md-4 text-center">
               <img src="{{ feature.image }}" class="rounded border">
-            {% else %}            
-              <img src="http://via.placeholder.com/900x650">
-            {% endif %}
-          </div>
+              <h4 class="my-4">
+                {{ feature.title }}
+              </h4>
+              <p class="my-0">{{ feature.content }}</p>
+            </div>
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
-      {% endfor %}
     </div>
 
     <div id="tech" class="col-12">
       <h2 class="text-center " >Revolutionary Technology</h2>
-      {% assign tech = site.features | where:'type', 'tech'| sort: 'weight'  %}
-      {% for feature in tech %}
-        {% if feature.published == false %}
-          {% continue %}
-        {% endif %}
       <div class="container-fluid my-5">
         <div class="row">
-          <div class="my-auto col-md-4 col-12">
-            <h4>
-              {{ feature.title }}
-            </h4>
-            <p>{{ feature.excerpt }}</p>
-          </div>
-          
-          <div class="my-auto col-md-8 col-12">
-            <!-- <img src="{{ feature.image }}"> -->
+        {% assign tech = site.features | where:'type', 'tech'| sort: 'weight'  %}
+        {% for feature in tech %}
+          {% if feature.published == false %}
+            {% continue %}
+          {% endif %}
+          {% if feature.image %}
+            {% assign rank = 2 %}
+          {% else %}
+            {% assign rank = 4 %}
+          {% endif %}         
+          {% if feature.title == "Power Grip" %}
+            {% assign rank = 1 %}
+          {% endif %}         
+          {% if feature.title == "Dual Drag" %}
+            {% assign rank = 3 %}
+          {% endif %} 
+          <div class="col-md-4 col-12 order-{{ rank }} mb-4">
             {% if feature.image %}
               <img src="{{ feature.image }}" class="rounded border">
-            {% else %}            
-              <img src="http://via.placeholder.com/1500x950">
             {% endif %}         
+            <h4 class="mt-4 mb-2">{{ feature.title }}</h4>
+            <p class="my-0">{{ feature.excerpt }}</p>
+
           </div>
           
+          {% endfor %}
         </div>
       </div>
-      {% endfor %}
     </div>
 
     <div id="irt" class="col-12">
       <h2 class="text-center ">The Star on Top </h2>
-      <!-- <i class="far fa-star text-d10-four" style="font-size: .6em;margin: 0px -3px 0px -9px;"></i> -->
-      <!-- <div class="text-center">
-        <span class="h1 "></span>
-      </div> -->
-      {% assign irt = site.features | where:'type', 'irt' | reverse %}
-      {% for feature in irt %}
+
       <div class="container-fluid ">
         <div class="row">
-          <div class="my-auto offset-md-3 col-md-6 col-12 py-5">
-            <h4>
+        {% assign irt = site.features | where:'type', 'irt' | reverse %}
+        {% for feature in irt %}
+          <div class="col-12 col-md-4 py-5">
+            {% if feature.image %}
+              <img src="{{ feature.image }}" class="rounded mb-4">
+            {% endif %}
+            
+            <h4 class="mb-2">
               {{ feature.title }}
             </h4>
             <p>{{ feature.content }}</p>
-          </div>
-        </div>
-        {% if feature.image %}
-        <div class="row">
-          <div class="my-auto offset-md-2 col-md-8 col-12">
-            <img src="{{ feature.image }}" class="rounded ">
-            <!-- <img src="http://via.placeholder.com/1500x950">             -->
-          </div>
-        </div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-    
-    <!-- <div id="customizations" class="col-12 my-5">
-      <h2>Customizations</h2>
-      <div class="container-fluid">
-        {% assign customizations = site.data.customizations %}
-        {% for customization in customizations %}
-          <div class="row my-5">
-            <div class="col-12">
-              <h3 class="my-3">{{ customization.title }}</h3>
-            </div>
             
-            {% if customization.options %}
-              {% for option in customization.options %}
-                <div class="col">
-                  <img src="{{ option.image }}">                          
-                  <h4 class="my-3">
-                    {{ option.name }}
-                  </h4>
-                </div>
-              {% endfor %}
-            {% elsif customization.image %}
-            <div class="col-12">            
-                {% if customization.image %}
-                  <img src="{{ customization.image }}" class="rounded border">
-                {% else %}            
-                  <img src="http://via.placeholder.com/1500x950">
-                {% endif %}            
-            </div>
-            {% endif %}
+          
           </div>
-        {% endfor %}
+
+          {% endfor %}
+        </div>
       </div>
-    </div> -->
-  
-    
-
-    {% if content %}
-    <div class="col-12 " id="content">
-      {{ content }}
     </div>
-    {% endif %}
-    
 
+    <div id="buy" class="col-12 mb-5">
+      <h2 class="text-center ">Buy Now</h2>
+      <div class="container-fluid">
+        <div class="row justify-content-center my-5">
+          <div class="col-12 col-md-7 text-center">
+            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+              <button onclick="location.href = '/spinning-reels/300-series/';" type="button" class="btn btn-outline-dark toblue">IRT300</button>
+              <button onclick="location.href = '/spinning-reels/400-series/';" type="button" class="btn btn-outline-dark toblue">IRT400</button>
+              <button onclick="location.href = '/spinning-reels/500-series/';" type="button" class="btn btn-outline-dark toblue">IRT500</button>
+              <button onclick="location.href = '/spinning-reels/600-series/';" type="button" class="btn btn-outline-dark toblue">IRT600</button>
+              <button onclick="location.href = '/spinning-reels/700-series/';" type="button" class="btn btn-outline-dark toblue">IRT700</button>
+              <button onclick="location.href = '/spinning-reels/800-series/';" type="button" class="btn btn-outline-dark toblue">IRT800</button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-12 col-md-7 text-center">
+            <h3 class="text-center mb-4">Or Compare Spinning Reels</h3>
+            <button onclick="location.href = '/spinning-reels/comparison/';" type="button" class="btn btn-outline-dark toblue">Compare All Reels</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
   </article>
-
 </main>
 
