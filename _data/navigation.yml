@@ -27,14 +27,14 @@
       url: /spinning-reels/700-series/
     - title: 800 Series
       url: /spinning-reels/800-series/
-- title: Fly Reels
-  url: /fly-reels
-  sublinks: 
-    - title: Coming Soon
-      url: /fly-reels/comming-soon
-      header: true 
-    - title: Waitlist
-      url: /fly-reels/waitlist
+# - title: Fly Reels
+#   url: /fly-reels
+#   sublinks: 
+#     - title: Coming Soon
+#       url: /fly-reels/comming-soon
+#       header: true 
+#     - title: Waitlist
+#       url: /fly-reels/waitlist
 - title: About
   url: /about
   sublinks:

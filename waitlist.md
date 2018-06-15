@@ -7,6 +7,7 @@ description: Sign up and be notified of updates
 slug: Sign up and be notified when updates are available.
 cta-text: Join the Waitlist
 cta-url: '#content'
+published: false
 ---
 
 <!-- Begin MailChimp Signup Form -->
