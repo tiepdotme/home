@@ -209,6 +209,13 @@
               </a>
             </div>
             {% endif %}
+            {% if site.slack %} 
+            <div class="col py-2">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Slack" title="Slack" href="{{ site.slack }}/">
+                <i class="fab fa-slack fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
+              </a>
+            </div>
+            {% endif %}
             {% if site.quora %} 
             <div class="col py-2">
               <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Quora" title="Quora" href="{{ site.quora }}/">
@@ -217,7 +224,7 @@
             </div>
             {% endif %} 
           </div>
-        </div>
+        </div> 
       </div>
     </div>
       <div class="row justify-content-sm-center justify-content-start">
@@ -228,7 +235,7 @@
                 {% if forloop.first or sublink.header == true %}
 
                   {% case sublink.title %}
-                    {% when 'Contact'  %}
+                    {% when 'Contact'  %} 
                       {% assign order = 'order-12 text-right col-sm-2' %}
                     {% when 'Support' %}
                       {% assign order = 'order-sm-11 order-2 col-sm-2' %}
@@ -404,7 +411,7 @@
         }
       }, 100); // check every 100ms
 
-      </script>
+    </script>
   {% endif %} 
   {% else %}
     <script src="http://flair.planning.localhost/assets/jquery/dist/jquery.js" media="nope!" onload="this.media='all'"></script>
