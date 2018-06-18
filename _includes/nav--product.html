@@ -1,0 +1,25 @@
+<!-- Product Line Nav -->
+<ul class="nav nav-pills nav-fill fixed-bottom p-3 m-0" style="background:white;">
+  <li class="nav-item">
+    <a class="nav-link disabled h5 m-0" >Spinning Reels</a>
+  </li>
+{% assign links = site.data.navigation[0].sublinks | reverse %}
+{% for link in links %}
+  
+  {% if link.title == "Overview" or link.title == "Technical Comparison" or link.title == "separator" or link.title == "Spinning Reel Series" %}
+    {% continue %}
+  {% endif %}  
+  {% if page.url == link.url %}
+      {% assign class = 'active' %}
+  {% endif %}
+
+  <li class="nav-item ">
+    <a class="nav-link {{ class }}" href="{{ link.url }}">
+      {{ link.title }}
+    </a>
+  </li>
+  {% assign class = nil %}
+  
+{% endfor %}
+
+</ul>
