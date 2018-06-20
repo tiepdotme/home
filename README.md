@@ -38,11 +38,11 @@ The rebuild takes a more [*serverless*](https://en.wikipedia.org/wiki/Serverless
 As well as several other techs and APIs that are to come with subsequent updates.
 
 ### Jekyll
-Jekyll is a [static site generator](https://davidwalsh.name/introduction-static-site-generators) which means that the pages are precompiled prior to a user visiting the website. This creates better performance and development flexibility at the cost of a pretty [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) for content managment. 
+Jekyll is a [static site generator](https://davidwalsh.name/introduction-static-site-generators) which means that the pages are precompiled prior to a user visiting the website. This creates better performance and development flexibility at the cost of a pretty [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) for content management. 
 
 The elegance of this is that Jeklyl uses the same templating engine, [Liquid](https://shopify.github.io/liquid/), as Shopify. This would allow the site to be integrated directly into the Shopify backend as a theme. 
 
-The base theme, [Solar Flair](https://github.com/ndkline/solar-flair), was developed for usage accross [Solar Innovations](https://solarinnovations.com/), [IRT Reels](https://irtreels.com/), [Planning Solar](https://planning.solar/) and [Universal Clamps](https://universalclamps.com/) web presences. Because of this consistency we can cache assets, like CSS, JS, images, etc..., for use between sites.
+The base theme, [Solar Flair](https://github.com/ndkline/solar-flair), was developed for usage across  [Solar Innovations](https://solarinnovations.com/), [IRT Reels](https://irtreels.com/), [Planning Solar](https://planning.solar/) and [Universal Clamps](https://universalclamps.com/) web presences. Because of this consistency we can cache assets, like CSS, JS, images, etc..., for use between sites.
 
 ### Shopify
 Shopify took the place of our backend for the most part, WooCommerce and WordPress. All the business functions are isolated within this system.
@@ -50,7 +50,7 @@ Shopify took the place of our backend for the most part, WooCommerce and WordPre
 The UX/UI that Shopify provides is easily the best on the market. 
 
 ### Slack 
-Slack is one of the most beloved pieces of technology that's revolutionized distributed teams. Our Staff, Pro Staff, and a few others have access and can colaborate quite effectively. 
+Slack is one of the most beloved pieces of technology that's revolutionized distributed teams. Our Staff, Pro Staff, and a few others have access and can collaborate quite effectively. 
 
 This also serves as a cheap notification server. When blogs are published a bot will dump a link to it in a channel.
 

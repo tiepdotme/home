@@ -14,13 +14,9 @@ links:
 ---
 
  
-* Fly and spin fisherman. Fish both styles regularly, all around New Zealand. Flats fishing specialist. 
-Average 75 fishing days per year.
-* Started fishing as a 5 year old. Learned to fly fish aged 7 and have now been fly fishing for over 50 years.
-Angler, fly tier and rod builder.
-* Have been a beta tester for IRT since 2014.
-* The driving force behind Active Angling NZ website and Facebook page. The aim of AANZ is to turn angling from an “dark art” into a science and encourage people to fish with flies and lures from the shore. Try to provide easy access to scientific information that will allow anglers to become more aware of what they need to do and thus help improve their skill set.
-* Certified Food Scientist who runs an R&D team in a food ingredient supplier and manufacturer.
+After learning to fish at age 5 and to fly fish at age 7, Alan Bulmer has now been fishing for over 50 years. He fishes both styles regularly all around New Zealand and averages about 75 fishing days per year. Alan has been a beta tester for IRT since 2014 and is the driving force behind the Active Angling NZ website and Facebook page. The aim of AANZ is to turn angling from a “dark art” into a science, encouraging people to fish with flies and lures from the shore. AANZ tries to provide easy access to scientific information that will allow anglers to become more aware of what they need to do and thus help to improve their skill set.
+ 
+In addition to fishing, Alan is also a certified food scientist who runs an R&D team in a food ingredient supplier and manufacturer environment.
 
 <br> 
 <style>
