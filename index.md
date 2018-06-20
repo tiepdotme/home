@@ -20,10 +20,12 @@ weight: 1
 # ad: true
 # cover: https://conservatory.planning.solar/images/cover_photos/seaside.jpg
 # cover_alt: planning greenhouses cover photo
-categories: Timeline Sample
+categories: Innovative Reel Technologies
 tags: 
-    - Timeline
-    - Sample
+    - Spinning Power Grip
+    - IRT Reels
+    - Reel American Experience
+    - Angling
 ---
 
 Like any decent story, the history of Innovative Reel Technologies started with an American dream and a deep passion for success.
