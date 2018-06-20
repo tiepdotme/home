@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+{% assign theme_style = page.theme_style | default: site.theme_style   %}
+
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="{{ theme_style }}">
+    {% if site.gtm_id  %}  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
+    
+    <!-- Google Tag Manager (noscript) defualt -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7FHJFX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    {% include header.html %}
+
+   
+    {{ content }}
+     
+
+    {% assign footer = page.footer | default: 1  %}    
+    {% if footer == 1 %}
+      {% include footer.html %}
+    {% endif %}
+
+  </body>
+
+</html>
