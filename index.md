@@ -12,7 +12,8 @@ description: Cutting edge, aluminium, spinning fishing reels
 
 # cta-text: Browse Reels
 # cta-url: https://innovativereeltechnologies.com/
-cover: http://via.placeholder.com/3000x1000
+cover: https://irtreels.com/assets/images/home--spg-red.jpg
+cover_alt: Keeping you in the Fight | IRT Reels
 # menu: main
 weight: 1
 # toc: true
