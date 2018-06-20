@@ -20,7 +20,6 @@ layout: default
     border-bottom: solid 5px #ffcd59;
     border-top: solid 5px #ffcd59;
   }
-
   
 </style>
 
@@ -30,18 +29,18 @@ layout: default
     <h1 class="display-5 mb-0 sr-contact">Innovative Reel Technologies</h1>
     <p class="lead  p-1 bold sr-contact" >{{ site.slug }}</p>
     <!-- <hr class="my-4"> -->
-    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="location.href = '/spinning-reels/comparison/';" >Buy Now</button>
+    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '/spinning-reels/comparison/';" >Buy Now</button>
     {% if site.cta_gs_url %}
     {% if site.cta_gs_target == '_blank' %}
     <!-- TODO: update to stable from alpha format -->
     
-    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
+    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
     {% else %}    
-    <button type="button" class="btn btn-outline-light mr-2 toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
+    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
     {% endif %}
     {% endif %}
     
-    <button type="button" class="btn btn-outline-light toblue btn-lg page-scroll sr-button" href="#content">Learn More</button>
+    <button type="button" class="btn btn-outline-light mb-2 toblue btn-lg page-scroll sr-button" href="#content">Learn More</button>
     
   </div>
 </div>
@@ -102,7 +101,7 @@ layout: default
 
 <div id="products" class="bt-5 container-fluid whatare ">
   <div class="container" >
-    <div class="row h-100 py-5" style="margin:3% 0px;">
+    <div class="row h-100 py-5 justify-content-center" style="margin:3% 0px;">
       <div class="col-12">
         <h2 class="text-center display-3 mb-3">Products</h2>
       </div>
@@ -113,13 +112,13 @@ layout: default
           <h3 class="h5 text-center pt-3 text-d20-two">Browse Our Selections</h3>
         </a>
       </div>
-      <div class="col-12 col-md-6">
+      <!-- <div class="col-12 col-md-6">
         <h3 class=" text-center">Fly Reels</h3>
         <a href="/fly-reels/waitlist/">
           <img src="/assets/images/home--fly-reel.jpg" class="rounded">
           <h3 class="h5 text-center pt-3 text-d20-two">Coming Soon</h3>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

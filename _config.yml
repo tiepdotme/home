@@ -76,7 +76,7 @@ github_organization: https://github.com/InnovativeReelTechnologies
 
 sass:
   style: compressed   
-minify_html: true  
+minify_html: false  
 markdown: kramdown
 destination: docs
 theme: solar-flair
