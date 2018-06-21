@@ -6,4 +6,4 @@ description: IRT’s reel creates a lower center of gravity providing the fisher
 published: true
 ---
 
-IRT’s reel creates a lower center of gravity providing the fisherman with an increased mechanical advantage. 
+IRT’s reels create a lower center of gravity, providing the fisherman with an increased mechanical advantage. 
