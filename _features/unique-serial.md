@@ -6,4 +6,4 @@ description: All reels feature a unique serial number.
 published: true
 ---
 
-All reels feature a unique serial number and a [Limited Lifetime Warranty](/info/support/warranty/).
+All reels feature a unique serial number and a [limited lifetime warranty](/info/support/warranty/).
