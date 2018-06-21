@@ -8,4 +8,4 @@ published: true
 ---
 
 <!-- ![Made in Pine Grove PA](/assets/images/feature--made-in-pinegrove.jpg){:class="img-fluid rounded float-right ml-4 mb-3" width="50%"} -->
-IRT makes active strides to ensure not only the team and products reflect environmental sustainability, but the facility itself as well. 
+IRT makes active strides to ensure that not only the team and products reflect environmental sustainability, but that the facility itself does as well. 

@@ -6,15 +6,13 @@ description: Our dedicated production and development teams work with our custom
 published: true
 ---
 
-IRT’s dedicated production and development teams work with our customers to provide the highest quality customer and product service in the industry today. 
+IRT’s dedicated production and development teams will work with you to provide the highest quality customer and product service in the industry today. 
 
-Service provided by our expert personnel can include maintenance from normal wear and tear to severe damage from a rough fishing trip. 
-
-We can make adjustments to the drag, gear operation, and reel balance just to name a few. 
+Service provided by our expert personnel can include maintenance from normal wear and tear, to severe damage from a rough fishing trip. We are able to make adjustments to the drag, gear operation, reel balance, and more.
 
 For more information: 
 
-* [Maitenance & Repair Services](/info/support/maintenance-and-repair/)
-* [Contact customer service representative](/info/contact)
+* [Maintenance & Repair Services](/info/support/maintenance-and-repair/)
+* [Contact a Customer Service Representative](/info/contact)
 {: class="list-unstyled"}
 
