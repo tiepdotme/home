@@ -6,4 +6,4 @@ description: The lengthened lever arm of our fishing reels provides improved cas
 published: true
 ---
 
-The lengthened lever arm of our fishing reels provides improved casting performance. This allows for lighter lines and lures.
+The lengthened lever arm of our fishing reels provides improved casting performance, allowing for lighter lines and lures.
