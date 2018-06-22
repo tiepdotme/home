@@ -143,6 +143,14 @@
     .dropdown-toggle::after{content:none;} 
     .bg-dark{ background:rgba(35,31,32, .95)!important; }
     nav.navbar{ border-bottom: solid 1px rgba(35,31,32, 1)!important; box-shadow: 0 -35px 10px 35px rgba(0,0,0,0.5);}
+    img {
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+
+    img[data-src] {
+      opacity: 0;
+    }
     </style>
 
       <nav id="mainNav" class="navbar  navbar-expand-lg justify-content-between fixed-top navbar-dark bg-dark">
@@ -979,7 +987,7 @@ My name is Jeff C. and I am a bass fisherman.  I was born and raised in Schuylk
             </h2>
             <div class="clearfix">
 <p><a id="/media/3f39c9ec" href="/assets/images/photo-gallery/700-series-ross.jpg" data-toggle="lightbox" data-footer="&lt;div class='p-2 w-50'&gt;&lt;p class='align-self-start text-right m-0' style='display:block;width:100%;'&gt;Blackfin on popper with black hole rod aboard Good Times Sportfishing Hatteras, North Carolina&lt;/p&gt;&lt;/div&gt;&lt;div class='p-2 d-flex  flex-column'&gt;&lt;span class='mt-2 badge badge-secondary'&gt;&lt;span class='text-capitalize'&gt;Blackfin&lt;/span&gt;&lt;/span&gt;&lt;span class='mt-2 badge badge-secondary text-capitalize'&gt;700 Series &lt;/span&gt;&lt;span class='mt-2 badge badge-secondary text-capitalize'&gt;spinning&lt;/span&gt;&lt;/div&gt;&lt;div class='p-2'&gt;&lt;p class='lead m-0'&gt;Ross Scroble&lt;/p&gt;&lt;p class='m-0'&gt;&lt;small&gt;Hatteras, North Carolina&lt;/small&gt;&lt;/p&gt;&lt;/div&gt;" data-gallery="ross-blog-catches" class="float-right ml-4 mt-2 mb-3 w-25">
-    <img src="/assets/images/photo-gallery/700-series-ross-thumb.jpg" class="img-fluid rounded border" />
+    <img data-src="/assets/images/photo-gallery/700-series-ross-thumb.jpg" class="img-fluid rounded border" />
 </a></p>
 
 <p>I was first introduced to IRT by my friend Scott Binkley in 2009. The years prior, he had reintroduced me to the passion of saltwater fishing. One day, before heading to Belmar, New Jersey, he handed me a blue and gold reel and said, “Give this a go on these Whopper Blues.” He then stated that his friend, Greg Header, had decided to venture into the reel business. I graciously accepted this reel, and the rest has become somewhat of a wild ride into the world of design, mechanics, and testing of these innovative reels.</p>
@@ -1541,7 +1549,12 @@ You should know that your reels and our team placed 4th out of 68 teams in the A
         event.preventDefault();
         $(this).ekkoLightbox();
       });
-    
+      [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+        img.setAttribute('src', img.getAttribute('data-src'));
+        img.onload = function() {
+          img.removeAttribute('data-src');
+        };
+      });
     </script>
     
      
