@@ -23,6 +23,10 @@ toc: true
 # cta-text: Join the Waitlist
 # cta-url: '#mc-embedded-subscribe-form'
 ---
+
+#### Are your reels fully sealed?
+Our reels are as close to fully sealed as can be. As with all reels, we recommend properly cleaning with fresh water after saltwater use to ensure the reels longevity.
+
 #### Can I purchase reels directly through the Factory?
 IRT Reels currently sell factory direct and through authorized dealers. If you would like to purchase a reel or are interested in becoming a dealer, please [contact IRT reels](/info/contact/contact-us).
 
