@@ -1,8 +1,8 @@
 ---
 layout: spinning-reel-comparison
-permalink: /spinning-reels/comparison/
-title: Spinning Reel Technical Comparison
-long_title: Spinning Reel Technical Comparison
+permalink: /shop/all/
+title: All Spinning Reels
+long_title: All Spinning Reels
 description: Find the Perfect Reel for Your Needs
 
 # theme_style: four

@@ -1,32 +1,37 @@
 - title: Spinning Reels
-  url: /spinning-reels
+  url: /spinning-reels/
+- title: Shop
+  url: /shop
   sublinks:
-    - title: Overview
-      url: /spinning-reels/
-    - title: Technical Comparison
-      url: /spinning-reels/comparison/
+    - title: Spinning Reel Series
+      url: /#
+      header: true 
+    - title: All Spinning Reels
+      url: /shop/all/
+    - title: 300 Series
+      url: /shop/300-series/
+    - title: 400 Series
+      url: /shop/400-series/
+    - title: 500 Series
+      url: /shop/500-series/
+    - title: 600 Series
+      url: /shop/600-series/
+    - title: 700 Series
+      url: /shop/700-series/
+    - title: 800 Series
+      url: /shop/800-series/
+    # - title: separator
+- title: Blog
+  url: /blog
+  # sublinks:
+  #   - title: Overview
+  #     url: /spinning-reels/
     # - title: Patented Technology
     #   url: /spinning-reels#patent
     # - title: Superior Construction
     #   url: /spinning-reels#construction
     # - title: Customizations
     #   url: /spinning-reels#customizations
-    - title: separator
-    - title: Spinning Reel Series
-      url: /#
-      header: true 
-    - title: 300 Series
-      url: /spinning-reels/300-series/
-    - title: 400 Series
-      url: /spinning-reels/400-series/
-    - title: 500 Series
-      url: /spinning-reels/500-series/
-    - title: 600 Series
-      url: /spinning-reels/600-series/
-    - title: 700 Series
-      url: /spinning-reels/700-series/
-    - title: 800 Series
-      url: /spinning-reels/800-series/
 # - title: Fly Reels
 #   url: /fly-reels
 #   sublinks: 
@@ -46,8 +51,6 @@
       url: /about/pro-staff
     - title: Partnerships
       url: /about/partnerships
-- title: Blog
-  url: /blog
 - title: Information
   url: /info
   sublinks:

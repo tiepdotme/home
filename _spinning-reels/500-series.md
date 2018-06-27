@@ -1,6 +1,6 @@
 ---
 layout: product
-permalink: /spinning-reels/500-series/
+permalink: /shop/500-series/
 title: IRT500
 series: 500
 type: spinning

@@ -1,7 +1,7 @@
 ---
 layout: product
-permalink: /spinning-reels/700-series/
-title: 700 Series
+permalink: /shop/700-series/
+title: IRT700
 series: 700
 type: spinning
 price: "769.00"

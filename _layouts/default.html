@@ -2,11 +2,15 @@
 
 {% assign theme_style = page.theme_style | default: site.theme_style   %}
 
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" >
 
   {% include head.html %}
 
-  <body class="{{ theme_style }}">    
+  {% if page.layout == "product" or page.layout == "timeline" or page.layout == "profile-pro" or page.layout == "profile-partner" or page.layout == "spinning-reels" or page.layout == "home"  %}
+    <body class="{{ theme_style }}">    
+  {% else %}
+    <body class="{{ theme_style }} pt-5">    
+  {% endif %}
     <!-- Google Tag Manager (noscript) defualt -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7FHJFX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

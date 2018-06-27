@@ -1,11 +1,11 @@
 ---
 layout: product
-permalink: /spinning-reels/600-series/
+permalink: /shop/600-series/
 title: IRT600
 series: 600
 type: spinning
 price: "729.00"
-description: The IRT600 spinning reel is a versatile large spinning reel with equal size and power.
+description: The IRT600 series spinning reel is a versatile large spinning reel with equal size and power.
 long_description: |
   The IRT600 spinning reel is a versatile large spinning reel with equal size and power. 
 

@@ -1,6 +1,6 @@
 ---
 layout: product
-permalink: /spinning-reels/400-series/
+permalink: /shop/400-series/
 title: IRT400
 series: 400
 type: spinning

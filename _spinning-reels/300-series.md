@@ -1,6 +1,6 @@
 ---
 layout: product
-permalink: /spinning-reels/300-series/
+permalink: /shop/300-series/
 title: IRT300
 series: 300
 type: spinning

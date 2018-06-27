@@ -1,7 +1,7 @@
 ---
 layout: product
-permalink: /spinning-reels/800-series/
-title: 800 Series
+permalink: /shop/800-series/
+title: IRT800
 series: 800
 type: spinning
 price: "849.00"
