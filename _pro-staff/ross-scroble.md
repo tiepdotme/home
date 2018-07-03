@@ -13,3 +13,6 @@ links:
     website: /about/pro-staff/ross-scroble/
 ---
 
+Ross grew up fishing the northeast coast and the outer banks of North Carolina. Currently, the east coast remains the major fishery for Ross and his IRT spinning gear. 
+
+Whether targeting freshwater trout or billfish, Ross enjoys the simple act of getting out and fishing with friends.

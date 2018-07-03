@@ -1,10 +1,10 @@
 ---
-title: xxx
+title: 
 date: 2018-06-01
-description: xxx
-thumb: /assets/images/pro-staff/
-image: /assets/images/pro-staff/
-# angler-name: 
+description: 
+thumb: /assets/images/photo-gallery/
+image: /assets/images/photo-gallery/
+angler-name: 
 
 # reel-type: spinning
 # reel-series: 400 
