@@ -59,9 +59,9 @@
       header: true
     - title: Contact Us
       url: /info/contact
-    - title: Pro Staff
+    - title: Pro Staff Application
       url: /info/contact/pro-staff
-    - title: Media
+    - title: Media Press Kit
       url: /info/contact/media
     - title: separator
     - title: Support
@@ -83,7 +83,7 @@
     - title: Patents
       url: /info/patents
       header: true
-    - title: Power Grip™
+    - title: Spin Power Grip™
       url: /info/patents/power-grip
     - title: Manufacturing Methodology
       url: /info/patents/manufacturing-methodology

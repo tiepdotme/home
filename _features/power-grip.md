@@ -1,5 +1,5 @@
 ---
-title: Power Grip
+title: Spin Power Grip
 type: 
   - tech
   - patents

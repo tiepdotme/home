@@ -2,9 +2,9 @@
 
 layout: contact
 permalink: /info/contact/pro-staff/
-title: Pro Staff Submission
-long_title: Pro Staff Submission
-description: Fill out the form and submit to be considered for a Pro-Staff position.
+title: Pro Staff Application
+long_title: Pro Staff Application
+description: Think you have what it takes to be an IRT Pro Staffer? Find out by filling and submitting the form below.
 ---
 <form 
     action="https://formspree.io/nkline@solarinnovations.com"
@@ -17,14 +17,14 @@ description: Fill out the form and submit to be considered for a Pro-Staff posit
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right" for="email">Email address</label>
+        <label class="col-4 col-form-label text-right" for="email">Email</label>
         <div class="col-sm-8">
             <input required type="email" name="_replyto" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your@Email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right" for="phone">Phone Number</label>
+        <label class="col-4 col-form-label text-right" for="phone">Phone</label>
         <div class="col-sm-8">
             <input required type="phone" name="Phone" class="form-control" id="phone" placeholder="222-444-9876">
         </div>
@@ -45,9 +45,9 @@ description: Fill out the form and submit to be considered for a Pro-Staff posit
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right" for="Captian">Are you Captian?</label>
+        <label class="col-4 col-form-label text-right" for="Captain">Are you Captain?</label>
         <div class="col-sm-8">
-            <select id="Captian" Name="Captian" class="form-control">
+            <select id="Captain" Name="Captain" class="form-control">
                 <option>No</option>
                 <option>Yes</option>
             </select>

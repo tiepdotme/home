@@ -1,5 +1,5 @@
 ---
-title: Fishing Reel Handle Drag System
+title: Fly Reel Handle Drag System
 type: 
   - patents
 layout: patents

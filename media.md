@@ -1,8 +1,8 @@
 ---
 layout: contact
 permalink: /info/contact/media/
-title: Media
-long_title: Media
+title: Media Press Kit
+long_title: Media Press Kit
 description: Resources for Media Outlets and Pro Staff
 slug: Resources for Media Outlets and Pro Staff
 
