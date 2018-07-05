@@ -1,44 +1,44 @@
 <footer class="footer" id="footer">
 
-  {% assign color = page.theme_style | default: site.theme_style   %}
- 
- <style>
- .grad-cust{
-  background: linear-gradient(to bottom, 
-    rgba(49,157,211,0.98), 
-    /* rgba(41, 144, 194, 0.98),  */
-    rgba(0, 74, 118, 0.97), 
-    /* rgba(0, 37, 84, 0.98),  */
-    rgba(35, 31, 32, 1));
-    color: white;
-    border-top: solid 5px #ffcd59;
- }
- footer.footer{
-   background: url('/assets/images/ship-shadow.png');
-   background-repeat: no-repeat;
-   background-position: 0% 0%;
- }
- .brand-foot{
-   background: #231F20;
- }
- hr.grad-left{
-  border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255,255,255,0.75), rgba(255,255,255,0));
-    width: 90%;
-    margin: auto auto;
- }
- </style>
+  {% assign color = page.theme_style | default: site.theme_style %}
+
+  <style>
+    .grad-cust {
+      background: linear-gradient(to bottom,
+      rgba(49, 157, 211, 0.98),
+      /* rgba(41, 144, 194, 0.98),  */
+      rgba(0, 74, 118, 0.97),
+      /* rgba(0, 37, 84, 0.98),  */
+      rgba(35, 31, 32, 1));
+      color: white;
+      border-top: solid 5px #ffcd59;
+    }
+
+    footer.footer {
+      background: url('/assets/images/ship-shadow.png');
+      background-repeat: no-repeat;
+      background-position: 0% 0%;
+    }
+
+    .brand-foot {
+      background: #231F20;
+    }
+
+    hr.grad-left {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+      width: 90%;
+      margin: auto auto;
+    }
+  </style>
   <section class="grad-cust">
 
-    
-    {% assign testimonials = site.testimonials | sample:2 %}
-    {% for quote in testimonials %}
-      {% if forloop.first %}
-        {% continue %}
-      {% endif %}
 
-      <!-- <div class="container-fluid py-5 sr-button">
+    {% assign testimonials = site.testimonials | sample:2 %} {% for quote in testimonials %} {% if forloop.first %} {% continue
+    %} {% endif %}
+
+    <!-- <div class="container-fluid py-5 sr-button">
         <div class="row justify-content-center">
           <div class="col-md-6 col-10 my-auto">
             <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
@@ -48,13 +48,13 @@
           </div>
         </div>
       </div> -->
-  
-      <!-- Modal -->
-      <!-- <div class="modal fade " id="testimony" tabindex="-1" role="dialog" aria-labelledby="testimonyLabel" aria-hidden="true">
+
+    <!-- Modal -->
+    <!-- <div class="modal fade " id="testimony" tabindex="-1" role="dialog" aria-labelledby="testimonyLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title text-d10-grey" id="testimonyLabel">Testimonial</h5>
+              <h6 class="modal-title text-d10-grey" id="testimonyLabel">Testimonial</h6>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -90,23 +90,33 @@
       </div> -->
 
     {% endfor %}
- 
+
     <!-- <hr class="grad"> -->
-  
+
     <div class="container-fluid py-5">
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-6 col-10 text-center my-auto sr-contact">
           <h3>Sign Up for our Newsletter</h3>
-          <p class="text-left"><small>By signing up, you'll be emailed about once a month with major IRT<sup>®</sup> updates and news.</small></p>
+          <p class="text-left">
+            <small>By signing up, you'll be emailed about once a month with major IRT
+              <sup>®</sup> updates and news.</small>
+          </p>
           <div id="mc_embed_signup">
-            <form action="https://irtreels.us18.list-manage.com/subscribe/post?u=793d03288aae50840f4b1967f&amp;id=4cf6dedacf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="https://irtreels.us18.list-manage.com/subscribe/post?u=793d03288aae50840f4b1967f&amp;id=4cf6dedacf" method="post"
+              id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll" class="form-group">
                 <label for="mce-EMAIL" class="mb-4 d-none">Enter your email</label>
                 <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Your@Email.com" required>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <p  class="text-left"><small style="font-size: 60%; color:#c6c6c6">You will be able to unsubscribe at anytime.</small></p>
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_793d03288aae50840f4b1967f_4cf6dedacf" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-light mt-4"></div>
+                <p class="text-left">
+                  <small style="font-size: 60%; color:#c6c6c6">You will be able to unsubscribe at anytime.</small>
+                </p>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_793d03288aae50840f4b1967f_4cf6dedacf" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-light mt-4">
+                </div>
               </div>
             </form>
           </div>
@@ -118,324 +128,350 @@
 
 
 
-    <hr class="grad">
-  
-    {% assign links = site.data.navigation %}
+    <hr class="grad "> {% assign links = site.data.navigation %}
 
   </section>
 
-  <div class="container-fluid brand-foot ">
+  <div class="container-fluid brand-foot pt-5">
     <div class="row justify-content-center">
-      
+
       <div class="col-7 order-3 my-auto">
         <div class="container-fluid text-center list-unstyled">
-          <div class="row my-5">   
-            {% assign counter = 8 %}
-
-            {% if site.instagram %} 
+          <div class="row my-5">
+            {% assign counter = 8 %} {% if site.instagram %}
             <div class="col py-2 text-center">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Instagram" title="Instagram"  href="{{ site.instagram }}">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Instagram" title="Instagram" href="{{ site.instagram }}">
                 <i class="fab fa-instagram fa-4x sr-pop-a" aria-hidden="true "></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.facebook %} 
+            {% endif %} {% if site.facebook %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Facebook" title="Facebook"  href="https://www.facebook.com/{{ site.facebook }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/{{ site.facebook }}/">
                 <i class="fab fa-facebook-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.twitter %} 
+            {% endif %} {% if site.twitter %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Twitter" title="Twitter"  href="https://twitter.com/{{ site.twitter }}">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Twitter" title="Twitter" href="https://twitter.com/{{ site.twitter }}">
                 <i class="fab fa-twitter fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.tumblr %} 
+            {% endif %} {% if site.tumblr %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Tumblr" title="Tumblr" href="{{ site.tumblr }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Tumblr" title="Tumblr" href="{{ site.tumblr }}/">
                 <i class="fab fa-tumblr fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.pinterest %} 
+            {% endif %} {% if site.pinterest %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Pinterest" title="Pinterest"  href="https://www.pinterest.com/{{ site.pinterest }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Pinterest" title="Pinterest" href="https://www.pinterest.com/{{ site.pinterest }}/">
                 <i class="fab fa-pinterest fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.houzz %} 
+            {% endif %} {% if site.houzz %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Houzz" title="Houzz" href="https://www.houzz.com/pro/{{ site.houzz }}">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Houzz" title="Houzz" href="https://www.houzz.com/pro/{{ site.houzz }}">
                 <i class="fab fa-houzz fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.linkedin %} 
+            {% endif %} {% if site.linkedin %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank"  alt="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin }}/">
                 <i class="fab fa-linkedin fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.youtube %} 
+            {% endif %} {% if site.youtube %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}"  target="_blank" alt="Youtube" title="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Youtube" title="Youtube" href="https://www.youtube.com/user/{{ site.youtube }}">
                 <i class="fab fa-youtube fa-4x sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.google_plus %} 
+            {% endif %} {% if site.google_plus %}
             <div class="col py-2">
               <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Google Plus" title="Google Plus" href="https://plus.google.com/+{{ site.google_plus }}/">
                 <i class="fab fa-google-plus-square fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.github_organization %} 
+            {% endif %} {% if site.github_organization %}
             <div class="col py-2">
-              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github"  title="Github" href="{{ site.github_organization }}/">
+              <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Organizational Github" title="Github" href="{{ site.github_organization }}/">
                 <i class="fab fa-github fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %} 
-            {% if site.medium %} 
+            {% endif %} {% if site.medium %}
             <div class="col py-2">
               <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Medium" title="Medium" href="{{ site.medium }}/">
                 <i class="fab fa-medium-m fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.slack %} 
+            {% endif %} {% if site.slack %}
             <div class="col py-2">
               <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Slack" title="Slack" href="{{ site.slack }}/">
                 <i class="fab fa-slack fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %}
-            {% if site.quora %} 
+            {% endif %} {% if site.quora %}
             <div class="col py-2">
               <a class="{% cycle 'nil', 'grey' %}" target="_blank" alt="Quora" title="Quora" href="{{ site.quora }}/">
                 <i class="fab fa-quora fa-4x icon-grey sr-pop-a" aria-hidden="true"></i>
               </a>
             </div>
-            {% endif %} 
-          </div>
-        </div> 
-      </div>
-    </div>
-      <div class="row justify-content-sm-center justify-content-start">
-
-          {% for link in links %}
-            {% if link.title == 'Information' %}
-              {% for sublink in link.sublinks %}
-                {% if forloop.first or sublink.header == true %}
-
-                  {% case sublink.title %}
-                    {% when 'Contact'  %} 
-                      {% assign order = 'order-12 text-right col-sm-2' %}
-                    {% when 'Support' %}
-                      {% assign order = 'order-sm-11 order-2 col-sm-2' %}
-                    {% when 'Patents' %}
-                      {% assign order = 'order-sm-10 order-1 col-sm-2' %}
-                    {% else %}
-                      {% assign order = 'order-6 col-sm-2' %}  
-                  {% endcase %}
-
-                  <div class="my-3 col-6 {{ order }}">
-                    <h5 style="color:#f5f5f5">{{ sublink.title }}</h5>
-                    <ul class="list-unstyled m-0">
-                               
-                {% else %}
-                  {% if sublink.title != 'separator' %}              
-                    <li><small><a href="{{ sublink.url }}" style="color:#c6c6c6">{{ sublink.title }}</a></small></li>
-                  {% endif %}              
-                {% endif %}
-                      
-                {% if sublink.title == 'Media' %}
-                  <li class="py-3">
-                    <strong style="color:#f5f5f5">Email</strong><br>                    
-                    <small><a style="color:#c6c6c6;" target="_blank" href="mailto:reels@irtreels.com">reels@irtreels.com</a></small>
-                  </li> 
-                  <li class="pb-3">
-                    <strong style="color:#f5f5f5">Call</strong></br>
-                    <small><a style="color:#c6c6c6;" href="tel:{{ site.phone }}">{{ site.phone }}</a></small> 
-                  </li>
-                  <li >                  
-                    <strong style="color:#f5f5f5">Address</strong><br>
-                    <address style="color:#c6c6c6; font-size: 72%" class="mb-0">
-                      <a style="color:#c6c6c6;" href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}<br>{{ site.address_2 }}</a>
-                    </address>
-                  </li>
-                  
-                {% endif %}
-                
-                {% if sublink.title == 'separator' %}
-                  </div>
-                {% endif %}
-              {% endfor %}
-            {% elsif link.title == "Blog" %}
-              <div class="my-3 col-6 col-sm-3 order-11 order-sm-1">
-                <h5 ><a href="{{ link.url }}" style="color:#f5f5f5">{{ link.title }}</a></h5>
-                
-                
-                <ul class="list-unstyled  m-0" >
-                  {% for post in site.posts limit:8 %}
-                    <li   ><a href="{{ post.url }}" style="color:#c6c6c6"><small>{{ post.title }}</small></a></li>
-                  {% endfor %}
-                </ul>
-              </div>
-            
             {% endif %}
-          {% endfor %}
+          </div>
         </div>
       </div>
+    </div>
+    <div class="row justify-content-sm-center mt-5 justify-content-start">
+
+      {% for link in links %} 
+        {% if link.title == 'Information' %} 
+          {% for sublink in link.sublinks %} 
+            {% if forloop.first or sublink.header == true %} 
+              {% case sublink.title %}
+                {% when 'Contact' %} 
+                  {% assign order = 'order-12 col-sm-2' %} 
+                {% when 'Support' %} 
+                  {% assign order = 'order-sm-11 order-2 col-sm-2' %} 
+                {% when 'Patents' %} 
+                  {% assign order = 'order-sm-10 order-1 col-sm-2' %} 
+                {% else %} 
+                  {% assign order = 'order-6 col-sm-2' %} 
+              {% endcase %}
+
+      <div class="my-3 col-6 {{ order }}">
+        <h6 class="border-bottom text-uppercase font-weight-bold" style="color:#a0a0a0">{{ sublink.title }}</h6>
+        <ul class="list-unstyled m-0">
+
+          {% else %} {% if sublink.title != 'separator' %}
+          <li>
+            <small>
+              <a href="{{ sublink.url }}" >{{ sublink.title }}</a>
+            </small>
+          </li>
+          {% endif %} {% endif %} {% if sublink.title == 'Media Press Kit' %}
+          <li class="pt-2">
+            <strong style="color:#a0a0a0;"><small>Email</small></strong>
+            <br>
+            <small>
+              <a target="_blank" href="mailto:reels@irtreels.com">reels@irtreels.com</a>
+            </small>
+          </li>
+          <li class="pt-2">
+            <strong style="color:#a0a0a0;"><small>Call</small></strong>
+            </br>
+            <small>
+              <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+            </small>
+          </li>
+          <li class="pt-2">
+            <strong style="color:#a0a0a0;"><small>Address</small></strong>
+            <br>
+            <address style="color:#c6c6c6; font-size: 72%" class="mb-0">
+              <a href="https://goo.gl/maps/a13mMk1dyg52" target="_blank">{{ site.address_1 }}
+                <br>{{ site.address_2 }}</a>
+            </address>
+          </li>
+
+          {% endif %} {% if sublink.title == 'separator' %}
+      </div>
+      {% endif %} 
+      
+      {% endfor %} 
+      
+      
+      
+      {% elsif link.title == "Blog" %}
+      <div class="my-3 col-6 col-sm-2 order-11 order-sm-1">
+        <h6 class="border-bottom text-uppercase font-weight-bold">
+          <a href="{{ link.url }}" style="color:#a0a0a0">{{ link.title }}</a>
+        </h6>
 
 
-   
-    <div class="row pb-5">
-      <div class="col-12">
-          <div class="container ">
-            <div class="row my-4">
-              <div class="col-12 py-1 text-center">
-                <a href="https://innovativereeltechnologies.com/" ><strong>Innovative Reel Technologies<sup>®</sup></strong></a>
-              <!-- </div> -->
-                <span class="px-2" style="color:#c6c6c6">|</span>
-              <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
-                <a href="https://solarinnovations.com" style="color: #428e42"><strong>Solar Innovations<sup>®</sup></strong></a>
-              <!-- </div> -->
-                <span class="px-2" style="color:#c6c6c6">|</span>
-              <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
-                <a href="https://universalclamps.com" style="color:#f15830"><strong>Universal<sup>®</sup> Clamps</strong></a>
-              <!-- </div> -->
-                <span class="px-2" style="color:#c6c6c6">|</span>
-              <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
-                <a href="https://planning.solar" class="grey"><strong>Planning Solar</strong></a>
-              </div>
-            </div>
-            <div class="row py-3 justify-content-between ">
-              <div class="col">
-                <p style="color:#c6c6c6"><small>&copy; {{ site.time | date: '%Y' }} Innovative Reel Technologies, Ltd. | <a style="color:#c6c6c6" href="/info/support/all-rights-reserved/">All Rights Reserved</a> </small></p>
-              </div>
-              <div class="col text-right">
-                <a href="/info/support/privacy/" style="color:#c6c6c6"><small>Privacy Policy</small></a> 
-                <span style="color:#c6c6c6">|</span> 
-                <a href="/info/support/terms-and-conditions/" style="color:#c6c6c6"><small>Terms &amp; Conditions</small></a>
-                <span style="color:#c6c6c6">|</span> 
-                <a href="/info/support/report-a-bug/" style="color:#c6c6c6"><small>Report a Bug 
-                  <span class="fa-stack " style="font-size: 80%;">
-                    <i class="fas fa-bug fa-stack-1x"></i>
-                    <i class="fas fa-ban fa-stack-2x" style="color:#d83105"></i>
-                  </span>
-                </small></a>
-              </div>
-            </div>
+        <ul class="list-unstyled  m-0">
+          {% for post in site.posts limit:8 %}
+          <li class="mb-2" style="line-height: 15px;">
+            <a href="{{ post.url }}" >
+              <small>{{ post.title }}</small>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="my-3 col-6 col-sm-2 order-2 order-sm-1">
+        <h6 class="border-bottom text-uppercase font-weight-bold">
+          <a href="{{ link.url }}" style="color:#a0a0a0">Spinning Reels</a>
+        </h6>
+        <ul class="list-unstyled  m-0">
+          <li><small><a href="/shop/all/">All Spinning Reels</a></small></li>
+          <li><small><a href="/shop/300-series/">300 Series</a></small></li>
+          <li><small><a href="/shop/400-series/">400 Series</a></small></li>
+          <li><small><a href="/shop/500-series/">500 Series</a></small></li>
+          <li><small><a href="/shop/600-series/">600 Series</a></small></li>
+          <li><small><a href="/shop/700-series/">700 Series</a></small></li>
+          <li><small><a href="/shop/800-series/">800 Series</a></small></li>
+        </ul>
+      </div>
+
+
+      {% endif %} {% endfor %}
+    </div>
+  </div>
+
+
+
+  <div class="row pb-5">
+    <div class="col-12">
+      <div class="container ">
+        <div class="row my-4">
+          <div class="col-12 py-1 text-center">
+            <a href="https://innovativereeltechnologies.com/">
+              <strong>Innovative Reel Technologies
+                <sup>®</sup>
+              </strong>
+            </a>
+            <!-- </div> -->
+            <span class="px-2" style="color:#f5f5f5">|</span>
+            <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
+            <a href="https://solarinnovations.com" style="color: #428e42">
+              <strong>Solar Innovations
+                <sup>®</sup>
+              </strong>
+            </a>
+            <!-- </div> -->
+            <span class="px-2" style="color:#f5f5f5">|</span>
+            <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
+            <a href="https://universalclamps.com" style="color:#f15830">
+              <strong>Universal
+                <sup>®</sup> Clamps</strong>
+            </a>
+            <!-- </div> -->
+            <span class="px-2" style="color:#f5f5f5">|</span>
+            <!-- <div class="col-12 col-md-3 py-3 text-center"> -->
+            <a href="https://planning.solar" class="grey">
+              <strong>Planning Solar</strong>
+            </a>
           </div>
+        </div>
+        <div class="row py-3 justify-content-between ">
+          <div class="col">
+            <p style="color:#c6c6c6;">
+              <small>&copy; {{ site.time | date: '%Y' }} Innovative Reel Technologies, Ltd. |
+                <a style="color:#c6c6c6;" href="/info/support/all-rights-reserved/">All Rights Reserved</a>
+              </small>
+            </p>
+          </div>
+          <div class="col text-right" style="color:#c6c6c6;">
+            <a style="color:#c6c6c6;" href="/info/support/privacy/" >
+              <small>Privacy Policy</small>
+            </a>
+            <span >|</span>
+            <a style="color:#c6c6c6;" href="/info/support/terms-and-conditions/" >
+              <small>Terms &amp; Conditions</small>
+            </a>
+            <span >|</span>
+            <a style="color:#c6c6c6;" href="/info/support/report-a-bug/" >
+              <small>Report a Bug
+                <span class="fa-stack " style="font-size: 80%;">
+                  <i class="fas fa-bug fa-stack-1x"></i>
+                  <i class="fas fa-ban fa-stack-2x" style="color:#d83105"></i>
+                </span>
+              </small>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  
+  </div>
+
 </footer>
 
 
 
 
-{% if site.asset_cdn == 2  %}
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script src="/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script>
+{% if site.asset_cdn == 2 %}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script> {% elsif site.asset_cdn == 1 }
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
+<script src="/assets/solar-flair.js" media="nope!" onload="this.media='all'"></script> {% else %} {% if jekyll.environment == "production" %}
+<script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
+<script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
+<script src="https://flair.planning.solar/assets/bootstrap/dist/js/bootstrap.bundle.min.js" media="nope!" onload="this.media='all'"></script>
+<script src="https://flair.planning.solar/assets/scrollreveal/dist/scrollreveal.min.js" media="nope!" onload="this.media='all'"></script>
+<script src="/assets/lightbox/dist/ekko-lightbox.min.js" media="nope!" onload="this.media='all'"></script>
+<!-- <script src="https://flair.planning.solar/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script> -->
+<script src="/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script>
 
-{% elsif site.asset_cdn == 1 }
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
-  <script src="/assets/solar-flair.js" media="nope!" onload="this.media='all'"></script>
-  
-{% else %}
-  {% if jekyll.environment == "production" %}
-    <script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
-    <script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
-    <script src="https://flair.planning.solar/assets/bootstrap/dist/js/bootstrap.bundle.min.js" media="nope!" onload="this.media='all'"></script>
-    <script src="https://flair.planning.solar/assets/scrollreveal/dist/scrollreveal.min.js" media="nope!" onload="this.media='all'"></script>
-    <script src="/assets/lightbox/dist/ekko-lightbox.min.js" media="nope!" onload="this.media='all'"></script>
-    <!-- <script src="https://flair.planning.solar/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script> -->
-    <script src="/assets/solar-flair.min.js" media="nope!" onload="this.media='all'"></script>
-  
-    <script  media="nope!" onload="this.media='all'">
-      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-      });
-      [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
-        img.setAttribute('src', img.getAttribute('data-src'));
-        img.onload = function() {
-          img.removeAttribute('data-src');
-        };
-      });
-    </script>
-    {% if page.layout == "timeline" %}
-      <!-- Timeline Dependentcies -->
-      <script src="https://flair.planning.solar/assets/timeliner/js/timeliner.min.js" media="nope!" onload="this.media='all'"></script>
-      <script>
-        $(document).ready(function() {
-                $.timeliner({});
-        });
-      </script>
-    {% endif %}
-    {% if page.layout == "product" %}
-      
-    <script type="text/javascript">
+<script media="nope!" onload="this.media='all'">
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function () {
+      img.removeAttribute('data-src');
+    };
+  });
+</script> {% if page.layout == "timeline" %}
+<!-- Timeline Dependentcies -->
+<script src="https://flair.planning.solar/assets/timeliner/js/timeliner.min.js" media="nope!" onload="this.media='all'"></script>
+<script>
+  $(document).ready(function () {
+    $.timeliner({});
+  });
+</script> {% endif %} {% if page.layout == "product" %}
 
-      $("#reel-details").hide();
-     
-      var checkExist = setInterval(function() {
-        if ($('iframe[name^=frame-productSet]').length) {           
+<script type="text/javascript">
 
-            setTimeout(function(){
-              // $("#spinner").delay(2100).hide();
-              $("#footer").delay(2600).show();
+  $("#reel-details").hide();
 
-              $( "#spinner" ).animate({
-                height: "0vh",
-                opacity: 0,  
-              }, 1000 );
-              
-              $("#reel-details").delay(2500).show();
-              // $("body").delay(2500).css("overflow", "scroll");
-              $("html").delay(2500).css("overflow-y", "scroll");
-            }, 2600);
+  var checkExist = setInterval(function () {
+    if ($('iframe[name^=frame-productSet]').length) {
+
+      setTimeout(function () {
+        // $("#spinner").delay(2100).hide();
+        $("#footer").delay(2600).show();
+
+        $("#spinner").animate({
+          height: "0vh",
+          opacity: 0,
+        }, 1000);
+
+        $("#reel-details").delay(2500).show();
+        // $("body").delay(2500).css("overflow", "scroll");
+        $("html").delay(2500).css("overflow-y", "scroll");
+      }, 2600);
 
 
-            clearInterval(checkExist);
-        }
-      }, 100); // check every 100ms
+      clearInterval(checkExist);
+    }
+  }, 100); // check every 100ms
 
-    </script>
-  {% endif %} 
-  {% else %}
-    <script src="http://flair.planning.localhost/assets/jquery/dist/jquery.js" media="nope!" onload="this.media='all'"></script>
-    <script src="http://flair.planning.localhost/assets/jquery.easing/jquery.easing.js" media="nope!" onload="this.media='all'"></script>
-    <script src="http://flair.planning.localhost/assets/bootstrap/dist/js/bootstrap.bundle.js" media="nope!" onload="this.media='all'"></script>
-    <script src="http://flair.planning.localhost/assets//scrollreveal/dist/scrollreveal.js" media="nope!" onload="this.media='all'"></script>
-    <script src="http://flair.planning.localhost/assets/solar-flair.js" media="nope!" onload="this.media='all'"></script>
-    {% if page.layout == "timeline" %}
-      <!-- Timeline Dependentcies -->
-      <script src="http://flair.planning.localhost/assets/timeliner/js/timeliner.js" media="nope!" onload="this.media='all'"></script>
-      <script>
-        $(document).ready(function() {
-          $.timeliner({});
-        });
-        
-      </script>
-    {% endif %}
-  {% endif %}
-{% endif %}
+</script> {% endif %} {% else %}
+<script src="http://flair.planning.localhost/assets/jquery/dist/jquery.js" media="nope!" onload="this.media='all'"></script>
+<script src="http://flair.planning.localhost/assets/jquery.easing/jquery.easing.js" media="nope!" onload="this.media='all'"></script>
+<script src="http://flair.planning.localhost/assets/bootstrap/dist/js/bootstrap.bundle.js" media="nope!" onload="this.media='all'"></script>
+<script src="http://flair.planning.localhost/assets//scrollreveal/dist/scrollreveal.js" media="nope!" onload="this.media='all'"></script>
+<script src="http://flair.planning.localhost/assets/solar-flair.js" media="nope!" onload="this.media='all'"></script> {% if page.layout == "timeline" %}
+<!-- Timeline Dependentcies -->
+<script src="http://flair.planning.localhost/assets/timeliner/js/timeliner.js" media="nope!" onload="this.media='all'"></script>
+<script>
+  $(document).ready(function () {
+    $.timeliner({});
+  });
+
+</script> {% endif %} {% endif %} {% endif %}
 
 
 
@@ -443,120 +479,119 @@
 {% if page.layout != "product" %}
 <div id='product-component-8103420b785' class="d-none"></div>
 <script type="text/javascript">
-/*<![CDATA[*/
+  /*<![CDATA[*/
 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
     } else {
       loadScript();
     }
-  } else {
-    loadScript();
-  }
 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
+    function loadScript() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = scriptURL;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+      script.onload = ShopifyBuyInit;
+    }
 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'irt-reels.myshopify.com',
-      apiKey: '370c0d56b9837807aef6962ddba4493f',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [1304503943236],
-        node: document.getElementById('product-component-8103420b785'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "img": false,
-      "imgWithCarousel": false,
-      "title": false,
-      "variantTitle": false,
-      "price": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "text-align": "left",
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
+    function ShopifyBuyInit() {
+      var client = ShopifyBuy.buildClient({
+        domain: 'irt-reels.myshopify.com',
+        apiKey: '370c0d56b9837807aef6962ddba4493f',
+        appId: '6',
       });
-    });
-  }
-})();
+
+      ShopifyBuy.UI.onReady(client).then(function (ui) {
+        ui.createComponent('product', {
+          id: [1304503943236],
+          node: document.getElementById('product-component-8103420b785'),
+          moneyFormat: '%24%7B%7Bamount%7D%7D',
+          options: {
+            "product": {
+              "variantId": "all",
+              "width": "240px",
+              "contents": {
+                "img": false,
+                "imgWithCarousel": false,
+                "title": false,
+                "variantTitle": false,
+                "price": false,
+                "description": false,
+                "buttonWithQuantity": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "text-align": "left",
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0",
+                    "margin-bottom": "50px"
+                  }
+                },
+                "title": {
+                  "font-size": "26px"
+                },
+                "price": {
+                  "font-size": "18px"
+                },
+                "compareAt": {
+                  "font-size": "15px"
+                }
+              }
+            },
+            "cart": {
+              "contents": {
+                "button": true
+              },
+              "styles": {
+                "footer": {
+                  "background-color": "#ffffff"
+                }
+              }
+            },
+            "modalProduct": {
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "variantTitle": false,
+                "buttonWithQuantity": true,
+                "button": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px"
+                  }
+                }
+              }
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
+                }
+              }
+            }
+          }
+        });
+      });
+    }
+  })();
 /*]]>*/
-</script>
-{% endif %}
+</script> {% endif %}
 
 
 <script src="/assets/jquery.serialize-object.min.js" media="nope!" onload="this.media='all'"></script>
@@ -566,21 +601,21 @@
 
 
   var $form = $('form#reel-registration'),
-      url = 'https://script.google.com/macros/s/AKfycbyHvjcZv6evSHXF1q7nf6AHnDXkA-tc_pw9NjrehxFa_HPy_9Y/exec'
-  $('#reel-registration').on('submit', function(e) {
+    url = 'https://script.google.com/macros/s/AKfycbyHvjcZv6evSHXF1q7nf6AHnDXkA-tc_pw9NjrehxFa_HPy_9Y/exec'
+  $('#reel-registration').on('submit', function (e) {
     e.preventDefault();
     $(":submit", this).attr("disabled", "disabled");
 
     $('#reel-registration').validate({
-      showErrors: function(errorMap, errorList) {
-          // Do nothing here
-        
+      showErrors: function (errorMap, errorList) {
+        // Do nothing here
+
       },
       onfocusout: false,
       onkeyup: false,
     });
 
-    if($form.valid()){
+    if ($form.valid()) {
       var jqxhr = $.ajax({
         url: url,
         method: "GET",
@@ -589,22 +624,19 @@
         },
         dataType: "json",
         data: $form.serializeObject(),
-        success: function(res){
+        success: function (res) {
           window.location.replace("/info/support/reel-registration/thank-you");
         }
       });
-    }else{
-      $(":submit", this).removeAttr("disabled", "disabled"); 
+    } else {
+      $(":submit", this).removeAttr("disabled", "disabled");
     }
   });
 
- 
-</script>
 
-{% if page.layout == "product" %}
+</script> {% if page.layout == "product" %}
 <script>
   window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-</script>
-{% endif %}
+    window.scrollTo(0, 0);
+  }
+</script> {% endif %}
