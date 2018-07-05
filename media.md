@@ -7,14 +7,14 @@ description: Resources for Media Outlets and Pro Staff
 slug: Resources for Media Outlets and Pro Staff
 
 ---
-**Media outlets**: Please directly email [Eric Wanner](mailto:ewanner@irtreels.com), our marketing coordinator, if you wish to request more information or are going to feature us in an upcoming story.
+**Media outlets**: Please email [Eric Wanner](mailto:ewanner@irtreels.com), Marketing Coordinator, if you need more information or are going to feature IRT<sup>®</sup> Reels in an upcoming story.
 
 ## Press Kit
 {: class="mb-3 mt-5" }
 
 Feel free to download our press kit. The download contains:
 - Logos
-- The Story of IRT Reels
+- The Story of IRT<sup>®</sup> Reels
 - Founders' Bios and Photos
 - Product Sheets
 - Product Photos
