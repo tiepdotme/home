@@ -45,9 +45,9 @@ layout: default
           {% assign fishing = site.features | where:'type', 'fishing' | reverse %}
           {% for feature in fishing %}
           {% if feature.image %}
-          <div class="col-12 col-md-4 text-center">
+          <div class="col-12 col-md-4 text-left">
               <img src="{{ feature.image }}" class="rounded border">
-              <h4 class="my-4">
+              <h4 class="mt-4 mb-2">
                 {{ feature.title }}
               </h4>
               <p class="my-0">{{ feature.content }}</p>

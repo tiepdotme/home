@@ -23,23 +23,14 @@ layout: default
   
 </style>
 
-<div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--spg-red.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
+<div class="jumbotron jumbotron-fluInnovative Reel Technologiesid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--spg-red.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
   
   <div class="container bottom text-center py-5">
-    <h1 class="display-5 mb-0 sr-contact">Innovative Reel Technologies</h1>
+    <h1 class="display-5 mb-0 sr-contact">Innovative Reel Technologies<sup>®</sup></h1>
     <p class="lead  p-1 bold sr-contact" >{{ site.slug }}</p>
     <!-- <hr class="my-4"> -->
-    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '/shop/all/';" >Buy Now</button>
-    {% if site.cta_gs_url %}
-    {% if site.cta_gs_target == '_blank' %}
-    <!-- TODO: update to stable from alpha format -->
-    
-    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="window.open('{{ site.cta_gs_url }}', '_blank');" >{{ site.cta_gs_text }}</button>
-    {% else %}    
-    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>
-    {% endif %}
-    {% endif %}
-    
+    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '/shop/all/';" >Shop Now</button>
+    <button type="button" class="btn btn-outline-light mr-2 mb-2 toblue btn-lg sr-button" onclick="location.href = '{{ site.cta_gs_url }}';" >{{ site.cta_gs_text }}</button>    
     <button type="button" class="btn btn-outline-light mb-2 toblue btn-lg page-scroll sr-button" href="#content">Learn More</button>
     
   </div>
@@ -55,16 +46,16 @@ layout: default
       </div>
       <div class="text-center col-lg-7 mb-3 col-9">
         <p class="lead tease">
-          Our all-American made reels are <a class="highlight" href="/spinning-reels#tech">guaranteed</a> to give you a one-of-a-kind <a href="/spinning-reels#tech" class="highlight">fishing machine</a> and <a class="highlight" href="/spinning-reels#fishing">experience</a> with every purchase. 
+          Our all-American made reels are proven to give you a one-of-a-kind <a href="/spinning-reels#tech" class="highlight">fishing machine</a> and <a class="highlight" href="/spinning-reels#fishing">experience</a> with every purchase. 
         </p>
-        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#content2">Continue</button>
+        <button type="button" class="btn btn-outline-light toblue page-scroll sr-button" href="#content3">Continue</button>
         
       </div>
     </div>
   </div>
 </div>
 
-<div  id="content2" class="pt-10 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--reel-collection.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
+<!-- <div  id="content2" class="pt-10 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--reel-collection.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
 
   <div class="container-fluid" >
     <div class="row justify-content-center mt-5 ">
@@ -75,12 +66,12 @@ layout: default
         <p class="lead tease">
           <a href="/spinning-reels#tech" class="highlight">Spin Power Grip™</a> innovation leads to a better <a class="highlight" href="/spinning-reels#fishing">angling experience.</a>
         </p>
-        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#content3">Go on...</button>
+        <button type="button" class="btn btn-outline-light toblue page-scroll sr-button" href="#content3">Go on...</button>
         
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="content3" class="pt-0 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--fishing-motivation.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
   <div class="container-fluid  " >
@@ -92,7 +83,9 @@ layout: default
         <p class="lead tease">
           IRT Reels provide better <a class="highlight" href="/spinning-reels#fishing">leverage, comfort, and distance</a> over the competition.
         </p>
-        <button type="button" class="btn btn-outline-light page-scroll sr-button" href="#products">Find Your Reel</button>
+        <!-- Switch when Fly Reel is ready
+           <button type="button" class="btn btn-outline-light toblue page-scroll sr-button" href="#products">Find Your Reel</button> -->
+        <button type="button" class="btn btn-outline-light toblue page-scroll sr-button" href="/shop/all/">Find Your Reel</button>
         
       </div>
     </div>
@@ -105,7 +98,7 @@ layout: default
       <div class="col-12">
         <h2 class="text-center display-3 mb-3">Products</h2>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-8">
         <h3 class=" text-center">Spinning Reels</h3>
         <a href="/spinning-reels/">          
           <img src="/assets/images/home--generation-2-spin-power-grip.jpg" class="rounded">
@@ -127,7 +120,9 @@ layout: default
   <div class="row">
     <div class="col-12 col-xl-8 offset-xl-2 px-0">
       
+      {% comment %}
       {% include our-story.html %}
+      {% endcomment %}
       
       
     </div>
