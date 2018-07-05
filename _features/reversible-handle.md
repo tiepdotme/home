@@ -7,4 +7,4 @@ published: true
 weight: 2
 ---
 
-A reversible handle allows for versatility between fellow outdoorsmen or various fishing needs. This unique design gives the fisherman an advantage over the ordinary right and left-handed reels that are traditionally offered within the aluminum machined fishing reel industry.
+A reversible handle allows for versatility between fellow outdoorsmen and their various fishing needs. This unique design gives the fisherman an advantage over the ordinary right and left-handed reels that are traditionally offered within the aluminum machined fishing reel industry.
