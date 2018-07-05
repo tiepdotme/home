@@ -6,4 +6,4 @@ description: The Spin Power Grip™’s revolutionary shape removes the pressure
 published: true
 ---
 
-[The Spin Power Grip™](#tech) has a revolutionary shape that removes the pressure on your fingers that is caused by traditional spinning reel designs. This allows for a more comfortable resting position on the handle.
+The [Spin Power Grip™](#tech) has a revolutionary shape that removes the pressure on your fingers that is caused by traditional spinning reel designs. This allows for a more comfortable resting position on the handle.

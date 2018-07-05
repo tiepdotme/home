@@ -18,7 +18,7 @@ published: true
 weight: 1
 ---
 
-Our [Spin Power Grip™](/info/patents/power-grip/) technology is a revolutionary and patented design that provides critical performance advantages to fishermen. 
+Our [Spin Power Grip™](/info/patents/power-grip/) technology is a revolutionary design incorporated into our fishing reel leg patent that provides critical performance advantages to fishermen.
 
 After reviewing feedback that was gathered through extensive field testing, Innovative Reel Technologies has made design enhancements to our patented Spinning Power Grip™ (SPG) technology. 
 

@@ -3,8 +3,8 @@ layout: page
 permalink: /info/support/maintenance-and-repair/
 title: Maintenance/Repair
 long_title: Maintenance and Repair
-description: Fishing Reel Maintenance and Repair Services for IRT Customers
-slug: Fishing Reel Maintenance and Repair Services for IRT Customers
+description: Fishing Reel Maintenance and Repair Service
+slug: Fishing Reel Maintenance and Repair Service
 
 # menu: main
 # weight: 12
@@ -36,5 +36,5 @@ If the reel is used primarily for salt water fishing, additional maintenance may
 
 Reels should be dried thoroughly after each use. It's also recommended that reels be stored in the supplied case.
 
-Annual service completed by the IRT team is also recommended. Please [contact us](/info/contact/contact-us) if you're ready for your reel to be serviced.
+Annual service completed by the IRT team is also recommended. Please [contact us](/info/contact/) when you are ready for your reel to be serviced.
 

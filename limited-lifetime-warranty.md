@@ -3,8 +3,8 @@ layout: page
 permalink: /info/support/warranty/
 title: Limited Lifetime Warranty
 long_title: Limited Lifetime Warranty
-description: Fishing Reel Maintenance and Repair Services for IRT Customers
-slug: Fishing Reel Maintenance and Repair Services for IRT Customers
+description: Innovative Reel Technologies<sup>®</sup> One Year Limited Lifetime Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
+slug: Innovative Reel Technologies<sup>®</sup> One Year Limited Lifetime Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
 
 # menu: main
 # weight: 12
@@ -24,14 +24,12 @@ slug: Fishing Reel Maintenance and Repair Services for IRT Customers
 # cta-url: '#mc-embedded-subscribe-form'
 ---
 
-**Innovative Reel Technologies<sup>®</sup>, LTD. One Year Limited Lifetime Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels**
+Innovative Reel Technologies<sup>®</sup> (IRT) 300, 400, 500, 600, 700, and 800 series spinning reels are warranted for a period of one (1) year from the date of original retail purchase against defects in workmanship and/or materials. This warranty is offered to the original purchaser only.  In addition, IRT<sup>®</sup> offers a limited lifetime warranty for spinning reels that are serviced annually by either IRT<sup>®</sup> or a certified IRT<sup>®</sup> dealer. Original purchaser must return their reel for service annually to continue the limited lifetime warranty. Failure to do so will result in expiration of the warranty. Service costs range from $39.95 to $69.95 depending on reel type, plus prepaid postage both ways. There will be a two-week grace period from a year after the date of purchase to send in your reel for servicing.
 
-Innovative Reel Technologies (IRT<sup>®</sup>) 300, 400, 500, 600, 700, & 800 series spinning reels are warranted for a period of one (1) year from the date of original retail purchase against defects in workmanship and/or materials. This warranty is offered to the original purchaser only.  In addition, IRT<sup>®</sup> offers a limited lifetime warranty for spinning reels that are serviced annually by either IRT<sup>®</sup> or a certified IRT<sup>®</sup> dealer. Original purchaser must return their reel for service annually to continue the limited lifetime warranty. Failure to do so will result in expiration of the warranty. Services costs range from $39.95 to $69.95 depending on reel type, plus prepaid postage both ways. There will be a two-week grace period from a year after the date of purchase to send in your reel for servicing.
-
-IRT<sup>®</sup> reserves the right to make all decisions, at its sole discretion, regarding whether a claim qualifies as eligible warranty work. During the warranty period (1 year), IRT<sup>®</sup> will repair or replace the product, at its discretion, at no charge to the original purchaser. A dated sales receipt or other dated proof of purchase must accompany all warranty claims. The product should be shipped directly to IRT<sup>®</sup> at 31 Roberts Road, Pine Grove, PA 17963, postage prepaid and insured. Package should include the reel being sent for work, the dated proof of purchase/receipt, and all accessories/parts necessary for the functioning reel.
+IRT<sup>®</sup> reserves the right to make all decisions, at its sole discretion, regarding whether a claim qualifies as eligible warranty work. During the warranty period (1 year), IRT<sup>®</sup> will repair or replace the product, at its discretion, at no charge to the original purchaser. A dated sales receipt or other dated proof of purchase must accompany all warranty claims. The product should be shipped directly to IRT<sup>®</sup> at 31 Roberts Road, Pine Grove, PA 17963, with prepaid postage and also insured. Package should include the reel being sent for work, the dated proof of purchase/receipt, and all accessories/parts necessary for the functioning reel.
 This warranty does not cover reels damaged due to abuse, misuse, corrosion, normal wear and tear (defined as parts designed to act as “maintenance” parts including but not limited to the drag friction disc, etc.), excessive wear caused by neglect of normal cleaning and lubrication or an owner(s) failure to provide reasonable and necessary maintenance, or products that have been altered or modified by a person or company that is not at IRT<sup>®</sup> or a certified IRT<sup>®</sup> dealer.
 
-IRT<sup>®</sup> products not covered by this IRT<sup>®</sup> Limited Warranty may be repaired at a nominal charge to the purchaser, provided parts are available and the product is shipped to IRT<sup>®</sup> with return postage prepaid.
+IRT<sup>®</sup> products not covered by this IRT<sup>®</sup> Limited Lifetime Warranty may be repaired at a nominal charge to the purchaser if provided parts are available, and if the product is shipped to IRT<sup>®</sup> with return postage prepaid.
 
 Repair parts or colors may not be a direct match to the original in-service parts due to the natural aging process of colorants used in the manufacturing process and variations in batch coloration.
 
