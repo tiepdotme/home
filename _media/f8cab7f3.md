@@ -1,6 +1,6 @@
 ---
 title: 6 foot blacktip shark on the IRT300!!!
-date: 2018-04-02
+date: 2018-07-02
 description: 6 foot blacktip shark on the IRT300!!! 
 thumb: /assets/images/photo-gallery/pulling-in-a-shark.jpg
 image: /assets/images/photo-gallery/pulling-in-a-shark.jpg

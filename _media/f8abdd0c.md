@@ -1,7 +1,7 @@
 ---
-title: xxx
-date: 2018-04-02
-description: xxx 
+title: Colin Eckoff
+date: 2018-07-02
+description: Colin Eckoff 
 thumb: /assets/images/photo-gallery/colin_eckoff--thumb.jpeg
 image: /assets/images/photo-gallery/colin_eckoff.jpeg
 angler-name: Colin Eckoff

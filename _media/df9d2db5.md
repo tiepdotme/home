@@ -1,6 +1,6 @@
 ---
 title: Scamp on the IRT500DD!!!
-date: 2018-04-02
+date: 2018-07-02
 description: Scamp on the IRT500DD!!! 
 thumb: /assets/images/photo-gallery/scamp.jpeg
 image: /assets/images/photo-gallery/scamp.jpeg
