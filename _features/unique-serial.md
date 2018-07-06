@@ -1,9 +1,9 @@
 ---
-title: Unique Serial Number
+title: Limited Lifetime Warranty
 type: irt
-image: /assets/images/feature--made-in-usa.jpg
+image: /assets/images/icon--limited-warranty.svg
 description: All reels feature a unique serial number.
 published: true
 ---
 
-All reels feature a unique serial number and a [limited lifetime warranty](/info/support/warranty/).
+All reels feature a [limited lifetime warranty](/info/support/warranty/) and a unique serial number.
