@@ -1,5 +1,5 @@
 ---
-title: Limited Lifetime Warranty
+title: Lifetime Limited Warranty
 type: irt
 image: /assets/images/icon--limited-warranty.svg
 description: All reels feature a unique serial number.

@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /info/support/warranty/
-title: Limited Lifetime Warranty
-long_title: Limited Lifetime Warranty
-description: Innovative Reel Technologies<sup>®</sup> One Year Limited Lifetime Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
-slug: Innovative Reel Technologies<sup>®</sup> One Year Limited Lifetime Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
+title: Lifetime Limited Warranty
+long_title: Lifetime Limited Warranty
+description: One Year Lifetime Limited Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
+slug: One Year Lifetime Limited Warranty 300, 400, 500, 600, 700, & 800 Series Spinning Reels
 
 # menu: main
 # weight: 12
