@@ -2,7 +2,7 @@
 layout: post
 title:  IRT<sup>®</sup> Reels Celebrates New Website Launch with Reel Giveaway
 date:   2018-07-09  08:40:00 -0400 # XX = Month | YY = Day
-author: <author>
+author: Erin Collins
 categories: 
     - Meta
     - Reel Review

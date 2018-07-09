@@ -1,4 +1,5 @@
 ---
+published: false
 layout: product
 permalink: /shop/test-series/
 title: TEST
@@ -30,7 +31,7 @@ line-retrieval: 39 inches
 image: /assets/images/products/800-spg-gold-gold.gif
 fish: /assets/images/fish--shark.png
 fish_recommendation:
-    - Sharks 
+    - Sharks   
     - Big Tarpon
     - Tuna 
     - Wahoo
