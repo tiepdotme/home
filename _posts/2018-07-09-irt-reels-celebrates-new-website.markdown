@@ -1,24 +1,15 @@
 ---
 layout: post
-title:  IRT<sup>®</sup> Reels Celebrates New Website Launch with Reel Giveaway
+title:  IRT Celebrates New Website Launch with Reel Giveaway
 date:   2018-07-09  08:40:00 -0400 # XX = Month | YY = Day
 author: Erin Collins
 categories: 
     - Meta
-    - Reel Review
-    - Blogger Spotlight
-    - Fishing Expedition
-    - Fishing Tips and Tricks
-    - X00 Series
-fish: 
-    - Bass
-    - Trout
-    - Carp
 locations:
     - Pine Grove, PA
 ---
  
-PINE GROVE, PA – In celebration of its new website launch on July 9, 2018, [Innovative Reel Technologies<sup>®</sup> (IRTReels.com)](https://irtreels.com) announced a social media contest where they will be giving away one free IRT400 fishing reel on Facebook or Instagram.
+PINE GROVE, PA – In celebration of its new website launch on July 9, 2018, [Innovative Reel Technologies<sup>®</sup> (IRTReels.com)](https://irtreels.com) announced a social media contest where they will be giving away one free IRT500DD fishing reel on Facebook or Instagram.
 
 The contest, which began on Wednesday, July 4, is all about sharing and promoting the IRT brand and run through the month of July. By liking the IRT<sup>®</sup> Instagram page and using the hashtag #IRTReelAmerican on a fishing-related photo, readers will have their name entered once into the random drawing. If they like the IRT page on Facebook and comment on the post, their name will be added to the drawing a second time, increasing their chances of winning. The contest will last until Friday, July 27, and the winner will be announced Tuesday, July 31.
  
