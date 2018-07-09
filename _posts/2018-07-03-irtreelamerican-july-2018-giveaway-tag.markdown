@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  /#IRTReelAmerican July 2018 Giveaway Terms and Guidelines
+title:  /_#IRTReelAmerican July 2018 Giveaway Terms and Guidelines
 date:   2018-07-03  08:40:00 -0400 # XX = Month | YY = Day
 author: Erin Collins
 categories: 
@@ -12,6 +12,8 @@ categories:
 locations:
     - Pine Grove, PA
 ---
+
+Overview of the competition
 
 **i. No Purchase Necessary**
 

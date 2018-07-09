@@ -48,7 +48,7 @@ title: Blog
           </div>
           <div class="col-9 text-d10-{{ theme_style }}">
             <h2>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | remove: '/_' }}</a>
             </h2>
             <div class="clearfix">{{ post.excerpt }}</div>
             <p class="text-right mb-5"><a class="text-d20-{{ theme_style }}" href="{{ post.url | prepend: site.baseurl }}"><small>Continue Reading...</small></a></p>

@@ -28,7 +28,7 @@ body>main>article>div.col-12.col-md-4>h4 #content p, article p {
 
     {% if page.cover == null %}
     <div class="col-12">
-      <h1 class="display-5 text-uppercase">{{ page.title | escape | remove: '/' }}</h1>
+      <h1 class="display-5 text-uppercase">{{ page.title | remove: '/_' }}</h1>
   
       {% if page.description %}    
         <p class="lead" style="font-weight:400; padding:1% 0;">{{ page.description  }}</p>
