@@ -5,11 +5,11 @@ title: IRT500
 series: 500
 type: spinning
 price: "669.00"
-description: The IRT500 spinning reel is designed for heavier freshwater applications like large catfish. 
+description: The IRT500 is the largest of our inshore spinning reel series and is ideal for heavier freshwater applications.
 long_description: |
-  The IRT500 spinning reel is designed for heavier freshwater applications like large catfish. 
-  
-  This reel is perfect for bringing in big stripers and bluefish when using live or artificial baits. This model can also be combined with a medium to heavy action rod to cast from jetties. 
+  The IRT500 is the largest of our inshore spinning reel series and is ideal for heavier freshwater applications.
+
+  This reel will grab the attention of bigger fish (i.e. Stripers, Bluefish, etc.) when used with live or artificial bait. The IRT500 can also be combined with a medium to heavy action rod to cast from jetties.
   
 braided-line-capacity: 
     - 420/30
@@ -28,7 +28,7 @@ line-retrieval: 30 inches
 image: /assets/images/products/500-spg-blue-silver.jpg
 fish: /assets/images/fish--tarpon.png
 fish_recommendation:
-    - Tarpon 
+    - Tarpon    
     - Large Drum
     - Large Stripers
     - Mahi Mahi
