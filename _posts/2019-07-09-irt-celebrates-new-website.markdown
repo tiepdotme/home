@@ -7,7 +7,6 @@ categories:
     - Meta
 locations:
     - Pine Grove, PA
-published: false
 ---
  
 PINE GROVE, PA – In celebration of its new website launch on July 9, 2018, [Innovative Reel Technologies<sup>®</sup> (IRTReels.com)](https://irtreels.com) announced a social media contest where they will be giving away one free IRT500DD fishing reel on Facebook or Instagram.
