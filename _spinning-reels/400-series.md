@@ -7,11 +7,11 @@ type: spinning
 price: "549.00"
 description: The IRT400 spinning reel is designed for surf and inshore applications.
 long_description: |
-  The IRT400 spinning reel is designed for surf and inshore applications. The reel is best outfitted with 10-15 lb. test monofilament line or 20 lb. braided line and a medium to fast action rod. 
-
-  This model works well for catching bull redfish, striped bass, flounder, bluefish, cobia, small mouth bass, salmon, muskie, pike, and other medium to large size salt and fresh water fish. 
+  The IRT400 spinning reel is designed for surf and inshore applications. 
   
-  The IRT400 is a great all-around reel for surf, pier, and inshore fishing.
+  This spinning reel works well for catching Bull Redfish, Striped Bass, Flounder, Bluefish, Cobia, Small Mouth Bass, Salmon, Muskie, Pike, and other medium to large sized saltwater and fresh water fish. 
+  
+  The IRT400 is an all around great reel for surf, pier, and inshore fishing. It is best outfitted with a 10 to 15 pound test monofilament line, a 20-pound braided line, and a medium to fast action rod.
 braided-line-capacity: 
     - 450/20
     - 340/30

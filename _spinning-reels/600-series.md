@@ -5,13 +5,14 @@ title: IRT600
 series: 600
 type: spinning
 price: "729.00"
-description: The IRT600 series spinning reel is a versatile large spinning reel with equal size and power.
+description: The IRT600 spinning reel is a reliable, large reel with unfailing size and power.
 long_description: |
-  The IRT600 spinning reel is a versatile large spinning reel with equal size and power. 
-
-  The reel’s size is comfortable for lighter saltwater duties like pier and bay fishing with a medium strength rod, but it also provides the line capacity for heavier duties, such as fighting a striped bass from the surf with a heavy 12 ft. rod. 
+  The IRT600 spinning reel is a reliable, large reel with unfailing size and power. 
   
-  When used for freshwater applications, this reel will handle steelhead, salmon, or muskie and complement a medium to heavy strength rod.
+  The reel’s size is comfortable for lighter saltwater duties, such as pier and bay fishing. It also provides the line capacity for heavier applications, such as fighting a striped bass from the surf with a heavy 12-foot rod. 
+  
+  When used for freshwater applications, this reel will handle Steelhead, Salmon, or Muskie and complement a medium to heavy strength rod.
+
 braided-line-capacity: 
     - 400/40
     - 350/50

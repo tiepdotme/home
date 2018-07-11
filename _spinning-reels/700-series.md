@@ -5,11 +5,11 @@ title: IRT700
 series: 700
 type: spinning
 price: "769.00"
-description: The 700 series spinning reel is designed to bring in larger fish.
+description: The IRT700 spinning reel will help you win the fight against larger fish.
 long_description: |
-  The 700 series spinning reel is designed to bring in larger fish. This is the reel you want when battling a white marlin, sailfish, king mackerel, or gaffer dolphin. 
+  The IRT700 spinning reel will help you win the fight against larger fish. 
   
-  This reel is also ideal for blackfin tuna and larger sharks.
+  This is the reel that you want when battling White Marlin, Sailfish, king Mackerel, or Gaffer Dolphin. The IRT700 is also ideal for Blackfin Tuna and larger sharks.
 
 braided-line-capacity: 
   - 505/50

@@ -91,6 +91,7 @@ description: Think you have what it takes to be an IRT Pro Staffer? Find out by 
     </div> 
     <input type="hidden" name="_subject" value="New IRT Pro-Staff Submission!" />
     <input type="hidden" name="_next" value="{{ site.url }}/info/contact/thank-you/" />
+    <input type="hidden" name="_cc" value="ewanner@irtreels.com" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" class="btn btn-primary mb-2 float-right" value="Send">
 </form> 
