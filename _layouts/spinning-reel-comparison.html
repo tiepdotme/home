@@ -56,15 +56,15 @@ layout: default
               <ul class="list-unstyled text-right mx-0">
                 <li><span class="float-left">Weight:</span> {{ reel.weight }}</li>
                 <li><span class="float-left">Max Drag:</span> {{ reel.max-drag }}</li>
-                {% if reel.power-drag  %}
-                  <li><span class="float-left">Power Drag Option:</span> {{ reel.power-drag }}</li>
+                {% if reel.dual-drag  %}
+                  <li><span class="float-left">Dual Drag Option:</span> {{ reel.dual-drag }}</li>
                 {% else %}
-                  <li><span class="float-left">Power Drag Option:</span> n/a</li>
-                {% endif %}
+                  <li><span class="float-left">Dual Drag Option:</span> n/a</li>
+                {% endif %} 
                 <li><span class="float-left">Gear Ratio:</span> {{ reel.gear-ratio }}</li>
                 <li><span class="float-left">Bearings:</span> {{ reel.bearings }}</li>
                 <li><span class="float-left">Line Retrieval:</span> {{ reel.line-retrieval }}</li>
-              </ul>
+              </ul> 
               
               <p class="text-right"><span class="float-left">Starting at:</span> <span class="lead text-d20-two">${{ reel.price }}</span></p>
 
