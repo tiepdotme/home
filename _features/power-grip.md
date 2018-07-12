@@ -13,6 +13,7 @@ patent_number: US D560,267 S
 patent_filed: July 14, 2006
 patent_assigned: January 22, 2008
 patent_download: /assets/pdf/USD560267.pdf
+ca_patent_download: /assets/pdf/CA123622.pdf
 
 published: true
 weight: 1

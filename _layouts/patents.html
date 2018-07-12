@@ -72,6 +72,19 @@ layout: default
                 </a>
               </div>
             {% endif %}
+            </div>
+        <div class="row" style="border-bottom: dotted 1px #002943">
+
+            {% if page.ca_patent_download %}
+              <div class="col-8 my-auto py-3">
+                Canadian Patent
+              </div>
+              <div class="col-4  my-auto py-3">
+                <a href="{{ page.ca_patent_download }}" class="d-flex justify-content-end align-items-baseline">
+                  <i class="fas fa-download  fa-2x"></i>
+                </a>
+              </div>
+            {% endif %}
           </div>
       </div>
     </div>    

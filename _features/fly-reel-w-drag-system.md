@@ -13,6 +13,7 @@ patent_number: US 9,038,934 B2
 patent_filed: December 4, 2012
 patent_assigned: May 26, 2015
 patent_download: /assets/pdf/US9038934.pdf
+ca_patent_download: CA2865130.pdf
 
 published: true
 weight: 1
