@@ -6,12 +6,12 @@ title: Blog
 
 <div class="container pt-4" >
   <div class="row py-3 ">
-    <div class="col-11">
+    <div class="col-9 col-md-11">
       <!-- <h1 class="display-1 text-uppercase text-d20-grey">{{ page.title }}</h1> -->
-      <h1 class="display-1 text-uppercase text-d20-grey mt-3">Blog</h1>
+      <h1 class="text-uppercase text-d20-grey mt-3">Blog</h1>
       
     </div>
-    <a class="col-1 text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <a class="col-3 col-md-1 text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
       <i class="fa fa-rss-square fa-3x" aria-hidden="true"></i>
     </a>
   </div>
@@ -47,7 +47,7 @@ title: Blog
             {% endif %}
           </div>
           <div class="col-9 text-d10-{{ theme_style }}">
-            <h2>
+            <h2 style="font-size: 1.5rem;">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | remove: '/_' }}</a>
             </h2>
             <div class="clearfix">{{ post.excerpt }}</div>
@@ -75,11 +75,11 @@ title: Blog
 {% if paginator.total_pages > 1 %}
 
 <nav aria-label="Pagination" class="pageination mb-4">
-  <ul class="pagination pagination-lg justify-content-center">
+  <ul class="pagination pagination justify-content-center">
   {% if paginator.previous_page %}
-    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-left"></i></a></li>
   {% else %}
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -93,10 +93,10 @@ title: Blog
   {% endfor %}
 
   {% if paginator.next_page %}
-    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-right"></i></a></li>
     
   {% else %}
-    <li class="page-item"><a class="page-link" href="#" >Next</a></li>
+    <li class="page-item"><a class="page-link" href="#" ><i class="fas fa-angle-right"></i></a></li>
     
   {% endif %}
 </ul>
