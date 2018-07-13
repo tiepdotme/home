@@ -8,17 +8,17 @@
       header: true 
     - title: All Spinning Reels
       url: /shop/all/
-    - title: 300 Series
+    - title: IRT300 Series
       url: /shop/300-series/
-    - title: 400 Series
+    - title: IRT400 Series
       url: /shop/400-series/
-    - title: 500 Series
+    - title: IRT500 Series
       url: /shop/500-series/
-    - title: 600 Series
+    - title: IRT600 Series
       url: /shop/600-series/
-    - title: 700 Series
+    - title: IRT700 Series
       url: /shop/700-series/
-    - title: 800 Series
+    - title: IRT800 Series
       url: /shop/800-series/
     # - title: separator
 - title: Blog
@@ -83,11 +83,15 @@
     - title: Patents
       url: /info/patents
       header: true
-    - title: Spin Power Grip™
+    - title: Spin Power Grip™ (US)
+      url: /info/patents/power-grip
+    - title: Spin Power Grip™ (CA)
       url: /info/patents/power-grip
     - title: Manufacturing Methodology
       url: /info/patents/manufacturing-methodology
-    - title: Fly Reel with Drag System
+    - title: Fly Reel with Drag System (US)
+      url: /info/patents/fly-reel-drag-system/
+    - title: Fly Reel with Drag System (CA)
       url: /info/patents/fly-reel-drag-system/
     - title: Fishing Reel Handle Drag System
       url: /info/patents/handle-drag-system/

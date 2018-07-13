@@ -43,7 +43,7 @@ photos:
   - /media/0-400-trad-f
   - /media/0-400-trad-r
 ---
-<div id='collection-component-ffe4034e67a'></div>
+<div id='collection-component-0e7c5772a4b'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -77,7 +77,7 @@ photos:
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747893316,
-        node: document.getElementById('collection-component-ffe4034e67a'),
+        node: document.getElementById('collection-component-0e7c5772a4b'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -92,7 +92,7 @@ photos:
       "quantity": false
     },
     "text": {
-      "button": "Customize"
+      "button": "SELECT"
     },
     "styles": {
       "product": {
@@ -103,54 +103,48 @@ photos:
         }
       },
       "button": {
-        "background-color": "#619e1b",
+        "background-color": "#52922f",
         "font-family": "Open Sans, sans-serif",
-        "font-size": "15px",
-        "padding-top": "15.5px",
-        "padding-bottom": "15.5px",
-        "padding-left": "30px",
-        "padding-right": "30px",
         ":hover": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         },
-        "border-radius": "5px",
-        "font-weight": "bold",
+        "font-weight": "normal",
         ":focus": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         }
       },
       "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       },
       "title": {
-        "font-family": "Montserrat, sans-serif"
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "20px"
       },
       "description": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       },
       "price": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "26px",
+        "color": "#5a5a5a",
         "font-weight": "normal"
-      },
-      "quantityInput": {
-        "font-size": "15px",
-        "padding-top": "15.5px",
-        "padding-bottom": "15.5px"
       },
       "compareAt": {
-        "font-family": "Open Sans, sans-serif",
-        "font-weight": "normal"
+        "font-size": "22.099999999999998px",
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal",
+        "color": "#5a5a5a"
       }
     },
     "googleFonts": [
       "Open Sans",
-      "Open Sans",
       "Montserrat",
       "Open Sans",
-      "Open Sans",
-      "Open Sans"
+      "Montserrat",
+      "Montserrat",
+      "Montserrat"
     ]
   },
   "cart": {
@@ -159,18 +153,14 @@ photos:
     },
     "styles": {
       "button": {
-        "background-color": "#619e1b",
+        "background-color": "#52922f",
         "font-family": "Open Sans, sans-serif",
-        "font-size": "15px",
-        "padding-top": "15.5px",
-        "padding-bottom": "15.5px",
         ":hover": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         },
-        "border-radius": "5px",
-        "font-weight": "bold",
+        "font-weight": "normal",
         ":focus": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         }
       },
       "footer": {
@@ -199,71 +189,57 @@ photos:
         }
       },
       "button": {
-        "background-color": "#619e1b",
+        "background-color": "#52922f",
         "font-family": "Open Sans, sans-serif",
-        "font-size": "15px",
-        "padding-top": "15.5px",
-        "padding-bottom": "15.5px",
-        "padding-left": "30px",
-        "padding-right": "30px",
         ":hover": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         },
-        "border-radius": "5px",
-        "font-weight": "bold",
+        "font-weight": "normal",
         ":focus": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         }
       },
       "variantTitle": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       },
       "title": {
-        "font-family": "Montserrat, sans-serif"
+        "font-family": "Open Sans, sans-serif"
       },
       "description": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       },
       "price": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       },
-      "quantityInput": {
-        "font-size": "15px",
-        "padding-top": "15.5px",
-        "padding-bottom": "15.5px"
-      },
       "compareAt": {
-        "font-family": "Open Sans, sans-serif",
+        "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       }
     },
     "googleFonts": [
       "Open Sans",
-      "Open Sans",
       "Montserrat",
       "Open Sans",
-      "Open Sans",
-      "Open Sans"
+      "Montserrat",
+      "Montserrat",
+      "Montserrat"
     ]
   },
   "toggle": {
     "styles": {
       "toggle": {
         "font-family": "Open Sans, sans-serif",
-        "background-color": "#619e1b",
+        "background-color": "#52922f",
         ":hover": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         },
-        "font-weight": "bold",
+        "font-weight": "normal",
         ":focus": {
-          "background-color": "#578e18"
+          "background-color": "#4a832a"
         }
-      },
-      "count": {
-        "font-size": "15px"
       }
     },
     "googleFonts": [
@@ -273,15 +249,15 @@ photos:
   "option": {
     "styles": {
       "label": {
-        "font-family": "Open Sans, sans-serif"
+        "font-family": "Montserrat, sans-serif"
       },
       "select": {
-        "font-family": "Open Sans, sans-serif"
+        "font-family": "Montserrat, sans-serif"
       }
     },
     "googleFonts": [
-      "Open Sans",
-      "Open Sans"
+      "Montserrat",
+      "Montserrat"
     ]
   },
   "productSet": {
