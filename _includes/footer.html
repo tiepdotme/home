@@ -221,7 +221,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-sm-center mt-5 justify-content-start">
+    <div class="row justify-content-center mt-5 justify-content-start">
 
       {% for link in links %} 
         {% if link.title == 'Information' %} 
@@ -283,7 +283,7 @@
       {% elsif link.title == "Blog" %}
       <div class="my-3 col-6 col-sm-2 order-11 order-sm-1">
         <h6 class="border-bottom text-uppercase font-weight-bold">
-          <a href="{{ link.url }}" style="color:#a0a0a0">{{ link.title }}</a>
+          <a href="{{ link.url }}" style="color:#a0a0a0">{{ link.title | remove: '/_' }}</a>
         </h6>
 
 
