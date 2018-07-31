@@ -4,12 +4,10 @@ layout: timeline
 permalink: /about/
 title: Our Story
 long_title: Our Story
-description: Like any decent story, the history of Innovative Reel Technologies started with a dream and a deep passion for success.
+description: Like every good story, the history of Innovative Reel Technologies<sup>®</sup> started with an American dream and a deep passion for success.
 our-story: true
 timeline: false
 ---
-
-Like every good story, the history of Innovative Reel Technologies<sup>®</sup> started with an American dream and a deep passion for success.
 
 Since he was a young boy, Greg Header has always been drawn to the outdoors. From memories of fishing with sticks and string near Blue Marsh Lake in Berks County, PA, to vacationing in Maryland for catfish, the call of the open air has always reeled him in. So while his business, Solar Innovations<sup>®</sup>, began to expand and take off, fishing always remained in his mind.
 
