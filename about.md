@@ -44,4 +44,3 @@ Low VOC paint is used on the office walls, and high-performing insulation is inc
 Our office space has even been furnished with used, recycled, and reconditioned desks, chairs, and cubicles. Even the bathrooms are designed with green in mind: low flow toilets, recycled content paper products, and foam soap, which requires far fewer chemicals than standard soap. Since standard trash bags are not recyclable, IRT eliminated them in all trash cans, with the exception of the cafeteria. For cleaning, vinegar and water are the products of choice. Living and working green both at home and in the office are embedded in IRT’s way of life.
 
 
-
