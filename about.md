@@ -5,7 +5,7 @@ permalink: /about/
 title: Our Story
 long_title: Our Story
 description: Like every good story, the history of Innovative Reel Technologies<sup>®</sup> started with an American dream and a deep passion for success.
-our-story: true
+our-story: false
 timeline: false
 ---
 
