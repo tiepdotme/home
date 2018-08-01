@@ -88,70 +88,28 @@
     {% endfor %}
   {% endif %}
 
-{% if site.asset_cdn == 2  %}
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-{% elsif site.asset_cdn == 1 }
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-  
-{% else %}
-  {% if jekyll.environment == "production" %}
-    <!-- <link async rel="stylesheet"  href="https://flair.planning.solar/assets/bootstrap/dist/css/bootstrap.min.css" media="none" onload="if(media!=='all')media='all'"> -->
+
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link async rel="stylesheet"  href="https://flair.planning.solar/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" media="none" onload="if(media!=='all')media='all'">  
-    <link async rel="stylesheet"  href="/assets/lightbox/dist/ekko-lightbox.min.css" media="none" onload="if(media!=='all')media='all'">
-    
-    {% if page.layout == "timeline" %}
-      <!-- Timeline Dependentcies -->
-      <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/timeliner.min.css" media="none" onload="if(media!=='all')media='all'">        
-      <!-- <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/responsive.css" media="none" onload="if(media!=='all')media='all'">         -->
-    {% endif %}
-
- 
-  {% else %}
-    <link rel="stylesheet" href="https://flair.planning.localhost/assets/bootstrap/dist/css/bootstrap.css" media="nope!" onload="this.media='all'">
-    <link rel="stylesheet" href="https://flair.planning.localhost/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.css" media="nope!" onload="this.media='all'">  
-
-    {% if page.layout == "timeline" %}
-      <!-- Timeline Dependentcies -->
-      <link async rel="stylesheet"  href="https://flair.planning.localhost/assets/timeliner/css/timeliner.css" media="none" onload="if(media!=='all')media='all'">        
-      <!-- <link async rel="stylesheet"  href="/assets/timeliner/css/responsive.css" media="none" onload="if(media!=='all')media='all'">         -->
-    {% endif %}
-  {% endif %}
-{% endif %}
-  
   <link async rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" media="none" onload="if(media!=='all')media='all'">
+  <link async rel="stylesheet"  href="https://flair.planning.solar/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" media="none" onload="if(media!=='all')media='all'">  
+  <link async rel="stylesheet"  href="/assets/lightbox/dist/ekko-lightbox.min.css" media="none" onload="if(media!=='all')media='all'">
+  
+  {% if page.layout == "timeline" %}
+    <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/timeliner.min.css" media="none" onload="if(media!=='all')media='all'">        
+  {% endif %}
+
+
+
+
+
+  
 
   <link  rel="canonical" href="{{ page.url  | absolute_url }}">
   <link  rel="alternate" type="application/rss+xml" title="{{ site.title | escape  }}" href="{{ "/feed.xml" | relative_url }}">
 
-    <style>
-    @media (min-width: 576px){
-
-      .card-columns {
-        -webkit-column-count: 5;
-        -moz-column-count: 5;
-        column-count: 5;
-        -webkit-column-gap: 1.25rem;
-        -moz-column-gap: 1.25rem;
-        column-gap: 1.25rem;
-      }
-    }
-
-    @media (max-width: 575px){
-
-      .card-columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        -webkit-column-gap: .5rem;
-        -moz-column-gap: .5rem;
-        column-gap: .5rem;
-      }
-    }
-  </style>
+    
     
     
 

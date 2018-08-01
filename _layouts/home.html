@@ -5,24 +5,6 @@ layout: default
 {% assign color = page.theme_style | default: site.theme_style   %}
 {% assign favicon = site.data.theme[color].favicon    %}
 
-<style>
-  .blk {
-    background: rgba(0,0,0,0.7);
-    text-shadow: #000 1px 2px;
-}
-  nav.navbar{
-    border-bottom:solid 1px #343a40;
-  }
-  .bt-5{
-    border-top: solid 5px #ffcd59;
-  }
-  .b-5{
-    border-bottom: solid 5px #ffcd59;
-    border-top: solid 5px #ffcd59;
-  }
-  
-</style>
-
 <div class="jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('/assets/images/home--spg-red.jpg');background-size:cover;background-position:center;  height: 100vh; color:white;">
   
   <div class="container bottom text-center py-5">

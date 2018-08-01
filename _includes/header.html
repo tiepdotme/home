@@ -10,26 +10,7 @@
     {% assign navColor = site.data.theme[theme_style].navbar-color    %}
   
     {% if page_paths %}
-    <style>
-    .dropdown-toggle::after{content:none;} 
-    .bg-dark{ background:rgba(35,31,32, .95)!important; }
-    nav.navbar{ border-bottom: solid 1px rgba(35,31,32, 1)!important; box-shadow: 0 -35px 10px 35px rgba(0,0,0,0.2);}
-    img {
-      opacity: 1;
-      transition: opacity 0.3s;
-    }
-
-    img[data-src] {
-      opacity: 0;
-    }
-    .navbar-collapse.collapse.show{
-      height: calc(100vh - 160px);
-      overflow-y: scroll;
-      -webkit-overflow-scrolling:touch;
-    }
-
-    </style>
-
+ 
       <nav id="mainNav" class="navbar  navbar-expand-lg justify-content-between fixed-top navbar-{{ navColor }} bg-{{ navBG }}">
         <a class="navbar-brand py-0" href="{{ site.brand_url }}">
           <img src="/assets/logos/logotype-narrow--colored.svg" height="60px"  alt="">
@@ -52,7 +33,7 @@
               
               {% if link.sublinks %}
                 <li class="dropdown nav-item {{ class }}">
-                  <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+                  <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
                   
                   <div class="dropdown-menu dropdown-menu-right">
                     {% for sublink in link.sublinks %}
@@ -72,13 +53,6 @@
                           {% endif %}
 
                         {% endif %}  
-
-                      
-
-
-
-
-
                       {% endif %}
                     {% endfor %}
                   </div>
