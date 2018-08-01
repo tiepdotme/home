@@ -97,7 +97,9 @@
   
 {% else %}
   {% if jekyll.environment == "production" %}
-    <link async rel="stylesheet"  href="https://flair.planning.solar/assets/bootstrap/dist/css/bootstrap.min.css" media="none" onload="if(media!=='all')media='all'">
+    <!-- <link async rel="stylesheet"  href="https://flair.planning.solar/assets/bootstrap/dist/css/bootstrap.min.css" media="none" onload="if(media!=='all')media='all'"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link async rel="stylesheet"  href="https://flair.planning.solar/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" media="none" onload="if(media!=='all')media='all'">  
     <link async rel="stylesheet"  href="/assets/lightbox/dist/ekko-lightbox.min.css" media="none" onload="if(media!=='all')media='all'">
     
@@ -107,7 +109,7 @@
       <!-- <link async rel="stylesheet"  href="https://flair.planning.solar/assets/timeliner/css/responsive.css" media="none" onload="if(media!=='all')media='all'">         -->
     {% endif %}
 
-
+ 
   {% else %}
     <link rel="stylesheet" href="https://flair.planning.localhost/assets/bootstrap/dist/css/bootstrap.css" media="nope!" onload="this.media='all'">
     <link rel="stylesheet" href="https://flair.planning.localhost/assets/font-awesome/web-fonts-with-css/css/fontawesome-all.css" media="nope!" onload="this.media='all'">  
