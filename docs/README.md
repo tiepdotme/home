@@ -1,6 +1,16 @@
 # IRT Reels
 Keeping you in the fight!
 
+## Getting Started
+1. Ensure Ruby (or RVM) is installed.
+2. Ensure Jekyll and Bundle are installed
+3. Clone this Repo
+4. Enter the command in the root of the site: `bundle install`
+5. Build the site with: `JEKYLL_ENV=production bundle exec jekyll build`. If an error occurs, try `rvm use 2.5.0` and then try again.
+
+note: use `JEKYLL_ENV=production bundle exec jekyll serve` to run a local version of the site for testing.
+
+
 
 ## Redesign
 
