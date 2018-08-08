@@ -1,10 +1,10 @@
 ---
-title: xxx
+title: Andrew
 date: 2018-07-02
-description: xxx 
-thumb: /assets/images/photo-gallery/
-image: /assets/images/photo-gallery/
-# angler-name: 
+description: Andrew 
+thumb: /assets/images/pro-staff/
+image: /assets/images/pro-staff/
+angler-name: Andrew Sweissberger
 
 # reel-type: spinning
 # reel-series: 300 
