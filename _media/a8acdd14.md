@@ -4,7 +4,7 @@ date: 1900-01-01
 description: Striped Bass aboard Golden Eagle, Belmar, New Jersey
 thumb: /assets/images/blog--ross-striped-bass.jpg
 image: /assets/images/blog--ross-striped-bass.jpg
-angler-name: Ross Scroble
+# angler-name: Ross Scroble
 # angler-links: 
 #     website: a-url-goes-here
 #     twitter: a-url-goes-here

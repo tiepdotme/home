@@ -1,7 +1,7 @@
 ---
 title: Andrew Sweissberger
 layout: profile-pro
-# image: http://via.placeholder.com/150x150
+image: /assets/images/pro-staff/andrew_s_0719-t.jpg
 location: Miami, FL
 # affiliates: XXX
 irt-affiliation: Pro Staff
@@ -13,4 +13,4 @@ irt-affiliation: Pro Staff
 #     website: /#website
 ---
 
-Drew grew up fishing the east coast of Florida, primarily Biscayne Bay. From a young age, he has targeted tarpon and snook. Drew is perpetually perfecting the art of catching these spectacular gamefish.
+Tarpon Drew grew up fishing the east coast of florida primarily biscayne bay. He grew up catching tarpon and snook as a kid which gave him many years to perfect the art of catching these specific gamefish. Drew's weapon of choice is the IRT500DD series reel matched with the Black Hole USA Challenger Bank 801H rod

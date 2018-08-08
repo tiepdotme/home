@@ -46,12 +46,7 @@ layout: default
               {% if pro.cover %}
                 {% assign rank = rank | minus: 1  %}     
               {% endif %}
-              {% if pro.location %}
-                {% assign rank = rank | minus: 1  %}     
-              {% endif %}
-              {% if pro.links %}
-                {% assign rank = rank | minus: 1  %}     
-              {% endif %}
+             
             
               <div class="col-6 col-md-4 col-lg-3 text-d10-{{ theme_style }} my-3 order-{{ rank }}">
             {% endif %}

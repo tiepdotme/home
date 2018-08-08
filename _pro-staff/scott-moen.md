@@ -1,5 +1,5 @@
 ---
-title: Scott Moen 
+title: Scott Moen
 layout: profile-pro
 image: /assets/images/photo-gallery/scott-moen--thumb.jpg
 location: Hollywood, FL
@@ -13,4 +13,4 @@ links:
     website: https://www.doalures.com/
 ---
 
-Scott grew up fishing Florida's Gulf Coast and mainly targets inshore species including snook, tarpon and redfish. He uses light spinning tackle and artificial baits. He is sponsored by DOA Lures and IRT Reels.
+Tarpon drew grew up fishing the east coast of florida primarily biscayne bay. He grew up catching tarpon and snook as a kid which gave him many years to perfect the art of catching these specific gamefish. Drew's weapon of choice is the IRT500DD series reel matched with the Black Hole USA Challenger Bank 801H rod
