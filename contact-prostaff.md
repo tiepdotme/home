@@ -66,7 +66,7 @@ description: Think you have what it takes to be an IRT Pro Staffer? Find out by 
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-4 col-form-label text-right" for="fishing-hours">How many hours per week do you sually fish?</label>
+        <label class="col-4 col-form-label text-right" for="fishing-hours">How many hours per week do you usually fish?</label>
         <div class="col-sm-8">
             <input required type="fishing-hours" name="Number of hours/week fished" class="form-control" id="fishing-hours" placeholder="10-15hrs">
         </div>
