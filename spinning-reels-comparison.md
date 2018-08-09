@@ -20,5 +20,5 @@ tags:
 ---
 
 
-Need help buying? Call our support 1-877-812-4843.
+Need help making your selection? Cast us a line at 1-877-812-4843.
  
