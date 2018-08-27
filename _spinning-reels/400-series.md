@@ -43,7 +43,7 @@ photos:
   - /media/0-400-trad-f
   - /media/0-400-trad-r
 ---
-<div id='collection-component-0e7c5772a4b'></div>
+<div id='collection-component-5b448fe988f'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -70,14 +70,13 @@ photos:
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'irt-reels.myshopify.com',
-      apiKey: '370c0d56b9837807aef6962ddba4493f',
-      appId: '6',
+      storefrontAccessToken: '370c0d56b9837807aef6962ddba4493f',
     });
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747893316,
-        node: document.getElementById('collection-component-0e7c5772a4b'),
+        node: document.getElementById('collection-component-5b448fe988f'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
