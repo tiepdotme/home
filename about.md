@@ -9,6 +9,8 @@ our-story: false
 timeline: false
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTSYjnJUEC4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Since he was a young boy, Greg Header has always been drawn to the outdoors. From memories of fishing with sticks and string near Blue Marsh Lake in Berks County, PA, to vacationing in Maryland for catfish, the call of the open air has always reeled him in. So while his business, Solar Innovations<sup>®</sup>, began to expand and take off, fishing always remained in his mind.
 
 ![Classic IRT Logo](/assets/logos/LOGO-PNG-File.png){: class="img-fluid rounded float-right ml-4 mt-2 mb-3" width="40%"}
