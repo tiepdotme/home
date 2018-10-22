@@ -9,9 +9,7 @@ our-story: false
 timeline: false
 ---
 
-<div style="width:100%;height:100%;">
-  <embed src="https://www.youtube.com/embed/Wr9fCD0GPJU" wmode="transparent" type="application/x-shockwave-flash" width="100%" height="100%" allowfullscreen="true" title="Adobe Flash Player">
-</div>
+<center><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Wr9fCD0GPJU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 <br>
 
