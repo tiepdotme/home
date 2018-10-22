@@ -9,7 +9,10 @@ our-story: false
 timeline: false
 ---
 
-<center><iframe width="60%" height="60%" src="https://youtu.be/Wr9fCD0GPJU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+<div class="container">
+<iframe src="//youtu.be/Wr9fCD0GPJU" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 <br>
 
