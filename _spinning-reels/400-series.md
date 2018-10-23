@@ -21,8 +21,8 @@ mono-line-capacity:
     - 240/12
     - 200/15
 weight: 16 oz.
-max-drag: 30+ lbs.
-dual-drag: Coming Soon
+max-drag: 25 lbs.
+dual-drag: 30+ lbs.
 gear-ratio: 4.55
 bearings: 9
 line-retrieval: 27 inches
