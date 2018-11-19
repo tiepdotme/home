@@ -45,6 +45,9 @@ photos:
   - /media/0-300-trad-f
   - /media/0-300-trad-r
 ---
+<br>
+<br>
+<br>
 <div id='collection-component-abc42d9d0b1'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
