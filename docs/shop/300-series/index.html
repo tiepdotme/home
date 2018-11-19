@@ -30,7 +30,7 @@
 
   <!-- Meta Tags -->
   <title>IRT300 | IRTReels</title>
-  <meta name="description" content="">
+  <meta name="description" content="&amp;lt;script type=&quot;text/javascript&quot;&amp;gt; /*&amp;lt;![CDATA[*/ (function () { var scriptURL = &#39;https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.mi...">
  
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/colors/apple-touch-icon.png">
@@ -67,7 +67,7 @@
     <meta content="https://irtreels.com/shop/300-series/" property="og:url">
   
   
-    <meta content="2018-11-19T11:53:17-05:00" property="article:published_time">
+    <meta content="2018-11-19T11:58:00-05:00" property="article:published_time">
     <!-- <meta content="https://irtreels.com/about/" property="article:author"> -->
   
   
@@ -901,13 +901,10 @@
       
       <h2 class="my-5 text-center w-100">Customize Your Reel</h2>
       <div class="  col-12" id="content">
-        <p><br />
-<br />
-<br /></p>
-<div id="collection-component-abc42d9d0b1"></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-
+        <div id="collection-component-1687b9f9c81"></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script type="text/javascript"&gt;
+/*&lt;![CDATA[*/
+ 
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -919,7 +916,7 @@
   } else {
     loadScript();
   }
-
+ 
   function loadScript() {
     var script = document.createElement('script');
     script.async = true;
@@ -927,217 +924,203 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
     script.onload = ShopifyBuyInit;
   }
-
+ 
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'irt-reels.myshopify.com',
-      apiKey: '370c0d56b9837807aef6962ddba4493f',
-      appId: '6',
+      storefrontAccessToken: '370c0d56b9837807aef6962ddba4493f',
     });
-
+ 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: 59747958852,
-        node: document.getElementById('collection-component-abc42d9d0b1'),
+        node: document.getElementById('collection-component-1687b9f9c81'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
+        options: {   "product": {
+"buttonDestination": "modal",
+"variantId": "all",
+"contents": {
+  "imgWithCarousel": false,
+  "variantTitle": false,
+  "options": false,
+  "description": false,
+  "buttonWithQuantity": false,
+  "quantity": false
+},
+"text": {
+  "button": "SELECT"
+},
+"styles": {
   "product": {
-    "buttonDestination": "modal",
-    "variantId": "all",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "options": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "text": {
-      "button": "SELECT"
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#52922f",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#4a832a"
-        },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#4a832a"
-        }
-      },
-      "variantTitle": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Open Sans, sans-serif",
-        "font-size": "20px"
-      },
-      "description": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Montserrat, sans-serif",
-        "font-size": "26px",
-        "color": "#5a5a5a",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-size": "22.099999999999998px",
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal",
-        "color": "#5a5a5a"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat"
-    ]
+    "@media (min-width: 601px)": {
+      "max-width": "calc(25% - 20px)",
+      "margin-left": "20px",
+      "margin-bottom": "50px"
+    }
   },
-  "cart": {
-    "contents": {
-      "button": true
+  "button": {
+    "background-color": "#52922f",
+    "font-family": "Open Sans, sans-serif",
+    ":hover": {
+      "background-color": "#4a832a"
     },
-    "styles": {
-      "button": {
-        "background-color": "#52922f",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#4a832a"
-        },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#4a832a"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    },
-    "googleFonts": [
-      "Open Sans"
-    ]
+    "font-weight": "normal",
+    ":focus": {
+      "background-color": "#4a832a"
+    }
   },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#52922f",
-        "font-family": "Open Sans, sans-serif",
-        ":hover": {
-          "background-color": "#4a832a"
-        },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#4a832a"
-        }
-      },
-      "variantTitle": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Open Sans, sans-serif"
-      },
-      "description": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
-      }
-    },
-    "googleFonts": [
-      "Open Sans",
-      "Montserrat",
-      "Open Sans",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat"
-    ]
+  "variantTitle": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
   },
+  "title": {
+    "font-family": "Open Sans, sans-serif",
+    "font-size": "20px"
+  },
+  "description": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
+  },
+  "price": {
+    "font-family": "Montserrat, sans-serif",
+    "font-size": "26px",
+    "color": "#5a5a5a",
+    "font-weight": "normal"
+  },
+  "compareAt": {
+    "font-size": "22.099999999999998px",
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal",
+    "color": "#5a5a5a"
+  }
+},
+"googleFonts": [
+  "Open Sans",
+  "Montserrat",
+  "Open Sans",
+  "Montserrat",
+  "Montserrat",
+  "Montserrat"
+]   },   "cart": {
+"contents": {
+  "button": true
+},
+"styles": {
+  "button": {
+    "background-color": "#52922f",
+    "font-family": "Open Sans, sans-serif",
+    ":hover": {
+      "background-color": "#4a832a"
+    },
+    "font-weight": "normal",
+    ":focus": {
+      "background-color": "#4a832a"
+    }
+  },
+  "footer": {
+    "background-color": "#ffffff"
+  }
+},
+"googleFonts": [
+  "Open Sans"
+]   },   "modalProduct": {
+"contents": {
+  "img": false,
+  "imgWithCarousel": true,
+  "variantTitle": false,
+  "buttonWithQuantity": true,
+  "button": false,
+  "quantity": false
+},
+"styles": {
+  "product": {
+    "@media (min-width: 601px)": {
+      "max-width": "100%",
+      "margin-left": "0px",
+      "margin-bottom": "0px"
+    }
+  },
+  "button": {
+    "background-color": "#52922f",
+    "font-family": "Open Sans, sans-serif",
+    ":hover": {
+      "background-color": "#4a832a"
+    },
+    "font-weight": "normal",
+    ":focus": {
+      "background-color": "#4a832a"
+    }
+  },
+  "variantTitle": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
+  },
+  "title": {
+    "font-family": "Open Sans, sans-serif"
+  },
+  "description": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
+  },
+  "price": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
+  },
+  "compareAt": {
+    "font-family": "Montserrat, sans-serif",
+    "font-weight": "normal"
+  }
+},
+"googleFonts": [
+  "Open Sans",
+  "Montserrat",
+  "Open Sans",
+  "Montserrat",
+  "Montserrat",
+  "Montserrat"
+]   },   "toggle": {
+"styles": {
   "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Open Sans, sans-serif",
-        "background-color": "#52922f",
-        ":hover": {
-          "background-color": "#4a832a"
-        },
-        "font-weight": "normal",
-        ":focus": {
-          "background-color": "#4a832a"
-        }
-      }
+    "font-family": "Open Sans, sans-serif",
+    "background-color": "#52922f",
+    ":hover": {
+      "background-color": "#4a832a"
     },
-    "googleFonts": [
-      "Open Sans"
-    ]
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Montserrat, sans-serif"
-      },
-      "select": {
-        "font-family": "Montserrat, sans-serif"
-      }
-    },
-    "googleFonts": [
-      "Montserrat",
-      "Montserrat"
-    ]
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
+    "font-weight": "normal",
+    ":focus": {
+      "background-color": "#4a832a"
     }
   }
-}
+},
+"googleFonts": [
+  "Open Sans"
+]   },   "option": {
+"styles": {
+  "label": {
+    "font-family": "Montserrat, sans-serif"
+  },
+  "select": {
+    "font-family": "Montserrat, sans-serif"
+  }
+},
+"googleFonts": [
+  "Montserrat",
+  "Montserrat"
+]   },   "productSet": {
+"styles": {
+  "products": {
+    "@media (min-width: 601px)": {
+      "margin-left": "-20px"
+    }
+  }
+}   } }
       });
     });
   }
 })();
-/*]]>*/
-</script>
-
+/*]]&gt;*/
+&lt;/script&gt;
+</code></pre></div></div>
 
       </div>
       
@@ -1482,8 +1465,8 @@
         <div class="row justify-content-center">
           <div class="col-md-6 col-10 my-auto">
             <a data-toggle="modal" data-target="#testimony" style="cursor:pointer;" title="Click for full quote">
-              <p class="lead"><i class="fas fa-quote-left pr-2"></i> I truly do not see how [the reels] continue to take the abuse the big fish we catch with them continue to give them <i class="fas fa-quote-right pl-2"></i></p>
-              <p class="text-right">&mdash; Capt. Butch Foster</p>
+              <p class="lead"><i class="fas fa-quote-left pr-2"></i> Hey Greg, You should know that your reels and our team placed 4th out of 68 teams in the Annual Bull & Cow. <i class="fas fa-quote-right pl-2"></i></p>
+              <p class="text-right">&mdash; Captain Michael E Webb</p>
             </a>
           </div>
         </div>
@@ -1502,22 +1485,20 @@
             <div class="modal-body text-d10-grey">
               <i class="fas fa-quote-left text-d20-two"></i>
               <div class="px-5">
-                <p>I truly do not see how [the reels] continue to take the abuse the big fish we catch with them continue to give them. If they were not precision designed with the best materials possible and built to the standards they are, they would have been “toast” a long time ago.</p>
+                <p>Hey <a href="/about/team">Greg [President of IRT]</a>,</p>
 
-<p>My biggest problem is keeping rods and line from breaking under the loads. To quote an old commercial, (I’m telling my age now), “they take a lickin’…. and keep on tickin’!!!” That reminds me, if you guys keep building reels of this quality, you need to design some rods for them that can hold up like the reels do!!!! I will have to say that you continue to amaze me with the reels you produce!!! […] I am honored and humbled at the same time that you think enough of us to test your products.</p>
+<p><img src="/assets/images/testimonials/catch--michael_web.gif" alt="Frank Tobias' catch" class="img-fluid rounded float-right ml-4 mb-2" width="60%" />
+You should know that your reels and our team placed 4th out of 68 teams in the Annual Bull &amp; Cow. The fishing community has its ear turned to IRT. We will be fishing the the Mother’s Day Dolphin Tourney, giving your gear further exposure. We will be one of two hundred boats. Keep you posted and forward pics.</p>
 
-<p>The reels stir up some excitement on the charter boat, especially after it whips a big fish’s butt!! […] I’m just excited about your Reels and the technology that you design into them. Again, do not hesitate to contact me if I can help in any way!!</p>
-
-<p>Fish On!!!!</p>
 
               </div>
               <i class="fas fa-quote-right float-right text-d20-two"></i>
               <div class="container-fluid pt-3">
                 <div class="row">
                   <div class="pr-1 col-4 text-right">&mdash;</div>
-                  <div class="p-0 col-8">Capt. Butch Foster</div>
+                  <div class="p-0 col-8">Captain Michael E Webb</div>
                   
-                    <div class="p-0 offset-4 col-8"><a href="http://www.yeahrightcharters.com/" target="_blank">Yeah Right Charters</a></div>
+                    <div class="p-0 offset-4 col-8"><a href="http://seadogcharters.net/" target="_blank">Sea Dog Charters</a></div>
                   
                 </div>
                 

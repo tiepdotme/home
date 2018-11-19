@@ -45,46 +45,42 @@ photos:
   - /media/0-300-trad-f
   - /media/0-300-trad-r
 ---
-<br>
-<br>
-<br>
-<div id='collection-component-abc42d9d0b1'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'irt-reels.myshopify.com',
-      apiKey: '370c0d56b9837807aef6962ddba4493f',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('collection', {
-        id: 59747958852,
-        node: document.getElementById('collection-component-abc42d9d0b1'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
+<div id='collection-component-1687b9f9c81'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+ 
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+ 
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+ 
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'irt-reels.myshopify.com',
+          storefrontAccessToken: '370c0d56b9837807aef6962ddba4493f',
+        });
+ 
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('collection', {
+            id: 59747958852,
+            node: document.getElementById('collection-component-1687b9f9c81'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: {
   "product": {
     "buttonDestination": "modal",
     "variantId": "all",
@@ -275,9 +271,9 @@ photos:
     }
   }
 }
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
